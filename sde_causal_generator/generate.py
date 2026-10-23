@@ -203,9 +203,13 @@ def _estimate_skewed_t_params(
 ) -> Tuple[float, float]:
     """Estimate skewed Student-t parameters (df, skew) from data.
 
-    Uses Hansen's skewed-t parameterisation:
-        df   — degrees of freedom (tail weight, ≥ 5)
-        skew — asymmetry parameter in [-1, +1], negative = left tail heavier
+    Parameters for the Fernández-Steel sampler ``_sample_skewed_t``:
+        df   — degrees of freedom (tail weight, in [5, 30])
+        skew — asymmetry parameter in [-0.5, +0.5]
+
+    Known issue (paper, Appendix A.2): with the sampler's mapping
+    ξ = exp(skew), a negative value gives right-skewed draws, so the
+    simulated asymmetry has the opposite sign to the data's.
 
     Returns
     -------
@@ -238,9 +242,9 @@ def _sample_skewed_t(
     Uses Fernández-Steel (1998) skewing mechanism:
         X = (1/ξ)·|Z|  if U < 1/(1+ξ²)
         X = -ξ·|Z|      otherwise
-    where Z ~ t(df), ξ = exp(skew_param), and the result is centred
-    to zero mean.  Variance is NOT rescaled because the GARCH loop
-    multiplies by √σ² anyway; rescaling here would destroy kurtosis.
+    where Z ~ t(df) and ξ = exp(skew_param). The draws are centred and
+    scaled to unit variance across the batch, that is, across the paths
+    simulated together at one date.
     """
     if rng is None:
         z = np.random.standard_t(df, size)
@@ -256,8 +260,7 @@ def _sample_skewed_t(
         np.abs(z) / xi,
         -np.abs(z) * xi,
     )
-    # Centre to zero mean only — do NOT rescale variance,
-    # as that would destroy the excess kurtosis from the t-distribution.
+    # Centre to zero mean across the batch
     result = result - result.mean()
     # Normalise to unit variance so the GARCH σ² controls scale
     std = result.std()
@@ -795,7 +798,9 @@ class ImpactDrivenGenerator:
                 z = _sample_skewed_t(skew_df, skew_param, n_samples)
                 eps = z * np.sqrt(sigma2)
                 garch_noise[:, t] = eps
-                # GJR asymmetric update: γ·ε² only when ε < 0
+                # GJR asymmetric update. Known issue (paper, Appendix A.2):
+                # the indicator uses the previous shock (prev_eps), not the
+                # current one, so the one-day leverage effect is lost.
                 leverage_ind = (prev_eps < 0).astype(np.float64)
                 sigma2 = (
                     omega_s
@@ -1083,8 +1088,11 @@ class ImpactDrivenGenerator:
             else:
                 noise_std = vol_std * 0.3
 
-            # DISC-1: calibrate β from data instead of hardcoded 5.0.
-            # Regress AR(1) residuals on |returns| to get data-driven β.
+            # β (η in the paper, Eq. 6) couples volume to |returns|.
+            # Known issue (paper, Appendix A.2): for 2-D input (paths x days)
+            # this takes day 0's return across paths, so with at most 10
+            # paths β falls back to 5.0, and otherwise the regression pairs
+            # real residuals with unrelated simulated returns.
             if log_returns.ndim >= 2:
                 col = min(3, log_returns.shape[-1] - 1) if log_returns.ndim == 3 else 0
                 _ret_for_beta = np.abs(log_returns[:, col] if log_returns.ndim == 2 else log_returns[:, :, col].mean(axis=0))
