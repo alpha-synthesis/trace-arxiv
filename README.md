@@ -41,7 +41,7 @@ Tested on Linux x86_64 with Python 3.12. The positive control used 32 CPU worker
 
 Two inputs are not in the repository itself.
 
-1. **Data bundle** (`trace-data.tar.gz`, attached to the [v1.0 release](https://github.com/alpha-synthesis/trace-arxiv/releases/tag/v1.0) of this repository, SHA-256 `026dce092059ff1af848d8d06f87f3e0b34e719cf44ae49946b04d257812d4ad`). It holds the label sets, impact matrices and run reports of each run, the R2 news contexts, the Wikipedia revision manifest and the five-seed impact matrices of R2. The free-text fields of the labels (descriptions and raw responses) are empty, since some quoted prices. Extract it at the repository root:
+1. **Data bundle** (`trace-data.tar.gz`, archived on Zenodo at [10.5281/zenodo.23600332](https://doi.org/10.5281/zenodo.23600332) and attached to the [v1.0 release](https://github.com/alpha-synthesis/trace-arxiv/releases/tag/v1.0) of this repository, SHA-256 `026dce092059ff1af848d8d06f87f3e0b34e719cf44ae49946b04d257812d4ad`). It holds the label sets, impact matrices and run reports of each run, the R2 news contexts, the Wikipedia revision manifest and the five-seed impact matrices of R2. The free-text fields of the labels (descriptions and raw responses) are empty, since some quoted prices. Extract it at the repository root:
 
    ```bash
    tar -xzf trace-data.tar.gz     # creates results/, cache/ and experiments/results/five_seed__r2_datasign__data/
