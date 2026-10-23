@@ -1089,7 +1089,7 @@ class ImpactDrivenGenerator:
                 noise_std = vol_std * 0.3
 
             # β (η in the paper, Eq. 6) couples volume to |returns|.
-            # Known issue (paper, Appendix A.2): for 2-D input (paths x days)
+            # Known issue (paper, Appendix A.12): for 2-D input (paths x days)
             # this takes day 0's return across paths, so with at most 10
             # paths β falls back to 5.0, and otherwise the regression pairs
             # real residuals with unrelated simulated returns.
