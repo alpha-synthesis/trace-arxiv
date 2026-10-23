@@ -4,11 +4,17 @@ title: "TRACE: code and data"
 type: software
 license: MIT
 repository-code: "https://github.com/alpha-synthesis/trace-arxiv"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.23600332"
+    description: "Data bundle (Zenodo)"
 authors:
   - family-names: "Silva Prado"
     given-names: "Diego"
+    orcid: "https://orcid.org/0000-0003-4077-4994"
   - family-names: "Caldas de Souza"
     given-names: "Bruno"
+    orcid: "https://orcid.org/0000-0002-3052-0061"
   - family-names: "Amaral Penteado de Jesus"
     given-names: "Tiago"
   - family-names: "Bevitori Maffia De Oliveira"
@@ -19,8 +25,10 @@ preferred-citation:
   authors:
     - family-names: "Silva Prado"
       given-names: "Diego"
+      orcid: "https://orcid.org/0000-0003-4077-4994"
     - family-names: "Caldas de Souza"
       given-names: "Bruno"
+      orcid: "https://orcid.org/0000-0002-3052-0061"
     - family-names: "Amaral Penteado de Jesus"
       given-names: "Tiago"
     - family-names: "Bevitori Maffia De Oliveira"
