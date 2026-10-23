@@ -1,0 +1,88 @@
+{
+  "run": "pc_TFT_r000_b0",
+  "variant": "data",
+  "estimator": "ols",
+  "frozen_list": "pc_runs/runs/tft/out/pc_TFT_r000_b0/b3_documented_effects__pc_TFT_r000_b0/classified_FROZEN.csv",
+  "sign": {
+    "per_class": {
+      "E1_tightening": {
+        "n": 23,
+        "agree": 0.17391304347826086,
+        "p_cluster_boot": 1.0,
+        "n_clusters": 1
+      },
+      "E2_easing": {
+        "n": 23,
+        "agree": 0.782608695652174,
+        "p_cluster_boot": 0.0,
+        "n_clusters": 1
+      },
+      "E3_oil_up": null,
+      "E4_earnings_beat": {
+        "n": 28,
+        "agree": 0.75,
+        "p_cluster_boot": 0.005,
+        "n_clusters": 10
+      },
+      "E5_earnings_miss": {
+        "n": 28,
+        "agree": 0.35714285714285715,
+        "p_cluster_boot": 0.9375,
+        "n_clusters": 10
+      }
+    },
+    "pooled_tested_classes": {
+      "n": 102,
+      "agree": 0.5196078431372549,
+      "p_cluster_boot": 0.436,
+      "n_clusters": 14
+    },
+    "classes_n20_below_half": [
+      "E1_tightening",
+      "E5_earnings_miss"
+    ],
+    "verdict": "FAIL"
+  },
+  "sign_centered": {
+    "per_class": {
+      "E1_tightening": {
+        "n": 23,
+        "agree": 0.2608695652173913,
+        "p_cluster_boot": 1.0,
+        "n_clusters": 1
+      },
+      "E2_easing": {
+        "n": 23,
+        "agree": 0.5652173913043478,
+        "p_cluster_boot": 0.0,
+        "n_clusters": 1
+      },
+      "E3_oil_up": null,
+      "E4_earnings_beat": {
+        "n": 28,
+        "agree": 0.6785714285714286,
+        "p_cluster_boot": 0.009,
+        "n_clusters": 10
+      },
+      "E5_earnings_miss": {
+        "n": 28,
+        "agree": 0.42857142857142855,
+        "p_cluster_boot": 0.7765,
+        "n_clusters": 10
+      }
+    },
+    "pooled_tested_classes": {
+      "n": 102,
+      "agree": 0.49019607843137253,
+      "p_cluster_boot": 0.571,
+      "n_clusters": 14
+    },
+    "classes_n20_below_half": [
+      "E1_tightening",
+      "E5_earnings_miss"
+    ],
+    "verdict": "FAIL"
+  },
+  "primary_verdict": "FAIL",
+  "median_seed_agreement": 1.0
+}

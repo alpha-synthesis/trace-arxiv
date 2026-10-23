@@ -1,0 +1,236 @@
+# ══════════════════════════════════════════════════════════════════════
+# Causal SDE Generator — Configuration
+# ══════════════════════════════════════════════════════════════════════
+#
+# Single source of truth. NO CLI flags needed — everything lives here.
+#
+# Usage:
+#   python scripts/generate_causal_sde_data.py          # uses this file
+#   python scripts/run_full_benchmark.py                 # uses this file
+#
+# ══════════════════════════════════════════════════════════════════════
+
+
+# ── Data source ──────────────────────────────────────────────────────
+# Tickers to download from Yahoo Finance.
+# Chose 8 sector-diverse Dow Jones components for broad coverage.
+tickers:
+  - AAPL     # tech
+  - MSFT     # tech
+  - JPM      # financials
+  - XOM      # energy
+  - JNJ      # healthcare
+  - WMT      # consumer staples
+  - CAT      # industrials
+  - AMGN     # biotech
+
+# Training periods — regimes with clearly identifiable causal events.
+#
+#   Bear 1:    2007-01 → 2009-03  Subprime crisis, Lehman, TARP, Fed 0%
+#   Neutral 1: 2004-01 → 2006-12  Post-dotcom calm, Fed hiking 1%→5.25%
+#   Bull 1:    2012-01 → 2014-12  QE3, mobile/cloud boom, Draghi put
+#   Neutral 2: 2014-07 → 2016-06  Oil crash, China scare, Fed lift-off, Brexit
+#   Bull 2:    2016-07 → 2019-12  Trump tax cuts, trade war, deregulation
+#   Bear 2:    2020-01 → 2020-06  COVID-19 pandemic, 34% crash in 23 days
+#
+# Multi-asset experiment: 5 years (2018-2023)
+# Covers: 2018 vol spike, trade war, COVID crash & recovery, post-COVID bull
+train_start: "2018-01-01"
+train_end:   "2023-12-31"
+
+# Out-of-sample validation period (disabled — full period used for training)
+# test_start: "2020-07-01"
+# test_end:   "2021-12-31"
+
+
+# ── LLM ──────────────────────────────────────────────────────────────
+# Provider: "openrouter" (default, uses litellm) | "ollama" (self-hosted)
+llm_provider: "openrouter"
+# Model: leave empty to use OPENROUTER_MODEL_HEAVY env var (from .env).
+# For ollama, set to the model name only, e.g.: "gemma3:27b"
+llm_model: "openrouter/mistralai/mistral-small-24b-instruct-2501" #"openrouter/google/gemma-3-27b-it"
+llm_api_key: ""               # falls back to OPENROUTER_API_KEY env var
+llm_temperature: 0.05
+llm_n_samples: 5              # LLM calls per window (averaged for robustness)
+llm_max_workers: 8            # concurrent window extractions (increased for Mistral-Small OpenRouter)
+# Ollama endpoint (only used when llm_provider is "ollama")
+#ollama_base_url: "http://localhost:11434"
+
+
+# ── RAG (Retrieval Augmented Generation) ─────────────────────────────
+use_rag: true
+rag_persist_dir: "cache/rag_store"
+rag_sources:
+  - wikipedia                  # Wikipedia Current Events Portal
+  - fred                       # Federal Reserve Economic Data
+  - sec_edgar                  # SEC EDGAR filings (8-K, 10-K, 10-Q)
+rag_cache_mode: "reuse"      # "reuse" = load cached articles | "refresh" = delete cache & re-download
+rag_max_articles: 50           # max articles retrieved per window for LLM context
+rag_content_limit: 500         # max chars per article content in LLM prompt
+fred_api_key: ""               # falls back to FRED_API_KEY env var
+sec_email: ""                  # falls back to SEC_EMAIL env var
+
+
+# ── Factor extraction ────────────────────────────────────────────────
+window_sizes:
+  - "2W"                       # bi-weekly windows (high-resolution)
+  - "1ME"                      # monthly windows
+  - "1QE"                      # quarterly windows
+factor_threshold: 0.0          # min magnitude to keep a factor (0 = keep all)
+max_factors: 200                 # keep top-N factors by occurrence (reduced for 5-year window)
+cross_window_validation: true  # penalise factors that only appear in coarse (quarterly) windows
+
+
+# ── Factor Impact Network (FIN) ─────────────────────────────────────
+fin:
+  architecture: "tft"          # "fin" (shallow) or "tft" (Temporal Fusion Transformer, F7)
+  n_lags: 10                   # temporal context window
+  epochs: 300
+  batch_size: 64
+  learning_rate: 0.001
+  patience: 30                 # early stopping patience
+  device: "auto"               # auto | cpu | cuda | cuda:0
+
+
+# ── Scenario generation ─────────────────────────────────────────────
+# NOTE: scenarios are saved to scenarios.json but NOT used in generation.
+# Generation uses historical_presence (real factor timing) directly.
+n_scenarios: 1                 # sanity check: 1 base-case scenario only
+scenario_llm_samples: 1        # 1 LLM call (no averaging needed for sanity check)
+
+
+# ── Data generation ─────────────────────────────────────────────────
+generation:
+  n_steps: 0                   # 0 = auto-match real data length
+  n_samples: 10                # synthetic trajectories (10 for envelope)
+  noise_scale: 1.0             # 1.0 = calibrated noise
+  start_date: "2018-01-01"     # match training start for in-sample comparison
+
+
+# ── Evaluation ───────────────────────────────────────────────────────
+evaluation:
+  include_deep_metrics: true   # discriminative + predictive scores (slower)
+  skip_if_no_test: true        # skip OOS eval (no test period defined)
+
+
+# ── Neural SDE (improvement #8) ─────────────────────────────────────
+# When enabled, trains a neural SDE that learns drift σ(x,t;θ) and
+# diffusion σ(x,t;φ) conditioned on causal factor activations.
+# Falls back to impact-driven generator when disabled.
+neural_sde:
+  enabled: false               # set true to use Neural SDE generator
+  hidden: 64                   # hidden layer width for drift/diffusion nets
+  epochs: 200                  # training epochs
+  batch_size: 256
+  learning_rate: 0.001
+  patience: 30                 # early stopping patience
+
+
+# ── Cross-asset correlations (improvement #9) ───────────────────────
+# When multiple tickers are generated, impose realistic cross-asset
+# correlations estimated from training data via Cholesky decomposition.
+cross_asset:
+  enabled: true                # auto-applied when >1 ticker
+  method: "pearson"            # "pearson" or "spearman"
+
+
+# ── Factor relevance scoring (F4) ───────────────────────────────────
+# Validates LLM-extracted factors statistically (Granger causality,
+# point-biserial correlation, mutual information). Prunes noise factors.
+factor_scoring:
+  enabled: true                # score & prune factors before FIN training
+  min_score: 0.10              # minimum composite score to keep a factor
+
+
+# ── Transfer learning FIN/TFT → SDE (F5) ────────────────────────────
+# When Neural SDE is enabled, warm-starts drift/diffusion networks
+# using factor embeddings learned by the FIN/TFT.
+transfer_learning:
+  enabled: true
+  scale: 0.5                   # how much to scale the transferred weights
+
+
+# ── DCC-GARCH dynamic correlations (F6) ─────────────────────────────
+# Time-varying cross-asset correlations via DCC-GARCH(1,1).
+# Especially useful when ≥2 tickers are generated simultaneously.
+dcc_garch:
+  enabled: true
+  garch_p: 1
+  garch_q: 1
+
+
+# ── Interactive editors (Dash UI) ────────────────────────────────────
+interactive:
+  post_extraction: false       # Point 1: edit LLM factors before FIN training
+  pre_generation: false        # Point 2: edit trained factors before generation
+  port: 8050                   # Dash server port (Point 2 uses port+1)
+
+
+# ── User-provided factors ───────────────────────────────────────────
+# Provide your own causal factors via a YAML or JSON file.
+# See configs/user_factors_template.yaml for the file format.
+# JSON files can also be a bare list: [{"name":"...", ...}, ...]
+#
+# Modes:
+#   merge    — merge user factors with LLM-extracted factors (user overrides)
+#   only     — skip LLM extraction entirely, use only user factors
+#   disabled — ignore user factors file
+user_factors:
+  file: ""                     # path to file (e.g. "configs/user_factors_AAPL.yaml" or .json)
+  mode: "disabled"             # "merge" | "only" | "disabled"
+
+
+# ── Publication quality report ───────────────────────────────────────
+# When enabled, generates two sub-folders under results/<output_dir>/evaluation/:
+#   llm_quality/        — factor comparison across LLM models
+#   generation_quality/ — LSTM discriminator, stylized facts, statistical tests
+quality_report:
+  enabled: true                                               # master switch
+  # Extra LLM caches to compare (label: path). The current model's cache
+  # is always included automatically.
+  extra_llm_caches:
+    gemini-flash-lite: "cache/back_up/llm_factors_gemini_flash_lite"
+    gemma-27b: "cache/back_up/llm_factors_gemma_27b"       # add more as needed
+  disc_epochs: 100             # LSTM discriminator training epochs
+  disc_hidden: 64              # LSTM hidden dimension
+  disc_window_size: 20         # sliding window size for discriminator input
+  disc_n_folds: 5              # k-fold cross-validation folds
+
+
+# ── I/O ──────────────────────────────────────────────────────────────
+output_dir: "multi_asset_2018_2023"  # created inside results/
+cache_dir: "cache/causal_sde"
+seed: 42
+
+# ── Execution flags ──────────────────────────────────────────────────
+resume: true                   # skip tickers whose generation is already complete
+validate: true                 # run quality validation after generation
+
+
+# ══════════════════════════════════════════════════════════════════════
+# Benchmark: Causal SDE vs TimeGAN
+# ══════════════════════════════════════════════════════════════════════
+
+
+# ── TimeGAN baseline ─────────────────────────────────────────────────
+timegan:
+  seq_len: 24                  # sliding-window sequence length
+  hidden_dim: 24               # GRU hidden dimension
+  embedding_epochs: 600        # Phase 1: embedding training
+  supervised_epochs: 600       # Phase 2: supervised pre-training
+  joint_epochs: 600            # Phase 3: joint adversarial training
+  batch_size: 128
+  device: "auto"               # auto | cpu | cuda
+
+# ── TSTR (Train Synthetic, Test Real) ───────────────────────────────
+tstr:
+  n_lags: 10                   # lagged features for classifiers / regressors
+  epochs: 100                  # GRU classifier / regressor training epochs
+  n_runs: 3                    # repeated runs for variance reduction
+  vol_window: 20               # rolling window for volatility target
+
+# ── Benchmark pipeline settings ──────────────────────────────────────
+benchmark:
+  test_ratio: 0.2              # fraction of real data held out for TSTR test
+  skip_timegan: false          # skip TimeGAN training (use cached results)
+  output_dir: "results/benchmark"  # benchmark-specific output directory

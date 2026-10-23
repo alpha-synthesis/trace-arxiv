@@ -1,0 +1,1063 @@
+{
+ "generated": "2026-10-08T20:57:01+00:00",
+ "finished_before": "2026-10-10T18:00:00-03:00",
+ "aggregator_sha256": "4ced32d56326b95f3b087964c073686a23b0177561ca43b7bdbfc0e337393ae7",
+ "arm": "CAL (seven real-calendar types + market_noise)",
+ "rows_ok": 2000,
+ "rows_late_dropped": [],
+ "tags_with_errors_only": [],
+ "gleak": {
+  "n_worlds": 200,
+  "confidence": 0.995,
+  "b1_excess": {
+   "mean": -0.00275954153850063,
+   "sd": 0.014839716847522675,
+   "interval": [
+    -0.005738236728944588,
+    0.00021915365194332846
+   ],
+   "covers_0": true
+  },
+  "placebo_excess": {
+   "mean": -0.0027674062159977375,
+   "sd": 0.013570042527461723,
+   "interval": [
+    -0.005491246625218082,
+    -4.356580677739247e-05
+   ],
+   "covers_0": false
+  },
+  "gate_pass": false,
+  "complete": true
+ },
+ "S": {
+  "k": 0,
+  "n": 1000,
+  "rate": 0.0,
+  "cp95": [
+   0.0,
+   0.003682083896865671
+  ],
+  "limit": 25.0,
+  "holds": true
+ },
+ "N": {
+  "RO": {
+   "k": 24,
+   "n": 1000,
+   "rate": 0.024,
+   "cp95": [
+    0.015436383233508497,
+    0.03550063853135918
+   ],
+   "holds": true
+  },
+  "DE": {
+   "k": 8,
+   "n": 1000,
+   "rate": 0.008,
+   "cp95": [
+    0.00345997616532931,
+    0.015702049176074682
+   ],
+   "holds": true
+  },
+  "holds": true
+ },
+ "P": {
+  "k": 199,
+  "n": 200,
+  "rate": 0.995,
+  "cp95": [
+   0.9724581015427943,
+   0.999873418972133
+  ],
+  "holds": true
+ },
+ "size_adjusted_thresholds": {
+  "N_null": 1000,
+  "k_max_null_passes": 10,
+  "c_RO_exclusive": 0.003274381160736084,
+  "c_DE_exclusive": [
+   0.017,
+   -0.6666666666666666
+  ],
+  "n_null_meeting_RO_conditions": 84,
+  "n_null_meeting_DE_conditions": 28
+ },
+ "size_adjusted_null_rates": {
+  "RO": {
+   "k": 10,
+   "n": 1000,
+   "rate": 0.01,
+   "cp95": [
+    0.004805510691049308,
+    0.01831324305511245
+   ]
+  },
+  "DE": {
+   "k": 10,
+   "n": 1000,
+   "rate": 0.01,
+   "cp95": [
+    0.004805510691049308,
+    0.01831324305511245
+   ]
+  },
+  "B3": {
+   "k": 0,
+   "n": 1000,
+   "rate": 0.0,
+   "cp95": [
+    0.0,
+    0.003682083896865671
+   ]
+  }
+ },
+ "cells": {
+  "CAL@0": {
+   "n": 1000,
+   "B3": {
+    "k": 0,
+    "n": 1000,
+    "rate": 0.0,
+    "cp95": [
+     0.0,
+     0.003682083896865671
+    ]
+   },
+   "RO_pass": {
+    "k": 24,
+    "n": 1000,
+    "rate": 0.024,
+    "cp95": [
+     0.015436383233508497,
+     0.03550063853135918
+    ]
+   },
+   "DE_pass": {
+    "k": 8,
+    "n": 1000,
+    "rate": 0.008,
+    "cp95": [
+     0.00345997616532931,
+     0.015702049176074682
+    ]
+   },
+   "DE_alone_pass": {
+    "k": 8,
+    "n": 1000,
+    "rate": 0.008,
+    "cp95": [
+     0.00345997616532931,
+     0.015702049176074682
+    ]
+   },
+   "RO_not_run": 0,
+   "RO_not_run_no_stock": 0,
+   "DE_not_run": 0,
+   "exp_n_incomplete_reruns": 0,
+   "RO_entering_median": 28.0,
+   "DE_tested_clusters_median": 17.0,
+   "fed_class_clusters": {
+    "E1_tightening": [
+     1
+    ],
+    "E2_easing": [
+     1
+    ]
+   },
+   "DE_sign_centered_pass": {
+    "k": 11,
+    "n": 1000,
+    "rate": 0.011,
+    "cp95": [
+     0.005503594192313587,
+     0.019596628222016514
+    ]
+   },
+   "B1": {
+    "readings": {
+     "pass": 891,
+     "undetermined (excess interval excludes 0)": 68,
+     "placebo off baseline": 41
+    },
+    "agreement_readings": {
+     "<=0.70: prices/move sentences drove most of A0's agreement": 1000
+    },
+    "p_label_shuffle_lt_0.05": {
+     "k": 128,
+     "n": 1000,
+     "rate": 0.128,
+     "cp95": [
+      0.10791224133119769,
+      0.15030592857487085
+     ]
+    },
+    "mean_excess": -0.0008386559756504259,
+    "mean_placebo_excess": -0.0002776703013771322
+   },
+   "label_only_mean_agreement": 0.4977139515373675,
+   "label_only_pass": {
+    "k": 80,
+    "n": 1000,
+    "rate": 0.08,
+    "cp95": [
+     0.06394198284667334,
+     0.09857977904790219
+    ]
+   },
+   "size_adjusted": {
+    "RO": {
+     "k": 10,
+     "n": 1000,
+     "rate": 0.01,
+     "cp95": [
+      0.004805510691049308,
+      0.01831324305511245
+     ]
+    },
+    "DE": {
+     "k": 10,
+     "n": 1000,
+     "rate": 0.01,
+     "cp95": [
+      0.004805510691049308,
+      0.01831324305511245
+     ]
+    },
+    "B3": {
+     "k": 0,
+     "n": 1000,
+     "rate": 0.0,
+     "cp95": [
+      0.0,
+      0.003682083896865671
+     ]
+    }
+   }
+  },
+  "CAL@0.06": {
+   "n": 200,
+   "B3": {
+    "k": 39,
+    "n": 200,
+    "rate": 0.195,
+    "cp95": [
+     0.14249187477905884,
+     0.25678568752655917
+    ]
+   },
+   "RO_pass": {
+    "k": 73,
+    "n": 200,
+    "rate": 0.365,
+    "cp95": [
+     0.2982334263670119,
+     0.4358340297899971
+    ]
+   },
+   "DE_pass": {
+    "k": 114,
+    "n": 200,
+    "rate": 0.57,
+    "cp95": [
+     0.49827915282842195,
+     0.6396144081730113
+    ]
+   },
+   "DE_alone_pass": {
+    "k": 114,
+    "n": 200,
+    "rate": 0.57,
+    "cp95": [
+     0.49827915282842195,
+     0.6396144081730113
+    ]
+   },
+   "RO_not_run": 0,
+   "RO_not_run_no_stock": 0,
+   "DE_not_run": 0,
+   "exp_n_incomplete_reruns": 0,
+   "RO_entering_median": 28.0,
+   "DE_tested_clusters_median": 17.0,
+   "fed_class_clusters": {
+    "E1_tightening": [
+     1
+    ],
+    "E2_easing": [
+     1
+    ]
+   },
+   "DE_sign_centered_pass": {
+    "k": 139,
+    "n": 200,
+    "rate": 0.695,
+    "cp95": [
+     0.6261321954662296,
+     0.7579805629764088
+    ]
+   },
+   "B1": {
+    "readings": {
+     "undetermined (excess interval excludes 0)": 186,
+     "pass": 14
+    },
+    "agreement_readings": {
+     "<=0.70: prices/move sentences drove most of A0's agreement": 200
+    },
+    "p_label_shuffle_lt_0.05": {
+     "k": 197,
+     "n": 200,
+     "rate": 0.985,
+     "cp95": [
+      0.9567917180822874,
+      0.9968958923784464
+     ]
+    },
+    "mean_excess": 0.04911241944175346,
+    "mean_placebo_excess": -0.0026501256386646924
+   },
+   "label_only_mean_agreement": 0.6580173955878909,
+   "label_only_pass": {
+    "k": 0,
+    "n": 200,
+    "rate": 0.0,
+    "cp95": [
+     0.0,
+     0.018275340355136237
+    ]
+   },
+   "size_adjusted": {
+    "RO": {
+     "k": 59,
+     "n": 200,
+     "rate": 0.295,
+     "cp95": [
+      0.23276878422312466,
+      0.3634231333179103
+     ]
+    },
+    "DE": {
+     "k": 116,
+     "n": 200,
+     "rate": 0.58,
+     "cp95": [
+      0.5083361748773805,
+      0.649256142208944
+     ]
+    },
+    "B3": {
+     "k": 32,
+     "n": 200,
+     "rate": 0.16,
+     "cp95": [
+      0.11208749764580182,
+      0.2182990153513408
+     ]
+    }
+   }
+  },
+  "CAL@0.09": {
+   "n": 200,
+   "B3": {
+    "k": 129,
+    "n": 200,
+    "rate": 0.645,
+    "cp95": [
+     0.5744138330734205,
+     0.7112162222864156
+    ]
+   },
+   "RO_pass": {
+    "k": 163,
+    "n": 200,
+    "rate": 0.815,
+    "cp95": [
+     0.7541365375513216,
+     0.8662713398202383
+    ]
+   },
+   "DE_pass": {
+    "k": 158,
+    "n": 200,
+    "rate": 0.79,
+    "cp95": [
+     0.726931295386201,
+     0.8442602432758717
+    ]
+   },
+   "DE_alone_pass": {
+    "k": 158,
+    "n": 200,
+    "rate": 0.79,
+    "cp95": [
+     0.726931295386201,
+     0.8442602432758717
+    ]
+   },
+   "RO_not_run": 0,
+   "RO_not_run_no_stock": 0,
+   "DE_not_run": 0,
+   "exp_n_incomplete_reruns": 0,
+   "RO_entering_median": 28.0,
+   "DE_tested_clusters_median": 17.0,
+   "fed_class_clusters": {
+    "E1_tightening": [
+     1
+    ],
+    "E2_easing": [
+     1
+    ]
+   },
+   "DE_sign_centered_pass": {
+    "k": 182,
+    "n": 200,
+    "rate": 0.91,
+    "cp95": [
+     0.8614917915261779,
+     0.9457857455439036
+    ]
+   },
+   "B1": {
+    "readings": {
+     "undetermined (excess interval excludes 0)": 200
+    },
+    "agreement_readings": {
+     "<=0.70: prices/move sentences drove most of A0's agreement": 200
+    },
+    "p_label_shuffle_lt_0.05": {
+     "k": 200,
+     "n": 200,
+     "rate": 1.0,
+     "cp95": [
+      0.9817246596448638,
+      1.0
+     ]
+    },
+    "mean_excess": 0.07280892001798338,
+    "mean_placebo_excess": -0.0024768278147261295
+   },
+   "label_only_mean_agreement": 0.7200331645734598,
+   "label_only_pass": {
+    "k": 0,
+    "n": 200,
+    "rate": 0.0,
+    "cp95": [
+     0.0,
+     0.018275340355136237
+    ]
+   },
+   "size_adjusted": {
+    "RO": {
+     "k": 155,
+     "n": 200,
+     "rate": 0.775,
+     "cp95": [
+      0.7107603940312353,
+      0.8308974528701732
+     ]
+    },
+    "DE": {
+     "k": 159,
+     "n": 200,
+     "rate": 0.795,
+     "cp95": [
+      0.7323460792147148,
+      0.8486894280044806
+     ]
+    },
+    "B3": {
+     "k": 124,
+     "n": 200,
+     "rate": 0.62,
+     "cp95": [
+      0.5488512420834482,
+      0.6875345648223294
+     ]
+    }
+   }
+  },
+  "CAL@0.12": {
+   "n": 200,
+   "B3": {
+    "k": 168,
+    "n": 200,
+    "rate": 0.84,
+    "cp95": [
+     0.7817009846486592,
+     0.8879125023541982
+    ]
+   },
+   "RO_pass": {
+    "k": 192,
+    "n": 200,
+    "rate": 0.96,
+    "cp95": [
+     0.9227080317739839,
+     0.9825751910055194
+    ]
+   },
+   "DE_pass": {
+    "k": 175,
+    "n": 200,
+    "rate": 0.875,
+    "cp95": [
+     0.8210262499212005,
+     0.9174476581711831
+    ]
+   },
+   "DE_alone_pass": {
+    "k": 175,
+    "n": 200,
+    "rate": 0.875,
+    "cp95": [
+     0.8210262499212005,
+     0.9174476581711831
+    ]
+   },
+   "RO_not_run": 0,
+   "RO_not_run_no_stock": 0,
+   "DE_not_run": 0,
+   "exp_n_incomplete_reruns": 0,
+   "RO_entering_median": 28.0,
+   "DE_tested_clusters_median": 17.0,
+   "fed_class_clusters": {
+    "E1_tightening": [
+     1
+    ],
+    "E2_easing": [
+     1
+    ]
+   },
+   "DE_sign_centered_pass": {
+    "k": 195,
+    "n": 200,
+    "rate": 0.975,
+    "cp95": [
+     0.9426256488731541,
+     0.9918338338091575
+    ]
+   },
+   "B1": {
+    "readings": {
+     "undetermined (excess interval excludes 0)": 200
+    },
+    "agreement_readings": {
+     "<=0.70: prices/move sentences drove most of A0's agreement": 200
+    },
+    "p_label_shuffle_lt_0.05": {
+     "k": 200,
+     "n": 200,
+     "rate": 1.0,
+     "cp95": [
+      0.9817246596448638,
+      1.0
+     ]
+    },
+    "mean_excess": 0.09444539547019301,
+    "mean_placebo_excess": -0.002524650951228524
+   },
+   "label_only_mean_agreement": 0.7707532981875431,
+   "label_only_pass": {
+    "k": 0,
+    "n": 200,
+    "rate": 0.0,
+    "cp95": [
+     0.0,
+     0.018275340355136237
+    ]
+   },
+   "size_adjusted": {
+    "RO": {
+     "k": 192,
+     "n": 200,
+     "rate": 0.96,
+     "cp95": [
+      0.9227080317739839,
+      0.9825751910055194
+     ]
+    },
+    "DE": {
+     "k": 175,
+     "n": 200,
+     "rate": 0.875,
+     "cp95": [
+      0.8210262499212005,
+      0.9174476581711831
+     ]
+    },
+    "B3": {
+     "k": 168,
+     "n": 200,
+     "rate": 0.84,
+     "cp95": [
+      0.7817009846486592,
+      0.8879125023541982
+     ]
+    }
+   }
+  },
+  "CAL@0.18": {
+   "n": 200,
+   "B3": {
+    "k": 198,
+    "n": 200,
+    "rate": 0.99,
+    "cp95": [
+     0.9643453316027603,
+     0.998786650986264
+    ]
+   },
+   "RO_pass": {
+    "k": 200,
+    "n": 200,
+    "rate": 1.0,
+    "cp95": [
+     0.9817246596448638,
+     1.0
+    ]
+   },
+   "DE_pass": {
+    "k": 198,
+    "n": 200,
+    "rate": 0.99,
+    "cp95": [
+     0.9643453316027603,
+     0.998786650986264
+    ]
+   },
+   "DE_alone_pass": {
+    "k": 198,
+    "n": 200,
+    "rate": 0.99,
+    "cp95": [
+     0.9643453316027603,
+     0.998786650986264
+    ]
+   },
+   "RO_not_run": 0,
+   "RO_not_run_no_stock": 0,
+   "DE_not_run": 0,
+   "exp_n_incomplete_reruns": 0,
+   "RO_entering_median": 28.0,
+   "DE_tested_clusters_median": 17.0,
+   "fed_class_clusters": {
+    "E1_tightening": [
+     1
+    ],
+    "E2_easing": [
+     1
+    ]
+   },
+   "DE_sign_centered_pass": {
+    "k": 199,
+    "n": 200,
+    "rate": 0.995,
+    "cp95": [
+     0.9724581015427943,
+     0.999873418972133
+    ]
+   },
+   "B1": {
+    "readings": {
+     "undetermined (excess interval excludes 0)": 200
+    },
+    "agreement_readings": {
+     "<=0.70: prices/move sentences drove most of A0's agreement": 200
+    },
+    "p_label_shuffle_lt_0.05": {
+     "k": 200,
+     "n": 200,
+     "rate": 1.0,
+     "cp95": [
+      0.9817246596448638,
+      1.0
+     ]
+    },
+    "mean_excess": 0.1309240333505808,
+    "mean_placebo_excess": -0.002763202219253992
+   },
+   "label_only_mean_agreement": 0.8364240404278069,
+   "label_only_pass": {
+    "k": 0,
+    "n": 200,
+    "rate": 0.0,
+    "cp95": [
+     0.0,
+     0.018275340355136237
+    ]
+   },
+   "size_adjusted": {
+    "RO": {
+     "k": 200,
+     "n": 200,
+     "rate": 1.0,
+     "cp95": [
+      0.9817246596448638,
+      1.0
+     ]
+    },
+    "DE": {
+     "k": 198,
+     "n": 200,
+     "rate": 0.99,
+     "cp95": [
+      0.9643453316027603,
+      0.998786650986264
+     ]
+    },
+    "B3": {
+     "k": 198,
+     "n": 200,
+     "rate": 0.99,
+     "cp95": [
+      0.9643453316027603,
+      0.998786650986264
+     ]
+    }
+   }
+  },
+  "CAL@0.25": {
+   "n": 200,
+   "B3": {
+    "k": 199,
+    "n": 200,
+    "rate": 0.995,
+    "cp95": [
+     0.9724581015427943,
+     0.999873418972133
+    ]
+   },
+   "RO_pass": {
+    "k": 200,
+    "n": 200,
+    "rate": 1.0,
+    "cp95": [
+     0.9817246596448638,
+     1.0
+    ]
+   },
+   "DE_pass": {
+    "k": 199,
+    "n": 200,
+    "rate": 0.995,
+    "cp95": [
+     0.9724581015427943,
+     0.999873418972133
+    ]
+   },
+   "DE_alone_pass": {
+    "k": 199,
+    "n": 200,
+    "rate": 0.995,
+    "cp95": [
+     0.9724581015427943,
+     0.999873418972133
+    ]
+   },
+   "RO_not_run": 0,
+   "RO_not_run_no_stock": 0,
+   "DE_not_run": 0,
+   "exp_n_incomplete_reruns": 0,
+   "RO_entering_median": 28.0,
+   "DE_tested_clusters_median": 17.0,
+   "fed_class_clusters": {
+    "E1_tightening": [
+     1
+    ],
+    "E2_easing": [
+     1
+    ]
+   },
+   "DE_sign_centered_pass": {
+    "k": 200,
+    "n": 200,
+    "rate": 1.0,
+    "cp95": [
+     0.9817246596448638,
+     1.0
+    ]
+   },
+   "B1": {
+    "readings": {
+     "undetermined (excess interval excludes 0)": 200
+    },
+    "agreement_readings": {
+     "<=0.70: prices/move sentences drove most of A0's agreement": 199,
+     "partial (0.70-0.80)": 1
+    },
+    "p_label_shuffle_lt_0.05": {
+     "k": 200,
+     "n": 200,
+     "rate": 1.0,
+     "cp95": [
+      0.9817246596448638,
+      1.0
+     ]
+    },
+    "mean_excess": 0.16332435758262492,
+    "mean_placebo_excess": -0.002628225168347019
+   },
+   "label_only_mean_agreement": 0.8775712921695199,
+   "label_only_pass": {
+    "k": 0,
+    "n": 200,
+    "rate": 0.0,
+    "cp95": [
+     0.0,
+     0.018275340355136237
+    ]
+   },
+   "size_adjusted": {
+    "RO": {
+     "k": 200,
+     "n": 200,
+     "rate": 1.0,
+     "cp95": [
+      0.9817246596448638,
+      1.0
+     ]
+    },
+    "DE": {
+     "k": 199,
+     "n": 200,
+     "rate": 0.995,
+     "cp95": [
+      0.9724581015427943,
+      0.999873418972133
+     ]
+    },
+    "B3": {
+     "k": 199,
+     "n": 200,
+     "rate": 0.995,
+     "cp95": [
+      0.9724581015427943,
+      0.999873418972133
+     ]
+    }
+   }
+  }
+ },
+ "curve": {
+  "c": {
+   "beta": 0.25,
+   "k": 199,
+   "n": 200,
+   "rate": 0.995,
+   "cp95": [
+    0.9724581015427943,
+    0.999873418972133
+   ],
+   "size_adjusted": 199,
+   "size_adjusted_cp95": [
+    0.9724581015427943,
+    0.999873418972133
+   ],
+   "RO_not_run": 0,
+   "DE_alone_pass": 199
+  },
+  "d": {
+   "beta": 0.18,
+   "k": 198,
+   "n": 200,
+   "rate": 0.99,
+   "cp95": [
+    0.9643453316027603,
+    0.998786650986264
+   ],
+   "size_adjusted": 198,
+   "size_adjusted_cp95": [
+    0.9643453316027603,
+    0.998786650986264
+   ],
+   "RO_not_run": 0,
+   "DE_alone_pass": 198
+  },
+  "e": {
+   "beta": 0.12,
+   "k": 168,
+   "n": 200,
+   "rate": 0.84,
+   "cp95": [
+    0.7817009846486592,
+    0.8879125023541982
+   ],
+   "size_adjusted": 168,
+   "size_adjusted_cp95": [
+    0.7817009846486592,
+    0.8879125023541982
+   ],
+   "RO_not_run": 0,
+   "DE_alone_pass": 175
+  },
+  "g": {
+   "beta": 0.09,
+   "k": 129,
+   "n": 200,
+   "rate": 0.645,
+   "cp95": [
+    0.5744138330734205,
+    0.7112162222864156
+   ],
+   "size_adjusted": 124,
+   "size_adjusted_cp95": [
+    0.5488512420834482,
+    0.6875345648223294
+   ],
+   "RO_not_run": 0,
+   "DE_alone_pass": 158
+  },
+  "f": {
+   "beta": 0.06,
+   "k": 39,
+   "n": 200,
+   "rate": 0.195,
+   "cp95": [
+    0.14249187477905884,
+    0.25678568752655917
+   ],
+   "size_adjusted": 32,
+   "size_adjusted_cp95": [
+    0.11208749764580182,
+    0.2182990153513408
+   ],
+   "RO_not_run": 0,
+   "DE_alone_pass": 114
+  }
+ },
+ "eligible_factors_per_stock_origin": {
+  "by_origin": {
+   "2021": {
+    "hist": {
+     "3": 3,
+     "4": 14661,
+     "5": 41336
+    },
+    "median": 5,
+    "share_ge5": 0.7381428571428571
+   },
+   "2022": {
+    "hist": {
+     "4": 6,
+     "5": 13941,
+     "6": 42053
+    },
+    "median": 6,
+    "share_ge5": 0.9998928571428571
+   },
+   "2023": {
+    "hist": {
+     "4": 6,
+     "5": 14040,
+     "6": 41954
+    },
+    "median": 6,
+    "share_ge5": 0.9998928571428571
+   }
+  },
+  "all": {
+   "hist": {
+    "3": 3,
+    "4": 14673,
+    "5": 69317,
+    "6": 84007
+   },
+   "median": 6,
+   "share_ge5": 0.9126428571428571
+  }
+ },
+ "RO_entering": {
+  "median": 28.0,
+  "min": 27,
+  "max": 28,
+  "worlds_lt6": 0,
+  "n": 2000
+ },
+ "not_run": {
+  "RO": 0,
+  "DE": 0,
+  "N": 2000,
+  "RO_by_beta": {
+   "0": 0,
+   "0.06": 0,
+   "0.09": 0,
+   "0.12": 0,
+   "0.18": 0,
+   "0.25": 0
+  }
+ },
+ "paired_with_M": {
+  "0": {
+   "both": 0,
+   "M_only": 0,
+   "CAL_only": 0,
+   "neither": 1000,
+   "missing_M_rows": 0,
+   "hashes_match_M": true
+  },
+  "0.06": {
+   "both": 36,
+   "M_only": 53,
+   "CAL_only": 3,
+   "neither": 108,
+   "missing_M_rows": 0,
+   "hashes_match_M": true
+  },
+  "0.09": {
+   "both": 123,
+   "M_only": 32,
+   "CAL_only": 6,
+   "neither": 39,
+   "missing_M_rows": 0,
+   "hashes_match_M": true
+  },
+  "0.12": {
+   "both": 166,
+   "M_only": 11,
+   "CAL_only": 2,
+   "neither": 21,
+   "missing_M_rows": 0,
+   "hashes_match_M": true
+  },
+  "0.18": {
+   "both": 198,
+   "M_only": 0,
+   "CAL_only": 0,
+   "neither": 2,
+   "missing_M_rows": 0,
+   "hashes_match_M": true
+  },
+  "0.25": {
+   "both": 199,
+   "M_only": 1,
+   "CAL_only": 0,
+   "neither": 0,
+   "missing_M_rows": 0,
+   "hashes_match_M": true
+  }
+ },
+ "M_curve_same_seeds": {
+  "f": 89,
+  "g": 155,
+  "e": 177,
+  "c": 200,
+  "d": 198
+ },
+ "sentences": {
+  "S_N_P_hold": "With only real-calendar event types (seven per stock), B3's tests rejected in 24/1,000 (RO) and 8/1,000 (DE) worlds without effects, and B3 in 0/1,000. B3 passed in 199, 198, 168, 129 and 39 of 200 worlds at \u03b2 = 0.25, 0.18, 0.12, 0.09 and 0.06 (least squares; size-adjusted 199, 198, 168, 124, 32).",
+  "N_fails": "With only real-calendar event types, RO rejected in 24/1,000 worlds without effects, above its nominal 1%, and DE in 8/1,000; B3 stayed at 0/1,000. Size-adjusted, B3 passed in 199, 198, 168, 124 and 32 of 200 worlds at \u03b2 = 0.25, 0.18, 0.12, 0.09 and 0.06 (least squares).",
+  "S_fails": "With only real-calendar event types, B3 passed in 0/1,000 worlds without effects (limit 25/1,000).",
+  "P_fails_RO_not_run": "With seven real-calendar types, the rolling-origin test could not run in 0/2,000 worlds, so B3 passed in only 199/200 at \u03b2 = 0.25; DE alone passed in 199/200.",
+  "P_fails_otherwise": "With only real-calendar event types, B3 passed in only 199/200 worlds at \u03b2 = 0.25, where every test is expected to pass. The defect found was \u2026",
+  "curve": "With only real-calendar event types, B3 passed in 39/200, 129/200 and 168/200 worlds at \u03b2 = 0.06, 0.09 and 0.12 s.d. per active day (size-adjusted 32, 124, 168), against 89/200, 155/200 and 177/200 with the five synthetic types (same seeds). At 0.18 and 0.25 it passed in 198/200 and 199/200.",
+  "RO_mostly_not_run": "With seven real-calendar types, the rolling-origin test could not run in 0/2,000 worlds, so B3 cannot pass on such panels whatever the effects; DE alone passed in 199/200, 175/200 and 114/200 at \u03b2 = 0.25, 0.12 and 0.06.",
+  "not_run": "RO was not run in 0, and DE in 0, of 2,000 worlds with only real-calendar types; stock-origins had a median of 6 eligible factors (10\u201311 with the synthetic types)."
+ },
+ "sentences_applicable": [
+  "S_N_P_hold",
+  "curve",
+  "not_run"
+ ]
+}

@@ -1,0 +1,21 @@
+{
+  "run": "r1_datasign",
+  "reference": "r0 regenerated (legacy mode, today's code)",
+  "paths": 30,
+  "seed": 7,
+  "n_tickers": 28,
+  "fidelity_pass": "28/28",
+  "fidelity_gate": true,
+  "sigma_fails": 0,
+  "acf_fails": 0,
+  "ks_fails": 0,
+  "attribution_gate": true,
+  "attribution_min_share_exact": 0.9977997799779978,
+  "attribution_clip_exceptions": 3,
+  "fidelity_vs_saved_R0_pass": "8/28",
+  "median_sum_pb_all_pct_yr": 25.73216132293271,
+  "median_abs_sum_pb_all_pct_yr": 29.902953481809263,
+  "median_abs_sum_pb_nonbaseline_pct_yr": 10.396924141559188,
+  "median_calib_share": 0.4673342039294731,
+  "verdict": "PASS"
+}

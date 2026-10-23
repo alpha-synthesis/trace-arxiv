@@ -1,0 +1,192 @@
+# ══════════════════════════════════════════════════════════════════════
+# R1 (data-sign): the price-informed labels + corrected code
+# ══════════════════════════════════════════════════════════════════════
+# Labels are read from results/r0/<ticker>/analyses.json
+# (precomputed_analyses_dir): no RAG, no LLM, no store opened.
+# Corrected: fin.impact_estimator ablation, generation.mode corrected
+# (auto from units=daily), factor scoring off, direction_prior none (signs learned from returns).
+precomputed_analyses_dir: "results/r0"
+use_rag: false
+
+# ── Data source ──────────────────────────────────────────────────────
+tickers:
+  # ── Frozen 8 (already evaluated; resume:true will skip them) ──────
+  - AAPL     # tech
+  - MSFT     # tech
+  - JPM      # financials
+  - XOM      # energy
+  - JNJ      # healthcare
+  - WMT      # consumer staples
+  - CAT      # industrials
+  - AMGN     # biotech
+  # ── 20 new tickers ────────────────────────────────────────────────
+  - AMZN     # consumer disc.
+  - AXP      # financials
+  - BA       # industrials
+  - CRM      # tech
+  - CSCO     # tech
+  - CVX      # energy
+  - DIS      # communication
+  - GS       # financials
+  - HD       # consumer disc.
+  - HON      # industrials
+  - IBM      # tech
+  - KO       # consumer staples
+  - MCD      # consumer disc.
+  - MMM      # industrials
+  - MRK      # healthcare
+  - NKE      # consumer disc.
+  - PG       # consumer staples
+  - TRV      # financials
+  - UNH      # healthcare
+  - V        # financials
+
+train_start: "2018-01-01"
+train_end:   "2023-12-31"
+
+
+# ── LLM ──────────────────────────────────────────────────────────────
+llm_provider: "openrouter"
+llm_model: "openrouter/openai/gpt-4o-mini"
+llm_api_key: ""               # falls back to OPENROUTER_API_KEY env var
+llm_temperature: 0.05
+llm_n_samples: 5
+llm_max_workers: 8
+
+
+# ── RAG ──────────────────────────────────────────────────────────────
+rag_persist_dir: "cache/rag_store"
+rag_sources:
+  - wikipedia
+  - fred
+  - sec_edgar
+rag_cache_mode: "reuse"
+rag_max_articles: 50
+rag_content_limit: 500
+fred_api_key: ""
+sec_email: ""
+
+
+# ── Factor extraction ────────────────────────────────────────────────
+window_sizes:
+  - "2W"
+factor_threshold: 0.0
+max_factors: 200
+cross_window_validation: false
+
+
+# ── Factor Impact Network (FIN / TFT) ───────────────────────────────
+fin:
+  architecture: "tft"
+  impact_estimator: "ablation"
+  direction_prior: "none"
+  n_lags: 10
+  epochs: 300
+  batch_size: 64
+  learning_rate: 0.001
+  patience: 30
+  device: "auto"
+
+
+# ── Scenarios ────────────────────────────────────────────────────────
+n_scenarios: 1
+scenario_llm_samples: 1
+
+
+# ── Generation ───────────────────────────────────────────────────────
+generation:
+  n_steps: 0
+  n_samples: 10
+  noise_scale: 1.0
+  start_date: "2018-01-01"
+
+
+# ── Evaluation ───────────────────────────────────────────────────────
+evaluation:
+  include_deep_metrics: true
+  skip_if_no_test: true
+
+
+# ── Neural SDE ───────────────────────────────────────────────────────
+neural_sde:
+  enabled: false
+  hidden: 64
+  epochs: 200
+  batch_size: 256
+  learning_rate: 0.001
+  patience: 30
+
+
+# ── Cross-asset correlations ────────────────────────────────────────
+cross_asset:
+  enabled: true
+  method: "pearson"
+
+
+# ── Factor relevance scoring ────────────────────────────────────────
+factor_scoring:
+  enabled: false
+  min_score: 0.10
+
+
+# ── Transfer learning ───────────────────────────────────────────────
+transfer_learning:
+  enabled: true
+  scale: 0.5
+
+
+# ── DCC-GARCH ────────────────────────────────────────────────────────
+dcc_garch:
+  enabled: true
+  garch_p: 1
+  garch_q: 1
+
+
+# ── Interactive editors ──────────────────────────────────────────────
+interactive:
+  post_extraction: false
+  pre_generation: false
+  port: 8050
+
+
+# ── User-provided factors ───────────────────────────────────────────
+user_factors:
+  file: ""
+  mode: "disabled"
+
+
+# ── Quality report ───────────────────────────────────────────────────
+quality_report:
+  enabled: false
+  disc_epochs: 100
+  disc_hidden: 64
+  disc_window_size: 20
+  disc_n_folds: 5
+
+
+# ── I/O ──────────────────────────────────────────────────────────────
+output_dir: "r1_datasign"
+cache_dir: "cache/r1_datasign"
+seed: 42
+
+# ── Execution flags ──────────────────────────────────────────────────
+resume: true
+validate: true
+
+
+# ── TimeGAN baseline ─────────────────────────────────────────────────
+timegan:
+  seq_len: 24
+  hidden_dim: 24
+  embedding_epochs: 600
+  supervised_epochs: 600
+  joint_epochs: 600
+  batch_size: 128
+  device: "auto"
+
+# ── TSTR ─────────────────────────────────────────────────────────────
+tstr:
+  n_lags: 10
+  epochs: 100
+  n_runs: 3
+  vol_window: 20

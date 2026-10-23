@@ -1,0 +1,31 @@
+# DJIA-28 universe for DJIA-28 expansion
+# First eight stocks of the panel:
+AAPL
+MSFT
+JPM
+XOM
+JNJ
+WMT
+CAT
+AMGN
+# 20 new (current DJIA-30 minus the frozen 8 minus the two most recent removals: WBA, INTC):
+AMZN
+AXP
+BA
+CRM
+CSCO
+CVX
+DIS
+GS
+HD
+HON
+IBM
+KO
+MCD
+MMM
+MRK
+NKE
+PG
+TRV
+UNH
+V

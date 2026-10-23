@@ -1,0 +1,84 @@
+{
+  "run": "pc_TFT_r002_b0",
+  "variant": "data",
+  "estimator": "ols",
+  "frozen_list": "pc_runs/runs/tft/out/pc_TFT_r002_b0/b3_documented_effects__pc_TFT_r002_b0/classified_FROZEN.csv",
+  "sign": {
+    "per_class": {
+      "E1_tightening": {
+        "n": 23,
+        "agree": 0.6521739130434783,
+        "p_cluster_boot": 0.0,
+        "n_clusters": 1
+      },
+      "E2_easing": {
+        "n": 23,
+        "agree": 0.6086956521739131,
+        "p_cluster_boot": 0.0,
+        "n_clusters": 1
+      },
+      "E3_oil_up": null,
+      "E4_earnings_beat": {
+        "n": 28,
+        "agree": 0.6785714285714286,
+        "p_cluster_boot": 0.04,
+        "n_clusters": 8
+      },
+      "E5_earnings_miss": {
+        "n": 28,
+        "agree": 0.5,
+        "p_cluster_boot": 0.541,
+        "n_clusters": 15
+      }
+    },
+    "pooled_tested_classes": {
+      "n": 102,
+      "agree": 0.6078431372549019,
+      "p_cluster_boot": 0.0105,
+      "n_clusters": 17
+    },
+    "classes_n20_below_half": [],
+    "verdict": "FAIL"
+  },
+  "sign_centered": {
+    "per_class": {
+      "E1_tightening": {
+        "n": 23,
+        "agree": 0.6086956521739131,
+        "p_cluster_boot": 0.0,
+        "n_clusters": 1
+      },
+      "E2_easing": {
+        "n": 23,
+        "agree": 0.6086956521739131,
+        "p_cluster_boot": 0.0,
+        "n_clusters": 1
+      },
+      "E3_oil_up": null,
+      "E4_earnings_beat": {
+        "n": 28,
+        "agree": 0.6428571428571429,
+        "p_cluster_boot": 0.0485,
+        "n_clusters": 8
+      },
+      "E5_earnings_miss": {
+        "n": 28,
+        "agree": 0.39285714285714285,
+        "p_cluster_boot": 0.913,
+        "n_clusters": 15
+      }
+    },
+    "pooled_tested_classes": {
+      "n": 102,
+      "agree": 0.5588235294117647,
+      "p_cluster_boot": 0.0935,
+      "n_clusters": 17
+    },
+    "classes_n20_below_half": [
+      "E5_earnings_miss"
+    ],
+    "verdict": "FAIL"
+  },
+  "primary_verdict": "FAIL",
+  "median_seed_agreement": 1.0
+}

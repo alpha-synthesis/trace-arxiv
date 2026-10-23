@@ -1,0 +1,490 @@
+{
+  "arms": {
+    "A0": "r0",
+    "A1": "a1",
+    "R2": "r2_datasign"
+  },
+  "A0": {
+    "pooled": {
+      "agreement": 0.8745892661555312,
+      "independence": 0.5009259881305567,
+      "n_scored": 3652,
+      "p_label_shuffle": 0.0,
+      "null_mean": 0.5050235487404162
+    },
+    "next_window_placebo": {
+      "agreement": 0.49090407938257996,
+      "independence": 0.5005196626994015,
+      "n": 3628
+    },
+    "market_reading_share": 0.5825757575757575,
+    "n_factor_occurrences": 6600,
+    "noise_only_window_share": 0.14585253456221198,
+    "n_windows": 4340,
+    "reading": ">=0.80: agreement survives; channel unresolved",
+    "per_ticker": {
+      "AAPL": {
+        "agreement": 1.0,
+        "independence": 0.5359049938058011,
+        "n_scored": 153
+      },
+      "AMGN": {
+        "agreement": 0.8161764705882353,
+        "independence": 0.49243079584775085,
+        "n_scored": 136
+      },
+      "AMZN": {
+        "agreement": 0.8536585365853658,
+        "independence": 0.49553837001784656,
+        "n_scored": 123
+      },
+      "AXP": {
+        "agreement": 0.8738738738738738,
+        "independence": 0.5117279441603766,
+        "n_scored": 111
+      },
+      "BA": {
+        "agreement": 0.9016393442622951,
+        "independence": 0.5047030368180596,
+        "n_scored": 122
+      },
+      "CAT": {
+        "agreement": 0.8203125,
+        "independence": 0.48681640625,
+        "n_scored": 128
+      },
+      "CRM": {
+        "agreement": 0.7723577235772358,
+        "independence": 0.49923987044748497,
+        "n_scored": 123
+      },
+      "CSCO": {
+        "agreement": 0.8805970149253731,
+        "independence": 0.5093562040543551,
+        "n_scored": 134
+      },
+      "CVX": {
+        "agreement": 0.7633587786259542,
+        "independence": 0.49892197424392515,
+        "n_scored": 131
+      },
+      "DIS": {
+        "agreement": 1.0,
+        "independence": 0.5005202913631633,
+        "n_scored": 155
+      },
+      "GS": {
+        "agreement": 0.9174311926605505,
+        "independence": 0.4997895800016834,
+        "n_scored": 109
+      },
+      "HD": {
+        "agreement": 0.824,
+        "independence": 0.506688,
+        "n_scored": 125
+      },
+      "HON": {
+        "agreement": 0.8253968253968254,
+        "independence": 0.5056689342403629,
+        "n_scored": 126
+      },
+      "IBM": {
+        "agreement": 0.8803418803418803,
+        "independence": 0.49799108773467743,
+        "n_scored": 117
+      },
+      "JNJ": {
+        "agreement": 0.8380281690140845,
+        "independence": 0.5059512001586987,
+        "n_scored": 142
+      },
+      "JPM": {
+        "agreement": 1.0,
+        "independence": 0.5060145681581686,
+        "n_scored": 155
+      },
+      "KO": {
+        "agreement": 0.8059701492537313,
+        "independence": 0.4938739140120294,
+        "n_scored": 134
+      },
+      "MCD": {
+        "agreement": 0.8487394957983193,
+        "independence": 0.49650448414659987,
+        "n_scored": 119
+      },
+      "MMM": {
+        "agreement": 0.8548387096774194,
+        "independence": 0.5035119667013528,
+        "n_scored": 124
+      },
+      "MRK": {
+        "agreement": 0.8524590163934426,
+        "independence": 0.5064498790647676,
+        "n_scored": 122
+      },
+      "MSFT": {
+        "agreement": 1.0,
+        "independence": 0.5743517450553206,
+        "n_scored": 153
+      },
+      "NKE": {
+        "agreement": 0.8308823529411765,
+        "independence": 0.49026816608996543,
+        "n_scored": 136
+      },
+      "PG": {
+        "agreement": 0.8727272727272727,
+        "independence": 0.5079338842975206,
+        "n_scored": 110
+      },
+      "TRV": {
+        "agreement": 0.8947368421052632,
+        "independence": 0.4981532779316713,
+        "n_scored": 114
+      },
+      "UNH": {
+        "agreement": 0.8225806451612904,
+        "independence": 0.5071540062434964,
+        "n_scored": 124
+      },
+      "V": {
+        "agreement": 0.8439716312056738,
+        "independence": 0.5008299381318847,
+        "n_scored": 141
+      },
+      "WMT": {
+        "agreement": 0.7923076923076923,
+        "independence": 0.4907692307692308,
+        "n_scored": 130
+      },
+      "XOM": {
+        "agreement": 0.9935483870967742,
+        "independence": 0.5000624349635796,
+        "n_scored": 155
+      }
+    }
+  },
+  "A1": {
+    "pooled": {
+      "agreement": 0.49571132800946466,
+      "independence": 0.4818885850702304,
+      "n_scored": 3381,
+      "p_label_shuffle": 0.045,
+      "null_mean": 0.4823034605146406
+    },
+    "next_window_placebo": {
+      "agreement": 0.5280832095096583,
+      "independence": 0.4823706143788541,
+      "n": 3365
+    },
+    "market_reading_share": 0.6969328879441239,
+    "n_factor_occurrences": 6586,
+    "noise_only_window_share": 0.11682027649769586,
+    "n_windows": 4340,
+    "reading": "<=0.70: prices/move sentences drove most of A0's agreement",
+    "per_ticker": {
+      "AAPL": {
+        "agreement": 0.5396825396825397,
+        "independence": 0.463718820861678,
+        "n_scored": 126
+      },
+      "AMGN": {
+        "agreement": 0.5112781954887218,
+        "independence": 0.48516026909378707,
+        "n_scored": 133
+      },
+      "AMZN": {
+        "agreement": 0.48,
+        "independence": 0.46976,
+        "n_scored": 125
+      },
+      "AXP": {
+        "agreement": 0.4881889763779528,
+        "independence": 0.4818649637299275,
+        "n_scored": 127
+      },
+      "BA": {
+        "agreement": 0.45901639344262296,
+        "independence": 0.47917226552002146,
+        "n_scored": 122
+      },
+      "CAT": {
+        "agreement": 0.46153846153846156,
+        "independence": 0.4488757396449704,
+        "n_scored": 130
+      },
+      "CRM": {
+        "agreement": 0.4852941176470588,
+        "independence": 0.4821583044982699,
+        "n_scored": 136
+      },
+      "CSCO": {
+        "agreement": 0.4806201550387597,
+        "independence": 0.4851871882699357,
+        "n_scored": 129
+      },
+      "CVX": {
+        "agreement": 0.5426356589147286,
+        "independence": 0.49323958896700915,
+        "n_scored": 129
+      },
+      "DIS": {
+        "agreement": 0.47863247863247865,
+        "independence": 0.5071225071225071,
+        "n_scored": 117
+      },
+      "GS": {
+        "agreement": 0.4418604651162791,
+        "independence": 0.5015924523766601,
+        "n_scored": 129
+      },
+      "HD": {
+        "agreement": 0.48739495798319327,
+        "independence": 0.4844290657439446,
+        "n_scored": 119
+      },
+      "HON": {
+        "agreement": 0.4956521739130435,
+        "independence": 0.4912665406427221,
+        "n_scored": 115
+      },
+      "IBM": {
+        "agreement": 0.4956521739130435,
+        "independence": 0.47493383742911155,
+        "n_scored": 115
+      },
+      "JNJ": {
+        "agreement": 0.5315315315315315,
+        "independence": 0.5152990828666505,
+        "n_scored": 111
+      },
+      "JPM": {
+        "agreement": 0.4962962962962963,
+        "independence": 0.4786282578875172,
+        "n_scored": 135
+      },
+      "KO": {
+        "agreement": 0.5039370078740157,
+        "independence": 0.4762849525699051,
+        "n_scored": 127
+      },
+      "MCD": {
+        "agreement": 0.49504950495049505,
+        "independence": 0.4925007352220371,
+        "n_scored": 101
+      },
+      "MMM": {
+        "agreement": 0.5135135135135135,
+        "independence": 0.5227660092524957,
+        "n_scored": 111
+      },
+      "MRK": {
+        "agreement": 0.5700934579439252,
+        "independence": 0.47925583020351126,
+        "n_scored": 107
+      },
+      "MSFT": {
+        "agreement": 0.44881889763779526,
+        "independence": 0.4232748465496931,
+        "n_scored": 127
+      },
+      "NKE": {
+        "agreement": 0.42276422764227645,
+        "independence": 0.47722916253552783,
+        "n_scored": 123
+      },
+      "PG": {
+        "agreement": 0.5904761904761905,
+        "independence": 0.49306122448979595,
+        "n_scored": 105
+      },
+      "TRV": {
+        "agreement": 0.5700934579439252,
+        "independence": 0.4755873875447637,
+        "n_scored": 107
+      },
+      "UNH": {
+        "agreement": 0.4576271186440678,
+        "independence": 0.49310542947428904,
+        "n_scored": 118
+      },
+      "V": {
+        "agreement": 0.5412844036697247,
+        "independence": 0.4670482282636142,
+        "n_scored": 109
+      },
+      "WMT": {
+        "agreement": 0.5163934426229508,
+        "independence": 0.4758129535071217,
+        "n_scored": 122
+      },
+      "XOM": {
+        "agreement": 0.42063492063492064,
+        "independence": 0.5047871000251952,
+        "n_scored": 126
+      }
+    }
+  },
+  "R2": {
+    "pooled": {
+      "agreement": 0.4816193578408562,
+      "independence": 0.46364125337983336,
+      "n_scored": 4298,
+      "p_label_shuffle": 0.002,
+      "null_mean": 0.46370590972545367
+    },
+    "next_window_placebo": {
+      "agreement": 0.46523062514633573,
+      "independence": 0.46436621975204706,
+      "n": 4271
+    },
+    "market_reading_share": 0.015221111411330271,
+    "n_factor_occurrences": 11103,
+    "noise_only_window_share": 0.006221198156682027,
+    "n_windows": 4340,
+    "reading": "<=0.70: prices/move sentences drove most of A0's agreement",
+    "per_ticker": {
+      "AAPL": {
+        "agreement": 0.44805194805194803,
+        "independence": 0.42207792207792205,
+        "n_scored": 154
+      },
+      "AMGN": {
+        "agreement": 0.5263157894736842,
+        "independence": 0.48545706371191133,
+        "n_scored": 152
+      },
+      "AMZN": {
+        "agreement": 0.48366013071895425,
+        "independence": 0.4372677175445342,
+        "n_scored": 153
+      },
+      "AXP": {
+        "agreement": 0.5161290322580645,
+        "independence": 0.46851196670135276,
+        "n_scored": 155
+      },
+      "BA": {
+        "agreement": 0.5032679738562091,
+        "independence": 0.48609509163142384,
+        "n_scored": 153
+      },
+      "CAT": {
+        "agreement": 0.5290322580645161,
+        "independence": 0.45369406867845996,
+        "n_scored": 155
+      },
+      "CRM": {
+        "agreement": 0.40397350993377484,
+        "independence": 0.4421297311521424,
+        "n_scored": 151
+      },
+      "CSCO": {
+        "agreement": 0.4258064516129032,
+        "independence": 0.45161290322580644,
+        "n_scored": 155
+      },
+      "CVX": {
+        "agreement": 0.538961038961039,
+        "independence": 0.49662674987350314,
+        "n_scored": 154
+      },
+      "DIS": {
+        "agreement": 0.512987012987013,
+        "independence": 0.4903862371394839,
+        "n_scored": 154
+      },
+      "GS": {
+        "agreement": 0.5424836601307189,
+        "independence": 0.4977145542312785,
+        "n_scored": 153
+      },
+      "HD": {
+        "agreement": 0.474025974025974,
+        "independence": 0.46356889863383377,
+        "n_scored": 154
+      },
+      "HON": {
+        "agreement": 0.4805194805194805,
+        "independence": 0.46356889863383366,
+        "n_scored": 154
+      },
+      "IBM": {
+        "agreement": 0.47096774193548385,
+        "independence": 0.4764620187304891,
+        "n_scored": 155
+      },
+      "JNJ": {
+        "agreement": 0.52,
+        "independence": 0.5042666666666666,
+        "n_scored": 150
+      },
+      "JPM": {
+        "agreement": 0.4934210526315789,
+        "independence": 0.46727839335180055,
+        "n_scored": 152
+      },
+      "KO": {
+        "agreement": 0.46,
+        "independence": 0.4628444444444444,
+        "n_scored": 150
+      },
+      "MCD": {
+        "agreement": 0.48366013071895425,
+        "independence": 0.461446452219232,
+        "n_scored": 153
+      },
+      "MMM": {
+        "agreement": 0.5064935064935064,
+        "independence": 0.5,
+        "n_scored": 154
+      },
+      "MRK": {
+        "agreement": 0.4645161290322581,
+        "independence": 0.47359001040582727,
+        "n_scored": 155
+      },
+      "MSFT": {
+        "agreement": 0.4444444444444444,
+        "independence": 0.39369473279507883,
+        "n_scored": 153
+      },
+      "NKE": {
+        "agreement": 0.5064935064935064,
+        "independence": 0.46382189239332094,
+        "n_scored": 154
+      },
+      "PG": {
+        "agreement": 0.43790849673202614,
+        "independence": 0.421760861207228,
+        "n_scored": 153
+      },
+      "TRV": {
+        "agreement": 0.41935483870967744,
+        "independence": 0.46355879292403745,
+        "n_scored": 155
+      },
+      "UNH": {
+        "agreement": 0.4838709677419355,
+        "independence": 0.46547346514047866,
+        "n_scored": 155
+      },
+      "V": {
+        "agreement": 0.42857142857142855,
+        "independence": 0.42384887839433294,
+        "n_scored": 154
+      },
+      "WMT": {
+        "agreement": 0.39869281045751637,
+        "independence": 0.4436327908069546,
+        "n_scored": 153
+      },
+      "XOM": {
+        "agreement": 0.5806451612903226,
+        "independence": 0.5053069719042664,
+        "n_scored": 155
+      }
+    }
+  }
+}

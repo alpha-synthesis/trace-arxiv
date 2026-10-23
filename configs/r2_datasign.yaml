@@ -1,0 +1,209 @@
+# ══════════════════════════════════════════════════════════════════════
+# R2 (data-sign): price-blind labels on corpus v2 + corrected code
+# ══════════════════════════════════════════════════════════════════════
+# Extraction:
+#   * llm_prompt_mode price_blind: the LLM sees news only (no OHLC/volume).
+#   * contexts v2.1 precomputed from cache/rag_store_v2 (sha256 5dc822a7…, 0 FRED
+#     documents, de-duplicated, Wikipedia pinned to dated revisions) with
+#     item-level strict2 redaction, no SEC stubs, no topic headers, company-named
+#     query; no vector store is opened by this process.
+#   * corpus tag + context sha1 in the LLM cache key; fresh, empty cache dir.
+#   * long-lived HTTP client for litellm (fd-reuse fix); every call logged.
+#   * no scenario LLM call (scenarios do not feed the factual data).
+# Model: impact_estimator ablation, direction_prior none (data sign),
+#   generation mode corrected (auto from units=daily), factor scoring off,
+#   no factor pruning (max_factors 0).
+# The LLM-sign variant reuses these labels: configs/r2_llmsign.yaml
+# ══════════════════════════════════════════════════════════════════════
+
+llm_prompt_mode: price_blind
+rag_redact_market_moves: strict2
+rag_context_dir: "cache/contexts_v2.1"
+rag_corpus_tag: "rag_store_v2@5dc822a7a220d920+ctx2.1"
+llm_call_log: "logs/llm_calls_r2.jsonl"
+generate_scenarios: false
+
+
+# ── Data source ──────────────────────────────────────────────────────
+tickers:
+  # ── All 28 are re-extracted in this run (fresh output dir) ─────────
+  - AAPL     # tech
+  - MSFT     # tech
+  - JPM      # financials
+  - XOM      # energy
+  - JNJ      # healthcare
+  - WMT      # consumer staples
+  - CAT      # industrials
+  - AMGN     # biotech
+  # ── 20 new tickers ────────────────────────────────────────────────
+  - AMZN     # consumer disc.
+  - AXP      # financials
+  - BA       # industrials
+  - CRM      # tech
+  - CSCO     # tech
+  - CVX      # energy
+  - DIS      # communication
+  - GS       # financials
+  - HD       # consumer disc.
+  - HON      # industrials
+  - IBM      # tech
+  - KO       # consumer staples
+  - MCD      # consumer disc.
+  - MMM      # industrials
+  - MRK      # healthcare
+  - NKE      # consumer disc.
+  - PG       # consumer staples
+  - TRV      # financials
+  - UNH      # healthcare
+  - V        # financials
+
+train_start: "2018-01-01"
+train_end:   "2023-12-31"
+
+
+# ── LLM ──────────────────────────────────────────────────────────────
+llm_provider: "openrouter"
+llm_model: "openrouter/openai/gpt-4o-mini"
+llm_api_key: ""               # falls back to OPENROUTER_API_KEY env var
+llm_temperature: 0.05
+llm_n_samples: 5
+llm_max_workers: 8
+
+
+# ── RAG ──────────────────────────────────────────────────────────────
+use_rag: false
+rag_persist_dir: "cache/rag_store"
+rag_sources:
+  - wikipedia
+  - fred
+  - sec_edgar
+rag_cache_mode: "reuse"
+rag_max_articles: 50
+rag_content_limit: 500
+fred_api_key: ""
+sec_email: ""
+
+
+# ── Factor extraction ────────────────────────────────────────────────
+window_sizes:
+  - "2W"
+factor_threshold: 0.0
+max_factors: 0
+cross_window_validation: false
+
+
+# ── Factor Impact Network (FIN / TFT) ───────────────────────────────
+fin:
+  architecture: "tft"
+  impact_estimator: "ablation"
+  direction_prior: "none"
+  n_lags: 10
+  epochs: 300
+  batch_size: 64
+  learning_rate: 0.001
+  patience: 30
+  device: "auto"
+
+
+# ── Scenarios ────────────────────────────────────────────────────────
+n_scenarios: 1
+scenario_llm_samples: 1
+
+
+# ── Generation ───────────────────────────────────────────────────────
+generation:
+  n_steps: 0
+  n_samples: 10
+  noise_scale: 1.0
+  start_date: "2018-01-01"
+
+
+# ── Evaluation ───────────────────────────────────────────────────────
+evaluation:
+  include_deep_metrics: true
+  skip_if_no_test: true
+
+
+# ── Neural SDE ───────────────────────────────────────────────────────
+neural_sde:
+  enabled: false
+  hidden: 64
+  epochs: 200
+  batch_size: 256
+  learning_rate: 0.001
+  patience: 30
+
+
+# ── Cross-asset correlations ────────────────────────────────────────
+cross_asset:
+  enabled: true
+  method: "pearson"
+
+
+# ── Factor relevance scoring ────────────────────────────────────────
+factor_scoring:
+  enabled: false
+  min_score: 0.10
+
+
+# ── Transfer learning ───────────────────────────────────────────────
+transfer_learning:
+  enabled: true
+  scale: 0.5
+
+
+# ── DCC-GARCH ────────────────────────────────────────────────────────
+dcc_garch:
+  enabled: true
+  garch_p: 1
+  garch_q: 1
+
+
+# ── Interactive editors ──────────────────────────────────────────────
+interactive:
+  post_extraction: false
+  pre_generation: false
+  port: 8050
+
+
+# ── User-provided factors ───────────────────────────────────────────
+user_factors:
+  file: ""
+  mode: "disabled"
+
+
+# ── Quality report ───────────────────────────────────────────────────
+quality_report:
+  enabled: false
+  disc_epochs: 100
+  disc_hidden: 64
+  disc_window_size: 20
+  disc_n_folds: 5
+
+
+# ── I/O ──────────────────────────────────────────────────────────────
+output_dir: "r2_datasign"
+cache_dir: "cache/r2"
+seed: 42
+
+# ── Execution flags ──────────────────────────────────────────────────
+resume: true
+validate: true
+
+
+# ── TimeGAN baseline ─────────────────────────────────────────────────
+timegan:
+  seq_len: 24
+  hidden_dim: 24
+  embedding_epochs: 600
+  supervised_epochs: 600
+  joint_epochs: 600
+  batch_size: 128
+  device: "auto"
+
+# ── TSTR ─────────────────────────────────────────────────────────────
+tstr:
+  n_lags: 10
+  epochs: 100
+  n_runs: 3
+  vol_window: 20

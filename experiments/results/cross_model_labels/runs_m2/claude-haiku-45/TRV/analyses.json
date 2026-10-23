@@ -1,0 +1,4554 @@
+[
+  {
+    "start_date": "2018-01-07",
+    "end_date": "2018-01-21",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "treasury_yield_rise_jan_2018",
+        "category": "macroeconomic",
+        "direction": 0.65,
+        "magnitude": 0.5392156862745099,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "low_volatility_risk_on_sentiment",
+        "category": "market_sentiment",
+        "direction": 0.3499999999999999,
+        "magnitude": 0.3431372549019607,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.11764705882352941,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2018-01-21",
+    "end_date": "2018-02-04",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "us_dollar_policy_shift_mnuchin",
+        "category": "macroeconomic",
+        "direction": 0.65,
+        "magnitude": 0.55,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "ecb_policy_stability_draghi",
+        "category": "macroeconomic",
+        "direction": 0.25,
+        "magnitude": 0.2,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.25,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2018-02-04",
+    "end_date": "2018-02-18",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "equity_market_crash_feb_5_2018",
+        "category": "macroeconomic",
+        "direction": -1.0,
+        "magnitude": 0.85,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.05,
+        "persistence": "transient",
+        "description": ""
+      },
+      {
+        "name": "rising_treasury_yields_post_crash",
+        "category": "macroeconomic",
+        "direction": -0.5,
+        "magnitude": 0.10000000000000002,
+        "persistence": "short",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2018-02-18",
+    "end_date": "2018-03-04",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "rising_treasury_yields_feb_mar_2018",
+        "category": "macroeconomic",
+        "direction": -0.65,
+        "magnitude": 0.65,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.35,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2018-03-04",
+    "end_date": "2018-03-18",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "treasury_yield_volatility_march_2018",
+        "category": "macroeconomic",
+        "direction": 0.6,
+        "magnitude": 0.65,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.35,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2018-03-18",
+    "end_date": "2018-04-01",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "treasury_yield_decline_march_2018",
+        "category": "macroeconomic",
+        "direction": -0.65,
+        "magnitude": 0.6,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.4,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2018-04-01",
+    "end_date": "2018-04-15",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "trump_tariff_announcement_china",
+        "category": "geopolitical",
+        "direction": -0.75,
+        "magnitude": 0.6989247311827956,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "stable_labor_market_conditions",
+        "category": "macroeconomic",
+        "direction": 0.15,
+        "magnitude": 0.10752688172043011,
+        "persistence": "long",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.1935483870967742,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2018-04-15",
+    "end_date": "2018-04-29",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "rising_treasury_yields_q2_2018",
+        "category": "macroeconomic",
+        "direction": -0.65,
+        "magnitude": 0.55,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "sec_filing_activity_trv",
+        "category": "company_specific",
+        "direction": -0.15,
+        "magnitude": 0.15,
+        "persistence": "transient",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.3,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2018-04-29",
+    "end_date": "2018-05-13",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "treasury_yield_stability_may_2018",
+        "category": "macroeconomic",
+        "direction": -0.3,
+        "magnitude": 0.45,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.55,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2018-05-13",
+    "end_date": "2018-05-27",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "turkish_lira_crisis_risk_off",
+        "category": "geopolitical",
+        "direction": -0.35,
+        "magnitude": 0.25,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "treasury_yield_stability_neutral",
+        "category": "macroeconomic",
+        "direction": 0.0,
+        "magnitude": 0.15,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.6,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2018-05-27",
+    "end_date": "2018-06-10",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "rising_treasury_yields_may_june_2018",
+        "category": "macroeconomic",
+        "direction": 0.38,
+        "magnitude": 0.37,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.63,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2018-06-10",
+    "end_date": "2018-06-24",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "rising_treasury_yields_mid_june_2018",
+        "category": "macroeconomic",
+        "direction": -0.75,
+        "magnitude": 0.6310679611650486,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "treasury_yield_moderation_late_june",
+        "category": "macroeconomic",
+        "direction": 0.2,
+        "magnitude": 0.14563106796116507,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.2233009708737864,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2018-06-24",
+    "end_date": "2018-07-08",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "rising_treasury_yields_mid_2018",
+        "category": "macroeconomic",
+        "direction": -0.45,
+        "magnitude": 0.35,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.4,
+        "persistence": "transient",
+        "description": ""
+      },
+      {
+        "name": "fed_funds_rate_normalization",
+        "category": "macroeconomic",
+        "direction": -0.3,
+        "magnitude": 0.25,
+        "persistence": "long",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2018-07-08",
+    "end_date": "2018-07-22",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "treasury_yield_volatility_mid_july",
+        "category": "macroeconomic",
+        "direction": 0.4,
+        "magnitude": 0.3341288782816229,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "sec_filing_activity_july_19",
+        "category": "company_specific",
+        "direction": 0.21000000000000002,
+        "magnitude": 0.22911694510739858,
+        "persistence": "transient",
+        "description": ""
+      },
+      {
+        "name": "financial_sector_consolidation",
+        "category": "market_sentiment",
+        "direction": 0.05,
+        "magnitude": 0.22673031026252985,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.21002386634844875,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2018-07-22",
+    "end_date": "2018-08-05",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "facebook_earnings_shock_contagion",
+        "category": "market_sentiment",
+        "direction": 0.65,
+        "magnitude": 0.55,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "treasury_yield_stability_supportive_backdrop",
+        "category": "macroeconomic",
+        "direction": 0.25,
+        "magnitude": 0.3,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.15,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2018-08-05",
+    "end_date": "2018-08-19",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "turkey_emerging_market_contagion_fears",
+        "category": "geopolitical",
+        "direction": -0.35,
+        "magnitude": 0.25,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "treasury_yield_decline_flight_to_safety",
+        "category": "macroeconomic",
+        "direction": -0.25,
+        "magnitude": 0.2,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.5,
+        "persistence": "transient",
+        "description": ""
+      },
+      {
+        "name": "sec_filing_neutral_event",
+        "category": "company_specific",
+        "direction": 0.0,
+        "magnitude": 0.05,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2018-08-19",
+    "end_date": "2018-09-02",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "treasury_yield_stability_late_august",
+        "category": "macroeconomic",
+        "direction": 0.3,
+        "magnitude": 0.35,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "argentina_currency_crisis_geopolitical_risk",
+        "category": "geopolitical",
+        "direction": -0.2,
+        "magnitude": 0.15,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.5,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2018-09-02",
+    "end_date": "2018-09-16",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "rising_treasury_yields_sep2018",
+        "category": "macroeconomic",
+        "direction": -0.45,
+        "magnitude": 0.35,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "ecb_monetary_tightening_signal",
+        "category": "macroeconomic",
+        "direction": -0.25,
+        "magnitude": 0.2,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "protectionism_uncertainty_global",
+        "category": "geopolitical",
+        "direction": -0.15,
+        "magnitude": 0.15,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.3,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2018-09-16",
+    "end_date": "2018-09-30",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "treasury_yield_stability_sep2018",
+        "category": "macroeconomic",
+        "direction": 0.0,
+        "magnitude": 0.35,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.65,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2018-09-30",
+    "end_date": "2018-10-14",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "rising_treasury_yields_oct_2018",
+        "category": "macroeconomic",
+        "direction": -0.7,
+        "magnitude": 0.65,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.35,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2018-10-14",
+    "end_date": "2018-10-28",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "rising_treasury_yields_oct2018",
+        "category": "macroeconomic",
+        "direction": -0.65,
+        "magnitude": 0.5593220338983051,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.35593220338983045,
+        "persistence": "transient",
+        "description": ""
+      },
+      {
+        "name": "sec_filings_routine_disclosure",
+        "category": "company_specific",
+        "direction": 0.0,
+        "magnitude": 0.0847457627118644,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2018-10-28",
+    "end_date": "2018-11-11",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "rising_treasury_yields_oct_nov_2018",
+        "category": "macroeconomic",
+        "direction": 0.65,
+        "magnitude": 0.68,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.32,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2018-11-11",
+    "end_date": "2018-11-25",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "treasury_yield_stability_nov2018",
+        "category": "macroeconomic",
+        "direction": -0.32,
+        "magnitude": 0.49000000000000005,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.51,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2018-11-25",
+    "end_date": "2018-12-09",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "treasury_yield_stability_late_nov_2018",
+        "category": "macroeconomic",
+        "direction": -0.4,
+        "magnitude": 0.65,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.35,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2018-12-09",
+    "end_date": "2018-12-23",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "treasury_yield_decline_mid_december",
+        "category": "macroeconomic",
+        "direction": -0.65,
+        "magnitude": 0.45,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.2,
+        "persistence": "transient",
+        "description": ""
+      },
+      {
+        "name": "vix_spike_to_30_late_december",
+        "category": "market_sentiment",
+        "direction": -0.6,
+        "magnitude": 0.3499999999999999,
+        "persistence": "short",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2018-12-23",
+    "end_date": "2019-01-06",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "global_equity_market_stress_dec_2018",
+        "category": "geopolitical",
+        "direction": -0.4,
+        "magnitude": 0.42016806722689076,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "treasury_yield_stabilization_post_christmas",
+        "category": "macroeconomic",
+        "direction": 0.39,
+        "magnitude": 0.45378151260504207,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.12605042016806725,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2019-01-06",
+    "end_date": "2019-01-20",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "treasury_yield_stability_jan2019",
+        "category": "macroeconomic",
+        "direction": 0.6,
+        "magnitude": 0.65,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.35,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2019-01-20",
+    "end_date": "2019-02-03",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "treasury_yield_decline_late_january",
+        "category": "macroeconomic",
+        "direction": 0.65,
+        "magnitude": 0.6,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.4,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2019-02-03",
+    "end_date": "2019-02-17",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "treasury_yield_stabilization_feb2019",
+        "category": "macroeconomic",
+        "direction": 0.4,
+        "magnitude": 0.35,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "sec_filing_activity_feb14",
+        "category": "company_specific",
+        "direction": 0.15,
+        "magnitude": 0.21000000000000002,
+        "persistence": "transient",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.44000000000000006,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2019-02-17",
+    "end_date": "2019-03-03",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "treasury_yield_stability_feb_mar_2019",
+        "category": "macroeconomic",
+        "direction": 0.4,
+        "magnitude": 0.55,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.45,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2019-03-03",
+    "end_date": "2019-03-17",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "treasury_yield_decline_mid_march",
+        "category": "macroeconomic",
+        "direction": 0.6,
+        "magnitude": 0.45,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "turkish_recession_geopolitical_risk",
+        "category": "geopolitical",
+        "direction": -0.3,
+        "magnitude": 0.15,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.4,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2019-03-17",
+    "end_date": "2019-03-31",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "treasury_yield_decline_march_2019",
+        "category": "macroeconomic",
+        "direction": 0.65,
+        "magnitude": 0.6,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.4,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2019-03-31",
+    "end_date": "2019-04-14",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "treasury_yield_steepening_early_april",
+        "category": "macroeconomic",
+        "direction": -0.3,
+        "magnitude": 0.29069767441860467,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "stable_fed_funds_rate",
+        "category": "macroeconomic",
+        "direction": 0.15,
+        "magnitude": 0.1744186046511628,
+        "persistence": "long",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.5348837209302325,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2019-04-14",
+    "end_date": "2019-04-28",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "treasury_yield_decline_mid_april",
+        "category": "macroeconomic",
+        "direction": 0.6,
+        "magnitude": 0.45,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "sec_filing_activity_april_18",
+        "category": "company_specific",
+        "direction": 0.2,
+        "magnitude": 0.15,
+        "persistence": "transient",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.4,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2019-04-28",
+    "end_date": "2019-05-12",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "treasury_yield_decline_may_2019",
+        "category": "macroeconomic",
+        "direction": 0.65,
+        "magnitude": 0.7,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.3,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2019-05-12",
+    "end_date": "2019-05-26",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "treasury_yield_stability_may_2019",
+        "category": "macroeconomic",
+        "direction": 0.32,
+        "magnitude": 0.43925233644859824,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.23364485981308414,
+        "persistence": "transient",
+        "description": ""
+      },
+      {
+        "name": "insurance_sector_risk_appetite",
+        "category": "sector_specific",
+        "direction": 0.4000000000000001,
+        "magnitude": 0.32710280373831774,
+        "persistence": "short",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2019-05-26",
+    "end_date": "2019-06-09",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "treasury_yield_volatility_may_june_2019",
+        "category": "macroeconomic",
+        "direction": 0.4000000000000001,
+        "magnitude": 0.625,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.37499999999999994,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2019-06-09",
+    "end_date": "2019-06-23",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "treasury_yield_decline_mid_june",
+        "category": "macroeconomic",
+        "direction": 0.65,
+        "magnitude": 0.7,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.3,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2019-06-23",
+    "end_date": "2019-07-07",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "treasury_yield_decline_late_june_early_july",
+        "category": "macroeconomic",
+        "direction": 0.6,
+        "magnitude": 0.63,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.37,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2019-07-07",
+    "end_date": "2019-07-21",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "treasury_yield_decline_mid_july",
+        "category": "macroeconomic",
+        "direction": -0.65,
+        "magnitude": 0.55,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.45,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2019-07-21",
+    "end_date": "2019-08-04",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "treasury_yield_decline_late_july_august",
+        "category": "macroeconomic",
+        "direction": -0.65,
+        "magnitude": 0.55,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "sec_filing_activity_july_23",
+        "category": "company_specific",
+        "direction": -0.03,
+        "magnitude": 0.13999999999999999,
+        "persistence": "transient",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.30999999999999994,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2019-08-04",
+    "end_date": "2019-08-18",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "treasury_yield_decline_risk_off_sentiment",
+        "category": "macroeconomic",
+        "direction": 0.45,
+        "magnitude": 0.55,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.45,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2019-08-18",
+    "end_date": "2019-09-01",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "treasury_yield_decline_risk_off_sentiment",
+        "category": "macroeconomic",
+        "direction": -0.65,
+        "magnitude": 0.6,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.4,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2019-09-01",
+    "end_date": "2019-09-15",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "saudi_aramco_drone_attack_oil_shock",
+        "category": "geopolitical",
+        "direction": 0.65,
+        "magnitude": 0.55,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "treasury_yield_rise_sep09_to_sep12",
+        "category": "macroeconomic",
+        "direction": -0.35,
+        "magnitude": 0.3,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.15,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2019-09-15",
+    "end_date": "2019-09-29",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "fed_repo_market_liquidity_injection",
+        "category": "macroeconomic",
+        "direction": 0.6,
+        "magnitude": 0.45,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "saudi_aramco_drone_attack_oil_shock",
+        "category": "geopolitical",
+        "direction": 0.3,
+        "magnitude": 0.35,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "treasury_yield_stability",
+        "category": "macroeconomic",
+        "direction": 0.0,
+        "magnitude": 0.1,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.1,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2019-09-29",
+    "end_date": "2019-10-13",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "treasury_yield_decline_early_october",
+        "category": "macroeconomic",
+        "direction": -0.65,
+        "magnitude": 0.55,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.45,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2019-10-13",
+    "end_date": "2019-10-27",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "sec_filing_activity_oct22",
+        "category": "company_specific",
+        "direction": -0.3,
+        "magnitude": 0.15,
+        "persistence": "transient",
+        "description": ""
+      },
+      {
+        "name": "treasury_yield_stability_low_rates",
+        "category": "macroeconomic",
+        "direction": -0.25,
+        "magnitude": 0.1,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.75,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2019-10-27",
+    "end_date": "2019-11-10",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "treasury_yield_volatility_early_november",
+        "category": "macroeconomic",
+        "direction": 0.4,
+        "magnitude": 0.55,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.45,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2019-11-10",
+    "end_date": "2019-11-24",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "treasury_yield_decline_mid_november",
+        "category": "macroeconomic",
+        "direction": 0.65,
+        "magnitude": 0.7,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.3,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2019-11-24",
+    "end_date": "2019-12-08",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "treasury_yield_volatility_nov_dec_2019",
+        "category": "macroeconomic",
+        "direction": 0.0,
+        "magnitude": 0.55,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.45,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2019-12-08",
+    "end_date": "2019-12-22",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "treasury_yield_steepening_mid_december",
+        "category": "macroeconomic",
+        "direction": 0.6,
+        "magnitude": 0.55,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.45,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2019-12-22",
+    "end_date": "2020-01-05",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "treasury_yield_stability_holiday_period",
+        "category": "macroeconomic",
+        "direction": 0.0,
+        "magnitude": 0.35,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "holiday_season_low_volume_consolidation",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.4,
+        "persistence": "transient",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.25,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2020-01-05",
+    "end_date": "2020-01-19",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "fed_accommodative_stance_maintenance",
+        "category": "macroeconomic",
+        "direction": 0.65,
+        "magnitude": 0.45,
+        "persistence": "long",
+        "description": ""
+      },
+      {
+        "name": "treasury_yield_stability_and_modest_rise",
+        "category": "macroeconomic",
+        "direction": 0.25,
+        "magnitude": 0.3,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.25,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2020-01-19",
+    "end_date": "2020-02-02",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "treasury_yield_decline_jan_22_feb_02",
+        "category": "macroeconomic",
+        "direction": -0.65,
+        "magnitude": 0.65,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.35,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2020-02-02",
+    "end_date": "2020-02-16",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "treasury_yield_steepening_feb2020",
+        "category": "macroeconomic",
+        "direction": 0.65,
+        "magnitude": 0.55,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "sec_filing_activity_feb13",
+        "category": "company_specific",
+        "direction": 0.17,
+        "magnitude": 0.21999999999999997,
+        "persistence": "transient",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.22999999999999998,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2020-02-16",
+    "end_date": "2020-03-01",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "coronavirus_pandemic_equity_selloff",
+        "category": "geopolitical",
+        "direction": -1.0,
+        "magnitude": 0.746268656716418,
+        "persistence": "long",
+        "description": ""
+      },
+      {
+        "name": "worst_week_since_2008_financial_crisis",
+        "category": "market_sentiment",
+        "direction": -1.0,
+        "magnitude": 0.17910447761194032,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.0746268656716418,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2020-03-01",
+    "end_date": "2020-03-15",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "fed_emergency_rate_cut_100bps_qe700b",
+        "category": "macroeconomic",
+        "direction": -0.65,
+        "magnitude": 0.55,
+        "persistence": "long",
+        "description": ""
+      },
+      {
+        "name": "covid19_pandemic_market_panic_early_march",
+        "category": "geopolitical",
+        "direction": -0.79,
+        "magnitude": 0.35,
+        "persistence": "long",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.1,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2020-03-15",
+    "end_date": "2020-03-29",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "fed_emergency_rate_cut_700bn_qe",
+        "category": "macroeconomic",
+        "direction": 0.64,
+        "magnitude": 0.53,
+        "persistence": "long",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.12000000000000002,
+        "persistence": "transient",
+        "description": ""
+      },
+      {
+        "name": "global_market_panic_sell_off_march_16",
+        "category": "market_sentiment",
+        "direction": -0.45,
+        "magnitude": 0.3499999999999999,
+        "persistence": "short",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2020-03-29",
+    "end_date": "2020-04-12",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "treasury_yield_compression_march_april_2020",
+        "category": "macroeconomic",
+        "direction": 0.65,
+        "magnitude": 0.75,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.25,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2020-04-12",
+    "end_date": "2020-04-26",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "covid19_pandemic_insurance_uncertainty",
+        "category": "sector_specific",
+        "direction": -0.75,
+        "magnitude": 0.55,
+        "persistence": "long",
+        "description": ""
+      },
+      {
+        "name": "treasury_yield_compression_april_2020",
+        "category": "macroeconomic",
+        "direction": -0.4,
+        "magnitude": 0.25,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.2,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2020-04-26",
+    "end_date": "2020-05-10",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "covid19_economic_recession_ongoing",
+        "category": "macroeconomic",
+        "direction": -0.75,
+        "magnitude": 0.5513784461152882,
+        "persistence": "long",
+        "description": ""
+      },
+      {
+        "name": "unemployment_spike_to_13_2_percent",
+        "category": "macroeconomic",
+        "direction": -0.65,
+        "magnitude": 0.2606516290726817,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "treasury_yield_compression_to_0_63_percent",
+        "category": "macroeconomic",
+        "direction": -0.38749999999999996,
+        "magnitude": 0.13784461152882202,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.05012531328320802,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2020-05-10",
+    "end_date": "2020-05-24",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "covid19_recession_uncertainty",
+        "category": "macroeconomic",
+        "direction": -0.4,
+        "magnitude": 0.36082474226804123,
+        "persistence": "long",
+        "description": ""
+      },
+      {
+        "name": "treasury_yield_stabilization_may2020",
+        "category": "macroeconomic",
+        "direction": 0.25,
+        "magnitude": 0.2061855670103093,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.43298969072164956,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2020-05-24",
+    "end_date": "2020-06-07",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "post_covid_risk_on_recovery",
+        "category": "market_sentiment",
+        "direction": 0.85,
+        "magnitude": 0.594059405940594,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "treasury_yield_stabilization_may_to_june",
+        "category": "macroeconomic",
+        "direction": 0.15,
+        "magnitude": 0.24752475247524752,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "fed_funds_near_zero_accommodation",
+        "category": "macroeconomic",
+        "direction": 0.1,
+        "magnitude": 0.1485148514851485,
+        "persistence": "long",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.009900990099009901,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2020-06-07",
+    "end_date": "2020-06-21",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "treasury_yield_decline_risk_off",
+        "category": "macroeconomic",
+        "direction": -0.75,
+        "magnitude": 0.65,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.35,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2020-06-21",
+    "end_date": "2020-07-05",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "treasury_yield_decline_late_june",
+        "category": "macroeconomic",
+        "direction": -0.65,
+        "magnitude": 0.6547619047619048,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.34523809523809523,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2020-07-05",
+    "end_date": "2020-07-19",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "treasury_yield_stability_low_rates",
+        "category": "macroeconomic",
+        "direction": 0.4,
+        "magnitude": 0.35,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "sec_filing_routine_disclosure",
+        "category": "company_specific",
+        "direction": 0.0,
+        "magnitude": 0.05,
+        "persistence": "transient",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.6,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2020-07-19",
+    "end_date": "2020-08-02",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "covid19_recession_uncertainty",
+        "category": "macroeconomic",
+        "direction": -0.65,
+        "magnitude": 0.45,
+        "persistence": "long",
+        "description": ""
+      },
+      {
+        "name": "treasury_yield_compression",
+        "category": "macroeconomic",
+        "direction": -0.25,
+        "magnitude": 0.2,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "sec_filing_activity",
+        "category": "company_specific",
+        "direction": -0.06000000000000001,
+        "magnitude": 0.1,
+        "persistence": "transient",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.25,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2020-08-02",
+    "end_date": "2020-08-16",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "covid19_recession_risk_priced_in",
+        "category": "macroeconomic",
+        "direction": 0.6,
+        "magnitude": 0.4804270462633452,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "treasury_yield_stability_low_rates",
+        "category": "macroeconomic",
+        "direction": 0.3333333333333333,
+        "magnitude": 0.3380782918149466,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.1814946619217082,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2020-08-16",
+    "end_date": "2020-08-30",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "covid19_recession_uncertainty",
+        "category": "macroeconomic",
+        "direction": -0.6,
+        "magnitude": 0.43000000000000005,
+        "persistence": "long",
+        "description": ""
+      },
+      {
+        "name": "treasury_yield_decline_aug19_aug21",
+        "category": "macroeconomic",
+        "direction": -0.4,
+        "magnitude": 0.28,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "sec_direct_listing_rule_approval",
+        "category": "macroeconomic",
+        "direction": 0.05,
+        "magnitude": 0.05,
+        "persistence": "transient",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.24,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2020-08-30",
+    "end_date": "2020-09-13",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "covid19_recession_uncertainty",
+        "category": "macroeconomic",
+        "direction": -0.6,
+        "magnitude": 0.44554455445544555,
+        "persistence": "long",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.20792079207920794,
+        "persistence": "transient",
+        "description": ""
+      },
+      {
+        "name": "treasury_yield_stability_low_rates",
+        "category": "macroeconomic",
+        "direction": -0.3,
+        "magnitude": 0.34653465346534645,
+        "persistence": "medium",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2020-09-13",
+    "end_date": "2020-09-27",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": -1.0,
+        "magnitude": 1.0,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2020-09-27",
+    "end_date": "2020-10-11",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "treasury_yield_steepening_early_october",
+        "category": "macroeconomic",
+        "direction": 0.65,
+        "magnitude": 0.5913978494623656,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.4086021505376344,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2020-10-11",
+    "end_date": "2020-10-25",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "rising_treasury_yields_oct2020",
+        "category": "macroeconomic",
+        "direction": 0.65,
+        "magnitude": 0.55,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "sec_filing_activity_oct20",
+        "category": "company_specific",
+        "direction": 0.15,
+        "magnitude": 0.13,
+        "persistence": "transient",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.32,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2020-10-25",
+    "end_date": "2020-11-08",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "rba_rate_cut_to_historic_low",
+        "category": "macroeconomic",
+        "direction": 0.35,
+        "magnitude": 0.25,
+        "persistence": "long",
+        "description": ""
+      },
+      {
+        "name": "us_treasury_yield_stability_low_rates",
+        "category": "macroeconomic",
+        "direction": 0.15,
+        "magnitude": 0.15,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.6,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2020-11-08",
+    "end_date": "2020-11-22",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "treasury_yield_decline_nov10_to_nov20",
+        "category": "macroeconomic",
+        "direction": -0.65,
+        "magnitude": 0.6100000000000001,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.38999999999999996,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2020-11-22",
+    "end_date": "2020-12-06",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "treasury_yield_rise_late_november_december",
+        "category": "macroeconomic",
+        "direction": -0.35,
+        "magnitude": 0.4102564102564103,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.23076923076923078,
+        "persistence": "transient",
+        "description": ""
+      },
+      {
+        "name": "post_thanksgiving_market_consolidation",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.3589743589743589,
+        "persistence": "short",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2020-12-06",
+    "end_date": "2020-12-20",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "treasury_yield_normalization_dec2020",
+        "category": "macroeconomic",
+        "direction": 0.65,
+        "magnitude": 0.55,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.45,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2020-12-20",
+    "end_date": "2021-01-03",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "holiday_period_low_volume_consolidation",
+        "category": "market_sentiment",
+        "direction": 0.05,
+        "magnitude": 0.6,
+        "persistence": "transient",
+        "description": ""
+      },
+      {
+        "name": "stable_treasury_yields_near_0_94pct",
+        "category": "macroeconomic",
+        "direction": 0.1,
+        "magnitude": 0.25,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.15,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2021-01-03",
+    "end_date": "2021-01-17",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "treasury_yield_steepening_jan2021",
+        "category": "macroeconomic",
+        "direction": 0.65,
+        "magnitude": 0.7,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.3,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2021-01-17",
+    "end_date": "2021-01-31",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "treasury_yield_rise_jan20_21",
+        "category": "macroeconomic",
+        "direction": -0.65,
+        "magnitude": 0.52,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "treasury_yield_decline_jan25_28",
+        "category": "macroeconomic",
+        "direction": 0.35,
+        "magnitude": 0.25,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "sec_filing_jan21",
+        "category": "company_specific",
+        "direction": 0.0,
+        "magnitude": 0.05,
+        "persistence": "transient",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.18,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2021-01-31",
+    "end_date": "2021-02-14",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "labor_market_stabilization_jan_2021",
+        "category": "macroeconomic",
+        "direction": 0.35,
+        "magnitude": 0.2577319587628866,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "treasury_yield_stability_low_rates",
+        "category": "macroeconomic",
+        "direction": 0.25,
+        "magnitude": 0.2061855670103093,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.3814432989690722,
+        "persistence": "transient",
+        "description": ""
+      },
+      {
+        "name": "covid_recession_recovery_sentiment",
+        "category": "geopolitical",
+        "direction": 0.20000000000000004,
+        "magnitude": 0.15463917525773196,
+        "persistence": "long",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2021-02-14",
+    "end_date": "2021-02-28",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "treasury_yield_rise_late_february",
+        "category": "macroeconomic",
+        "direction": -0.6,
+        "magnitude": 0.45,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "covid_recession_economic_uncertainty",
+        "category": "macroeconomic",
+        "direction": -0.3,
+        "magnitude": 0.25,
+        "persistence": "long",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.3,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2021-02-28",
+    "end_date": "2021-03-14",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "treasury_yield_steepening_cycle",
+        "category": "macroeconomic",
+        "direction": 0.71,
+        "magnitude": 0.6100000000000001,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "labor_market_recovery_signal",
+        "category": "macroeconomic",
+        "direction": 0.22000000000000003,
+        "magnitude": 0.2,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.19,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2021-03-14",
+    "end_date": "2021-03-28",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "treasury_yield_stability_march_2021",
+        "category": "macroeconomic",
+        "direction": -0.3,
+        "magnitude": 0.45,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.55,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2021-03-28",
+    "end_date": "2021-04-11",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "treasury_yield_decline_early_april",
+        "category": "macroeconomic",
+        "direction": 0.3,
+        "magnitude": 0.24834437086092717,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "stable_unemployment_rate_labor_market",
+        "category": "macroeconomic",
+        "direction": 0.15,
+        "magnitude": 0.1490066225165563,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_consolidation_competing_forces",
+        "category": "market_sentiment",
+        "direction": -0.016666666666666666,
+        "magnitude": 0.413907284768212,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.18874172185430466,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2021-04-11",
+    "end_date": "2021-04-25",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "treasury_yield_stabilization_mid_april",
+        "category": "macroeconomic",
+        "direction": 0.4,
+        "magnitude": 0.3684210526315789,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "sec_filing_activity_april_20",
+        "category": "company_specific",
+        "direction": 0.21000000000000002,
+        "magnitude": 0.2105263157894737,
+        "persistence": "transient",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.4210526315789474,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2021-04-25",
+    "end_date": "2021-05-09",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "treasury_yield_decline_late_april_may",
+        "category": "macroeconomic",
+        "direction": 0.65,
+        "magnitude": 0.7,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.3,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2021-05-09",
+    "end_date": "2021-05-23",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "treasury_yield_stability_may2021",
+        "category": "macroeconomic",
+        "direction": 0.0,
+        "magnitude": 0.3362068965517241,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": -0.22999999999999998,
+        "magnitude": 0.3189655172413793,
+        "persistence": "transient",
+        "description": ""
+      },
+      {
+        "name": "insurance_sector_consolidation_may2021",
+        "category": "market_sentiment",
+        "direction": -0.05000000000000001,
+        "magnitude": 0.3448275862068966,
+        "persistence": "short",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2021-05-23",
+    "end_date": "2021-06-06",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "treasury_yield_normalization_may_june_2021",
+        "category": "macroeconomic",
+        "direction": 0.4,
+        "magnitude": 0.35,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.65,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2021-06-06",
+    "end_date": "2021-06-20",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "treasury_yield_stability_mid_june",
+        "category": "macroeconomic",
+        "direction": -0.425,
+        "magnitude": 0.6451612903225807,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.3548387096774193,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2021-06-20",
+    "end_date": "2021-07-04",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "treasury_yield_stability_mid_range",
+        "category": "macroeconomic",
+        "direction": 0.3,
+        "magnitude": 0.45,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.55,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2021-07-04",
+    "end_date": "2021-07-18",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "treasury_yield_volatility_mid_july",
+        "category": "macroeconomic",
+        "direction": 0.6,
+        "magnitude": 0.65,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.35,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2021-07-18",
+    "end_date": "2021-08-01",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "sec_filing_activity_july_20",
+        "category": "company_specific",
+        "direction": -0.15,
+        "magnitude": 0.1,
+        "persistence": "transient",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.35,
+        "persistence": "transient",
+        "description": ""
+      },
+      {
+        "name": "treasury_yield_decline_late_july",
+        "category": "macroeconomic",
+        "direction": -0.65,
+        "magnitude": 0.55,
+        "persistence": "short",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2021-08-01",
+    "end_date": "2021-08-15",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "treasury_yield_steepening_cycle",
+        "category": "macroeconomic",
+        "direction": 0.65,
+        "magnitude": 0.6,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.4,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2021-08-15",
+    "end_date": "2021-08-29",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "treasury_yield_stability_low_rate_environment",
+        "category": "macroeconomic",
+        "direction": 0.33999999999999997,
+        "magnitude": 0.41000000000000003,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.5900000000000001,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2021-08-29",
+    "end_date": "2021-09-12",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "treasury_yield_stability_low_rate_environment",
+        "category": "macroeconomic",
+        "direction": -0.3,
+        "magnitude": 0.35714285714285715,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "global_economic_recovery_sentiment_india_gdp_rebound",
+        "category": "macroeconomic",
+        "direction": 0.2,
+        "magnitude": 0.15306122448979592,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.4897959183673469,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2021-09-12",
+    "end_date": "2021-09-26",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "treasury_yield_volatility_mid_september",
+        "category": "macroeconomic",
+        "direction": -0.3,
+        "magnitude": 0.3465346534653465,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "treasury_yield_spike_late_september",
+        "category": "macroeconomic",
+        "direction": -0.4000000000000001,
+        "magnitude": 0.297029702970297,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.3564356435643565,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2021-09-26",
+    "end_date": "2021-10-10",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "treasury_yield_steepening_q4_2021",
+        "category": "macroeconomic",
+        "direction": -0.45,
+        "magnitude": 0.35,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.65,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2021-10-10",
+    "end_date": "2021-10-24",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "treasury_yield_steepening_oct2021",
+        "category": "macroeconomic",
+        "direction": 0.65,
+        "magnitude": 0.55,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "sec_filing_activity_oct19",
+        "category": "company_specific",
+        "direction": 0.15,
+        "magnitude": 0.12000000000000002,
+        "persistence": "transient",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.32999999999999996,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2021-10-24",
+    "end_date": "2021-11-07",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "treasury_yield_decline_oct_nov_2021",
+        "category": "macroeconomic",
+        "direction": -0.35,
+        "magnitude": 0.39215686274509803,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "brazil_rate_hike_global_tightening_signal",
+        "category": "geopolitical",
+        "direction": -0.25,
+        "magnitude": 0.24509803921568626,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.3627450980392157,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2021-11-07",
+    "end_date": "2021-11-21",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "treasury_yield_stability_nov2021",
+        "category": "macroeconomic",
+        "direction": -0.3,
+        "magnitude": 0.45,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.55,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2021-11-21",
+    "end_date": "2021-12-05",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "omicron_variant_risk_off_event",
+        "category": "geopolitical",
+        "direction": -0.8300000000000001,
+        "magnitude": 0.6456953642384106,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.1390728476821192,
+        "persistence": "transient",
+        "description": ""
+      },
+      {
+        "name": "treasury_yield_compression_nov_dec",
+        "category": "macroeconomic",
+        "direction": -0.2833333333333333,
+        "magnitude": 0.21523178807947016,
+        "persistence": "short",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2021-12-05",
+    "end_date": "2021-12-19",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "treasury_yield_decline_mid_december",
+        "category": "macroeconomic",
+        "direction": 0.65,
+        "magnitude": 0.55,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "treasury_yield_spike_post_fomc",
+        "category": "macroeconomic",
+        "direction": -0.35,
+        "magnitude": 0.25,
+        "persistence": "transient",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.2,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2021-12-19",
+    "end_date": "2022-01-02",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "treasury_yield_steepening_dec_2021",
+        "category": "macroeconomic",
+        "direction": 0.15,
+        "magnitude": 0.23734177215189875,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "fed_funds_rate_stable_near_zero",
+        "category": "macroeconomic",
+        "direction": 0.10000000000000002,
+        "magnitude": 0.17405063291139244,
+        "persistence": "long",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.25632911392405067,
+        "persistence": "transient",
+        "description": ""
+      },
+      {
+        "name": "year_end_holiday_liquidity_reduction",
+        "category": "liquidity",
+        "direction": 0.0,
+        "magnitude": 0.33227848101265817,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2022-01-02",
+    "end_date": "2022-01-16",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "treasury_yield_steepening_jan2022",
+        "category": "macroeconomic",
+        "direction": 0.65,
+        "magnitude": 0.6,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.4,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2022-01-16",
+    "end_date": "2022-01-30",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "treasury_yield_decline_jan18_jan27",
+        "category": "macroeconomic",
+        "direction": 0.65,
+        "magnitude": 0.55,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "sec_filing_jan20",
+        "category": "company_specific",
+        "direction": 0.15,
+        "magnitude": 0.1,
+        "persistence": "transient",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.35,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2022-01-30",
+    "end_date": "2022-02-13",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "rising_treasury_yields_fed_tightening_expectations",
+        "category": "macroeconomic",
+        "direction": 0.65,
+        "magnitude": 0.65,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.35,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2022-02-13",
+    "end_date": "2022-02-27",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "russia_ukraine_geopolitical_crisis_feb2022",
+        "category": "geopolitical",
+        "direction": -0.65,
+        "magnitude": 0.4545454545454546,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "rising_treasury_yields_feb2022",
+        "category": "macroeconomic",
+        "direction": 0.35,
+        "magnitude": 0.25252525252525254,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "sec_filing_activity_feb2022",
+        "category": "company_specific",
+        "direction": 0.03,
+        "magnitude": 0.06060606060606061,
+        "persistence": "transient",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.23232323232323232,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2022-02-27",
+    "end_date": "2022-03-13",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "russia_ukraine_geopolitical_crisis_2022",
+        "category": "geopolitical",
+        "direction": 0.6,
+        "magnitude": 0.6707317073170732,
+        "persistence": "long",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.32926829268292684,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2022-03-13",
+    "end_date": "2022-03-27",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "treasury_yield_rise_march_2022",
+        "category": "macroeconomic",
+        "direction": 0.65,
+        "magnitude": 0.5913978494623656,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.4086021505376344,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2022-03-27",
+    "end_date": "2022-04-10",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "ukraine_war_commodity_inflation_shock",
+        "category": "geopolitical",
+        "direction": -0.65,
+        "magnitude": 0.444078947368421,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "treasury_yield_stabilization_march_2022",
+        "category": "macroeconomic",
+        "direction": -0.31666666666666665,
+        "magnitude": 0.3289473684210526,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "fed_funds_rate_near_zero_march_2022",
+        "category": "macroeconomic",
+        "direction": -0.16666666666666666,
+        "magnitude": 0.14802631578947367,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.07894736842105263,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2022-04-10",
+    "end_date": "2022-04-24",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "rising_treasury_yields_april_2022",
+        "category": "macroeconomic",
+        "direction": -0.65,
+        "magnitude": 0.55,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "sec_filing_activity_april_19",
+        "category": "company_specific",
+        "direction": -0.15,
+        "magnitude": 0.1,
+        "persistence": "transient",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.35,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2022-04-24",
+    "end_date": "2022-05-08",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "fed_rate_hike_50bps_may_2022",
+        "category": "macroeconomic",
+        "direction": -0.65,
+        "magnitude": 0.55,
+        "persistence": "long",
+        "description": ""
+      },
+      {
+        "name": "treasury_yield_steepening_may_2022",
+        "category": "macroeconomic",
+        "direction": -0.4,
+        "magnitude": 0.3,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.15,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2022-05-08",
+    "end_date": "2022-05-22",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "treasury_yield_decline_may_2022",
+        "category": "macroeconomic",
+        "direction": 0.4,
+        "magnitude": 0.45,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "fed_tightening_cycle_uncertainty_may_2022",
+        "category": "macroeconomic",
+        "direction": -0.6,
+        "magnitude": 0.39,
+        "persistence": "long",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.15999999999999998,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2022-05-22",
+    "end_date": "2022-06-05",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "fed_tightening_cycle_treasury_yield_rise",
+        "category": "macroeconomic",
+        "direction": 0.65,
+        "magnitude": 0.6,
+        "persistence": "long",
+        "description": ""
+      },
+      {
+        "name": "tight_labor_market_inflation_persistence",
+        "category": "macroeconomic",
+        "direction": 0.25,
+        "magnitude": 0.25,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.15,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2022-06-05",
+    "end_date": "2022-06-19",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "fed_rate_hike_75bps_june_2022",
+        "category": "macroeconomic",
+        "direction": -0.85,
+        "magnitude": 0.6435643564356436,
+        "persistence": "long",
+        "description": ""
+      },
+      {
+        "name": "global_equity_market_selloff_june_2022",
+        "category": "market_sentiment",
+        "direction": -0.9,
+        "magnitude": 0.297029702970297,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.0594059405940594,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2022-06-19",
+    "end_date": "2022-07-03",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "treasury_yield_volatility_mid_2022",
+        "category": "macroeconomic",
+        "direction": 0.65,
+        "magnitude": 0.7,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.3,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2022-07-03",
+    "end_date": "2022-07-17",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "global_central_bank_tightening_cycle_2022",
+        "category": "macroeconomic",
+        "direction": -0.75,
+        "magnitude": 0.5392156862745099,
+        "persistence": "long",
+        "description": ""
+      },
+      {
+        "name": "rising_interest_rate_environment_equity_valuation_compression",
+        "category": "macroeconomic",
+        "direction": -0.65,
+        "magnitude": 0.3431372549019607,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.11764705882352941,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2022-07-17",
+    "end_date": "2022-07-31",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "fed_rate_hike_75bps_july_2022",
+        "category": "macroeconomic",
+        "direction": 0.45,
+        "magnitude": 0.35,
+        "persistence": "long",
+        "description": ""
+      },
+      {
+        "name": "ecb_rate_hike_50bps_july_2022",
+        "category": "macroeconomic",
+        "direction": 0.25,
+        "magnitude": 0.15,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.5,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2022-07-31",
+    "end_date": "2022-08-14",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "boe_rate_hike_50bps_august_2022",
+        "category": "macroeconomic",
+        "direction": 0.65,
+        "magnitude": 0.45,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "us_treasury_yield_expansion_aug2022",
+        "category": "macroeconomic",
+        "direction": 0.35,
+        "magnitude": 0.35,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.2,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2022-08-14",
+    "end_date": "2022-08-28",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "rising_treasury_yields_aug2022",
+        "category": "macroeconomic",
+        "direction": -0.65,
+        "magnitude": 0.65,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.35,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2022-08-28",
+    "end_date": "2022-09-11",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "rising_treasury_yields_q3_2022",
+        "category": "macroeconomic",
+        "direction": -0.45,
+        "magnitude": 0.3017241379310344,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "sec_filing_neutral_signal",
+        "category": "company_specific",
+        "direction": 0.0,
+        "magnitude": 0.043103448275862065,
+        "persistence": "transient",
+        "description": ""
+      },
+      {
+        "name": "market_consolidation_sideways_regime",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.3448275862068966,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.31034482758620685,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2022-09-11",
+    "end_date": "2022-09-25",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "cpi_inflation_print_august_2022",
+        "category": "macroeconomic",
+        "direction": -1.0,
+        "magnitude": 0.55,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "treasury_yield_rise_sep2022",
+        "category": "macroeconomic",
+        "direction": -1.0,
+        "magnitude": 0.35,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.1,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2022-09-25",
+    "end_date": "2022-10-09",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "treasury_yield_rise_late_september_october",
+        "category": "macroeconomic",
+        "direction": 0.3,
+        "magnitude": 0.45,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.55,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2022-10-09",
+    "end_date": "2022-10-23",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.3829787234042554,
+        "persistence": "transient",
+        "description": ""
+      },
+      {
+        "name": "treasury_yield_stabilization_oct2022",
+        "category": "macroeconomic",
+        "direction": 0.4000000000000001,
+        "magnitude": 0.44680851063829785,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "sec_filing_activity_oct19",
+        "category": "company_specific",
+        "direction": 0.21666666666666667,
+        "magnitude": 0.17021276595744683,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2022-10-23",
+    "end_date": "2022-11-06",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "fed_rate_hike_75bps_nov2022",
+        "category": "macroeconomic",
+        "direction": 0.65,
+        "magnitude": 0.55,
+        "persistence": "long",
+        "description": ""
+      },
+      {
+        "name": "bank_of_england_rate_hike_75bps_nov2022",
+        "category": "macroeconomic",
+        "direction": 0.25,
+        "magnitude": 0.15,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.3,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2022-11-06",
+    "end_date": "2022-11-20",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "treasury_yield_decline_mid_november",
+        "category": "macroeconomic",
+        "direction": 0.6,
+        "magnitude": 0.55,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.45,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2022-11-20",
+    "end_date": "2022-12-04",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "treasury_yield_decline_late_november",
+        "category": "macroeconomic",
+        "direction": 0.65,
+        "magnitude": 0.55,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.45,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2022-12-04",
+    "end_date": "2022-12-18",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "treasury_yield_decline_mid_december",
+        "category": "macroeconomic",
+        "direction": 0.3,
+        "magnitude": 0.3017241379310344,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.3534482758620689,
+        "persistence": "transient",
+        "description": ""
+      },
+      {
+        "name": "treasury_yield_volatility_early_december",
+        "category": "macroeconomic",
+        "direction": -0.4000000000000001,
+        "magnitude": 0.3448275862068966,
+        "persistence": "short",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2022-12-18",
+    "end_date": "2023-01-01",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "treasury_yield_rise_late_december",
+        "category": "macroeconomic",
+        "direction": 0.65,
+        "magnitude": 0.55,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "year_end_portfolio_rebalancing",
+        "category": "market_sentiment",
+        "direction": 0.25,
+        "magnitude": 0.3,
+        "persistence": "transient",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.15,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2023-01-01",
+    "end_date": "2023-01-15",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "treasury_yield_decline_jan3_to_jan12",
+        "category": "macroeconomic",
+        "direction": 0.65,
+        "magnitude": 0.6,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.4,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2023-01-15",
+    "end_date": "2023-01-29",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "rising_treasury_yields_jan_2023",
+        "category": "macroeconomic",
+        "direction": -0.45,
+        "magnitude": 0.35,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "bank_of_canada_rate_hike_jan_25",
+        "category": "macroeconomic",
+        "direction": -0.3,
+        "magnitude": 0.2,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "sec_filings_jan_17_24",
+        "category": "company_specific",
+        "direction": 0.0,
+        "magnitude": 0.1,
+        "persistence": "transient",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.35,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2023-01-29",
+    "end_date": "2023-02-12",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "treasury_yield_rise_feb2023",
+        "category": "macroeconomic",
+        "direction": -0.65,
+        "magnitude": 0.45,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.55,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2023-02-12",
+    "end_date": "2023-02-26",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 1.0,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2023-02-26",
+    "end_date": "2023-03-12",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.4148936170212766,
+        "persistence": "transient",
+        "description": ""
+      },
+      {
+        "name": "treasury_yield_rise_early_march",
+        "category": "macroeconomic",
+        "direction": -0.65,
+        "magnitude": 0.5851063829787234,
+        "persistence": "medium",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2023-03-12",
+    "end_date": "2023-03-26",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "treasury_yield_volatility_march_2023",
+        "category": "macroeconomic",
+        "direction": -0.75,
+        "magnitude": 0.65,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.35,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2023-03-26",
+    "end_date": "2023-04-09",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "treasury_yield_decline_late_march_to_early_april",
+        "category": "macroeconomic",
+        "direction": 0.65,
+        "magnitude": 0.6,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.4,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2023-04-09",
+    "end_date": "2023-04-23",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "treasury_yield_decline_mid_april",
+        "category": "macroeconomic",
+        "direction": 0.65,
+        "magnitude": 0.45,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "sec_filing_activity_april_19",
+        "category": "company_specific",
+        "direction": 0.15,
+        "magnitude": 0.15,
+        "persistence": "transient",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.4,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2023-04-23",
+    "end_date": "2023-05-07",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "first_republic_bank_failure_systemic_risk",
+        "category": "macroeconomic",
+        "direction": -0.3,
+        "magnitude": 0.324074074074074,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "ecb_rate_hike_pause_signal",
+        "category": "macroeconomic",
+        "direction": 0.4,
+        "magnitude": 0.23148148148148145,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "financial_sector_consolidation_opportunity",
+        "category": "sector_specific",
+        "direction": 0.25,
+        "magnitude": 0.1851851851851852,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.2592592592592592,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2023-05-07",
+    "end_date": "2023-05-21",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "boe_rate_hike_to_4_5pct",
+        "category": "macroeconomic",
+        "direction": 0.3,
+        "magnitude": 0.32679738562091504,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "us_treasury_yield_rise_may10_to_may17",
+        "category": "macroeconomic",
+        "direction": 0.275,
+        "magnitude": 0.2941176470588236,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.3790849673202614,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2023-05-21",
+    "end_date": "2023-06-04",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.24242424242424246,
+        "persistence": "transient",
+        "description": ""
+      },
+      {
+        "name": "treasury_yield_rise_may_2023",
+        "category": "macroeconomic",
+        "direction": -0.65,
+        "magnitude": 0.5096418732782368,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "treasury_yield_decline_early_june_2023",
+        "category": "macroeconomic",
+        "direction": 0.32499999999999996,
+        "magnitude": 0.24793388429752067,
+        "persistence": "short",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2023-06-04",
+    "end_date": "2023-06-18",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "treasury_yield_stability_mid_june",
+        "category": "macroeconomic",
+        "direction": 0.3,
+        "magnitude": 0.4411764705882353,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "insurance_sector_consolidation",
+        "category": "market_sentiment",
+        "direction": 0.05000000000000001,
+        "magnitude": 0.3431372549019607,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.21568627450980393,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2023-06-18",
+    "end_date": "2023-07-02",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "treasury_yield_stability_mid_range",
+        "category": "macroeconomic",
+        "direction": -0.3,
+        "magnitude": 0.45,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.55,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2023-07-02",
+    "end_date": "2023-07-16",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "treasury_yield_decline_mid_july",
+        "category": "macroeconomic",
+        "direction": -0.65,
+        "magnitude": 0.55,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.45,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2023-07-16",
+    "end_date": "2023-07-30",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "sec_filing_activity_jul20",
+        "category": "company_specific",
+        "direction": 0.3,
+        "magnitude": 0.25,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "treasury_yield_rise_jul17_jul27",
+        "category": "macroeconomic",
+        "direction": 0.4,
+        "magnitude": 0.3,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.45,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2023-07-30",
+    "end_date": "2023-08-13",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "treasury_yield_steepening_early_august",
+        "category": "macroeconomic",
+        "direction": -0.65,
+        "magnitude": 0.5288461538461539,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "treasury_yield_volatility_mid_august_rebound",
+        "category": "macroeconomic",
+        "direction": 0.25,
+        "magnitude": 0.19230769230769232,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.2788461538461538,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2023-08-13",
+    "end_date": "2023-08-27",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "chinese_monetary_easing_aug15",
+        "category": "macroeconomic",
+        "direction": -0.3,
+        "magnitude": 0.25,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "elevated_treasury_yields_aug17",
+        "category": "macroeconomic",
+        "direction": -0.4,
+        "magnitude": 0.35,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "european_inflation_persistence_aug14",
+        "category": "macroeconomic",
+        "direction": -0.15,
+        "magnitude": 0.15,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.25,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2023-08-27",
+    "end_date": "2023-09-10",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.2424242424242425,
+        "persistence": "transient",
+        "description": ""
+      },
+      {
+        "name": "us_treasury_yield_rise_late_august_september",
+        "category": "macroeconomic",
+        "direction": -0.3499999999999999,
+        "magnitude": 0.40404040404040414,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_consolidation_sideways_regime",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.3535353535353535,
+        "persistence": "short",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2023-09-10",
+    "end_date": "2023-09-24",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "ecb_rate_hike_cycle_continuation",
+        "category": "macroeconomic",
+        "direction": 0.65,
+        "magnitude": 0.45,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "us_treasury_yield_stabilization",
+        "category": "macroeconomic",
+        "direction": 0.35,
+        "magnitude": 0.3,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.25,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2023-09-24",
+    "end_date": "2023-10-08",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "treasury_yield_steepening_late_september_to_early_october",
+        "category": "macroeconomic",
+        "direction": -0.75,
+        "magnitude": 0.65,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.35,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2023-10-08",
+    "end_date": "2023-10-22",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "treasury_yield_spike_mid_october",
+        "category": "macroeconomic",
+        "direction": -0.65,
+        "magnitude": 0.5202312138728324,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "sec_filing_activity_october_18",
+        "category": "company_specific",
+        "direction": 0.09,
+        "magnitude": 0.16184971098265893,
+        "persistence": "transient",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.3179190751445087,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2023-10-22",
+    "end_date": "2023-11-05",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "treasury_yield_decline_late_october",
+        "category": "macroeconomic",
+        "direction": 0.65,
+        "magnitude": 0.55,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.45,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2023-11-05",
+    "end_date": "2023-11-19",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "treasury_yield_decline_nov_2023",
+        "category": "macroeconomic",
+        "direction": 0.65,
+        "magnitude": 0.7,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.3,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2023-11-19",
+    "end_date": "2023-12-03",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "treasury_yield_decline_late_november",
+        "category": "macroeconomic",
+        "direction": 0.65,
+        "magnitude": 0.6,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.4,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2023-12-03",
+    "end_date": "2023-12-17",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "treasury_yield_decline_dec14_15",
+        "category": "macroeconomic",
+        "direction": 0.65,
+        "magnitude": 0.6,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.4,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  }
+]

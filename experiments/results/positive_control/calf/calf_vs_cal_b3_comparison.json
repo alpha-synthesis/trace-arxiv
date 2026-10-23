@@ -1,0 +1,30 @@
+{
+ "worlds_compared": 2000,
+ "missing_unfixed": 0,
+ "worlds_with_any_B3_field_different": 0,
+ "per_field": {},
+ "examples": [],
+ "size_adjusted_thresholds_equal": true,
+ "thresholds_fixed": {
+  "N_null": 1000,
+  "k_max_null_passes": 10,
+  "c_RO_exclusive": 0.003274381160736084,
+  "c_DE_exclusive": [
+   0.017,
+   -0.6666666666666666
+  ],
+  "n_null_meeting_RO_conditions": 84,
+  "n_null_meeting_DE_conditions": 28
+ },
+ "thresholds_unfixed": {
+  "N_null": 1000,
+  "k_max_null_passes": 10,
+  "c_RO_exclusive": 0.003274381160736084,
+  "c_DE_exclusive": [
+   0.017,
+   -0.6666666666666666
+  ],
+  "n_null_meeting_RO_conditions": 84,
+  "n_null_meeting_DE_conditions": 28
+ }
+}

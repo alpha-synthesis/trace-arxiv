@@ -1,0 +1,4303 @@
+{
+ "generated": "2026-10-08T19:34:07+00:00",
+ "finished_before": "2026-10-10T18:00:00-03:00",
+ "aggregator_sha256": "7457856d8be1103acef6d20e403d6c53d3e1d8c3c99452ece39d8f61a2e110a5",
+ "rows_ok": 3800,
+ "rows_late_dropped": [],
+ "tags_with_errors_only": [],
+ "gleak": {
+  "n_worlds": 200,
+  "confidence": 0.995,
+  "b1_excess": {
+   "mean": -0.0015642445372606667,
+   "sd": 0.009677182106364387,
+   "interval": [
+    -0.0035066923678666807,
+    0.0003782032933453473
+   ],
+   "covers_0": true
+  },
+  "placebo_excess": {
+   "mean": -0.0011868555722869593,
+   "sd": 0.009614580986733207,
+   "interval": [
+    -0.0031167378225737683,
+    0.0007430266779998498
+   ],
+   "covers_0": true
+  },
+  "gate_pass": true,
+  "complete": true
+ },
+ "S": {
+  "k": 0,
+  "n": 1000,
+  "rate": 0.0,
+  "cp95": [
+   0.0,
+   0.003682083896865671
+  ],
+  "limit": 25.0,
+  "holds": true
+ },
+ "N": {
+  "RO": {
+   "k": 35,
+   "n": 1000,
+   "rate": 0.035,
+   "cp95": [
+    0.024497527894758727,
+    0.04834238161422171
+   ],
+   "holds": false
+  },
+  "DE": {
+   "k": 9,
+   "n": 1000,
+   "rate": 0.009,
+   "cp95": [
+    0.004123395660342473,
+    0.017015783069894586
+   ],
+   "holds": true
+  },
+  "holds": false
+ },
+ "P": {
+  "k": 200,
+  "n": 200,
+  "rate": 1.0,
+  "cp95": [
+   0.9817246596448638,
+   1.0
+  ],
+  "holds": true
+ },
+ "size_adjusted_thresholds": {
+  "N_null": 1000,
+  "k_max_null_passes": 10,
+  "c_RO_exclusive": 0.002289443540973887,
+  "c_DE_exclusive": [
+   0.0105,
+   -0.6078431372549019
+  ],
+  "n_null_meeting_RO_conditions": 184,
+  "n_null_meeting_DE_conditions": 35
+ },
+ "size_adjusted_null_rates": {
+  "RO": {
+   "k": 10,
+   "n": 1000,
+   "rate": 0.01,
+   "cp95": [
+    0.004805510691049308,
+    0.01831324305511245
+   ]
+  },
+  "DE": {
+   "k": 10,
+   "n": 1000,
+   "rate": 0.01,
+   "cp95": [
+    0.004805510691049308,
+    0.01831324305511245
+   ]
+  },
+  "B3": {
+   "k": 0,
+   "n": 1000,
+   "rate": 0.0,
+   "cp95": [
+    0.0,
+    0.003682083896865671
+   ]
+  }
+ },
+ "cells": {
+  "EV@0.12": {
+   "n": 200,
+   "B3": {
+    "k": 0,
+    "n": 200,
+    "rate": 0.0,
+    "cp95": [
+     0.0,
+     0.018275340355136237
+    ]
+   },
+   "RO_pass": {
+    "k": 0,
+    "n": 200,
+    "rate": 0.0,
+    "cp95": [
+     0.0,
+     0.018275340355136237
+    ]
+   },
+   "DE_pass": {
+    "k": 164,
+    "n": 200,
+    "rate": 0.82,
+    "cp95": [
+     0.7596189031159926,
+     0.8706310716516028
+    ]
+   },
+   "DE_alone_pass": {
+    "k": 164,
+    "n": 200,
+    "rate": 0.82,
+    "cp95": [
+     0.7596189031159926,
+     0.8706310716516028
+    ]
+   },
+   "RO_not_run": 200,
+   "RO_not_run_no_stock": 200,
+   "DE_not_run": 0,
+   "exp_n_incomplete_reruns": 0,
+   "RO_entering_median": 0.0,
+   "DE_tested_clusters_median": 81.0,
+   "fed_class_clusters": {
+    "E1_tightening": [
+     15
+    ],
+    "E2_easing": [
+     5
+    ]
+   },
+   "DE_sign_centered_pass": {
+    "k": 186,
+    "n": 200,
+    "rate": 0.93,
+    "cp95": [
+     0.8853402664628894,
+     0.9612044295704372
+    ]
+   },
+   "B1": {
+    "readings": {
+     "undetermined (excess interval excludes 0)": 200
+    },
+    "agreement_readings": {
+     "<=0.70: prices/move sentences drove most of A0's agreement": 200
+    },
+    "p_label_shuffle_lt_0.05": {
+     "k": 200,
+     "n": 200,
+     "rate": 1.0,
+     "cp95": [
+      0.9817246596448638,
+      1.0
+     ]
+    },
+    "mean_excess": 0.10231687779121458,
+    "mean_placebo_excess": 0.012745879581730124
+   },
+   "label_only_mean_agreement": null,
+   "label_only_pass": {
+    "k": 0,
+    "n": 200,
+    "rate": 0.0,
+    "cp95": [
+     0.0,
+     0.018275340355136237
+    ]
+   },
+   "size_adjusted": {
+    "RO": {
+     "k": 0,
+     "n": 200,
+     "rate": 0.0,
+     "cp95": [
+      0.0,
+      0.018275340355136237
+     ]
+    },
+    "DE": {
+     "k": 164,
+     "n": 200,
+     "rate": 0.82,
+     "cp95": [
+      0.7596189031159926,
+      0.8706310716516028
+     ]
+    },
+    "B3": {
+     "k": 0,
+     "n": 200,
+     "rate": 0.0,
+     "cp95": [
+      0.0,
+      0.018275340355136237
+     ]
+    }
+   }
+  },
+  "EV@0.25": {
+   "n": 200,
+   "B3": {
+    "k": 0,
+    "n": 200,
+    "rate": 0.0,
+    "cp95": [
+     0.0,
+     0.018275340355136237
+    ]
+   },
+   "RO_pass": {
+    "k": 0,
+    "n": 200,
+    "rate": 0.0,
+    "cp95": [
+     0.0,
+     0.018275340355136237
+    ]
+   },
+   "DE_pass": {
+    "k": 199,
+    "n": 200,
+    "rate": 0.995,
+    "cp95": [
+     0.9724581015427943,
+     0.999873418972133
+    ]
+   },
+   "DE_alone_pass": {
+    "k": 199,
+    "n": 200,
+    "rate": 0.995,
+    "cp95": [
+     0.9724581015427943,
+     0.999873418972133
+    ]
+   },
+   "RO_not_run": 200,
+   "RO_not_run_no_stock": 200,
+   "DE_not_run": 0,
+   "exp_n_incomplete_reruns": 0,
+   "RO_entering_median": 0.0,
+   "DE_tested_clusters_median": 81.0,
+   "fed_class_clusters": {
+    "E1_tightening": [
+     15
+    ],
+    "E2_easing": [
+     5
+    ]
+   },
+   "DE_sign_centered_pass": {
+    "k": 199,
+    "n": 200,
+    "rate": 0.995,
+    "cp95": [
+     0.9724581015427943,
+     0.999873418972133
+    ]
+   },
+   "B1": {
+    "readings": {
+     "undetermined (excess interval excludes 0)": 200
+    },
+    "agreement_readings": {
+     "<=0.70: prices/move sentences drove most of A0's agreement": 200
+    },
+    "p_label_shuffle_lt_0.05": {
+     "k": 200,
+     "n": 200,
+     "rate": 1.0,
+     "cp95": [
+      0.9817246596448638,
+      1.0
+     ]
+    },
+    "mean_excess": 0.15811671397560534,
+    "mean_placebo_excess": 0.01950594914580992
+   },
+   "label_only_mean_agreement": null,
+   "label_only_pass": {
+    "k": 0,
+    "n": 200,
+    "rate": 0.0,
+    "cp95": [
+     0.0,
+     0.018275340355136237
+    ]
+   },
+   "size_adjusted": {
+    "RO": {
+     "k": 0,
+     "n": 200,
+     "rate": 0.0,
+     "cp95": [
+      0.0,
+      0.018275340355136237
+     ]
+    },
+    "DE": {
+     "k": 199,
+     "n": 200,
+     "rate": 0.995,
+     "cp95": [
+      0.9724581015427943,
+      0.999873418972133
+     ]
+    },
+    "B3": {
+     "k": 0,
+     "n": 200,
+     "rate": 0.0,
+     "cp95": [
+      0.0,
+      0.018275340355136237
+     ]
+    }
+   }
+  },
+  "EV0@0": {
+   "n": 200,
+   "B3": {
+    "k": 0,
+    "n": 200,
+    "rate": 0.0,
+    "cp95": [
+     0.0,
+     0.018275340355136237
+    ]
+   },
+   "RO_pass": {
+    "k": 0,
+    "n": 200,
+    "rate": 0.0,
+    "cp95": [
+     0.0,
+     0.018275340355136237
+    ]
+   },
+   "DE_pass": {
+    "k": 0,
+    "n": 200,
+    "rate": 0.0,
+    "cp95": [
+     0.0,
+     0.018275340355136237
+    ]
+   },
+   "DE_alone_pass": {
+    "k": 0,
+    "n": 200,
+    "rate": 0.0,
+    "cp95": [
+     0.0,
+     0.018275340355136237
+    ]
+   },
+   "RO_not_run": 200,
+   "RO_not_run_no_stock": 200,
+   "DE_not_run": 0,
+   "exp_n_incomplete_reruns": 0,
+   "RO_entering_median": 0.0,
+   "DE_tested_clusters_median": 81.0,
+   "fed_class_clusters": {
+    "E1_tightening": [
+     15
+    ],
+    "E2_easing": [
+     5
+    ]
+   },
+   "DE_sign_centered_pass": {
+    "k": 0,
+    "n": 200,
+    "rate": 0.0,
+    "cp95": [
+     0.0,
+     0.018275340355136237
+    ]
+   },
+   "B1": {
+    "readings": {
+     "pass": 183,
+     "undetermined (excess interval excludes 0)": 11,
+     "placebo off baseline": 6
+    },
+    "agreement_readings": {
+     "<=0.70: prices/move sentences drove most of A0's agreement": 200
+    },
+    "p_label_shuffle_lt_0.05": {
+     "k": 14,
+     "n": 200,
+     "rate": 0.07,
+     "cp95": [
+      0.03879557042956282,
+      0.11465973353711054
+     ]
+    },
+    "mean_excess": -0.0015642445372606667,
+    "mean_placebo_excess": -0.0011868555722869593
+   },
+   "label_only_mean_agreement": null,
+   "label_only_pass": {
+    "k": 0,
+    "n": 200,
+    "rate": 0.0,
+    "cp95": [
+     0.0,
+     0.018275340355136237
+    ]
+   },
+   "size_adjusted": {
+    "RO": {
+     "k": 0,
+     "n": 200,
+     "rate": 0.0,
+     "cp95": [
+      0.0,
+      0.018275340355136237
+     ]
+    },
+    "DE": {
+     "k": 0,
+     "n": 200,
+     "rate": 0.0,
+     "cp95": [
+      0.0,
+      0.018275340355136237
+     ]
+    },
+    "B3": {
+     "k": 0,
+     "n": 200,
+     "rate": 0.0,
+     "cp95": [
+      0.0,
+      0.018275340355136237
+     ]
+    }
+   }
+  },
+  "HET@0.12": {
+   "n": 200,
+   "B3": {
+    "k": 163,
+    "n": 200,
+    "rate": 0.815,
+    "cp95": [
+     0.7541365375513216,
+     0.8662713398202383
+    ]
+   },
+   "RO_pass": {
+    "k": 200,
+    "n": 200,
+    "rate": 1.0,
+    "cp95": [
+     0.9817246596448638,
+     1.0
+    ]
+   },
+   "DE_pass": {
+    "k": 163,
+    "n": 200,
+    "rate": 0.815,
+    "cp95": [
+     0.7541365375513216,
+     0.8662713398202383
+    ]
+   },
+   "DE_alone_pass": {
+    "k": 163,
+    "n": 200,
+    "rate": 0.815,
+    "cp95": [
+     0.7541365375513216,
+     0.8662713398202383
+    ]
+   },
+   "RO_not_run": 0,
+   "RO_not_run_no_stock": 0,
+   "DE_not_run": 0,
+   "exp_n_incomplete_reruns": 0,
+   "RO_entering_median": 28.0,
+   "DE_tested_clusters_median": 17.0,
+   "fed_class_clusters": {
+    "E1_tightening": [
+     1
+    ],
+    "E2_easing": [
+     1
+    ]
+   },
+   "DE_sign_centered_pass": {
+    "k": 168,
+    "n": 200,
+    "rate": 0.84,
+    "cp95": [
+     0.7817009846486592,
+     0.8879125023541982
+    ]
+   },
+   "B1": {
+    "readings": {
+     "undetermined (excess interval excludes 0)": 200
+    },
+    "agreement_readings": {
+     "<=0.70: prices/move sentences drove most of A0's agreement": 200
+    },
+    "p_label_shuffle_lt_0.05": {
+     "k": 200,
+     "n": 200,
+     "rate": 1.0,
+     "cp95": [
+      0.9817246596448638,
+      1.0
+     ]
+    },
+    "mean_excess": 0.088613597405746,
+    "mean_placebo_excess": 0.01035938187958632
+   },
+   "label_only_mean_agreement": 0.7335498749999999,
+   "label_only_pass": {
+    "k": 0,
+    "n": 200,
+    "rate": 0.0,
+    "cp95": [
+     0.0,
+     0.018275340355136237
+    ]
+   },
+   "size_adjusted": {
+    "RO": {
+     "k": 199,
+     "n": 200,
+     "rate": 0.995,
+     "cp95": [
+      0.9724581015427943,
+      0.999873418972133
+     ]
+    },
+    "DE": {
+     "k": 163,
+     "n": 200,
+     "rate": 0.815,
+     "cp95": [
+      0.7541365375513216,
+      0.8662713398202383
+     ]
+    },
+    "B3": {
+     "k": 162,
+     "n": 200,
+     "rate": 0.81,
+     "cp95": [
+      0.7486684813762559,
+      0.8618968746271604
+     ]
+    }
+   }
+  },
+  "HET@0.25": {
+   "n": 200,
+   "B3": {
+    "k": 180,
+    "n": 200,
+    "rate": 0.9,
+    "cp95": [
+     0.8497872121322442,
+     0.937840633745934
+    ]
+   },
+   "RO_pass": {
+    "k": 200,
+    "n": 200,
+    "rate": 1.0,
+    "cp95": [
+     0.9817246596448638,
+     1.0
+    ]
+   },
+   "DE_pass": {
+    "k": 180,
+    "n": 200,
+    "rate": 0.9,
+    "cp95": [
+     0.8497872121322442,
+     0.937840633745934
+    ]
+   },
+   "DE_alone_pass": {
+    "k": 180,
+    "n": 200,
+    "rate": 0.9,
+    "cp95": [
+     0.8497872121322442,
+     0.937840633745934
+    ]
+   },
+   "RO_not_run": 0,
+   "RO_not_run_no_stock": 0,
+   "DE_not_run": 0,
+   "exp_n_incomplete_reruns": 0,
+   "RO_entering_median": 28.0,
+   "DE_tested_clusters_median": 17.0,
+   "fed_class_clusters": {
+    "E1_tightening": [
+     1
+    ],
+    "E2_easing": [
+     1
+    ]
+   },
+   "DE_sign_centered_pass": {
+    "k": 187,
+    "n": 200,
+    "rate": 0.935,
+    "cp95": [
+     0.8914127634961848,
+     0.9649392913430209
+    ]
+   },
+   "B1": {
+    "readings": {
+     "undetermined (excess interval excludes 0)": 200
+    },
+    "agreement_readings": {
+     "<=0.70: prices/move sentences drove most of A0's agreement": 200
+    },
+    "p_label_shuffle_lt_0.05": {
+     "k": 200,
+     "n": 200,
+     "rate": 1.0,
+     "cp95": [
+      0.9817246596448638,
+      1.0
+     ]
+    },
+    "mean_excess": 0.1218548718724122,
+    "mean_placebo_excess": 0.01438220547293668
+   },
+   "label_only_mean_agreement": 0.7945931607142857,
+   "label_only_pass": {
+    "k": 0,
+    "n": 200,
+    "rate": 0.0,
+    "cp95": [
+     0.0,
+     0.018275340355136237
+    ]
+   },
+   "size_adjusted": {
+    "RO": {
+     "k": 200,
+     "n": 200,
+     "rate": 1.0,
+     "cp95": [
+      0.9817246596448638,
+      1.0
+     ]
+    },
+    "DE": {
+     "k": 180,
+     "n": 200,
+     "rate": 0.9,
+     "cp95": [
+      0.8497872121322442,
+      0.937840633745934
+     ]
+    },
+    "B3": {
+     "k": 180,
+     "n": 200,
+     "rate": 0.9,
+     "cp95": [
+      0.8497872121322442,
+      0.937840633745934
+     ]
+    }
+   }
+  },
+  "IN@0": {
+   "n": 200,
+   "B3": {
+    "k": 0,
+    "n": 200,
+    "rate": 0.0,
+    "cp95": [
+     0.0,
+     0.018275340355136237
+    ]
+   },
+   "RO_pass": {
+    "k": 2,
+    "n": 200,
+    "rate": 0.01,
+    "cp95": [
+     0.0012133490137360304,
+     0.035654668397239776
+    ]
+   },
+   "DE_pass": {
+    "k": 2,
+    "n": 200,
+    "rate": 0.01,
+    "cp95": [
+     0.0012133490137360304,
+     0.035654668397239776
+    ]
+   },
+   "DE_alone_pass": {
+    "k": 2,
+    "n": 200,
+    "rate": 0.01,
+    "cp95": [
+     0.0012133490137360304,
+     0.035654668397239776
+    ]
+   },
+   "RO_not_run": 0,
+   "RO_not_run_no_stock": 0,
+   "DE_not_run": 0,
+   "exp_n_incomplete_reruns": 0,
+   "RO_entering_median": 28.0,
+   "DE_tested_clusters_median": 17.0,
+   "fed_class_clusters": {
+    "E1_tightening": [
+     1
+    ],
+    "E2_easing": [
+     1
+    ]
+   },
+   "DE_sign_centered_pass": {
+    "k": 2,
+    "n": 200,
+    "rate": 0.01,
+    "cp95": [
+     0.0012133490137360304,
+     0.035654668397239776
+    ]
+   },
+   "B1": {
+    "readings": {
+     "pass": 174,
+     "undetermined (excess interval excludes 0)": 18,
+     "placebo off baseline": 8
+    },
+    "agreement_readings": {
+     "<=0.70: prices/move sentences drove most of A0's agreement": 200
+    },
+    "p_label_shuffle_lt_0.05": {
+     "k": 17,
+     "n": 200,
+     "rate": 0.085,
+     "cp95": [
+      0.050295918630257286,
+      0.13260516582955234
+     ]
+    },
+    "mean_excess": -6.909823122549286e-05,
+    "mean_placebo_excess": -0.00035527100300483227
+   },
+   "label_only_mean_agreement": 0.4999147023809523,
+   "label_only_pass": {
+    "k": 1,
+    "n": 200,
+    "rate": 0.005,
+    "cp95": [
+     0.00012658102786701825,
+     0.02754189845720562
+    ]
+   },
+   "size_adjusted": {
+    "RO": {
+     "k": 0,
+     "n": 200,
+     "rate": 0.0,
+     "cp95": [
+      0.0,
+      0.018275340355136237
+     ]
+    },
+    "DE": {
+     "k": 2,
+     "n": 200,
+     "rate": 0.01,
+     "cp95": [
+      0.0012133490137360304,
+      0.035654668397239776
+     ]
+    },
+    "B3": {
+     "k": 0,
+     "n": 200,
+     "rate": 0.0,
+     "cp95": [
+      0.0,
+      0.018275340355136237
+     ]
+    }
+   }
+  },
+  "IN@0.25": {
+   "n": 200,
+   "B3": {
+    "k": 200,
+    "n": 200,
+    "rate": 1.0,
+    "cp95": [
+     0.9817246596448638,
+     1.0
+    ]
+   },
+   "RO_pass": {
+    "k": 200,
+    "n": 200,
+    "rate": 1.0,
+    "cp95": [
+     0.9817246596448638,
+     1.0
+    ]
+   },
+   "DE_pass": {
+    "k": 200,
+    "n": 200,
+    "rate": 1.0,
+    "cp95": [
+     0.9817246596448638,
+     1.0
+    ]
+   },
+   "DE_alone_pass": {
+    "k": 200,
+    "n": 200,
+    "rate": 1.0,
+    "cp95": [
+     0.9817246596448638,
+     1.0
+    ]
+   },
+   "RO_not_run": 0,
+   "RO_not_run_no_stock": 0,
+   "DE_not_run": 0,
+   "exp_n_incomplete_reruns": 0,
+   "RO_entering_median": 28.0,
+   "DE_tested_clusters_median": 17.0,
+   "fed_class_clusters": {
+    "E1_tightening": [
+     1
+    ],
+    "E2_easing": [
+     1
+    ]
+   },
+   "DE_sign_centered_pass": {
+    "k": 200,
+    "n": 200,
+    "rate": 1.0,
+    "cp95": [
+     0.9817246596448638,
+     1.0
+    ]
+   },
+   "B1": {
+    "readings": {
+     "undetermined (excess interval excludes 0)": 200
+    },
+    "agreement_readings": {
+     "<=0.70: prices/move sentences drove most of A0's agreement": 200
+    },
+    "p_label_shuffle_lt_0.05": {
+     "k": 200,
+     "n": 200,
+     "rate": 1.0,
+     "cp95": [
+      0.9817246596448638,
+      1.0
+     ]
+    },
+    "mean_excess": 0.15861432311554594,
+    "mean_placebo_excess": 0.019717007327237933
+   },
+   "label_only_mean_agreement": 0.8650932619047619,
+   "label_only_pass": {
+    "k": 0,
+    "n": 200,
+    "rate": 0.0,
+    "cp95": [
+     0.0,
+     0.018275340355136237
+    ]
+   },
+   "size_adjusted": {
+    "RO": {
+     "k": 200,
+     "n": 200,
+     "rate": 1.0,
+     "cp95": [
+      0.9817246596448638,
+      1.0
+     ]
+    },
+    "DE": {
+     "k": 200,
+     "n": 200,
+     "rate": 1.0,
+     "cp95": [
+      0.9817246596448638,
+      1.0
+     ]
+    },
+    "B3": {
+     "k": 200,
+     "n": 200,
+     "rate": 1.0,
+     "cp95": [
+      0.9817246596448638,
+      1.0
+     ]
+    }
+   }
+  },
+  "M0@0": {
+   "n": 200,
+   "B3": {
+    "k": 0,
+    "n": 200,
+    "rate": 0.0,
+    "cp95": [
+     0.0,
+     0.018275340355136237
+    ]
+   },
+   "RO_pass": {
+    "k": 6,
+    "n": 200,
+    "rate": 0.03,
+    "cp95": [
+     0.011087455672254774,
+     0.064150626705027
+    ]
+   },
+   "DE_pass": {
+    "k": 0,
+    "n": 200,
+    "rate": 0.0,
+    "cp95": [
+     0.0,
+     0.018275340355136237
+    ]
+   },
+   "DE_alone_pass": {
+    "k": 0,
+    "n": 200,
+    "rate": 0.0,
+    "cp95": [
+     0.0,
+     0.018275340355136237
+    ]
+   },
+   "RO_not_run": 0,
+   "RO_not_run_no_stock": 0,
+   "DE_not_run": 0,
+   "exp_n_incomplete_reruns": 0,
+   "RO_entering_median": 28.0,
+   "DE_tested_clusters_median": 17.0,
+   "fed_class_clusters": {
+    "E1_tightening": [
+     1
+    ],
+    "E2_easing": [
+     1
+    ]
+   },
+   "DE_sign_centered_pass": {
+    "k": 1,
+    "n": 200,
+    "rate": 0.005,
+    "cp95": [
+     0.00012658102786701825,
+     0.02754189845720562
+    ]
+   },
+   "B1": {
+    "readings": {
+     "pass": 183,
+     "undetermined (excess interval excludes 0)": 11,
+     "placebo off baseline": 6
+    },
+    "agreement_readings": {
+     "<=0.70: prices/move sentences drove most of A0's agreement": 200
+    },
+    "p_label_shuffle_lt_0.05": {
+     "k": 14,
+     "n": 200,
+     "rate": 0.07,
+     "cp95": [
+      0.03879557042956282,
+      0.11465973353711054
+     ]
+    },
+    "mean_excess": -0.0015642445372606667,
+    "mean_placebo_excess": -0.0011868555722869593
+   },
+   "label_only_mean_agreement": 0.49805188690476193,
+   "label_only_pass": {
+    "k": 14,
+    "n": 200,
+    "rate": 0.07,
+    "cp95": [
+     0.03879557042956282,
+     0.11465973353711054
+    ]
+   },
+   "size_adjusted": {
+    "RO": {
+     "k": 0,
+     "n": 200,
+     "rate": 0.0,
+     "cp95": [
+      0.0,
+      0.018275340355136237
+     ]
+    },
+    "DE": {
+     "k": 1,
+     "n": 200,
+     "rate": 0.005,
+     "cp95": [
+      0.00012658102786701825,
+      0.02754189845720562
+     ]
+    },
+    "B3": {
+     "k": 0,
+     "n": 200,
+     "rate": 0.0,
+     "cp95": [
+      0.0,
+      0.018275340355136237
+     ]
+    }
+   }
+  },
+  "M1@0.25": {
+   "n": 200,
+   "B3": {
+    "k": 200,
+    "n": 200,
+    "rate": 1.0,
+    "cp95": [
+     0.9817246596448638,
+     1.0
+    ]
+   },
+   "RO_pass": {
+    "k": 200,
+    "n": 200,
+    "rate": 1.0,
+    "cp95": [
+     0.9817246596448638,
+     1.0
+    ]
+   },
+   "DE_pass": {
+    "k": 200,
+    "n": 200,
+    "rate": 1.0,
+    "cp95": [
+     0.9817246596448638,
+     1.0
+    ]
+   },
+   "DE_alone_pass": {
+    "k": 200,
+    "n": 200,
+    "rate": 1.0,
+    "cp95": [
+     0.9817246596448638,
+     1.0
+    ]
+   },
+   "RO_not_run": 0,
+   "RO_not_run_no_stock": 0,
+   "DE_not_run": 0,
+   "exp_n_incomplete_reruns": 0,
+   "RO_entering_median": 28.0,
+   "DE_tested_clusters_median": 17.0,
+   "fed_class_clusters": {
+    "E1_tightening": [
+     1
+    ],
+    "E2_easing": [
+     1
+    ]
+   },
+   "DE_sign_centered_pass": {
+    "k": 200,
+    "n": 200,
+    "rate": 1.0,
+    "cp95": [
+     0.9817246596448638,
+     1.0
+    ]
+   },
+   "B1": {
+    "readings": {
+     "undetermined (excess interval excludes 0)": 200
+    },
+    "agreement_readings": {
+     "<=0.70: prices/move sentences drove most of A0's agreement": 200
+    },
+    "p_label_shuffle_lt_0.05": {
+     "k": 200,
+     "n": 200,
+     "rate": 1.0,
+     "cp95": [
+      0.9817246596448638,
+      1.0
+     ]
+    },
+    "mean_excess": 0.15811671397560534,
+    "mean_placebo_excess": 0.01950594914580992
+   },
+   "label_only_mean_agreement": 0.8640817023809524,
+   "label_only_pass": {
+    "k": 0,
+    "n": 200,
+    "rate": 0.0,
+    "cp95": [
+     0.0,
+     0.018275340355136237
+    ]
+   },
+   "size_adjusted": {
+    "RO": {
+     "k": 200,
+     "n": 200,
+     "rate": 1.0,
+     "cp95": [
+      0.9817246596448638,
+      1.0
+     ]
+    },
+    "DE": {
+     "k": 200,
+     "n": 200,
+     "rate": 1.0,
+     "cp95": [
+      0.9817246596448638,
+      1.0
+     ]
+    },
+    "B3": {
+     "k": 200,
+     "n": 200,
+     "rate": 1.0,
+     "cp95": [
+      0.9817246596448638,
+      1.0
+     ]
+    }
+   }
+  },
+  "M2@0.06": {
+   "n": 200,
+   "B3": {
+    "k": 89,
+    "n": 200,
+    "rate": 0.445,
+    "cp95": [
+     0.37490109471850996,
+     0.5167536888074263
+    ]
+   },
+   "RO_pass": {
+    "k": 151,
+    "n": 200,
+    "rate": 0.755,
+    "cp95": [
+     0.6893601341384012,
+     0.8129158739239981
+    ]
+   },
+   "DE_pass": {
+    "k": 113,
+    "n": 200,
+    "rate": 0.565,
+    "cp95": [
+     0.4932612078124728,
+     0.6347829308303481
+    ]
+   },
+   "DE_alone_pass": {
+    "k": 113,
+    "n": 200,
+    "rate": 0.565,
+    "cp95": [
+     0.4932612078124728,
+     0.6347829308303481
+    ]
+   },
+   "RO_not_run": 0,
+   "RO_not_run_no_stock": 0,
+   "DE_not_run": 0,
+   "exp_n_incomplete_reruns": 0,
+   "RO_entering_median": 28.0,
+   "DE_tested_clusters_median": 17.0,
+   "fed_class_clusters": {
+    "E1_tightening": [
+     1
+    ],
+    "E2_easing": [
+     1
+    ]
+   },
+   "DE_sign_centered_pass": {
+    "k": 122,
+    "n": 200,
+    "rate": 0.61,
+    "cp95": [
+     0.5386787674550015,
+     0.6780089378847594
+    ]
+   },
+   "B1": {
+    "readings": {
+     "undetermined (excess interval excludes 0)": 200
+    },
+    "agreement_readings": {
+     "<=0.70: prices/move sentences drove most of A0's agreement": 200
+    },
+    "p_label_shuffle_lt_0.05": {
+     "k": 200,
+     "n": 200,
+     "rate": 1.0,
+     "cp95": [
+      0.9817246596448638,
+      1.0
+     ]
+    },
+    "mean_excess": 0.05688567250202931,
+    "mean_placebo_excess": 0.006808527265538218
+   },
+   "label_only_mean_agreement": 0.6604619523809524,
+   "label_only_pass": {
+    "k": 0,
+    "n": 200,
+    "rate": 0.0,
+    "cp95": [
+     0.0,
+     0.018275340355136237
+    ]
+   },
+   "size_adjusted": {
+    "RO": {
+     "k": 120,
+     "n": 200,
+     "rate": 0.6,
+     "cp95": [
+      0.528535672797046,
+      0.6684537362643606
+     ]
+    },
+    "DE": {
+     "k": 113,
+     "n": 200,
+     "rate": 0.565,
+     "cp95": [
+      0.4932612078124728,
+      0.6347829308303481
+     ]
+    },
+    "B3": {
+     "k": 70,
+     "n": 200,
+     "rate": 0.35,
+     "cp95": [
+      0.284070670322942,
+      0.4204506224779937
+     ]
+    }
+   }
+  },
+  "M2@0.09": {
+   "n": 200,
+   "B3": {
+    "k": 155,
+    "n": 200,
+    "rate": 0.775,
+    "cp95": [
+     0.7107603940312353,
+     0.8308974528701732
+    ]
+   },
+   "RO_pass": {
+    "k": 198,
+    "n": 200,
+    "rate": 0.99,
+    "cp95": [
+     0.9643453316027603,
+     0.998786650986264
+    ]
+   },
+   "DE_pass": {
+    "k": 157,
+    "n": 200,
+    "rate": 0.785,
+    "cp95": [
+     0.7215289561159429,
+     0.8398183046676637
+    ]
+   },
+   "DE_alone_pass": {
+    "k": 157,
+    "n": 200,
+    "rate": 0.785,
+    "cp95": [
+     0.7215289561159429,
+     0.8398183046676637
+    ]
+   },
+   "RO_not_run": 0,
+   "RO_not_run_no_stock": 0,
+   "DE_not_run": 0,
+   "exp_n_incomplete_reruns": 0,
+   "RO_entering_median": 28.0,
+   "DE_tested_clusters_median": 17.0,
+   "fed_class_clusters": {
+    "E1_tightening": [
+     1
+    ],
+    "E2_easing": [
+     1
+    ]
+   },
+   "DE_sign_centered_pass": {
+    "k": 161,
+    "n": 200,
+    "rate": 0.805,
+    "cp95": [
+     0.7432143124734408,
+     0.8575081252209411
+    ]
+   },
+   "B1": {
+    "readings": {
+     "undetermined (excess interval excludes 0)": 200
+    },
+    "agreement_readings": {
+     "<=0.70: prices/move sentences drove most of A0's agreement": 200
+    },
+    "p_label_shuffle_lt_0.05": {
+     "k": 200,
+     "n": 200,
+     "rate": 1.0,
+     "cp95": [
+      0.9817246596448638,
+      1.0
+     ]
+    },
+    "mean_excess": 0.08142368625701582,
+    "mean_placebo_excess": 0.01008208682529695
+   },
+   "label_only_mean_agreement": 0.7215324107142856,
+   "label_only_pass": {
+    "k": 0,
+    "n": 200,
+    "rate": 0.0,
+    "cp95": [
+     0.0,
+     0.018275340355136237
+    ]
+   },
+   "size_adjusted": {
+    "RO": {
+     "k": 195,
+     "n": 200,
+     "rate": 0.975,
+     "cp95": [
+      0.9426256488731541,
+      0.9918338338091575
+     ]
+    },
+    "DE": {
+     "k": 157,
+     "n": 200,
+     "rate": 0.785,
+     "cp95": [
+      0.7215289561159429,
+      0.8398183046676637
+     ]
+    },
+    "B3": {
+     "k": 153,
+     "n": 200,
+     "rate": 0.765,
+     "cp95": [
+      0.700038127352751,
+      0.8219292653993124
+     ]
+    }
+   }
+  },
+  "M2@0.12": {
+   "n": 200,
+   "B3": {
+    "k": 177,
+    "n": 200,
+    "rate": 0.885,
+    "cp95": [
+     0.8324530555177461,
+     0.9256866263077029
+    ]
+   },
+   "RO_pass": {
+    "k": 200,
+    "n": 200,
+    "rate": 1.0,
+    "cp95": [
+     0.9817246596448638,
+     1.0
+    ]
+   },
+   "DE_pass": {
+    "k": 177,
+    "n": 200,
+    "rate": 0.885,
+    "cp95": [
+     0.8324530555177461,
+     0.9256866263077029
+    ]
+   },
+   "DE_alone_pass": {
+    "k": 177,
+    "n": 200,
+    "rate": 0.885,
+    "cp95": [
+     0.8324530555177461,
+     0.9256866263077029
+    ]
+   },
+   "RO_not_run": 0,
+   "RO_not_run_no_stock": 0,
+   "DE_not_run": 0,
+   "exp_n_incomplete_reruns": 0,
+   "RO_entering_median": 28.0,
+   "DE_tested_clusters_median": 17.0,
+   "fed_class_clusters": {
+    "E1_tightening": [
+     1
+    ],
+    "E2_easing": [
+     1
+    ]
+   },
+   "DE_sign_centered_pass": {
+    "k": 183,
+    "n": 200,
+    "rate": 0.915,
+    "cp95": [
+     0.8673948341704476,
+     0.9497040813697427
+    ]
+   },
+   "B1": {
+    "readings": {
+     "undetermined (excess interval excludes 0)": 200
+    },
+    "agreement_readings": {
+     "<=0.70: prices/move sentences drove most of A0's agreement": 200
+    },
+    "p_label_shuffle_lt_0.05": {
+     "k": 200,
+     "n": 200,
+     "rate": 1.0,
+     "cp95": [
+      0.9817246596448638,
+      1.0
+     ]
+    },
+    "mean_excess": 0.10231687779121458,
+    "mean_placebo_excess": 0.012745879581730124
+   },
+   "label_only_mean_agreement": 0.7678211190476191,
+   "label_only_pass": {
+    "k": 0,
+    "n": 200,
+    "rate": 0.0,
+    "cp95": [
+     0.0,
+     0.018275340355136237
+    ]
+   },
+   "size_adjusted": {
+    "RO": {
+     "k": 200,
+     "n": 200,
+     "rate": 1.0,
+     "cp95": [
+      0.9817246596448638,
+      1.0
+     ]
+    },
+    "DE": {
+     "k": 177,
+     "n": 200,
+     "rate": 0.885,
+     "cp95": [
+      0.8324530555177461,
+      0.9256866263077029
+     ]
+    },
+    "B3": {
+     "k": 177,
+     "n": 200,
+     "rate": 0.885,
+     "cp95": [
+      0.8324530555177461,
+      0.9256866263077029
+     ]
+    }
+   }
+  },
+  "M2@0.18": {
+   "n": 200,
+   "B3": {
+    "k": 198,
+    "n": 200,
+    "rate": 0.99,
+    "cp95": [
+     0.9643453316027603,
+     0.998786650986264
+    ]
+   },
+   "RO_pass": {
+    "k": 200,
+    "n": 200,
+    "rate": 1.0,
+    "cp95": [
+     0.9817246596448638,
+     1.0
+    ]
+   },
+   "DE_pass": {
+    "k": 198,
+    "n": 200,
+    "rate": 0.99,
+    "cp95": [
+     0.9643453316027603,
+     0.998786650986264
+    ]
+   },
+   "DE_alone_pass": {
+    "k": 198,
+    "n": 200,
+    "rate": 0.99,
+    "cp95": [
+     0.9643453316027603,
+     0.998786650986264
+    ]
+   },
+   "RO_not_run": 0,
+   "RO_not_run_no_stock": 0,
+   "DE_not_run": 0,
+   "exp_n_incomplete_reruns": 0,
+   "RO_entering_median": 28.0,
+   "DE_tested_clusters_median": 17.0,
+   "fed_class_clusters": {
+    "E1_tightening": [
+     1
+    ],
+    "E2_easing": [
+     1
+    ]
+   },
+   "DE_sign_centered_pass": {
+    "k": 198,
+    "n": 200,
+    "rate": 0.99,
+    "cp95": [
+     0.9643453316027603,
+     0.998786650986264
+    ]
+   },
+   "B1": {
+    "readings": {
+     "undetermined (excess interval excludes 0)": 200
+    },
+    "agreement_readings": {
+     "<=0.70: prices/move sentences drove most of A0's agreement": 200
+    },
+    "p_label_shuffle_lt_0.05": {
+     "k": 200,
+     "n": 200,
+     "rate": 1.0,
+     "cp95": [
+      0.9817246596448638,
+      1.0
+     ]
+    },
+    "mean_excess": 0.13341908174810613,
+    "mean_placebo_excess": 0.01671650569242868
+   },
+   "label_only_mean_agreement": 0.8270435476190475,
+   "label_only_pass": {
+    "k": 0,
+    "n": 200,
+    "rate": 0.0,
+    "cp95": [
+     0.0,
+     0.018275340355136237
+    ]
+   },
+   "size_adjusted": {
+    "RO": {
+     "k": 200,
+     "n": 200,
+     "rate": 1.0,
+     "cp95": [
+      0.9817246596448638,
+      1.0
+     ]
+    },
+    "DE": {
+     "k": 198,
+     "n": 200,
+     "rate": 0.99,
+     "cp95": [
+      0.9643453316027603,
+      0.998786650986264
+     ]
+    },
+    "B3": {
+     "k": 198,
+     "n": 200,
+     "rate": 0.99,
+     "cp95": [
+      0.9643453316027603,
+      0.998786650986264
+     ]
+    }
+   }
+  },
+  "M3@0": {
+   "n": 800,
+   "B3": {
+    "k": 0,
+    "n": 800,
+    "rate": 0.0,
+    "cp95": [
+     0.0,
+     0.004600484520745439
+    ]
+   },
+   "RO_pass": {
+    "k": 29,
+    "n": 800,
+    "rate": 0.03625,
+    "cp95": [
+     0.0244090789307505,
+     0.05164807556514122
+    ]
+   },
+   "DE_pass": {
+    "k": 9,
+    "n": 800,
+    "rate": 0.01125,
+    "cp95": [
+     0.005156763107544613,
+     0.021248176725741513
+    ]
+   },
+   "DE_alone_pass": {
+    "k": 9,
+    "n": 800,
+    "rate": 0.01125,
+    "cp95": [
+     0.005156763107544613,
+     0.021248176725741513
+    ]
+   },
+   "RO_not_run": 0,
+   "RO_not_run_no_stock": 0,
+   "DE_not_run": 0,
+   "exp_n_incomplete_reruns": 0,
+   "RO_entering_median": 28.0,
+   "DE_tested_clusters_median": 17.0,
+   "fed_class_clusters": {
+    "E1_tightening": [
+     1
+    ],
+    "E2_easing": [
+     1
+    ]
+   },
+   "DE_sign_centered_pass": {
+    "k": 13,
+    "n": 800,
+    "rate": 0.01625,
+    "cp95": [
+     0.008680077657860507,
+     0.02762769611447213
+    ]
+   },
+   "B1": {
+    "readings": {
+     "pass": 711,
+     "placebo off baseline": 41,
+     "undetermined (excess interval excludes 0)": 48
+    },
+    "agreement_readings": {
+     "<=0.70: prices/move sentences drove most of A0's agreement": 800
+    },
+    "p_label_shuffle_lt_0.05": {
+     "k": 66,
+     "n": 800,
+     "rate": 0.0825,
+     "cp95": [
+      0.06437777321582824,
+      0.10376621991864778
+     ]
+    },
+    "mean_excess": -0.0003280292907849854,
+    "mean_placebo_excess": -6.584990120676815e-05
+   },
+   "label_only_mean_agreement": 0.4984603660714286,
+   "label_only_pass": {
+    "k": 44,
+    "n": 800,
+    "rate": 0.055,
+    "cp95": [
+     0.040243911834373806,
+     0.07313465697193432
+    ]
+   },
+   "size_adjusted": {
+    "RO": {
+     "k": 10,
+     "n": 800,
+     "rate": 0.0125,
+     "cp95": [
+      0.006010067460107757,
+      0.022867470595490096
+     ]
+    },
+    "DE": {
+     "k": 9,
+     "n": 800,
+     "rate": 0.01125,
+     "cp95": [
+      0.005156763107544613,
+      0.021248176725741513
+     ]
+    },
+    "B3": {
+     "k": 0,
+     "n": 800,
+     "rate": 0.0,
+     "cp95": [
+      0.0,
+      0.004600484520745439
+     ]
+    }
+   }
+  },
+  "RR@0": {
+   "n": 200,
+   "B3": {
+    "k": 0,
+    "n": 200,
+    "rate": 0.0,
+    "cp95": [
+     0.0,
+     0.018275340355136237
+    ]
+   },
+   "RO_pass": {
+    "k": 10,
+    "n": 200,
+    "rate": 0.05,
+    "cp95": [
+     0.02423416547210855,
+     0.09002753770135137
+    ]
+   },
+   "DE_pass": {
+    "k": 1,
+    "n": 200,
+    "rate": 0.005,
+    "cp95": [
+     0.00012658102786701825,
+     0.02754189845720562
+    ]
+   },
+   "DE_alone_pass": {
+    "k": 1,
+    "n": 200,
+    "rate": 0.005,
+    "cp95": [
+     0.00012658102786701825,
+     0.02754189845720562
+    ]
+   },
+   "RO_not_run": 0,
+   "RO_not_run_no_stock": 0,
+   "DE_not_run": 0,
+   "exp_n_incomplete_reruns": 0,
+   "RO_entering_median": 28.0,
+   "DE_tested_clusters_median": 17.0,
+   "fed_class_clusters": {
+    "E1_tightening": [
+     1
+    ],
+    "E2_easing": [
+     1
+    ]
+   },
+   "DE_sign_centered_pass": {
+    "k": 3,
+    "n": 200,
+    "rate": 0.015,
+    "cp95": [
+     0.003104107621553509,
+     0.0432082819177126
+    ]
+   },
+   "B1": {
+    "readings": {
+     "pass": 179,
+     "undetermined (excess interval excludes 0)": 11,
+     "placebo off baseline": 10
+    },
+    "agreement_readings": {
+     "<=0.70: prices/move sentences drove most of A0's agreement": 200
+    },
+    "p_label_shuffle_lt_0.05": {
+     "k": 10,
+     "n": 200,
+     "rate": 0.05,
+     "cp95": [
+      0.02423416547210855,
+      0.09002753770135137
+     ]
+    },
+    "mean_excess": -0.0010987673702506217,
+    "mean_placebo_excess": -0.00021108818831636539
+   },
+   "label_only_mean_agreement": 0.4986947321428572,
+   "label_only_pass": {
+    "k": 16,
+    "n": 200,
+    "rate": 0.08,
+    "cp95": [
+     0.04641760839982257,
+     0.12666485602208166
+    ]
+   },
+   "size_adjusted": {
+    "RO": {
+     "k": 5,
+     "n": 200,
+     "rate": 0.025,
+     "cp95": [
+      0.008166166190842513,
+      0.05737435112684586
+     ]
+    },
+    "DE": {
+     "k": 2,
+     "n": 200,
+     "rate": 0.01,
+     "cp95": [
+      0.0012133490137360304,
+      0.035654668397239776
+     ]
+    },
+    "B3": {
+     "k": 0,
+     "n": 200,
+     "rate": 0.0,
+     "cp95": [
+      0.0,
+      0.018275340355136237
+     ]
+    }
+   }
+  },
+  "RR@0.12": {
+   "n": 200,
+   "B3": {
+    "k": 180,
+    "n": 200,
+    "rate": 0.9,
+    "cp95": [
+     0.8497872121322442,
+     0.937840633745934
+    ]
+   },
+   "RO_pass": {
+    "k": 200,
+    "n": 200,
+    "rate": 1.0,
+    "cp95": [
+     0.9817246596448638,
+     1.0
+    ]
+   },
+   "DE_pass": {
+    "k": 180,
+    "n": 200,
+    "rate": 0.9,
+    "cp95": [
+     0.8497872121322442,
+     0.937840633745934
+    ]
+   },
+   "DE_alone_pass": {
+    "k": 180,
+    "n": 200,
+    "rate": 0.9,
+    "cp95": [
+     0.8497872121322442,
+     0.937840633745934
+    ]
+   },
+   "RO_not_run": 0,
+   "RO_not_run_no_stock": 0,
+   "DE_not_run": 0,
+   "exp_n_incomplete_reruns": 0,
+   "RO_entering_median": 28.0,
+   "DE_tested_clusters_median": 17.0,
+   "fed_class_clusters": {
+    "E1_tightening": [
+     1
+    ],
+    "E2_easing": [
+     1
+    ]
+   },
+   "DE_sign_centered_pass": {
+    "k": 191,
+    "n": 200,
+    "rate": 0.955,
+    "cp95": [
+     0.916297311924146,
+     0.9792195777729956
+    ]
+   },
+   "B1": {
+    "readings": {
+     "undetermined (excess interval excludes 0)": 200
+    },
+    "agreement_readings": {
+     "<=0.70: prices/move sentences drove most of A0's agreement": 200
+    },
+    "p_label_shuffle_lt_0.05": {
+     "k": 200,
+     "n": 200,
+     "rate": 1.0,
+     "cp95": [
+      0.9817246596448638,
+      1.0
+     ]
+    },
+    "mean_excess": 0.10124909024857617,
+    "mean_placebo_excess": 0.01306935743656106
+   },
+   "label_only_mean_agreement": 0.7742403035714284,
+   "label_only_pass": {
+    "k": 0,
+    "n": 200,
+    "rate": 0.0,
+    "cp95": [
+     0.0,
+     0.018275340355136237
+    ]
+   },
+   "size_adjusted": {
+    "RO": {
+     "k": 200,
+     "n": 200,
+     "rate": 1.0,
+     "cp95": [
+      0.9817246596448638,
+      1.0
+     ]
+    },
+    "DE": {
+     "k": 180,
+     "n": 200,
+     "rate": 0.9,
+     "cp95": [
+      0.8497872121322442,
+      0.937840633745934
+     ]
+    },
+    "B3": {
+     "k": 180,
+     "n": 200,
+     "rate": 0.9,
+     "cp95": [
+      0.8497872121322442,
+      0.937840633745934
+     ]
+    }
+   }
+  }
+ },
+ "null_cell": {
+  "n": 1000,
+  "B3": {
+   "k": 0,
+   "n": 1000,
+   "rate": 0.0,
+   "cp95": [
+    0.0,
+    0.003682083896865671
+   ]
+  },
+  "RO_pass": {
+   "k": 35,
+   "n": 1000,
+   "rate": 0.035,
+   "cp95": [
+    0.024497527894758727,
+    0.04834238161422171
+   ]
+  },
+  "DE_pass": {
+   "k": 9,
+   "n": 1000,
+   "rate": 0.009,
+   "cp95": [
+    0.004123395660342473,
+    0.017015783069894586
+   ]
+  },
+  "DE_alone_pass": {
+   "k": 9,
+   "n": 1000,
+   "rate": 0.009,
+   "cp95": [
+    0.004123395660342473,
+    0.017015783069894586
+   ]
+  },
+  "RO_not_run": 0,
+  "RO_not_run_no_stock": 0,
+  "DE_not_run": 0,
+  "exp_n_incomplete_reruns": 0,
+  "RO_entering_median": 28.0,
+  "DE_tested_clusters_median": 17.0,
+  "fed_class_clusters": {
+   "E1_tightening": [
+    1
+   ],
+   "E2_easing": [
+    1
+   ]
+  },
+  "DE_sign_centered_pass": {
+   "k": 14,
+   "n": 1000,
+   "rate": 0.014,
+   "cp95": [
+    0.007674501565020781,
+    0.023378156010314503
+   ]
+  },
+  "B1": {
+   "readings": {
+    "pass": 894,
+    "undetermined (excess interval excludes 0)": 59,
+    "placebo off baseline": 47
+   },
+   "agreement_readings": {
+    "<=0.70: prices/move sentences drove most of A0's agreement": 1000
+   },
+   "p_label_shuffle_lt_0.05": {
+    "k": 80,
+    "n": 1000,
+    "rate": 0.08,
+    "cp95": [
+     0.06394198284667334,
+     0.09857977904790219
+    ]
+   },
+   "mean_excess": -0.0005752723400801218,
+   "mean_placebo_excess": -0.00029005103542280634
+  },
+  "label_only_mean_agreement": 0.49837867023809523,
+  "label_only_pass": {
+   "k": 58,
+   "n": 1000,
+   "rate": 0.058,
+   "cp95": [
+    0.0443328602528207,
+    0.0743364953823516
+   ]
+  },
+  "size_adjusted": {
+   "RO": {
+    "k": 10,
+    "n": 1000,
+    "rate": 0.01,
+    "cp95": [
+     0.004805510691049308,
+     0.01831324305511245
+    ]
+   },
+   "DE": {
+    "k": 10,
+    "n": 1000,
+    "rate": 0.01,
+    "cp95": [
+     0.004805510691049308,
+     0.01831324305511245
+    ]
+   },
+   "B3": {
+    "k": 0,
+    "n": 1000,
+    "rate": 0.0,
+    "cp95": [
+     0.0,
+     0.003682083896865671
+    ]
+   }
+  }
+ },
+ "curve": {
+  "c": {
+   "beta": 0.25,
+   "k": 200,
+   "n": 200,
+   "rate": 1.0,
+   "cp95": [
+    0.9817246596448638,
+    1.0
+   ],
+   "size_adjusted": 200,
+   "size_adjusted_cp95": [
+    0.9817246596448638,
+    1.0
+   ]
+  },
+  "d": {
+   "beta": 0.18,
+   "k": 198,
+   "n": 200,
+   "rate": 0.99,
+   "cp95": [
+    0.9643453316027603,
+    0.998786650986264
+   ],
+   "size_adjusted": 198,
+   "size_adjusted_cp95": [
+    0.9643453316027603,
+    0.998786650986264
+   ]
+  },
+  "e": {
+   "beta": 0.12,
+   "k": 177,
+   "n": 200,
+   "rate": 0.885,
+   "cp95": [
+    0.8324530555177461,
+    0.9256866263077029
+   ],
+   "size_adjusted": 177,
+   "size_adjusted_cp95": [
+    0.8324530555177461,
+    0.9256866263077029
+   ]
+  },
+  "g": {
+   "beta": 0.09,
+   "k": 155,
+   "n": 200,
+   "rate": 0.775,
+   "cp95": [
+    0.7107603940312353,
+    0.8308974528701732
+   ],
+   "size_adjusted": 153,
+   "size_adjusted_cp95": [
+    0.700038127352751,
+    0.8219292653993124
+   ]
+  },
+  "f": {
+   "beta": 0.06,
+   "k": 89,
+   "n": 200,
+   "rate": 0.445,
+   "cp95": [
+    0.37490109471850996,
+    0.5167536888074263
+   ],
+   "size_adjusted": 70,
+   "size_adjusted_cp95": [
+    0.284070670322942,
+    0.4204506224779937
+   ]
+  }
+ },
+ "tft": {
+  "pc_TFT_r000_b0": {
+   "tag": "pc_TFT_r000_b0",
+   "present": true,
+   "tft": {
+    "ro": {
+     "status": "FAIL",
+     "verdict": "FAIL",
+     "n_entering": 28,
+     "p": 0.16928276047110558,
+     "mean_diff": 0.01345357142857143,
+     "pos_origins": 1,
+     "pass": false,
+     "per_origin": {
+      "2021": {
+       "n_tickers_ge5_factors": 28,
+       "median_eligible_factors": 10.0,
+       "mean_control_agreement": 0.5448428571428572,
+       "mean_label_only_agreement": 0.5194464285714284
+      },
+      "2022": {
+       "n_tickers_ge5_factors": 28,
+       "median_eligible_factors": 11.0,
+       "mean_control_agreement": 0.5136321428571428,
+       "mean_label_only_agreement": 0.4529178571428572
+      },
+      "2023": {
+       "n_tickers_ge5_factors": 28,
+       "median_eligible_factors": 11.0,
+       "mean_control_agreement": 0.4814892857142858,
+       "mean_label_only_agreement": 0.5061642857142857
+      }
+     },
+     "label_only": {
+      "n_tickers": 28,
+      "mean_diff": 0.02047857142857143,
+      "p_one_sided": 0.09725540319142484,
+      "origins_with_positive_median": 1,
+      "pass": false
+     }
+    },
+    "de": {
+     "status": "FAIL",
+     "verdict": "FAIL",
+     "pooled": {
+      "n": 102,
+      "agree": 0.5,
+      "p_cluster_boot": 0.5435,
+      "n_clusters": 14
+     },
+     "per_class": {
+      "E1_tightening": {
+       "n": 23,
+       "agree": 0.5217391304347826,
+       "p_cluster_boot": 0.0,
+       "n_clusters": 1
+      },
+      "E2_easing": {
+       "n": 23,
+       "agree": 0.5652173913043478,
+       "p_cluster_boot": 0.0,
+       "n_clusters": 1
+      },
+      "E3_oil_up": null,
+      "E4_earnings_beat": {
+       "n": 28,
+       "agree": 0.7142857142857143,
+       "p_cluster_boot": 0.0005,
+       "n_clusters": 10
+      },
+      "E5_earnings_miss": {
+       "n": 28,
+       "agree": 0.21428571428571427,
+       "p_cluster_boot": 0.997,
+       "n_clusters": 10
+      }
+     },
+     "bad_classes": [
+      "E5_earnings_miss"
+     ],
+     "sign_centered": {
+      "status": "FAIL",
+      "verdict": "FAIL",
+      "pooled": {
+       "n": 102,
+       "agree": 0.4411764705882353,
+       "p_cluster_boot": 0.921,
+       "n_clusters": 14
+      }
+     },
+     "median_seed_agreement": 0.2,
+     "n_rows": 102
+    },
+    "b3": "NOT_PASS"
+   },
+   "ols": {
+    "ro": {
+     "status": "FAIL",
+     "verdict": "FAIL",
+     "n_entering": 28,
+     "p": 0.09678103774785995,
+     "mean_diff": 0.029626190476190473,
+     "pos_origins": 2,
+     "pass": false,
+     "per_origin": {
+      "2021": {
+       "n_tickers_ge5_factors": 28,
+       "median_eligible_factors": 10.0,
+       "mean_control_agreement": 0.5115035714285714,
+       "mean_label_only_agreement": 0.5194464285714284
+      },
+      "2022": {
+       "n_tickers_ge5_factors": 28,
+       "median_eligible_factors": 11.0,
+       "mean_control_agreement": 0.5194714285714286,
+       "mean_label_only_agreement": 0.4529178571428572
+      },
+      "2023": {
+       "n_tickers_ge5_factors": 28,
+       "median_eligible_factors": 11.0,
+       "mean_control_agreement": 0.49058928571428567,
+       "mean_label_only_agreement": 0.5061642857142857
+      }
+     },
+     "label_only": {
+      "n_tickers": 28,
+      "mean_diff": 0.0143452380952381,
+      "p_one_sided": 0.28351733088493347,
+      "origins_with_positive_median": 0,
+      "pass": false
+     }
+    },
+    "de": {
+     "status": "FAIL",
+     "verdict": "FAIL",
+     "pooled": {
+      "n": 102,
+      "agree": 0.5196078431372549,
+      "p_cluster_boot": 0.436,
+      "n_clusters": 14
+     },
+     "per_class": {
+      "E1_tightening": {
+       "n": 23,
+       "agree": 0.17391304347826086,
+       "p_cluster_boot": 1.0,
+       "n_clusters": 1
+      },
+      "E2_easing": {
+       "n": 23,
+       "agree": 0.782608695652174,
+       "p_cluster_boot": 0.0,
+       "n_clusters": 1
+      },
+      "E3_oil_up": null,
+      "E4_earnings_beat": {
+       "n": 28,
+       "agree": 0.75,
+       "p_cluster_boot": 0.005,
+       "n_clusters": 10
+      },
+      "E5_earnings_miss": {
+       "n": 28,
+       "agree": 0.35714285714285715,
+       "p_cluster_boot": 0.9375,
+       "n_clusters": 10
+      }
+     },
+     "bad_classes": [
+      "E1_tightening",
+      "E5_earnings_miss"
+     ],
+     "sign_centered": {
+      "status": "FAIL",
+      "verdict": "FAIL",
+      "pooled": {
+       "n": 102,
+       "agree": 0.49019607843137253,
+       "p_cluster_boot": 0.571,
+       "n_clusters": 14
+      }
+     },
+     "median_seed_agreement": 1.0,
+     "n_rows": 102
+    },
+    "b3": "NOT_PASS"
+   },
+   "same_data_as": {
+    "tag": "pc_M0_r000_b0",
+    "prices_hash_equal": true,
+    "label_hash_equal": true,
+    "ols_ro_p_equal": true,
+    "ols_de_pooled_equal": true
+   },
+   "b2_truth": {
+    "n_factors": 0,
+    "median_bhat_over_bstar": null,
+    "sign_agreement": null
+   },
+   "b2_tracking_vs_b0": {
+    "median_abs_track_tft": 0.08394152807105425,
+    "median_abs_track_b0": 0.07086512049126181,
+    "median_diff": 0.0016497715082844921,
+    "stocks_tft_closer": 12,
+    "n": 28
+   },
+   "exp_o_tft": {
+    "run": "pc_TFT_r000_b0",
+    "n_tickers": 28,
+    "per_factor_criteria_pass": {
+     "sign": "28/28",
+     "ratio": "28/28",
+     "visible": "28/28",
+     "fidelity_vs_R1": "25/28"
+    },
+    "group_criteria_pass": {
+     "sign": "28/28",
+     "ratio_ok": "28/28",
+     "visible": "28/28"
+    },
+    "P3_corr_expected_vs_path_bulls": 0.999996634407229,
+    "median_ks_factual": 0.05260831122900089,
+    "median_abs_track_err_factual": 0.08394152807105429,
+    "median_calib_abs_cum_log": 1.4418091176789665,
+    "b2_verdict": "PASS"
+   },
+   "exp_o_oracle": {
+    "run": "pc_TFT_r000_b0_oracle",
+    "n_tickers": 28,
+    "per_factor_criteria_pass": {
+     "sign": "0/28",
+     "ratio": "0/28",
+     "visible": "0/28"
+    },
+    "group_criteria_pass": {
+     "sign": "0/28",
+     "ratio_ok": "0/28",
+     "visible": "0/28"
+    },
+    "P3_corr_expected_vs_path_bulls": null,
+    "median_ks_factual": 0.05237621573828471,
+    "median_abs_track_err_factual": 0.07086512049126184,
+    "median_calib_abs_cum_log": 0.8643772975487193,
+    "b2_verdict": "FAIL"
+   },
+   "exp_o_b0eng": {
+    "run": "pc_TFT_r000_b0_b0eng",
+    "n_tickers": 28,
+    "per_factor_criteria_pass": {
+     "sign": "0/28",
+     "ratio": "0/28",
+     "visible": "0/28",
+     "fidelity_vs_R1": "28/28"
+    },
+    "group_criteria_pass": {
+     "sign": "0/28",
+     "ratio_ok": "0/28",
+     "visible": "0/28"
+    },
+    "P3_corr_expected_vs_path_bulls": null,
+    "median_ks_factual": 0.05237621573828471,
+    "median_abs_track_err_factual": 0.07086512049126184,
+    "median_calib_abs_cum_log": 0.8643772975487193,
+    "b2_verdict": "FAIL"
+   },
+   "sign_recovery_majority5": {
+    "0.05": {
+     "majority_sign_recovery": 0.6714285714285714,
+     "ci95_ticker_bootstrap": [
+      0.6035714285714285,
+      0.7392857142857143
+     ],
+     "seed0_sign_recovery": 0.6428571428571429,
+     "median_seed_corr_of_b": 0.05345751535677597,
+     "powered_at_80pct": false
+    },
+    "0.1": {
+     "majority_sign_recovery": 0.7678571428571429,
+     "ci95_ticker_bootstrap": [
+      0.7142857142857143,
+      0.8214285714285714
+     ],
+     "seed0_sign_recovery": 0.6857142857142857,
+     "median_seed_corr_of_b": 0.15342162698869297,
+     "powered_at_80pct": false
+    },
+    "0.2": {
+     "majority_sign_recovery": 0.9107142857142857,
+     "ci95_ticker_bootstrap": [
+      0.8678571428571429,
+      0.9464285714285714
+     ],
+     "seed0_sign_recovery": 0.8321428571428572,
+     "median_seed_corr_of_b": 0.3118714168599941,
+     "powered_at_80pct": true
+    },
+    "0.3": {
+     "majority_sign_recovery": 0.9785714285714285,
+     "ci95_ticker_bootstrap": [
+      0.9571428571428572,
+      0.9928571428571429
+     ],
+     "seed0_sign_recovery": 0.8607142857142858,
+     "median_seed_corr_of_b": 0.5268399527030545,
+     "powered_at_80pct": true
+    }
+   }
+  },
+  "pc_TFT_r000_b0.12": {
+   "tag": "pc_TFT_r000_b0.12",
+   "present": true,
+   "tft": {
+    "ro": {
+     "status": "PASS",
+     "verdict": "PASS",
+     "n_entering": 28,
+     "p": 1.2293457984924316e-07,
+     "mean_diff": 0.1883511904761905,
+     "pos_origins": 3,
+     "pass": true,
+     "per_origin": {
+      "2021": {
+       "n_tickers_ge5_factors": 28,
+       "median_eligible_factors": 10.0,
+       "mean_control_agreement": 0.7452392857142857,
+       "mean_label_only_agreement": 0.7694464285714288
+      },
+      "2022": {
+       "n_tickers_ge5_factors": 28,
+       "median_eligible_factors": 11.0,
+       "mean_control_agreement": 0.6733892857142857,
+       "mean_label_only_agreement": 0.7233892857142857
+      },
+      "2023": {
+       "n_tickers_ge5_factors": 28,
+       "median_eligible_factors": 11.0,
+       "mean_control_agreement": 0.7042321428571429,
+       "mean_label_only_agreement": 0.7337857142857142
+      }
+     },
+     "label_only": {
+      "n_tickers": 28,
+      "mean_diff": -0.03458690476190476,
+      "p_one_sided": 0.9963191877550597,
+      "origins_with_positive_median": 0,
+      "pass": false
+     }
+    },
+    "de": {
+     "status": "PASS",
+     "verdict": "PASS",
+     "pooled": {
+      "n": 102,
+      "agree": 0.7549019607843137,
+      "p_cluster_boot": 0.001,
+      "n_clusters": 14
+     },
+     "per_class": {
+      "E1_tightening": {
+       "n": 23,
+       "agree": 0.782608695652174,
+       "p_cluster_boot": 0.0,
+       "n_clusters": 1
+      },
+      "E2_easing": {
+       "n": 23,
+       "agree": 0.8260869565217391,
+       "p_cluster_boot": 0.0,
+       "n_clusters": 1
+      },
+      "E3_oil_up": null,
+      "E4_earnings_beat": {
+       "n": 28,
+       "agree": 0.9285714285714286,
+       "p_cluster_boot": 0.002,
+       "n_clusters": 10
+      },
+      "E5_earnings_miss": {
+       "n": 28,
+       "agree": 0.5,
+       "p_cluster_boot": 0.557,
+       "n_clusters": 10
+      }
+     },
+     "bad_classes": [],
+     "sign_centered": {
+      "status": "PASS",
+      "verdict": "PASS",
+      "pooled": {
+       "n": 102,
+       "agree": 0.7549019607843137,
+       "p_cluster_boot": 0.0005,
+       "n_clusters": 14
+      }
+     },
+     "median_seed_agreement": 0.6,
+     "n_rows": 102
+    },
+    "b3": "PASS"
+   },
+   "ols": {
+    "ro": {
+     "status": "PASS",
+     "verdict": "PASS",
+     "n_entering": 28,
+     "p": 1.862645149230957e-08,
+     "mean_diff": 0.21257142857142858,
+     "pos_origins": 3,
+     "pass": true,
+     "per_origin": {
+      "2021": {
+       "n_tickers_ge5_factors": 28,
+       "median_eligible_factors": 10.0,
+       "mean_control_agreement": 0.7408750000000001,
+       "mean_label_only_agreement": 0.7694464285714288
+      },
+      "2022": {
+       "n_tickers_ge5_factors": 28,
+       "median_eligible_factors": 11.0,
+       "mean_control_agreement": 0.7133285714285712,
+       "mean_label_only_agreement": 0.7233892857142857
+      },
+      "2023": {
+       "n_tickers_ge5_factors": 28,
+       "median_eligible_factors": 11.0,
+       "mean_control_agreement": 0.7334607142857142,
+       "mean_label_only_agreement": 0.7337857142857142
+      }
+     },
+     "label_only": {
+      "n_tickers": 28,
+      "mean_diff": -0.012985714285714286,
+      "p_one_sided": 0.9147340285174861,
+      "origins_with_positive_median": 0,
+      "pass": false
+     }
+    },
+    "de": {
+     "status": "PASS",
+     "verdict": "PASS",
+     "pooled": {
+      "n": 102,
+      "agree": 0.8333333333333334,
+      "p_cluster_boot": 0.0,
+      "n_clusters": 14
+     },
+     "per_class": {
+      "E1_tightening": {
+       "n": 23,
+       "agree": 0.7391304347826086,
+       "p_cluster_boot": 0.0,
+       "n_clusters": 1
+      },
+      "E2_easing": {
+       "n": 23,
+       "agree": 0.9130434782608695,
+       "p_cluster_boot": 0.0,
+       "n_clusters": 1
+      },
+      "E3_oil_up": null,
+      "E4_earnings_beat": {
+       "n": 28,
+       "agree": 0.9642857142857143,
+       "p_cluster_boot": 0.0,
+       "n_clusters": 10
+      },
+      "E5_earnings_miss": {
+       "n": 28,
+       "agree": 0.7142857142857143,
+       "p_cluster_boot": 0.024,
+       "n_clusters": 10
+      }
+     },
+     "bad_classes": [],
+     "sign_centered": {
+      "status": "PASS",
+      "verdict": "PASS",
+      "pooled": {
+       "n": 102,
+       "agree": 0.8823529411764706,
+       "p_cluster_boot": 0.0,
+       "n_clusters": 14
+      }
+     },
+     "median_seed_agreement": 1.0,
+     "n_rows": 102
+    },
+    "b3": "PASS"
+   },
+   "same_data_as": {
+    "tag": "pc_M2_r000_b0.12",
+    "prices_hash_equal": true,
+    "label_hash_equal": true,
+    "ols_ro_p_equal": true,
+    "ols_de_pooled_equal": true
+   },
+   "b2_truth": {
+    "n_factors": 336,
+    "median_bhat_over_bstar": 0.14782656455374454,
+    "sign_agreement": 0.7470238095238095
+   },
+   "b2_tracking_vs_b0": {
+    "median_abs_track_tft": 0.10847090322135966,
+    "median_abs_track_b0": 0.09560551562150095,
+    "median_diff": -0.003175583843698348,
+    "stocks_tft_closer": 15,
+    "n": 28
+   },
+   "exp_o_tft": {
+    "run": "pc_TFT_r000_b0.12",
+    "n_tickers": 28,
+    "per_factor_criteria_pass": {
+     "sign": "28/28",
+     "ratio": "28/28",
+     "visible": "28/28",
+     "fidelity_vs_R1": "19/28"
+    },
+    "group_criteria_pass": {
+     "sign": "28/28",
+     "ratio_ok": "28/28",
+     "visible": "28/28"
+    },
+    "P3_corr_expected_vs_path_bulls": 0.9999978948162611,
+    "median_ks_factual": 0.059781167108753315,
+    "median_abs_track_err_factual": 0.10847090322135969,
+    "median_calib_abs_cum_log": 2.294694072305141,
+    "b2_verdict": "FAIL"
+   },
+   "exp_o_oracle": {
+    "run": "pc_TFT_r000_b0.12_oracle",
+    "n_tickers": 28,
+    "per_factor_criteria_pass": {
+     "sign": "28/28",
+     "ratio": "28/28",
+     "visible": "28/28"
+    },
+    "group_criteria_pass": {
+     "sign": "28/28",
+     "ratio_ok": "28/28",
+     "visible": "28/28"
+    },
+    "P3_corr_expected_vs_path_bulls": 0.9999910332024302,
+    "median_ks_factual": 0.059493810786914236,
+    "median_abs_track_err_factual": 0.06324107212230279,
+    "median_calib_abs_cum_log": 0.895227899056752,
+    "b2_verdict": "PASS"
+   },
+   "exp_o_b0eng": {
+    "run": "pc_TFT_r000_b0.12_b0eng",
+    "n_tickers": 28,
+    "per_factor_criteria_pass": {
+     "sign": "0/28",
+     "ratio": "0/28",
+     "visible": "0/28",
+     "fidelity_vs_R1": "21/28"
+    },
+    "group_criteria_pass": {
+     "sign": "0/28",
+     "ratio_ok": "0/28",
+     "visible": "0/28"
+    },
+    "P3_corr_expected_vs_path_bulls": null,
+    "median_ks_factual": 0.059991158267020325,
+    "median_abs_track_err_factual": 0.09560551562150099,
+    "median_calib_abs_cum_log": 1.9685920448740646,
+    "b2_verdict": "FAIL"
+   }
+  },
+  "pc_TFT_r000_b0.25": {
+   "tag": "pc_TFT_r000_b0.25",
+   "present": true,
+   "tft": {
+    "ro": {
+     "status": "PASS",
+     "verdict": "PASS",
+     "n_entering": 28,
+     "p": 3.725290298461914e-09,
+     "mean_diff": 0.3164702380952381,
+     "pos_origins": 3,
+     "pass": true,
+     "per_origin": {
+      "2021": {
+       "n_tickers_ge5_factors": 28,
+       "median_eligible_factors": 10.0,
+       "mean_control_agreement": 0.8507964285714286,
+       "mean_label_only_agreement": 0.8690499999999999
+      },
+      "2022": {
+       "n_tickers_ge5_factors": 28,
+       "median_eligible_factors": 11.0,
+       "mean_control_agreement": 0.8380000000000002,
+       "mean_label_only_agreement": 0.8412464285714286
+      },
+      "2023": {
+       "n_tickers_ge5_factors": 28,
+       "median_eligible_factors": 11.0,
+       "mean_control_agreement": 0.8155999999999999,
+       "mean_label_only_agreement": 0.8155999999999999
+      }
+     },
+     "label_only": {
+      "n_tickers": 28,
+      "mean_diff": -0.007166666666666663,
+      "p_one_sided": 0.8729790370169501,
+      "origins_with_positive_median": 0,
+      "pass": false
+     }
+    },
+    "de": {
+     "status": "PASS",
+     "verdict": "PASS",
+     "pooled": {
+      "n": 102,
+      "agree": 0.9411764705882353,
+      "p_cluster_boot": 0.0,
+      "n_clusters": 14
+     },
+     "per_class": {
+      "E1_tightening": {
+       "n": 23,
+       "agree": 1.0,
+       "p_cluster_boot": 0.0,
+       "n_clusters": 1
+      },
+      "E2_easing": {
+       "n": 23,
+       "agree": 0.8695652173913043,
+       "p_cluster_boot": 0.0,
+       "n_clusters": 1
+      },
+      "E3_oil_up": null,
+      "E4_earnings_beat": {
+       "n": 28,
+       "agree": 1.0,
+       "p_cluster_boot": 0.0,
+       "n_clusters": 10
+      },
+      "E5_earnings_miss": {
+       "n": 28,
+       "agree": 0.8928571428571429,
+       "p_cluster_boot": 0.0,
+       "n_clusters": 10
+      }
+     },
+     "bad_classes": [],
+     "sign_centered": {
+      "status": "PASS",
+      "verdict": "PASS",
+      "pooled": {
+       "n": 102,
+       "agree": 0.9117647058823529,
+       "p_cluster_boot": 0.0,
+       "n_clusters": 14
+      }
+     },
+     "median_seed_agreement": 0.6,
+     "n_rows": 102
+    },
+    "b3": "PASS"
+   },
+   "ols": {
+    "ro": {
+     "status": "PASS",
+     "verdict": "PASS",
+     "n_entering": 28,
+     "p": 3.725290298461914e-09,
+     "mean_diff": 0.30876785714285715,
+     "pos_origins": 3,
+     "pass": true,
+     "per_origin": {
+      "2021": {
+       "n_tickers_ge5_factors": 28,
+       "median_eligible_factors": 10.0,
+       "mean_control_agreement": 0.8619071428571428,
+       "mean_label_only_agreement": 0.8690499999999999
+      },
+      "2022": {
+       "n_tickers_ge5_factors": 28,
+       "median_eligible_factors": 11.0,
+       "mean_control_agreement": 0.8509857142857143,
+       "mean_label_only_agreement": 0.8412464285714286
+      },
+      "2023": {
+       "n_tickers_ge5_factors": 28,
+       "median_eligible_factors": 11.0,
+       "mean_control_agreement": 0.8289107142857143,
+       "mean_label_only_agreement": 0.8155999999999999
+      }
+     },
+     "label_only": {
+      "n_tickers": 28,
+      "mean_diff": 0.005302380952380953,
+      "p_one_sided": 0.24909702829205438,
+      "origins_with_positive_median": 0,
+      "pass": false
+     }
+    },
+    "de": {
+     "status": "PASS",
+     "verdict": "PASS",
+     "pooled": {
+      "n": 102,
+      "agree": 0.9705882352941176,
+      "p_cluster_boot": 0.0,
+      "n_clusters": 14
+     },
+     "per_class": {
+      "E1_tightening": {
+       "n": 23,
+       "agree": 0.9565217391304348,
+       "p_cluster_boot": 0.0,
+       "n_clusters": 1
+      },
+      "E2_easing": {
+       "n": 23,
+       "agree": 0.9565217391304348,
+       "p_cluster_boot": 0.0,
+       "n_clusters": 1
+      },
+      "E3_oil_up": null,
+      "E4_earnings_beat": {
+       "n": 28,
+       "agree": 1.0,
+       "p_cluster_boot": 0.0,
+       "n_clusters": 10
+      },
+      "E5_earnings_miss": {
+       "n": 28,
+       "agree": 0.9642857142857143,
+       "p_cluster_boot": 0.0,
+       "n_clusters": 10
+      }
+     },
+     "bad_classes": [],
+     "sign_centered": {
+      "status": "PASS",
+      "verdict": "PASS",
+      "pooled": {
+       "n": 102,
+       "agree": 0.9313725490196079,
+       "p_cluster_boot": 0.0,
+       "n_clusters": 14
+      }
+     },
+     "median_seed_agreement": 1.0,
+     "n_rows": 102
+    },
+    "b3": "PASS"
+   },
+   "same_data_as": {
+    "tag": "pc_M1_r000_b0.25",
+    "prices_hash_equal": true,
+    "label_hash_equal": true,
+    "ols_ro_p_equal": true,
+    "ols_de_pooled_equal": true
+   },
+   "b2_truth": {
+    "n_factors": 336,
+    "median_bhat_over_bstar": 0.2682675148732891,
+    "sign_agreement": 0.8928571428571429
+   },
+   "b2_tracking_vs_b0": {
+    "median_abs_track_tft": 0.2071600849131215,
+    "median_abs_track_b0": 0.15942126365139506,
+    "median_diff": 0.008001212777392255,
+    "stocks_tft_closer": 10,
+    "n": 28
+   },
+   "exp_o_tft": {
+    "run": "pc_TFT_r000_b0.25",
+    "n_tickers": 28,
+    "per_factor_criteria_pass": {
+     "sign": "28/28",
+     "ratio": "28/28",
+     "visible": "28/28",
+     "fidelity_vs_R1": "8/28"
+    },
+    "group_criteria_pass": {
+     "sign": "28/28",
+     "ratio_ok": "28/28",
+     "visible": "28/28"
+    },
+    "P3_corr_expected_vs_path_bulls": 0.9999991890585626,
+    "median_ks_factual": 0.05391246684350133,
+    "median_abs_track_err_factual": 0.20716008491312152,
+    "median_calib_abs_cum_log": 5.0832225296035,
+    "b2_verdict": "FAIL"
+   },
+   "exp_o_oracle": {
+    "run": "pc_TFT_r000_b0.25_oracle",
+    "n_tickers": 28,
+    "per_factor_criteria_pass": {
+     "sign": "28/28",
+     "ratio": "28/28",
+     "visible": "28/28"
+    },
+    "group_criteria_pass": {
+     "sign": "28/28",
+     "ratio_ok": "28/28",
+     "visible": "28/28"
+    },
+    "P3_corr_expected_vs_path_bulls": 0.9999908863447687,
+    "median_ks_factual": 0.053658267020335985,
+    "median_abs_track_err_factual": 0.0681556286607524,
+    "median_calib_abs_cum_log": 1.0241821284590373,
+    "b2_verdict": "PASS"
+   },
+   "exp_o_b0eng": {
+    "run": "pc_TFT_r000_b0.25_b0eng",
+    "n_tickers": 28,
+    "per_factor_criteria_pass": {
+     "sign": "0/28",
+     "ratio": "0/28",
+     "visible": "0/28",
+     "fidelity_vs_R1": "12/28"
+    },
+    "group_criteria_pass": {
+     "sign": "0/28",
+     "ratio_ok": "0/28",
+     "visible": "0/28"
+    },
+    "P3_corr_expected_vs_path_bulls": null,
+    "median_ks_factual": 0.05553713527851459,
+    "median_abs_track_err_factual": 0.15942126365139514,
+    "median_calib_abs_cum_log": 3.1860662463757965,
+    "b2_verdict": "FAIL"
+   }
+  },
+  "pc_TFT_r001_b0": {
+   "tag": "pc_TFT_r001_b0",
+   "present": true,
+   "tft": {
+    "ro": {
+     "status": "FAIL",
+     "verdict": "FAIL",
+     "n_entering": 28,
+     "p": 0.12725666165351868,
+     "mean_diff": 0.03208928571428571,
+     "pos_origins": 1,
+     "pass": false,
+     "per_origin": {
+      "2021": {
+       "n_tickers_ge5_factors": 28,
+       "median_eligible_factors": 9.0,
+       "mean_control_agreement": 0.5133928571428571,
+       "mean_label_only_agreement": 0.5674642857142858
+      },
+      "2022": {
+       "n_tickers_ge5_factors": 28,
+       "median_eligible_factors": 11.0,
+       "mean_control_agreement": 0.5373392857142857,
+       "mean_label_only_agreement": 0.5175321428571429
+      },
+      "2023": {
+       "n_tickers_ge5_factors": 28,
+       "median_eligible_factors": 11.0,
+       "mean_control_agreement": 0.5263,
+       "mean_label_only_agreement": 0.5081214285714285
+      }
+     },
+     "label_only": {
+      "n_tickers": 28,
+      "mean_diff": -0.005361904761904769,
+      "p_one_sided": 0.6852360852062702,
+      "origins_with_positive_median": 0,
+      "pass": false
+     }
+    },
+    "de": {
+     "status": "FAIL",
+     "verdict": "FAIL",
+     "pooled": {
+      "n": 102,
+      "agree": 0.5098039215686274,
+      "p_cluster_boot": 0.4975,
+      "n_clusters": 15
+     },
+     "per_class": {
+      "E1_tightening": {
+       "n": 23,
+       "agree": 0.43478260869565216,
+       "p_cluster_boot": 1.0,
+       "n_clusters": 1
+      },
+      "E2_easing": {
+       "n": 23,
+       "agree": 0.6956521739130435,
+       "p_cluster_boot": 0.0,
+       "n_clusters": 1
+      },
+      "E3_oil_up": null,
+      "E4_earnings_beat": {
+       "n": 28,
+       "agree": 0.7857142857142857,
+       "p_cluster_boot": 0.006,
+       "n_clusters": 6
+      },
+      "E5_earnings_miss": {
+       "n": 28,
+       "agree": 0.14285714285714285,
+       "p_cluster_boot": 1.0,
+       "n_clusters": 12
+      }
+     },
+     "bad_classes": [
+      "E1_tightening",
+      "E5_earnings_miss"
+     ],
+     "sign_centered": {
+      "status": "FAIL",
+      "verdict": "FAIL",
+      "pooled": {
+       "n": 102,
+       "agree": 0.5686274509803921,
+       "p_cluster_boot": 0.2035,
+       "n_clusters": 15
+      }
+     },
+     "median_seed_agreement": 0.2,
+     "n_rows": 102
+    },
+    "b3": "NOT_PASS"
+   },
+   "ols": {
+    "ro": {
+     "status": "FAIL",
+     "verdict": "FAIL",
+     "n_entering": 28,
+     "p": 0.10913652926683426,
+     "mean_diff": 0.033619047619047625,
+     "pos_origins": 2,
+     "pass": false,
+     "per_origin": {
+      "2021": {
+       "n_tickers_ge5_factors": 28,
+       "median_eligible_factors": 9.0,
+       "mean_control_agreement": 0.5287642857142856,
+       "mean_label_only_agreement": 0.5674642857142858
+      },
+      "2022": {
+       "n_tickers_ge5_factors": 28,
+       "median_eligible_factors": 11.0,
+       "mean_control_agreement": 0.5019464285714286,
+       "mean_label_only_agreement": 0.5175321428571429
+      },
+      "2023": {
+       "n_tickers_ge5_factors": 28,
+       "median_eligible_factors": 11.0,
+       "mean_control_agreement": 0.5480571428571428,
+       "mean_label_only_agreement": 0.5081214285714285
+      }
+     },
+     "label_only": {
+      "n_tickers": 28,
+      "mean_diff": -0.004783333333333336,
+      "p_one_sided": 0.6226032238827417,
+      "origins_with_positive_median": 1,
+      "pass": false
+     }
+    },
+    "de": {
+     "status": "FAIL",
+     "verdict": "FAIL",
+     "pooled": {
+      "n": 102,
+      "agree": 0.49019607843137253,
+      "p_cluster_boot": 0.579,
+      "n_clusters": 15
+     },
+     "per_class": {
+      "E1_tightening": {
+       "n": 23,
+       "agree": 0.34782608695652173,
+       "p_cluster_boot": 1.0,
+       "n_clusters": 1
+      },
+      "E2_easing": {
+       "n": 23,
+       "agree": 0.782608695652174,
+       "p_cluster_boot": 0.0,
+       "n_clusters": 1
+      },
+      "E3_oil_up": null,
+      "E4_earnings_beat": {
+       "n": 28,
+       "agree": 0.7142857142857143,
+       "p_cluster_boot": 0.047,
+       "n_clusters": 6
+      },
+      "E5_earnings_miss": {
+       "n": 28,
+       "agree": 0.14285714285714285,
+       "p_cluster_boot": 0.9985,
+       "n_clusters": 12
+      }
+     },
+     "bad_classes": [
+      "E1_tightening",
+      "E5_earnings_miss"
+     ],
+     "sign_centered": {
+      "status": "FAIL",
+      "verdict": "FAIL",
+      "pooled": {
+       "n": 102,
+       "agree": 0.5098039215686274,
+       "p_cluster_boot": 0.509,
+       "n_clusters": 15
+      }
+     },
+     "median_seed_agreement": 1.0,
+     "n_rows": 102
+    },
+    "b3": "NOT_PASS"
+   },
+   "same_data_as": {
+    "tag": "pc_M0_r001_b0",
+    "prices_hash_equal": true,
+    "label_hash_equal": true,
+    "ols_ro_p_equal": true,
+    "ols_de_pooled_equal": true
+   },
+   "b2_truth": {
+    "n_factors": 0,
+    "median_bhat_over_bstar": null,
+    "sign_agreement": null
+   },
+   "b2_tracking_vs_b0": {
+    "median_abs_track_tft": 0.0565776024500532,
+    "median_abs_track_b0": 0.07012337911946334,
+    "median_diff": -0.019929698246481303,
+    "stocks_tft_closer": 19,
+    "n": 28
+   },
+   "exp_o_tft": {
+    "run": "pc_TFT_r001_b0",
+    "n_tickers": 28,
+    "per_factor_criteria_pass": {
+     "sign": "28/28",
+     "ratio": "28/28",
+     "visible": "28/28",
+     "fidelity_vs_R1": "27/28"
+    },
+    "group_criteria_pass": {
+     "sign": "28/28",
+     "ratio_ok": "28/28",
+     "visible": "28/28"
+    },
+    "P3_corr_expected_vs_path_bulls": 0.9999945433109083,
+    "median_ks_factual": 0.06706454465075154,
+    "median_abs_track_err_factual": 0.05657760245005328,
+    "median_calib_abs_cum_log": 1.235851200927587,
+    "b2_verdict": "PASS"
+   },
+   "exp_o_oracle": {
+    "run": "pc_TFT_r001_b0_oracle",
+    "n_tickers": 28,
+    "per_factor_criteria_pass": {
+     "sign": "0/28",
+     "ratio": "0/28",
+     "visible": "0/28"
+    },
+    "group_criteria_pass": {
+     "sign": "0/28",
+     "ratio_ok": "0/28",
+     "visible": "0/28"
+    },
+    "P3_corr_expected_vs_path_bulls": null,
+    "median_ks_factual": 0.06737400530503979,
+    "median_abs_track_err_factual": 0.0701233791194634,
+    "median_calib_abs_cum_log": 0.789852453834262,
+    "b2_verdict": "FAIL"
+   },
+   "exp_o_b0eng": {
+    "run": "pc_TFT_r001_b0_b0eng",
+    "n_tickers": 28,
+    "per_factor_criteria_pass": {
+     "sign": "0/28",
+     "ratio": "0/28",
+     "visible": "0/28",
+     "fidelity_vs_R1": "28/28"
+    },
+    "group_criteria_pass": {
+     "sign": "0/28",
+     "ratio_ok": "0/28",
+     "visible": "0/28"
+    },
+    "P3_corr_expected_vs_path_bulls": null,
+    "median_ks_factual": 0.06737400530503979,
+    "median_abs_track_err_factual": 0.0701233791194634,
+    "median_calib_abs_cum_log": 0.789852453834262,
+    "b2_verdict": "FAIL"
+   }
+  },
+  "pc_TFT_r001_b0.25": {
+   "tag": "pc_TFT_r001_b0.25",
+   "present": true,
+   "tft": {
+    "ro": {
+     "status": "PASS",
+     "verdict": "PASS",
+     "n_entering": 28,
+     "p": 3.725290298461914e-09,
+     "mean_diff": 0.3585166666666667,
+     "pos_origins": 3,
+     "pass": true,
+     "per_origin": {
+      "2021": {
+       "n_tickers_ge5_factors": 28,
+       "median_eligible_factors": 9.0,
+       "mean_control_agreement": 0.7911821428571427,
+       "mean_label_only_agreement": 0.8432678571428569
+      },
+      "2022": {
+       "n_tickers_ge5_factors": 28,
+       "median_eligible_factors": 11.0,
+       "mean_control_agreement": 0.8626714285714284,
+       "mean_label_only_agreement": 0.8789035714285713
+      },
+      "2023": {
+       "n_tickers_ge5_factors": 28,
+       "median_eligible_factors": 11.0,
+       "mean_control_agreement": 0.867217857142857,
+       "mean_label_only_agreement": 0.8964357142857142
+      }
+     },
+     "label_only": {
+      "n_tickers": 28,
+      "mean_diff": -0.03251190476190476,
+      "p_one_sided": 0.9864472391131635,
+      "origins_with_positive_median": 0,
+      "pass": false
+     }
+    },
+    "de": {
+     "status": "PASS",
+     "verdict": "PASS",
+     "pooled": {
+      "n": 102,
+      "agree": 0.9313725490196079,
+      "p_cluster_boot": 0.0,
+      "n_clusters": 15
+     },
+     "per_class": {
+      "E1_tightening": {
+       "n": 23,
+       "agree": 0.9565217391304348,
+       "p_cluster_boot": 0.0,
+       "n_clusters": 1
+      },
+      "E2_easing": {
+       "n": 23,
+       "agree": 0.9565217391304348,
+       "p_cluster_boot": 0.0,
+       "n_clusters": 1
+      },
+      "E3_oil_up": null,
+      "E4_earnings_beat": {
+       "n": 28,
+       "agree": 1.0,
+       "p_cluster_boot": 0.0,
+       "n_clusters": 6
+      },
+      "E5_earnings_miss": {
+       "n": 28,
+       "agree": 0.8214285714285714,
+       "p_cluster_boot": 0.0,
+       "n_clusters": 12
+      }
+     },
+     "bad_classes": [],
+     "sign_centered": {
+      "status": "PASS",
+      "verdict": "PASS",
+      "pooled": {
+       "n": 102,
+       "agree": 0.8627450980392157,
+       "p_cluster_boot": 0.0,
+       "n_clusters": 15
+      }
+     },
+     "median_seed_agreement": 0.6,
+     "n_rows": 102
+    },
+    "b3": "PASS"
+   },
+   "ols": {
+    "ro": {
+     "status": "PASS",
+     "verdict": "PASS",
+     "n_entering": 28,
+     "p": 3.725290298461914e-09,
+     "mean_diff": 0.3772642857142857,
+     "pos_origins": 3,
+     "pass": true,
+     "per_origin": {
+      "2021": {
+       "n_tickers_ge5_factors": 28,
+       "median_eligible_factors": 9.0,
+       "mean_control_agreement": 0.8234285714285711,
+       "mean_label_only_agreement": 0.8432678571428569
+      },
+      "2022": {
+       "n_tickers_ge5_factors": 28,
+       "median_eligible_factors": 11.0,
+       "mean_control_agreement": 0.8724107142857143,
+       "mean_label_only_agreement": 0.8789035714285713
+      },
+      "2023": {
+       "n_tickers_ge5_factors": 28,
+       "median_eligible_factors": 11.0,
+       "mean_control_agreement": 0.8863714285714285,
+       "mean_label_only_agreement": 0.8964357142857142
+      }
+     },
+     "label_only": {
+      "n_tickers": 28,
+      "mean_diff": -0.012132142857142853,
+      "p_one_sided": 0.8576976023659871,
+      "origins_with_positive_median": 0,
+      "pass": false
+     }
+    },
+    "de": {
+     "status": "PASS",
+     "verdict": "PASS",
+     "pooled": {
+      "n": 102,
+      "agree": 0.9117647058823529,
+      "p_cluster_boot": 0.0,
+      "n_clusters": 15
+     },
+     "per_class": {
+      "E1_tightening": {
+       "n": 23,
+       "agree": 1.0,
+       "p_cluster_boot": 0.0,
+       "n_clusters": 1
+      },
+      "E2_easing": {
+       "n": 23,
+       "agree": 1.0,
+       "p_cluster_boot": 0.0,
+       "n_clusters": 1
+      },
+      "E3_oil_up": null,
+      "E4_earnings_beat": {
+       "n": 28,
+       "agree": 1.0,
+       "p_cluster_boot": 0.0,
+       "n_clusters": 6
+      },
+      "E5_earnings_miss": {
+       "n": 28,
+       "agree": 0.6785714285714286,
+       "p_cluster_boot": 0.043,
+       "n_clusters": 12
+      }
+     },
+     "bad_classes": [],
+     "sign_centered": {
+      "status": "PASS",
+      "verdict": "PASS",
+      "pooled": {
+       "n": 102,
+       "agree": 0.8921568627450981,
+       "p_cluster_boot": 0.0,
+       "n_clusters": 15
+      }
+     },
+     "median_seed_agreement": 1.0,
+     "n_rows": 102
+    },
+    "b3": "PASS"
+   },
+   "same_data_as": {
+    "tag": "pc_M1_r001_b0.25",
+    "prices_hash_equal": true,
+    "label_hash_equal": true,
+    "ols_ro_p_equal": true,
+    "ols_de_pooled_equal": true
+   },
+   "b2_truth": {
+    "n_factors": 336,
+    "median_bhat_over_bstar": 0.5087457232136678,
+    "sign_agreement": 0.9315476190476191
+   },
+   "b2_tracking_vs_b0": {
+    "median_abs_track_tft": 0.21970813821337914,
+    "median_abs_track_b0": 0.1101848327092488,
+    "median_diff": 0.03410586979073364,
+    "stocks_tft_closer": 11,
+    "n": 28
+   },
+   "exp_o_tft": {
+    "run": "pc_TFT_r001_b0.25",
+    "n_tickers": 28,
+    "per_factor_criteria_pass": {
+     "sign": "28/28",
+     "ratio": "28/28",
+     "visible": "28/28",
+     "fidelity_vs_R1": "14/28"
+    },
+    "group_criteria_pass": {
+     "sign": "28/28",
+     "ratio_ok": "28/28",
+     "visible": "28/28"
+    },
+    "P3_corr_expected_vs_path_bulls": 0.9999943342326949,
+    "median_ks_factual": 0.056576038903625114,
+    "median_abs_track_err_factual": 0.21970813821337914,
+    "median_calib_abs_cum_log": 7.739781747087479,
+    "b2_verdict": "FAIL"
+   },
+   "exp_o_oracle": {
+    "run": "pc_TFT_r001_b0.25_oracle",
+    "n_tickers": 28,
+    "per_factor_criteria_pass": {
+     "sign": "28/28",
+     "ratio": "28/28",
+     "visible": "28/28"
+    },
+    "group_criteria_pass": {
+     "sign": "28/28",
+     "ratio_ok": "28/28",
+     "visible": "28/28"
+    },
+    "P3_corr_expected_vs_path_bulls": 0.9999952547352893,
+    "median_ks_factual": 0.055227674624226356,
+    "median_abs_track_err_factual": 0.08459462381036653,
+    "median_calib_abs_cum_log": 0.9307874239416687,
+    "b2_verdict": "PASS"
+   },
+   "exp_o_b0eng": {
+    "run": "pc_TFT_r001_b0.25_b0eng",
+    "n_tickers": 28,
+    "per_factor_criteria_pass": {
+     "sign": "0/28",
+     "ratio": "0/28",
+     "visible": "0/28",
+     "fidelity_vs_R1": "16/28"
+    },
+    "group_criteria_pass": {
+     "sign": "0/28",
+     "ratio_ok": "0/28",
+     "visible": "0/28"
+    },
+    "P3_corr_expected_vs_path_bulls": null,
+    "median_ks_factual": 0.05884173297966401,
+    "median_abs_track_err_factual": 0.11018483270924886,
+    "median_calib_abs_cum_log": 2.4010061876765523,
+    "b2_verdict": "FAIL"
+   }
+  },
+  "pc_TFT_r002_b0": {
+   "tag": "pc_TFT_r002_b0",
+   "present": true,
+   "tft": {
+    "ro": {
+     "status": "FAIL",
+     "verdict": "FAIL",
+     "n_entering": 28,
+     "p": 0.13452139782019434,
+     "mean_diff": 0.020558333333333338,
+     "pos_origins": 1,
+     "pass": false,
+     "per_origin": {
+      "2021": {
+       "n_tickers_ge5_factors": 28,
+       "median_eligible_factors": 10.0,
+       "mean_control_agreement": 0.5321428571428571,
+       "mean_label_only_agreement": 0.5932571428571426
+      },
+      "2022": {
+       "n_tickers_ge5_factors": 28,
+       "median_eligible_factors": 11.0,
+       "mean_control_agreement": 0.5100571428571429,
+       "mean_label_only_agreement": 0.5743571428571429
+      },
+      "2023": {
+       "n_tickers_ge5_factors": 28,
+       "median_eligible_factors": 11.0,
+       "mean_control_agreement": 0.5181821428571428,
+       "mean_label_only_agreement": 0.43959642857142855
+      }
+     },
+     "label_only": {
+      "n_tickers": 28,
+      "mean_diff": -0.015609523809523811,
+      "p_one_sided": 0.7315455675125122,
+      "origins_with_positive_median": 1,
+      "pass": false
+     }
+    },
+    "de": {
+     "status": "FAIL",
+     "verdict": "FAIL",
+     "pooled": {
+      "n": 102,
+      "agree": 0.49019607843137253,
+      "p_cluster_boot": 0.6285,
+      "n_clusters": 17
+     },
+     "per_class": {
+      "E1_tightening": {
+       "n": 23,
+       "agree": 0.43478260869565216,
+       "p_cluster_boot": 1.0,
+       "n_clusters": 1
+      },
+      "E2_easing": {
+       "n": 23,
+       "agree": 0.5217391304347826,
+       "p_cluster_boot": 0.0,
+       "n_clusters": 1
+      },
+      "E3_oil_up": null,
+      "E4_earnings_beat": {
+       "n": 28,
+       "agree": 0.7142857142857143,
+       "p_cluster_boot": 0.0045,
+       "n_clusters": 8
+      },
+      "E5_earnings_miss": {
+       "n": 28,
+       "agree": 0.2857142857142857,
+       "p_cluster_boot": 0.988,
+       "n_clusters": 15
+      }
+     },
+     "bad_classes": [
+      "E1_tightening",
+      "E5_earnings_miss"
+     ],
+     "sign_centered": {
+      "status": "FAIL",
+      "verdict": "FAIL",
+      "pooled": {
+       "n": 102,
+       "agree": 0.5,
+       "p_cluster_boot": 0.552,
+       "n_clusters": 17
+      }
+     },
+     "median_seed_agreement": 0.2,
+     "n_rows": 102
+    },
+    "b3": "NOT_PASS"
+   },
+   "ols": {
+    "ro": {
+     "status": "FAIL",
+     "verdict": "FAIL",
+     "n_entering": 28,
+     "p": 0.39828113093972206,
+     "mean_diff": -0.006699999999999996,
+     "pos_origins": 1,
+     "pass": false,
+     "per_origin": {
+      "2021": {
+       "n_tickers_ge5_factors": 28,
+       "median_eligible_factors": 10.0,
+       "mean_control_agreement": 0.5484142857142856,
+       "mean_label_only_agreement": 0.5932571428571426
+      },
+      "2022": {
+       "n_tickers_ge5_factors": 28,
+       "median_eligible_factors": 11.0,
+       "mean_control_agreement": 0.5126714285714288,
+       "mean_label_only_agreement": 0.5743571428571429
+      },
+      "2023": {
+       "n_tickers_ge5_factors": 28,
+       "median_eligible_factors": 11.0,
+       "mean_control_agreement": 0.4574714285714286,
+       "mean_label_only_agreement": 0.43959642857142855
+      }
+     },
+     "label_only": {
+      "n_tickers": 28,
+      "mean_diff": -0.029551190476190474,
+      "p_one_sided": 0.8359188467168603,
+      "origins_with_positive_median": 0,
+      "pass": false
+     }
+    },
+    "de": {
+     "status": "FAIL",
+     "verdict": "FAIL",
+     "pooled": {
+      "n": 102,
+      "agree": 0.6078431372549019,
+      "p_cluster_boot": 0.0105,
+      "n_clusters": 17
+     },
+     "per_class": {
+      "E1_tightening": {
+       "n": 23,
+       "agree": 0.6521739130434783,
+       "p_cluster_boot": 0.0,
+       "n_clusters": 1
+      },
+      "E2_easing": {
+       "n": 23,
+       "agree": 0.6086956521739131,
+       "p_cluster_boot": 0.0,
+       "n_clusters": 1
+      },
+      "E3_oil_up": null,
+      "E4_earnings_beat": {
+       "n": 28,
+       "agree": 0.6785714285714286,
+       "p_cluster_boot": 0.04,
+       "n_clusters": 8
+      },
+      "E5_earnings_miss": {
+       "n": 28,
+       "agree": 0.5,
+       "p_cluster_boot": 0.541,
+       "n_clusters": 15
+      }
+     },
+     "bad_classes": [],
+     "sign_centered": {
+      "status": "FAIL",
+      "verdict": "FAIL",
+      "pooled": {
+       "n": 102,
+       "agree": 0.5588235294117647,
+       "p_cluster_boot": 0.0935,
+       "n_clusters": 17
+      }
+     },
+     "median_seed_agreement": 1.0,
+     "n_rows": 102
+    },
+    "b3": "NOT_PASS"
+   },
+   "same_data_as": {
+    "tag": "pc_M0_r002_b0",
+    "prices_hash_equal": true,
+    "label_hash_equal": true,
+    "ols_ro_p_equal": true,
+    "ols_de_pooled_equal": true
+   },
+   "b2_truth": {
+    "n_factors": 0,
+    "median_bhat_over_bstar": null,
+    "sign_agreement": null
+   },
+   "b2_tracking_vs_b0": {
+    "median_abs_track_tft": 0.07549938319710084,
+    "median_abs_track_b0": 0.07030228871643654,
+    "median_diff": 0.0034965797627460986,
+    "stocks_tft_closer": 11,
+    "n": 28
+   },
+   "exp_o_tft": {
+    "run": "pc_TFT_r002_b0",
+    "n_tickers": 28,
+    "per_factor_criteria_pass": {
+     "sign": "28/28",
+     "ratio": "28/28",
+     "visible": "28/28",
+     "fidelity_vs_R1": "26/28"
+    },
+    "group_criteria_pass": {
+     "sign": "28/28",
+     "ratio_ok": "28/28",
+     "visible": "28/28"
+    },
+    "P3_corr_expected_vs_path_bulls": 0.9999979580323268,
+    "median_ks_factual": 0.055868700265251994,
+    "median_abs_track_err_factual": 0.07549938319710087,
+    "median_calib_abs_cum_log": 0.9093259769565878,
+    "b2_verdict": "PASS"
+   },
+   "exp_o_oracle": {
+    "run": "pc_TFT_r002_b0_oracle",
+    "n_tickers": 28,
+    "per_factor_criteria_pass": {
+     "sign": "0/28",
+     "ratio": "0/28",
+     "visible": "0/28"
+    },
+    "group_criteria_pass": {
+     "sign": "0/28",
+     "ratio_ok": "0/28",
+     "visible": "0/28"
+    },
+    "P3_corr_expected_vs_path_bulls": null,
+    "median_ks_factual": 0.05613395225464192,
+    "median_abs_track_err_factual": 0.0703022887164366,
+    "median_calib_abs_cum_log": 0.6964678389697474,
+    "b2_verdict": "FAIL"
+   },
+   "exp_o_b0eng": {
+    "run": "pc_TFT_r002_b0_b0eng",
+    "n_tickers": 28,
+    "per_factor_criteria_pass": {
+     "sign": "0/28",
+     "ratio": "0/28",
+     "visible": "0/28",
+     "fidelity_vs_R1": "28/28"
+    },
+    "group_criteria_pass": {
+     "sign": "0/28",
+     "ratio_ok": "0/28",
+     "visible": "0/28"
+    },
+    "P3_corr_expected_vs_path_bulls": null,
+    "median_ks_factual": 0.05613395225464192,
+    "median_abs_track_err_factual": 0.0703022887164366,
+    "median_calib_abs_cum_log": 0.6964678389697474,
+    "b2_verdict": "FAIL"
+   }
+  },
+  "pc_TFT_r002_b0.25": {
+   "tag": "pc_TFT_r002_b0.25",
+   "present": true,
+   "tft": {
+    "ro": {
+     "status": "PASS",
+     "verdict": "PASS",
+     "n_entering": 28,
+     "p": 3.725290298461914e-09,
+     "mean_diff": 0.3561464285714287,
+     "pos_origins": 3,
+     "pass": true,
+     "per_origin": {
+      "2021": {
+       "n_tickers_ge5_factors": 28,
+       "median_eligible_factors": 10.0,
+       "mean_control_agreement": 0.8507964285714286,
+       "mean_label_only_agreement": 0.8543678571428571
+      },
+      "2022": {
+       "n_tickers_ge5_factors": 28,
+       "median_eligible_factors": 11.0,
+       "mean_control_agreement": 0.8107285714285712,
+       "mean_label_only_agreement": 0.8272857142857142
+      },
+      "2023": {
+       "n_tickers_ge5_factors": 28,
+       "median_eligible_factors": 11.0,
+       "mean_control_agreement": 0.8707892857142859,
+       "mean_label_only_agreement": 0.8837750000000001
+      }
+     },
+     "label_only": {
+      "n_tickers": 28,
+      "mean_diff": -0.011038095238095241,
+      "p_one_sided": 0.923730981306001,
+      "origins_with_positive_median": 0,
+      "pass": false
+     }
+    },
+    "de": {
+     "status": "PASS",
+     "verdict": "PASS",
+     "pooled": {
+      "n": 102,
+      "agree": 0.8529411764705882,
+      "p_cluster_boot": 0.001,
+      "n_clusters": 17
+     },
+     "per_class": {
+      "E1_tightening": {
+       "n": 23,
+       "agree": 0.9130434782608695,
+       "p_cluster_boot": 0.0,
+       "n_clusters": 1
+      },
+      "E2_easing": {
+       "n": 23,
+       "agree": 0.8695652173913043,
+       "p_cluster_boot": 0.0,
+       "n_clusters": 1
+      },
+      "E3_oil_up": null,
+      "E4_earnings_beat": {
+       "n": 28,
+       "agree": 0.9642857142857143,
+       "p_cluster_boot": 0.0015,
+       "n_clusters": 8
+      },
+      "E5_earnings_miss": {
+       "n": 28,
+       "agree": 0.6785714285714286,
+       "p_cluster_boot": 0.0505,
+       "n_clusters": 15
+      }
+     },
+     "bad_classes": [],
+     "sign_centered": {
+      "status": "PASS",
+      "verdict": "PASS",
+      "pooled": {
+       "n": 102,
+       "agree": 0.8921568627450981,
+       "p_cluster_boot": 0.0,
+       "n_clusters": 17
+      }
+     },
+     "median_seed_agreement": 0.6,
+     "n_rows": 102
+    },
+    "b3": "PASS"
+   },
+   "ols": {
+    "ro": {
+     "status": "PASS",
+     "verdict": "PASS",
+     "n_entering": 28,
+     "p": 3.725290298461914e-09,
+     "mean_diff": 0.34781428571428574,
+     "pos_origins": 3,
+     "pass": true,
+     "per_origin": {
+      "2021": {
+       "n_tickers_ge5_factors": 28,
+       "median_eligible_factors": 10.0,
+       "mean_control_agreement": 0.8615107142857142,
+       "mean_label_only_agreement": 0.8543678571428571
+      },
+      "2022": {
+       "n_tickers_ge5_factors": 28,
+       "median_eligible_factors": 11.0,
+       "mean_control_agreement": 0.8305321428571428,
+       "mean_label_only_agreement": 0.8272857142857142
+      },
+      "2023": {
+       "n_tickers_ge5_factors": 28,
+       "median_eligible_factors": 11.0,
+       "mean_control_agreement": 0.8870214285714286,
+       "mean_label_only_agreement": 0.8837750000000001
+      }
+     },
+     "label_only": {
+      "n_tickers": 28,
+      "mean_diff": 0.0045452380952380935,
+      "p_one_sided": 0.13509054785511676,
+      "origins_with_positive_median": 0,
+      "pass": false
+     }
+    },
+    "de": {
+     "status": "PASS",
+     "verdict": "PASS",
+     "pooled": {
+      "n": 102,
+      "agree": 0.9901960784313726,
+      "p_cluster_boot": 0.0,
+      "n_clusters": 17
+     },
+     "per_class": {
+      "E1_tightening": {
+       "n": 23,
+       "agree": 1.0,
+       "p_cluster_boot": 0.0,
+       "n_clusters": 1
+      },
+      "E2_easing": {
+       "n": 23,
+       "agree": 1.0,
+       "p_cluster_boot": 0.0,
+       "n_clusters": 1
+      },
+      "E3_oil_up": null,
+      "E4_earnings_beat": {
+       "n": 28,
+       "agree": 1.0,
+       "p_cluster_boot": 0.0,
+       "n_clusters": 8
+      },
+      "E5_earnings_miss": {
+       "n": 28,
+       "agree": 0.9642857142857143,
+       "p_cluster_boot": 0.0,
+       "n_clusters": 15
+      }
+     },
+     "bad_classes": [],
+     "sign_centered": {
+      "status": "PASS",
+      "verdict": "PASS",
+      "pooled": {
+       "n": 102,
+       "agree": 0.9509803921568627,
+       "p_cluster_boot": 0.0,
+       "n_clusters": 17
+      }
+     },
+     "median_seed_agreement": 1.0,
+     "n_rows": 102
+    },
+    "b3": "PASS"
+   },
+   "same_data_as": {
+    "tag": "pc_M1_r002_b0.25",
+    "prices_hash_equal": true,
+    "label_hash_equal": true,
+    "ols_ro_p_equal": true,
+    "ols_de_pooled_equal": true
+   },
+   "b2_truth": {
+    "n_factors": 336,
+    "median_bhat_over_bstar": 0.3717329974588749,
+    "sign_agreement": 0.8869047619047619
+   },
+   "b2_tracking_vs_b0": {
+    "median_abs_track_tft": 0.11502092296184724,
+    "median_abs_track_b0": 0.11510249778031285,
+    "median_diff": -0.014184863842693253,
+    "stocks_tft_closer": 16,
+    "n": 28
+   },
+   "exp_o_tft": {
+    "run": "pc_TFT_r002_b0.25",
+    "n_tickers": 28,
+    "per_factor_criteria_pass": {
+     "sign": "28/28",
+     "ratio": "28/28",
+     "visible": "28/28",
+     "fidelity_vs_R1": "13/28"
+    },
+    "group_criteria_pass": {
+     "sign": "28/28",
+     "ratio_ok": "28/28",
+     "visible": "28/28"
+    },
+    "P3_corr_expected_vs_path_bulls": 0.99999591089547,
+    "median_ks_factual": 0.053614058355437665,
+    "median_abs_track_err_factual": 0.11502092296184732,
+    "median_calib_abs_cum_log": 4.294244294921768,
+    "b2_verdict": "FAIL"
+   },
+   "exp_o_oracle": {
+    "run": "pc_TFT_r002_b0.25_oracle",
+    "n_tickers": 28,
+    "per_factor_criteria_pass": {
+     "sign": "28/28",
+     "ratio": "28/28",
+     "visible": "28/28"
+    },
+    "group_criteria_pass": {
+     "sign": "28/28",
+     "ratio_ok": "28/28",
+     "visible": "28/28"
+    },
+    "P3_corr_expected_vs_path_bulls": 0.9999829703363531,
+    "median_ks_factual": 0.051160477453580905,
+    "median_abs_track_err_factual": 0.07409759478343077,
+    "median_calib_abs_cum_log": 0.7567135326617067,
+    "b2_verdict": "PASS"
+   },
+   "exp_o_b0eng": {
+    "run": "pc_TFT_r002_b0.25_b0eng",
+    "n_tickers": 28,
+    "per_factor_criteria_pass": {
+     "sign": "0/28",
+     "ratio": "0/28",
+     "visible": "0/28",
+     "fidelity_vs_R1": "14/28"
+    },
+    "group_criteria_pass": {
+     "sign": "0/28",
+     "ratio_ok": "0/28",
+     "visible": "0/28"
+    },
+    "P3_corr_expected_vs_path_bulls": null,
+    "median_ks_factual": 0.052210433244916005,
+    "median_abs_track_err_factual": 0.11510249778031287,
+    "median_calib_abs_cum_log": 2.521698962096873,
+    "b2_verdict": "FAIL"
+   }
+  }
+ },
+ "T1": {
+  "world": {
+   "B3": "PASS",
+   "RO": "PASS",
+   "RO_p": 3.725290298461914e-09,
+   "RO_entering": 28,
+   "DE": "PASS",
+   "DE_pooled": {
+    "n": 102,
+    "agree": 0.9411764705882353,
+    "p_cluster_boot": 0.0,
+    "n_clusters": 14
+   }
+  },
+  "holds": true,
+  "read_at_powered_beta": true
+ },
+ "T2": {
+  "world": {
+   "B3": "NOT_PASS",
+   "RO": "FAIL",
+   "RO_p": 0.16928276047110558,
+   "RO_entering": 28,
+   "DE": "FAIL",
+   "DE_pooled": {
+    "n": 102,
+    "agree": 0.5,
+    "p_cluster_boot": 0.5435,
+    "n_clusters": 14
+   }
+  },
+  "holds": true
+ },
+ "TFT_beta_0.12": {
+  "B3": "PASS",
+  "RO": "PASS",
+  "RO_p": 1.2293457984924316e-07,
+  "RO_entering": 28,
+  "DE": "PASS",
+  "DE_pooled": {
+   "n": 102,
+   "agree": 0.7549019607843137,
+   "p_cluster_boot": 0.001,
+   "n_clusters": 14
+  }
+ },
+ "TFT_other_worlds": {
+  "pc_TFT_r000_b0.12": {
+   "B3": "PASS",
+   "RO": "PASS",
+   "RO_p": 1.2293457984924316e-07,
+   "RO_entering": 28,
+   "DE": "PASS",
+   "DE_pooled": {
+    "n": 102,
+    "agree": 0.7549019607843137,
+    "p_cluster_boot": 0.001,
+    "n_clusters": 14
+   },
+   "powered_beta": false
+  },
+  "pc_TFT_r001_b0": {
+   "B3": "NOT_PASS",
+   "RO": "FAIL",
+   "RO_p": 0.12725666165351868,
+   "RO_entering": 28,
+   "DE": "FAIL",
+   "DE_pooled": {
+    "n": 102,
+    "agree": 0.5098039215686274,
+    "p_cluster_boot": 0.4975,
+    "n_clusters": 15
+   },
+   "powered_beta": null
+  },
+  "pc_TFT_r001_b0.25": {
+   "B3": "PASS",
+   "RO": "PASS",
+   "RO_p": 3.725290298461914e-09,
+   "RO_entering": 28,
+   "DE": "PASS",
+   "DE_pooled": {
+    "n": 102,
+    "agree": 0.9313725490196079,
+    "p_cluster_boot": 0.0,
+    "n_clusters": 15
+   },
+   "powered_beta": true
+  },
+  "pc_TFT_r002_b0": {
+   "B3": "NOT_PASS",
+   "RO": "FAIL",
+   "RO_p": 0.13452139782019434,
+   "RO_entering": 28,
+   "DE": "FAIL",
+   "DE_pooled": {
+    "n": 102,
+    "agree": 0.49019607843137253,
+    "p_cluster_boot": 0.6285,
+    "n_clusters": 17
+   },
+   "powered_beta": null
+  },
+  "pc_TFT_r002_b0.25": {
+   "B3": "PASS",
+   "RO": "PASS",
+   "RO_p": 3.725290298461914e-09,
+   "RO_entering": 28,
+   "DE": "PASS",
+   "DE_pooled": {
+    "n": 102,
+    "agree": 0.8529411764705882,
+    "p_cluster_boot": 0.001,
+    "n_clusters": 17
+   },
+   "powered_beta": true
+  }
+ },
+ "TFT_powered": {
+  "0.25": {
+   "grid": "0.2",
+   "majority_sign_recovery": 0.9107142857142857,
+   "powered": true
+  },
+  "0.18": {
+   "grid": "0.1",
+   "majority_sign_recovery": 0.7678571428571429,
+   "powered": false
+  },
+  "0.12": {
+   "grid": "0.1",
+   "majority_sign_recovery": 0.7678571428571429,
+   "powered": false
+  },
+  "0.09": {
+   "grid": "0.05",
+   "majority_sign_recovery": 0.6714285714285714,
+   "powered": false
+  },
+  "0.06": {
+   "grid": "0.05",
+   "majority_sign_recovery": 0.6714285714285714,
+   "powered": false
+  }
+ },
+ "not_run_scope": {
+  "worlds": "M0, M1, M2, M3 (least squares, noise C, recurring names)",
+  "N": 2000,
+  "fed_class_clusters_observed": {
+   "E1_tightening": [
+    1
+   ],
+   "E2_easing": [
+    1
+   ]
+  }
+ },
+ "sentences": {
+  "S_N_P_hold": "On synthetic panels with the real calendar, recurring names and constant planted effects, B3's tests rejected in 35/1,000 (RO) and 9/1,000 (DE) worlds without effects, and B3 in 0/1,000. B3 passed in 200, 198, 177, 155 and 89 of 200 worlds at \u03b2 = 0.25, 0.18, 0.12, 0.09 and 0.06 (least squares; size-adjusted 200, 198, 177, 153, 70).",
+  "curve": "In the realistic band, B3 passed in 89/200, 155/200 and 177/200 worlds at \u03b2 = 0.06, 0.09 and 0.12 s.d. per active day (size-adjusted 70, 153, 177). At 0.18 and 0.25 it passed in 198/200 and 200/200.",
+  "N_fails": "\u2026 RO rejected in 35/1,000 worlds without effects, above its nominal 1%: stocks share event dates and correlated returns, so its Wilcoxon test over stocks is anti-conservative. B3 stayed at 0/1,000 only because DE rarely passed without effects (9/1,000). Size-adjusted, B3 passed in 200, 198, 177, 153, 70 of 200 worlds \u2026",
+  "N_fails_assembled": "On synthetic panels with the real calendar, recurring names and constant planted effects, RO rejected in 35/1,000 worlds without effects, above its nominal 1%: stocks share event dates and correlated returns, so its Wilcoxon test over stocks is anti-conservative. B3 stayed at 0/1,000 only because DE rarely passed without effects (9/1,000). Size-adjusted, B3 passed in 200, 198, 177, 153, 70 of 200 worlds at \u03b2 = 0.25, 0.18, 0.12, 0.09 and 0.06 (least squares; unadjusted 200, 198, 177, 155 and 89).",
+  "S_fails": "B3 passed in 0/1,000 worlds without effects (limit 25/1,000). At this panel size, a B3 pass is not evidence of an effect.",
+  "P_fails": "B3 passed in only 200/200 worlds at \u03b2 = 0.25, where every test is expected to pass. The defect found was \u2026",
+  "T1_fails": "Least squares passed B3 in 200/200 worlds at \u03b2 = 0.25, but the five-seed TFT failed on the same world (RO PASS, p = 0.000; DE PASS). Its sign recovery was 0.91 at 0.2, so the estimator, not the tests, limits B3 at this effect size.",
+  "T2_fails": "The TFT passed B3 on the one world without effects (RO FAIL, DE FAIL). One world cannot estimate its size. Least squares had a false-pass rate of 0/1,000 on such worlds.",
+  "T1_T2_hold": "The five-seed TFT passed B3 at \u03b2 = 0.25 and failed it at \u03b2 = 0, one world each.",
+  "not_run": "RO was not run in 0, and DE in 0, of 2,000 worlds. Tested DE rows spanned a median of 17 clusters, and each Fed class was one cluster.",
+  "EV": "With the same effects and window-specific names, B3 passed in 0/200 worlds at \u03b2 = 0.25 and 0/200 at 0.12. RO had no eligible stock in 200/200 and 200/200, and DE alone passed in 199/200 and 164/200."
+ },
+ "sentences_applicable": [
+  "N_fails",
+  "T1_T2_hold",
+  "N_fails_assembled",
+  "curve",
+  "not_run",
+  "EV"
+ ]
+}

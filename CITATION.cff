@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this code or its data, please cite the paper."
+title: "TRACE: code and data"
+type: software
+license: MIT
+repository-code: "https://github.com/alpha-synthesis/trace-arxiv"
+authors:
+  - family-names: "Silva Prado"
+    given-names: "Diego"
+  - family-names: "Caldas de Souza"
+    given-names: "Bruno"
+  - family-names: "Amaral Penteado de Jesus"
+    given-names: "Tiago"
+  - family-names: "Bevitori Maffia De Oliveira"
+    given-names: "Cristiano"
+preferred-citation:
+  type: article
+  title: "TRACE: A Three-block Reproducible Assessment Protocol for LLM-Conditioned Event Generators"
+  authors:
+    - family-names: "Silva Prado"
+      given-names: "Diego"
+    - family-names: "Caldas de Souza"
+      given-names: "Bruno"
+    - family-names: "Amaral Penteado de Jesus"
+      given-names: "Tiago"
+    - family-names: "Bevitori Maffia De Oliveira"
+      given-names: "Cristiano"
+  year: 2026
+  journal: "arXiv preprint"

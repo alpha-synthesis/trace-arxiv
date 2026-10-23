@@ -1,0 +1,377 @@
+{
+ "_note": "Window returns recorded at run time for windows with |return| < 0.01%, whose sign revised Yahoo data can flip. tools/attach_window_returns.py uses these values for the listed windows.",
+ "runs": {
+  "r0": [
+   {
+    "ticker": "CRM",
+    "start_date": "2022-04-24",
+    "end_date": "2022-05-08",
+    "price_change_pct": 0.005889725306493569
+   },
+   {
+    "ticker": "HON",
+    "start_date": "2021-10-10",
+    "end_date": "2021-10-24",
+    "price_change_pct": 0.009199834423610468
+   },
+   {
+    "ticker": "JNJ",
+    "start_date": "2023-04-23",
+    "end_date": "2023-05-07",
+    "price_change_pct": -0.0061485691254965676
+   },
+   {
+    "ticker": "JPM",
+    "start_date": "2018-08-19",
+    "end_date": "2018-09-02",
+    "price_change_pct": -0.008713508592381783
+   },
+   {
+    "ticker": "KO",
+    "start_date": "2018-08-05",
+    "end_date": "2018-08-19",
+    "price_change_pct": 3.123527784631321e-05
+   },
+   {
+    "ticker": "MCD",
+    "start_date": "2023-02-12",
+    "end_date": "2023-02-26",
+    "price_change_pct": -0.007610847719181025
+   },
+   {
+    "ticker": "MSFT",
+    "start_date": "2019-08-18",
+    "end_date": "2019-09-01",
+    "price_change_pct": 0.007289089087048711
+   },
+   {
+    "ticker": "MSFT",
+    "start_date": "2020-07-19",
+    "end_date": "2020-08-02",
+    "price_change_pct": 0.004876280388541578
+   },
+   {
+    "ticker": "UNH",
+    "start_date": "2022-08-28",
+    "end_date": "2022-09-11",
+    "price_change_pct": -0.002840621227321988
+   },
+   {
+    "ticker": "WMT",
+    "start_date": "2023-12-03",
+    "end_date": "2023-12-17",
+    "price_change_pct": -0.008289383141787733
+   }
+  ],
+  "a1": [
+   {
+    "ticker": "CRM",
+    "start_date": "2022-04-24",
+    "end_date": "2022-05-08",
+    "price_change_pct": 0.005892357472971529
+   },
+   {
+    "ticker": "HON",
+    "start_date": "2021-10-10",
+    "end_date": "2021-10-24",
+    "price_change_pct": 0.009173927037230205
+   },
+   {
+    "ticker": "JNJ",
+    "start_date": "2023-04-23",
+    "end_date": "2023-05-07",
+    "price_change_pct": -0.006150311426567195
+   },
+   {
+    "ticker": "JPM",
+    "start_date": "2018-08-19",
+    "end_date": "2018-09-02",
+    "price_change_pct": -0.008754891324509278
+   },
+   {
+    "ticker": "KO",
+    "start_date": "2018-08-05",
+    "end_date": "2018-08-19",
+    "price_change_pct": 9.420562660044285e-06
+   },
+   {
+    "ticker": "MCD",
+    "start_date": "2023-02-12",
+    "end_date": "2023-02-26",
+    "price_change_pct": -0.007581683949816812
+   },
+   {
+    "ticker": "MSFT",
+    "start_date": "2019-08-18",
+    "end_date": "2019-09-01",
+    "price_change_pct": 0.0072733804646366584
+   },
+   {
+    "ticker": "MSFT",
+    "start_date": "2020-07-19",
+    "end_date": "2020-08-02",
+    "price_change_pct": 0.004864839975089926
+   },
+   {
+    "ticker": "UNH",
+    "start_date": "2022-08-28",
+    "end_date": "2022-09-11",
+    "price_change_pct": -0.0027973104636612647
+   },
+   {
+    "ticker": "WMT",
+    "start_date": "2023-12-03",
+    "end_date": "2023-12-17",
+    "price_change_pct": -0.00830485676785579
+   }
+  ],
+  "r1_datasign": [
+   {
+    "ticker": "CRM",
+    "start_date": "2022-04-24",
+    "end_date": "2022-05-08",
+    "price_change_pct": 0.005889725306493569
+   },
+   {
+    "ticker": "HON",
+    "start_date": "2021-10-10",
+    "end_date": "2021-10-24",
+    "price_change_pct": 0.009199834423610468
+   },
+   {
+    "ticker": "JNJ",
+    "start_date": "2023-04-23",
+    "end_date": "2023-05-07",
+    "price_change_pct": -0.0061485691254965676
+   },
+   {
+    "ticker": "JPM",
+    "start_date": "2018-08-19",
+    "end_date": "2018-09-02",
+    "price_change_pct": -0.008713508592381783
+   },
+   {
+    "ticker": "KO",
+    "start_date": "2018-08-05",
+    "end_date": "2018-08-19",
+    "price_change_pct": 3.123527784631321e-05
+   },
+   {
+    "ticker": "MCD",
+    "start_date": "2023-02-12",
+    "end_date": "2023-02-26",
+    "price_change_pct": -0.007610847719181025
+   },
+   {
+    "ticker": "MSFT",
+    "start_date": "2019-08-18",
+    "end_date": "2019-09-01",
+    "price_change_pct": 0.007289089087048711
+   },
+   {
+    "ticker": "MSFT",
+    "start_date": "2020-07-19",
+    "end_date": "2020-08-02",
+    "price_change_pct": 0.004876280388541578
+   },
+   {
+    "ticker": "UNH",
+    "start_date": "2022-08-28",
+    "end_date": "2022-09-11",
+    "price_change_pct": -0.002840621227321988
+   },
+   {
+    "ticker": "WMT",
+    "start_date": "2023-12-03",
+    "end_date": "2023-12-17",
+    "price_change_pct": -0.008289383141787733
+   }
+  ],
+  "r1_llmsign": [
+   {
+    "ticker": "CRM",
+    "start_date": "2022-04-24",
+    "end_date": "2022-05-08",
+    "price_change_pct": 0.005889725306493569
+   },
+   {
+    "ticker": "HON",
+    "start_date": "2021-10-10",
+    "end_date": "2021-10-24",
+    "price_change_pct": 0.009199834423610468
+   },
+   {
+    "ticker": "JNJ",
+    "start_date": "2023-04-23",
+    "end_date": "2023-05-07",
+    "price_change_pct": -0.0061485691254965676
+   },
+   {
+    "ticker": "JPM",
+    "start_date": "2018-08-19",
+    "end_date": "2018-09-02",
+    "price_change_pct": -0.008713508592381783
+   },
+   {
+    "ticker": "KO",
+    "start_date": "2018-08-05",
+    "end_date": "2018-08-19",
+    "price_change_pct": 3.123527784631321e-05
+   },
+   {
+    "ticker": "MCD",
+    "start_date": "2023-02-12",
+    "end_date": "2023-02-26",
+    "price_change_pct": -0.007610847719181025
+   },
+   {
+    "ticker": "MSFT",
+    "start_date": "2019-08-18",
+    "end_date": "2019-09-01",
+    "price_change_pct": 0.007289089087048711
+   },
+   {
+    "ticker": "MSFT",
+    "start_date": "2020-07-19",
+    "end_date": "2020-08-02",
+    "price_change_pct": 0.004876280388541578
+   },
+   {
+    "ticker": "UNH",
+    "start_date": "2022-08-28",
+    "end_date": "2022-09-11",
+    "price_change_pct": -0.002840621227321988
+   },
+   {
+    "ticker": "WMT",
+    "start_date": "2023-12-03",
+    "end_date": "2023-12-17",
+    "price_change_pct": -0.008289383141787733
+   }
+  ],
+  "r2_datasign": [
+   {
+    "ticker": "CRM",
+    "start_date": "2022-04-24",
+    "end_date": "2022-05-08",
+    "price_change_pct": 0.005883704945270817
+   },
+   {
+    "ticker": "HON",
+    "start_date": "2021-10-10",
+    "end_date": "2021-10-24",
+    "price_change_pct": 0.009189821303952062
+   },
+   {
+    "ticker": "JNJ",
+    "start_date": "2023-04-23",
+    "end_date": "2023-05-07",
+    "price_change_pct": -0.006129643759278645
+   },
+   {
+    "ticker": "JPM",
+    "start_date": "2018-08-19",
+    "end_date": "2018-09-02",
+    "price_change_pct": -0.008721795629656894
+   },
+   {
+    "ticker": "KO",
+    "start_date": "2018-08-05",
+    "end_date": "2018-08-19",
+    "price_change_pct": 3.046052130823184e-05
+   },
+   {
+    "ticker": "MCD",
+    "start_date": "2023-02-12",
+    "end_date": "2023-02-26",
+    "price_change_pct": -0.00759433148335964
+   },
+   {
+    "ticker": "MSFT",
+    "start_date": "2019-08-18",
+    "end_date": "2019-09-01",
+    "price_change_pct": 0.00724988332322014
+   },
+   {
+    "ticker": "MSFT",
+    "start_date": "2020-07-19",
+    "end_date": "2020-08-02",
+    "price_change_pct": 0.004895734243190511
+   },
+   {
+    "ticker": "UNH",
+    "start_date": "2022-08-28",
+    "end_date": "2022-09-11",
+    "price_change_pct": -0.0027785788955416533
+   },
+   {
+    "ticker": "WMT",
+    "start_date": "2023-12-03",
+    "end_date": "2023-12-17",
+    "price_change_pct": -0.008289500279025565
+   }
+  ],
+  "r2_llmsign": [
+   {
+    "ticker": "CRM",
+    "start_date": "2022-04-24",
+    "end_date": "2022-05-08",
+    "price_change_pct": 0.005883704945270817
+   },
+   {
+    "ticker": "HON",
+    "start_date": "2021-10-10",
+    "end_date": "2021-10-24",
+    "price_change_pct": 0.009189821303952062
+   },
+   {
+    "ticker": "JNJ",
+    "start_date": "2023-04-23",
+    "end_date": "2023-05-07",
+    "price_change_pct": -0.006129643759278645
+   },
+   {
+    "ticker": "JPM",
+    "start_date": "2018-08-19",
+    "end_date": "2018-09-02",
+    "price_change_pct": -0.008721795629656894
+   },
+   {
+    "ticker": "KO",
+    "start_date": "2018-08-05",
+    "end_date": "2018-08-19",
+    "price_change_pct": 3.046052130823184e-05
+   },
+   {
+    "ticker": "MCD",
+    "start_date": "2023-02-12",
+    "end_date": "2023-02-26",
+    "price_change_pct": -0.00759433148335964
+   },
+   {
+    "ticker": "MSFT",
+    "start_date": "2019-08-18",
+    "end_date": "2019-09-01",
+    "price_change_pct": 0.00724988332322014
+   },
+   {
+    "ticker": "MSFT",
+    "start_date": "2020-07-19",
+    "end_date": "2020-08-02",
+    "price_change_pct": 0.004895734243190511
+   },
+   {
+    "ticker": "UNH",
+    "start_date": "2022-08-28",
+    "end_date": "2022-09-11",
+    "price_change_pct": -0.0027785788955416533
+   },
+   {
+    "ticker": "WMT",
+    "start_date": "2023-12-03",
+    "end_date": "2023-12-17",
+    "price_change_pct": -0.008289500279025565
+   }
+  ]
+ }
+}

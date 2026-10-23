@@ -1,0 +1,65 @@
+{
+  "run": "pc_TFT_r000_b0.12",
+  "variant": "data",
+  "estimator": "tft",
+  "origins_present": [
+    "2021-01-01",
+    "2022-01-01",
+    "2023-01-01"
+  ],
+  "per_origin": {
+    "2021-01-01": {
+      "control_minus_window_permuted": {
+        "n_tickers": 28,
+        "median_diff": 0.2,
+        "p_one_sided": 0.00019273297324017035
+      },
+      "control_minus_label_only": {
+        "n_tickers": 28,
+        "median_diff": 0.0,
+        "p_one_sided": 0.8300907172475547
+      }
+    },
+    "2022-01-01": {
+      "control_minus_window_permuted": {
+        "n_tickers": 28,
+        "median_diff": 0.14090000000000003,
+        "p_one_sided": 0.00045470661177259946
+      },
+      "control_minus_label_only": {
+        "n_tickers": 28,
+        "median_diff": -0.09089999999999998,
+        "p_one_sided": 0.9640123196162916
+      }
+    },
+    "2023-01-01": {
+      "control_minus_window_permuted": {
+        "n_tickers": 28,
+        "median_diff": 0.23635000000000006,
+        "p_one_sided": 0.00032437834659807143
+      },
+      "control_minus_label_only": {
+        "n_tickers": 28,
+        "median_diff": 0.0,
+        "p_one_sided": 0.9027700948982511
+      }
+    }
+  },
+  "pooled": {
+    "control_minus_window_permuted": {
+      "n_tickers": 28,
+      "mean_diff": 0.1883511904761905,
+      "p_one_sided": 1.2293457984924316e-07,
+      "origins_with_positive_median": 3,
+      "pass": true
+    },
+    "control_minus_label_only": {
+      "n_tickers": 28,
+      "mean_diff": -0.03458690476190476,
+      "p_one_sided": 0.9963191877550597,
+      "origins_with_positive_median": 0,
+      "pass": false
+    }
+  },
+  "verdict": "PASS"
+}

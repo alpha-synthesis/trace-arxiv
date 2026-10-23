@@ -1,0 +1,53 @@
+{
+  "run": "r2_datasign",
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "n_tickers": 28,
+  "per_beta": {
+    "0.05": {
+      "majority_sign_recovery": 0.614406779661017,
+      "ci95_ticker_bootstrap": [
+        0.5432098765432098,
+        0.6893651024968426
+      ],
+      "seed0_sign_recovery": 0.5889830508474576,
+      "median_seed_corr_of_b": 0.21087098871458676,
+      "powered_at_80pct": false
+    },
+    "0.1": {
+      "majority_sign_recovery": 0.6610169491525424,
+      "ci95_ticker_bootstrap": [
+        0.5761191513642494,
+        0.741817148686377
+      ],
+      "seed0_sign_recovery": 0.6059322033898306,
+      "median_seed_corr_of_b": 0.2339752543194242,
+      "powered_at_80pct": false
+    },
+    "0.2": {
+      "majority_sign_recovery": 0.8008474576271186,
+      "ci95_ticker_bootstrap": [
+        0.7412196356275303,
+        0.8546255506607929
+      ],
+      "seed0_sign_recovery": 0.7076271186440678,
+      "median_seed_corr_of_b": 0.239469055708169,
+      "powered_at_80pct": true
+    },
+    "0.3": {
+      "majority_sign_recovery": 0.8389830508474576,
+      "ci95_ticker_bootstrap": [
+        0.7792194264069264,
+        0.8940677966101694
+      ],
+      "seed0_sign_recovery": 0.7372881355932204,
+      "median_seed_corr_of_b": 0.299769140886315,
+      "powered_at_80pct": true
+    }
+  }
+}

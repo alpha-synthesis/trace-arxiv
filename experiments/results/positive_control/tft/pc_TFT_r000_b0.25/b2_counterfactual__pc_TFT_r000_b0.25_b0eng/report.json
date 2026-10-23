@@ -1,0 +1,472 @@
+{
+  "summary": {
+    "run": "pc_TFT_r000_b0.25_b0eng",
+    "n_tickers": 28,
+    "per_factor_criteria_pass": {
+      "sign": "0/28",
+      "ratio": "0/28",
+      "visible": "0/28",
+      "fidelity_vs_R1": "12/28"
+    },
+    "group_criteria_pass": {
+      "sign": "0/28",
+      "ratio_ok": "0/28",
+      "visible": "0/28"
+    },
+    "P3_corr_expected_vs_path_bulls": null,
+    "median_ks_factual": 0.05553713527851459,
+    "median_abs_track_err_factual": 0.15942126365139514,
+    "median_calib_abs_cum_log": 3.1860662463757965,
+    "b2_verdict": "FAIL"
+  },
+  "rows": [
+    {
+      "ticker": "AAPL",
+      "n_eligible": 0,
+      "share_sign": null,
+      "share_ratio_ok": null,
+      "share_visible": null,
+      "median_ratio": null,
+      "groups": {
+        "bulls": null,
+        "bears": null
+      },
+      "ks_factual": 0.07146330680813438,
+      "track_err_factual": 0.8204124612191812,
+      "calib_abs_cum_log": 6.960182982801913,
+      "elapsed_s": 2.1
+    },
+    {
+      "ticker": "AMGN",
+      "n_eligible": 0,
+      "share_sign": null,
+      "share_ratio_ok": null,
+      "share_visible": null,
+      "median_ratio": null,
+      "groups": {
+        "bulls": null,
+        "bears": null
+      },
+      "ks_factual": 0.06710875331564986,
+      "track_err_factual": -0.006968211393610775,
+      "calib_abs_cum_log": 0.5903944657394713,
+      "elapsed_s": 2.1
+    },
+    {
+      "ticker": "AMZN",
+      "n_eligible": 0,
+      "share_sign": null,
+      "share_ratio_ok": null,
+      "share_visible": null,
+      "median_ratio": null,
+      "groups": {
+        "bulls": null,
+        "bears": null
+      },
+      "ks_factual": 0.056145004420866486,
+      "track_err_factual": 0.36632865091817673,
+      "calib_abs_cum_log": 3.373542121471909,
+      "elapsed_s": 1.9
+    },
+    {
+      "ticker": "AXP",
+      "n_eligible": 0,
+      "share_sign": null,
+      "share_ratio_ok": null,
+      "share_visible": null,
+      "median_ratio": null,
+      "groups": {
+        "bulls": null,
+        "bears": null
+      },
+      "ks_factual": 0.06357206012378426,
+      "track_err_factual": 0.19590940667376713,
+      "calib_abs_cum_log": 3.0936038165275694,
+      "elapsed_s": 1.8
+    },
+    {
+      "ticker": "BA",
+      "n_eligible": 0,
+      "share_sign": null,
+      "share_ratio_ok": null,
+      "share_visible": null,
+      "median_ratio": null,
+      "groups": {
+        "bulls": null,
+        "bears": null
+      },
+      "ks_factual": 0.05347038019451813,
+      "track_err_factual": 0.13949358202148007,
+      "calib_abs_cum_log": 2.0343471092592633,
+      "elapsed_s": 1.8
+    },
+    {
+      "ticker": "CAT",
+      "n_eligible": 0,
+      "share_sign": null,
+      "share_ratio_ok": null,
+      "share_visible": null,
+      "median_ratio": null,
+      "groups": {
+        "bulls": null,
+        "bears": null
+      },
+      "ks_factual": 0.05302829354553493,
+      "track_err_factual": -0.15120147368743952,
+      "calib_abs_cum_log": 1.0179576769184215,
+      "elapsed_s": 2.2
+    },
+    {
+      "ticker": "CRM",
+      "n_eligible": 0,
+      "share_sign": null,
+      "share_ratio_ok": null,
+      "share_visible": null,
+      "median_ratio": null,
+      "groups": {
+        "bulls": null,
+        "bears": null
+      },
+      "ks_factual": 0.11788240495137048,
+      "track_err_factual": -0.28737089766417395,
+      "calib_abs_cum_log": 11.485594086609149,
+      "elapsed_s": 2.1
+    },
+    {
+      "ticker": "CSCO",
+      "n_eligible": 0,
+      "share_sign": null,
+      "share_ratio_ok": null,
+      "share_visible": null,
+      "median_ratio": null,
+      "groups": {
+        "bulls": null,
+        "bears": null
+      },
+      "ks_factual": 0.04683908045977011,
+      "track_err_factual": 0.15613436452998997,
+      "calib_abs_cum_log": 1.5743789751979544,
+      "elapsed_s": 2.1
+    },
+    {
+      "ticker": "CVX",
+      "n_eligible": 0,
+      "share_sign": null,
+      "share_ratio_ok": null,
+      "share_visible": null,
+      "median_ratio": null,
+      "groups": {
+        "bulls": null,
+        "bears": null
+      },
+      "ks_factual": 0.05411140583554377,
+      "track_err_factual": 0.010189942390695705,
+      "calib_abs_cum_log": 1.2878037362265593,
+      "elapsed_s": 2.1
+    },
+    {
+      "ticker": "DIS",
+      "n_eligible": 0,
+      "share_sign": null,
+      "share_ratio_ok": null,
+      "share_visible": null,
+      "median_ratio": null,
+      "groups": {
+        "bulls": null,
+        "bears": null
+      },
+      "ks_factual": 0.055194518125552615,
+      "track_err_factual": -0.03622850184623464,
+      "calib_abs_cum_log": 1.837066027973928,
+      "elapsed_s": 1.7
+    },
+    {
+      "ticker": "GS",
+      "n_eligible": 0,
+      "share_sign": null,
+      "share_ratio_ok": null,
+      "share_visible": null,
+      "median_ratio": null,
+      "groups": {
+        "bulls": null,
+        "bears": null
+      },
+      "ks_factual": 0.04624226348364279,
+      "track_err_factual": 0.05615011042269913,
+      "calib_abs_cum_log": 4.6791513791253365,
+      "elapsed_s": 1.8
+    },
+    {
+      "ticker": "HD",
+      "n_eligible": 0,
+      "share_sign": null,
+      "share_ratio_ok": null,
+      "share_visible": null,
+      "median_ratio": null,
+      "groups": {
+        "bulls": null,
+        "bears": null
+      },
+      "ks_factual": 0.05632183908045977,
+      "track_err_factual": -0.31856949405438567,
+      "calib_abs_cum_log": 5.359097621857302,
+      "elapsed_s": 2.2
+    },
+    {
+      "ticker": "HON",
+      "n_eligible": 0,
+      "share_sign": null,
+      "share_ratio_ok": null,
+      "share_visible": null,
+      "median_ratio": null,
+      "groups": {
+        "bulls": null,
+        "bears": null
+      },
+      "ks_factual": 0.049955791335101675,
+      "track_err_factual": 0.01999551603735054,
+      "calib_abs_cum_log": 3.204710099348432,
+      "elapsed_s": 1.9
+    },
+    {
+      "ticker": "IBM",
+      "n_eligible": 0,
+      "share_sign": null,
+      "share_ratio_ok": null,
+      "share_visible": null,
+      "median_ratio": null,
+      "groups": {
+        "bulls": null,
+        "bears": null
+      },
+      "ks_factual": 0.05587975243147656,
+      "track_err_factual": -0.2273015397764612,
+      "calib_abs_cum_log": 5.361731940280412,
+      "elapsed_s": 1.7
+    },
+    {
+      "ticker": "JNJ",
+      "n_eligible": 0,
+      "share_sign": null,
+      "share_ratio_ok": null,
+      "share_visible": null,
+      "median_ratio": null,
+      "groups": {
+        "bulls": null,
+        "bears": null
+      },
+      "ks_factual": 0.05683023872679046,
+      "track_err_factual": 0.06674569127735498,
+      "calib_abs_cum_log": 0.6058023302171439,
+      "elapsed_s": 1.8
+    },
+    {
+      "ticker": "JPM",
+      "n_eligible": 0,
+      "share_sign": null,
+      "share_ratio_ok": null,
+      "share_visible": null,
+      "median_ratio": null,
+      "groups": {
+        "bulls": null,
+        "bears": null
+      },
+      "ks_factual": 0.0486737400530504,
+      "track_err_factual": -0.1094133560505363,
+      "calib_abs_cum_log": 4.190889936294984,
+      "elapsed_s": 1.8
+    },
+    {
+      "ticker": "KO",
+      "n_eligible": 0,
+      "share_sign": null,
+      "share_ratio_ok": null,
+      "share_visible": null,
+      "median_ratio": null,
+      "groups": {
+        "bulls": null,
+        "bears": null
+      },
+      "ks_factual": 0.05667550839964633,
+      "track_err_factual": 0.07197153957643894,
+      "calib_abs_cum_log": 0.6632317953880985,
+      "elapsed_s": 1.9
+    },
+    {
+      "ticker": "MCD",
+      "n_eligible": 0,
+      "share_sign": null,
+      "share_ratio_ok": null,
+      "share_visible": null,
+      "median_ratio": null,
+      "groups": {
+        "bulls": null,
+        "bears": null
+      },
+      "ks_factual": 0.04666224580017684,
+      "track_err_factual": 0.17542407794946543,
+      "calib_abs_cum_log": 3.1674223934031613,
+      "elapsed_s": 1.7
+    },
+    {
+      "ticker": "MMM",
+      "n_eligible": 0,
+      "share_sign": null,
+      "share_ratio_ok": null,
+      "share_visible": null,
+      "median_ratio": null,
+      "groups": {
+        "bulls": null,
+        "bears": null
+      },
+      "ks_factual": 0.07046861184792219,
+      "track_err_factual": -0.06336407143557743,
+      "calib_abs_cum_log": 1.4740731217867769,
+      "elapsed_s": 2.1
+    },
+    {
+      "ticker": "MRK",
+      "n_eligible": 0,
+      "share_sign": null,
+      "share_ratio_ok": null,
+      "share_visible": null,
+      "median_ratio": null,
+      "groups": {
+        "bulls": null,
+        "bears": null
+      },
+      "ks_factual": 0.04584438549955792,
+      "track_err_factual": -0.035777546069060286,
+      "calib_abs_cum_log": 3.751427681129069,
+      "elapsed_s": 2.1
+    },
+    {
+      "ticker": "MSFT",
+      "n_eligible": 0,
+      "share_sign": null,
+      "share_ratio_ok": null,
+      "share_visible": null,
+      "median_ratio": null,
+      "groups": {
+        "bulls": null,
+        "bears": null
+      },
+      "ks_factual": 0.03996463306808134,
+      "track_err_factual": 0.4335618661905878,
+      "calib_abs_cum_log": 5.385800858589331,
+      "elapsed_s": 2.1
+    },
+    {
+      "ticker": "NKE",
+      "n_eligible": 0,
+      "share_sign": null,
+      "share_ratio_ok": null,
+      "share_visible": null,
+      "median_ratio": null,
+      "groups": {
+        "bulls": null,
+        "bears": null
+      },
+      "ks_factual": 0.10382404951370468,
+      "track_err_factual": 0.4219357390990754,
+      "calib_abs_cum_log": 4.369612481270533,
+      "elapsed_s": 1.8
+    },
+    {
+      "ticker": "PG",
+      "n_eligible": 0,
+      "share_sign": null,
+      "share_ratio_ok": null,
+      "share_visible": null,
+      "median_ratio": null,
+      "groups": {
+        "bulls": null,
+        "bears": null
+      },
+      "ks_factual": 0.05833333333333334,
+      "track_err_factual": 0.24689194767925557,
+      "calib_abs_cum_log": 4.338680368489297,
+      "elapsed_s": 2.0
+    },
+    {
+      "ticker": "TRV",
+      "n_eligible": 0,
+      "share_sign": null,
+      "share_ratio_ok": null,
+      "share_visible": null,
+      "median_ratio": null,
+      "groups": {
+        "bulls": null,
+        "bears": null
+      },
+      "ks_factual": 0.060079575596816974,
+      "track_err_factual": 0.22048892146380825,
+      "calib_abs_cum_log": 2.3361059560527315,
+      "elapsed_s": 1.9
+    },
+    {
+      "ticker": "UNH",
+      "n_eligible": 0,
+      "share_sign": null,
+      "share_ratio_ok": null,
+      "share_visible": null,
+      "median_ratio": null,
+      "groups": {
+        "bulls": null,
+        "bears": null
+      },
+      "ks_factual": 0.047568523430592397,
+      "track_err_factual": -0.16270816277280029,
+      "calib_abs_cum_log": 5.860864395123973,
+      "elapsed_s": 2.1
+    },
+    {
+      "ticker": "V",
+      "n_eligible": 0,
+      "share_sign": null,
+      "share_ratio_ok": null,
+      "share_visible": null,
+      "median_ratio": null,
+      "groups": {
+        "bulls": null,
+        "bears": null
+      },
+      "ks_factual": 0.05150309460654288,
+      "track_err_factual": 0.10517057145863824,
+      "calib_abs_cum_log": 4.391784412223765,
+      "elapsed_s": 1.9
+    },
+    {
+      "ticker": "WMT",
+      "n_eligible": 0,
+      "share_sign": null,
+      "share_ratio_ok": null,
+      "share_visible": null,
+      "median_ratio": null,
+      "groups": {
+        "bulls": null,
+        "bears": null
+      },
+      "ks_factual": 0.07307692307692308,
+      "track_err_factual": 0.2316472919376705,
+      "calib_abs_cum_log": 2.4138623376168984,
+      "elapsed_s": 2.0
+    },
+    {
+      "ticker": "XOM",
+      "n_eligible": 0,
+      "share_sign": null,
+      "share_ratio_ok": null,
+      "share_visible": null,
+      "median_ratio": null,
+      "groups": {
+        "bulls": null,
+        "bears": null
+      },
+      "ks_factual": 0.03461538461538461,
+      "track_err_factual": -0.32020527409725347,
+      "calib_abs_cum_log": 1.311552565569047,
+      "elapsed_s": 2.0
+    }
+  ]
+}

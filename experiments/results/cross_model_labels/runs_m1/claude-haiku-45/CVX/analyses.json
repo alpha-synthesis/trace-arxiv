@@ -1,0 +1,4586 @@
+[
+  {
+    "start_date": "2018-01-07",
+    "end_date": "2018-01-21",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "low_vix_risk_on_sentiment",
+        "category": "market_sentiment",
+        "direction": 0.75,
+        "magnitude": 0.6,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.4,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2018-01-21",
+    "end_date": "2018-02-04",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "broad_market_volatility_spike_late_january",
+        "category": "market_sentiment",
+        "direction": -0.8099999999999999,
+        "magnitude": 0.8607594936708861,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.13924050632911394,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2018-02-04",
+    "end_date": "2018-02-18",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "vix_spike_volatility_shock_early_feb",
+        "category": "market_sentiment",
+        "direction": -0.75,
+        "magnitude": 0.65,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "vix_normalization_mid_to_late_feb",
+        "category": "market_sentiment",
+        "direction": 0.51,
+        "magnitude": 0.30999999999999994,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.04,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2018-02-18",
+    "end_date": "2018-03-04",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "vix_volatility_normalization_post_february_selloff",
+        "category": "market_sentiment",
+        "direction": 0.3,
+        "magnitude": 0.48387096774193555,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "march_1_vix_spike_risk_off_sentiment",
+        "category": "market_sentiment",
+        "direction": -0.4000000000000001,
+        "magnitude": 0.3763440860215053,
+        "persistence": "transient",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.13978494623655915,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2018-03-04",
+    "end_date": "2018-03-18",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "vix_normalization_early_march",
+        "category": "market_sentiment",
+        "direction": 0.65,
+        "magnitude": 0.6,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.4,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2018-03-18",
+    "end_date": "2018-04-01",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "vix_volatility_spike_late_march",
+        "category": "macroeconomic",
+        "direction": -0.45,
+        "magnitude": 0.35,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "vix_normalization_post_spike",
+        "category": "macroeconomic",
+        "direction": 0.35,
+        "magnitude": 0.25,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.4,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2018-04-01",
+    "end_date": "2018-04-15",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "vix_volatility_decline_early_april",
+        "category": "market_sentiment",
+        "direction": 0.65,
+        "magnitude": 0.6707317073170732,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.32926829268292684,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2018-04-15",
+    "end_date": "2018-04-29",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "low_volatility_risk_on_environment",
+        "category": "market_sentiment",
+        "direction": 0.7,
+        "magnitude": 0.625,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "mid_window_volatility_spike_april_24",
+        "category": "market_sentiment",
+        "direction": -0.3,
+        "magnitude": 0.2604166666666667,
+        "persistence": "transient",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.11458333333333336,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2018-04-29",
+    "end_date": "2018-05-13",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "vix_decline_risk_appetite_normalization",
+        "category": "macroeconomic",
+        "direction": 0.65,
+        "magnitude": 0.65,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.35,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2018-05-13",
+    "end_date": "2018-05-27",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "emerging_market_currency_crisis_turkey",
+        "category": "geopolitical",
+        "direction": -0.75,
+        "magnitude": 0.55,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "low_vix_equity_consolidation",
+        "category": "market_sentiment",
+        "direction": -0.15,
+        "magnitude": 0.25,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.2,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2018-05-27",
+    "end_date": "2018-06-10",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.06542056074766354,
+        "persistence": "transient",
+        "description": ""
+      },
+      {
+        "name": "risk_sentiment_normalization_late_may",
+        "category": "market_sentiment",
+        "direction": 0.65,
+        "magnitude": 0.5607476635514018,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "broad_market_risk_appetite_recovery",
+        "category": "macroeconomic",
+        "direction": 0.35,
+        "magnitude": 0.37383177570093457,
+        "persistence": "medium",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2018-06-10",
+    "end_date": "2018-06-24",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "low_vix_environment_june_2018",
+        "category": "market_sentiment",
+        "direction": -0.3,
+        "magnitude": 0.45,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.55,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2018-06-24",
+    "end_date": "2018-07-08",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "vix_volatility_spike_mid_window",
+        "category": "market_sentiment",
+        "direction": -0.3,
+        "magnitude": 0.3246753246753247,
+        "persistence": "transient",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.28571428571428575,
+        "persistence": "transient",
+        "description": ""
+      },
+      {
+        "name": "vix_normalization_post_spike",
+        "category": "market_sentiment",
+        "direction": 0.4000000000000001,
+        "magnitude": 0.3896103896103896,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2018-07-08",
+    "end_date": "2018-07-22",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "low_vix_environment_july_2018",
+        "category": "market_sentiment",
+        "direction": -0.3,
+        "magnitude": 0.45,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.55,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2018-07-22",
+    "end_date": "2018-08-05",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "low_vix_risk_on_sentiment",
+        "category": "market_sentiment",
+        "direction": 0.65,
+        "magnitude": 0.6,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.4,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2018-08-05",
+    "end_date": "2018-08-19",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "turkey_emerging_market_contagion_fears",
+        "category": "geopolitical",
+        "direction": -0.75,
+        "magnitude": 0.65,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "vix_volatility_index_elevation",
+        "category": "market_sentiment",
+        "direction": -0.42500000000000004,
+        "magnitude": 0.25,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.1,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2018-08-19",
+    "end_date": "2018-09-02",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "low_vix_risk_on_sentiment",
+        "category": "market_sentiment",
+        "direction": 0.6,
+        "magnitude": 0.5140186915887851,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.1588785046728972,
+        "persistence": "transient",
+        "description": ""
+      },
+      {
+        "name": "energy_sector_consolidation",
+        "category": "sector_specific",
+        "direction": 0.0,
+        "magnitude": 0.32710280373831774,
+        "persistence": "short",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2018-09-02",
+    "end_date": "2018-09-16",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "vix_normalization_low_volatility_regime",
+        "category": "market_sentiment",
+        "direction": -0.3,
+        "magnitude": 0.44554455445544555,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.15841584158415842,
+        "persistence": "transient",
+        "description": ""
+      },
+      {
+        "name": "energy_sector_consolidation_amid_stable_macro",
+        "category": "market_sentiment",
+        "direction": -0.05,
+        "magnitude": 0.39603960396039606,
+        "persistence": "short",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2018-09-16",
+    "end_date": "2018-09-30",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "low_vix_risk_appetite_environment",
+        "category": "market_sentiment",
+        "direction": 0.75,
+        "magnitude": 0.65,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "energy_sector_cyclical_recovery",
+        "category": "sector_specific",
+        "direction": 0.25,
+        "magnitude": 0.35,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.0,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2018-09-30",
+    "end_date": "2018-10-14",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.32989690721649484,
+        "persistence": "transient",
+        "description": ""
+      },
+      {
+        "name": "vix_volatility_spike_early_october",
+        "category": "macroeconomic",
+        "direction": -0.75,
+        "magnitude": 0.6701030927835052,
+        "persistence": "short",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2018-10-14",
+    "end_date": "2018-10-28",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "broad_market_volatility_spike_late_october",
+        "category": "macroeconomic",
+        "direction": -0.75,
+        "magnitude": 0.65,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "early_window_vix_stabilization",
+        "category": "market_sentiment",
+        "direction": 0.25,
+        "magnitude": 0.2,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.15,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2018-10-28",
+    "end_date": "2018-11-11",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "vix_volatility_normalization_late_october",
+        "category": "market_sentiment",
+        "direction": 0.65,
+        "magnitude": 0.6627906976744186,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.3372093023255814,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2018-11-11",
+    "end_date": "2018-11-25",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "vix_volatility_spike_mid_november",
+        "category": "macroeconomic",
+        "direction": -0.75,
+        "magnitude": 0.65,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.35,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2018-11-25",
+    "end_date": "2018-12-09",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "vix_volatility_spike_early_december",
+        "category": "macroeconomic",
+        "direction": -0.3,
+        "magnitude": 0.25,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "sec_filing_routine_disclosure",
+        "category": "company_specific",
+        "direction": 0.05,
+        "magnitude": 0.05,
+        "persistence": "transient",
+        "description": ""
+      },
+      {
+        "name": "post_thanksgiving_consolidation_and_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.7,
+        "persistence": "short",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2018-12-09",
+    "end_date": "2018-12-23",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "vix_spike_late_december_2018",
+        "category": "macroeconomic",
+        "direction": -0.95,
+        "magnitude": 0.75,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.25,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2018-12-23",
+    "end_date": "2019-01-06",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "vix_peak_to_trough_normalization",
+        "category": "market_sentiment",
+        "direction": 0.7166666666666667,
+        "magnitude": 0.7647058823529411,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.23529411764705882,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2019-01-06",
+    "end_date": "2019-01-20",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "vix_normalization_post_december_selloff",
+        "category": "market_sentiment",
+        "direction": 0.65,
+        "magnitude": 0.6,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.4,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2019-01-20",
+    "end_date": "2019-02-03",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "vix_normalization_late_january",
+        "category": "market_sentiment",
+        "direction": 0.65,
+        "magnitude": 0.5555555555555556,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.4444444444444445,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2019-02-03",
+    "end_date": "2019-02-17",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "risk_sentiment_normalization_q1_2019",
+        "category": "macroeconomic",
+        "direction": 0.65,
+        "magnitude": 0.631578947368421,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.3684210526315789,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2019-02-17",
+    "end_date": "2019-03-03",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "low_volatility_risk_on_environment",
+        "category": "market_sentiment",
+        "direction": 0.65,
+        "magnitude": 0.6,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "sec_filing_routine_disclosure",
+        "category": "company_specific",
+        "direction": 0.0,
+        "magnitude": 0.11000000000000001,
+        "persistence": "transient",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.29,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2019-03-03",
+    "end_date": "2019-03-17",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "vix_normalization_early_march",
+        "category": "market_sentiment",
+        "direction": 0.65,
+        "magnitude": 0.5555555555555555,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "energy_sector_risk_appetite_recovery",
+        "category": "sector_specific",
+        "direction": 0.35,
+        "magnitude": 0.37037037037037035,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.07407407407407407,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2019-03-17",
+    "end_date": "2019-03-31",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "vix_volatility_spike_march_22",
+        "category": "market_sentiment",
+        "direction": -0.65,
+        "magnitude": 0.4326923076923077,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.23076923076923075,
+        "persistence": "transient",
+        "description": ""
+      },
+      {
+        "name": "energy_sector_cyclical_weakness",
+        "category": "sector_specific",
+        "direction": -0.3499999999999999,
+        "magnitude": 0.33653846153846145,
+        "persistence": "medium",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2019-03-31",
+    "end_date": "2019-04-14",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "low_vix_environment_april_2019",
+        "category": "market_sentiment",
+        "direction": -0.3,
+        "magnitude": 0.4883720930232558,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.5116279069767442,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2019-04-14",
+    "end_date": "2019-04-28",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "low_vix_environment_april_2019",
+        "category": "market_sentiment",
+        "direction": -0.3,
+        "magnitude": 0.3738317757009347,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "energy_sector_consolidation_post_q1",
+        "category": "sector_specific",
+        "direction": 0.0,
+        "magnitude": 0.32710280373831774,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.2990654205607477,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2019-04-28",
+    "end_date": "2019-05-12",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "vix_volatility_spike_early_may",
+        "category": "macroeconomic",
+        "direction": 0.65,
+        "magnitude": 0.5,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "sec_filing_activity_may_9_10",
+        "category": "company_specific",
+        "direction": 0.15,
+        "magnitude": 0.15,
+        "persistence": "transient",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.35,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2019-05-12",
+    "end_date": "2019-05-26",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "vix_volatility_spike_mid_may",
+        "category": "macroeconomic",
+        "direction": -0.45,
+        "magnitude": 0.35,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "vix_normalization_late_may",
+        "category": "macroeconomic",
+        "direction": 0.3,
+        "magnitude": 0.25,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.4,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2019-05-26",
+    "end_date": "2019-06-09",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "vix_normalization_late_may_early_june",
+        "category": "macroeconomic",
+        "direction": 0.6,
+        "magnitude": 0.45,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "sec_filing_activity_june_3",
+        "category": "company_specific",
+        "direction": 0.15,
+        "magnitude": 0.1,
+        "persistence": "transient",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.45,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2019-06-09",
+    "end_date": "2019-06-23",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "low_vix_risk_on_sentiment",
+        "category": "market_sentiment",
+        "direction": 0.65,
+        "magnitude": 0.55,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.45,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2019-06-23",
+    "end_date": "2019-07-07",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "energy_sector_consolidation",
+        "category": "sector_specific",
+        "direction": 0.0,
+        "magnitude": 0.5778894472361809,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.42211055276381904,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2019-07-07",
+    "end_date": "2019-07-21",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "low_volatility_regime_vix_normalization",
+        "category": "market_sentiment",
+        "direction": 0.6,
+        "magnitude": 0.65,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.35,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2019-07-21",
+    "end_date": "2019-08-04",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "vix_volatility_spike_late_july",
+        "category": "macroeconomic",
+        "direction": -0.65,
+        "magnitude": 0.55,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "energy_sector_cyclical_weakness",
+        "category": "sector_specific",
+        "direction": -0.35,
+        "magnitude": 0.35,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.1,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2019-08-04",
+    "end_date": "2019-08-18",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "vix_volatility_spike_mid_august",
+        "category": "macroeconomic",
+        "direction": -0.65,
+        "magnitude": 0.55,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.45,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2019-08-18",
+    "end_date": "2019-09-01",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "vix_volatility_spike_late_august",
+        "category": "macroeconomic",
+        "direction": -0.35,
+        "magnitude": 0.3448275862068966,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.3103448275862069,
+        "persistence": "transient",
+        "description": ""
+      },
+      {
+        "name": "market_consolidation_competing_forces",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.3448275862068965,
+        "persistence": "short",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2019-09-01",
+    "end_date": "2019-09-15",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "saudi_aramco_drone_attack_oil_supply_shock",
+        "category": "geopolitical",
+        "direction": 1.0,
+        "magnitude": 0.9770114942528736,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.022988505747126436,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2019-09-15",
+    "end_date": "2019-09-29",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "saudi_aramco_drone_attack_oil_spike",
+        "category": "geopolitical",
+        "direction": 0.8,
+        "magnitude": 0.45,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "oil_price_mean_reversion_post_spike",
+        "category": "sector_specific",
+        "direction": -0.6,
+        "magnitude": 0.35,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "vix_volatility_expansion",
+        "category": "market_sentiment",
+        "direction": -0.3,
+        "magnitude": 0.15,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.05,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2019-09-29",
+    "end_date": "2019-10-13",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "vix_volatility_spike_early_october",
+        "category": "macroeconomic",
+        "direction": -0.65,
+        "magnitude": 0.55,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "vix_normalization_mid_october",
+        "category": "macroeconomic",
+        "direction": 0.35,
+        "magnitude": 0.25,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.2,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2019-10-13",
+    "end_date": "2019-10-27",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "low_vix_risk_on_sentiment",
+        "category": "market_sentiment",
+        "direction": 0.65,
+        "magnitude": 0.6,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.4,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2019-10-27",
+    "end_date": "2019-11-10",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 1.0,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2019-11-10",
+    "end_date": "2019-11-24",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "low_volatility_regime_vix_normalization",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.7999999999999999,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.20000000000000004,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2019-11-24",
+    "end_date": "2019-12-08",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "vix_volatility_expansion_early_december",
+        "category": "macroeconomic",
+        "direction": -0.45,
+        "magnitude": 0.35714285714285715,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "low_volatility_regime_late_november",
+        "category": "market_sentiment",
+        "direction": 0.12,
+        "magnitude": 0.2653061224489796,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.37755102040816324,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2019-12-08",
+    "end_date": "2019-12-22",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "risk_sentiment_normalization_dec2019",
+        "category": "market_sentiment",
+        "direction": 0.65,
+        "magnitude": 0.5445544554455446,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "sec_filing_activity_chevron",
+        "category": "company_specific",
+        "direction": 0.15,
+        "magnitude": 0.1485148514851485,
+        "persistence": "transient",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.30693069306930687,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2019-12-22",
+    "end_date": "2020-01-05",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "year_end_holiday_liquidity_reduction",
+        "category": "liquidity",
+        "direction": 0.3,
+        "magnitude": 0.34313725490196073,
+        "persistence": "transient",
+        "description": ""
+      },
+      {
+        "name": "sec_filing_routine_disclosure",
+        "category": "company_specific",
+        "direction": 0.0,
+        "magnitude": 0.049019607843137254,
+        "persistence": "transient",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.31372549019607837,
+        "persistence": "transient",
+        "description": ""
+      },
+      {
+        "name": "low_vix_risk_on_sentiment",
+        "category": "market_sentiment",
+        "direction": 0.4000000000000001,
+        "magnitude": 0.29411764705882354,
+        "persistence": "short",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2020-01-05",
+    "end_date": "2020-01-19",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "fed_accommodative_stance_maintenance",
+        "category": "macroeconomic",
+        "direction": 0.3,
+        "magnitude": 0.5,
+        "persistence": "long",
+        "description": ""
+      },
+      {
+        "name": "low_vix_environment_stability",
+        "category": "market_sentiment",
+        "direction": 0.1,
+        "magnitude": 0.3,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.2,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2020-01-19",
+    "end_date": "2020-02-02",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "coronavirus_vix_spike_late_january",
+        "category": "macroeconomic",
+        "direction": -0.75,
+        "magnitude": 0.65,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.1,
+        "persistence": "transient",
+        "description": ""
+      },
+      {
+        "name": "energy_sector_demand_concerns",
+        "category": "sector_specific",
+        "direction": -0.6,
+        "magnitude": 0.25,
+        "persistence": "medium",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2020-02-02",
+    "end_date": "2020-02-16",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "vix_decline_risk_sentiment_normalization",
+        "category": "macroeconomic",
+        "direction": 0.65,
+        "magnitude": 0.65,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.35,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2020-02-16",
+    "end_date": "2020-03-01",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "covid19_pandemic_market_panic_late_feb_2020",
+        "category": "geopolitical",
+        "direction": -1.0,
+        "magnitude": 1.0,
+        "persistence": "medium",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2020-03-01",
+    "end_date": "2020-03-15",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "fed_emergency_rate_cut_50bps_march_3",
+        "category": "macroeconomic",
+        "direction": -0.35,
+        "magnitude": 0.35714285714285715,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "synchronized_stock_bond_selloff_march_11",
+        "category": "market_sentiment",
+        "direction": -0.55,
+        "magnitude": 0.5357142857142857,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.10714285714285715,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2020-03-15",
+    "end_date": "2020-03-29",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "fed_emergency_rate_cut_and_qe_march_15",
+        "category": "macroeconomic",
+        "direction": -0.65,
+        "magnitude": 0.47804878048780497,
+        "persistence": "long",
+        "description": ""
+      },
+      {
+        "name": "oil_demand_collapse_covid_lockdown",
+        "category": "sector_specific",
+        "direction": -0.7750000000000001,
+        "magnitude": 0.26829268292682934,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": -0.0878048780487805,
+        "persistence": "transient",
+        "description": ""
+      },
+      {
+        "name": "extreme_market_volatility_vix_spike",
+        "category": "market_sentiment",
+        "direction": -0.65,
+        "magnitude": 0.3414634146341463,
+        "persistence": "short",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2020-03-29",
+    "end_date": "2020-04-12",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "vix_normalization_risk_off_recovery",
+        "category": "market_sentiment",
+        "direction": 0.85,
+        "magnitude": 0.75,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "energy_sector_cyclical_recovery",
+        "category": "sector_specific",
+        "direction": 0.15,
+        "magnitude": 0.17,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.08,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2020-04-12",
+    "end_date": "2020-04-26",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "elevated_vix_sustained_through_window",
+        "category": "market_sentiment",
+        "direction": -0.65,
+        "magnitude": 0.65,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.35,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2020-04-26",
+    "end_date": "2020-05-10",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "risk_sentiment_recovery_late_april_2020",
+        "category": "market_sentiment",
+        "direction": 0.75,
+        "magnitude": 0.6,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "sec_filing_activity_may_1_2020",
+        "category": "company_specific",
+        "direction": 0.15,
+        "magnitude": 0.15,
+        "persistence": "transient",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.25,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2020-05-10",
+    "end_date": "2020-05-24",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "vix_volatility_spike_mid_may",
+        "category": "macroeconomic",
+        "direction": -0.65,
+        "magnitude": 0.55,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "energy_sector_demand_uncertainty_covid_recovery",
+        "category": "sector_specific",
+        "direction": -0.35,
+        "magnitude": 0.3,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "vix_normalization_late_may",
+        "category": "macroeconomic",
+        "direction": 0.19,
+        "magnitude": 0.15,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.0,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2020-05-24",
+    "end_date": "2020-06-07",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "risk_sentiment_vix_normalization",
+        "category": "macroeconomic",
+        "direction": 0.65,
+        "magnitude": 0.6060606060606061,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "oil_demand_recovery_expectations",
+        "category": "sector_specific",
+        "direction": 0.3,
+        "magnitude": 0.25252525252525254,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.14141414141414144,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2020-06-07",
+    "end_date": "2020-06-21",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "vix_spike_risk_off_sentiment",
+        "category": "market_sentiment",
+        "direction": -0.95,
+        "magnitude": 0.75,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "energy_sector_demand_destruction_covid_recovery_uncertainty",
+        "category": "sector_specific",
+        "direction": -0.85,
+        "magnitude": 0.2,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.05,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2020-06-21",
+    "end_date": "2020-07-05",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "vix_volatility_spike_late_june",
+        "category": "market_sentiment",
+        "direction": -0.75,
+        "magnitude": 0.65,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "vix_normalization_early_july",
+        "category": "market_sentiment",
+        "direction": 0.35,
+        "magnitude": 0.24,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.11000000000000001,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2020-07-05",
+    "end_date": "2020-07-19",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "vix_volatility_spike_mid_july",
+        "category": "market_sentiment",
+        "direction": -0.75,
+        "magnitude": 0.65,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "energy_sector_demand_uncertainty_covid_recovery",
+        "category": "sector_specific",
+        "direction": -0.65,
+        "magnitude": 0.25,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.1,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2020-07-19",
+    "end_date": "2020-08-02",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": -0.33,
+        "magnitude": 1.0,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2020-08-02",
+    "end_date": "2020-08-16",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "broad_market_risk_sentiment_normalization",
+        "category": "market_sentiment",
+        "direction": 0.75,
+        "magnitude": 0.7633587786259541,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.23664122137404578,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2020-08-16",
+    "end_date": "2020-08-30",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.35,
+        "persistence": "transient",
+        "description": ""
+      },
+      {
+        "name": "vix_volatility_normalization_mid_august",
+        "category": "market_sentiment",
+        "direction": -0.65,
+        "magnitude": 0.65,
+        "persistence": "medium",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2020-08-30",
+    "end_date": "2020-09-13",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "vix_volatility_spike_early_september",
+        "category": "market_sentiment",
+        "direction": -0.75,
+        "magnitude": 0.65,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "energy_sector_cyclical_weakness",
+        "category": "sector_specific",
+        "direction": -0.65,
+        "magnitude": 0.25,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.1,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2020-09-13",
+    "end_date": "2020-09-27",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "broad_market_volatility_spike_mid_september",
+        "category": "macroeconomic",
+        "direction": -0.85,
+        "magnitude": 0.65,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "energy_sector_demand_uncertainty_covid_recovery",
+        "category": "sector_specific",
+        "direction": -0.7,
+        "magnitude": 0.25,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.1,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2020-09-27",
+    "end_date": "2020-10-11",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "vix_volatility_spike_early_october",
+        "category": "macroeconomic",
+        "direction": -0.65,
+        "magnitude": 0.45,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "sec_filing_activity_routine",
+        "category": "company_specific",
+        "direction": 0.0,
+        "magnitude": 0.05,
+        "persistence": "transient",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.5,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2020-10-11",
+    "end_date": "2020-10-25",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "elevated_vix_risk_off_sentiment",
+        "category": "market_sentiment",
+        "direction": -0.67,
+        "magnitude": 0.65,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.35,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2020-10-25",
+    "end_date": "2020-11-08",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "elevated_vix_market_uncertainty",
+        "category": "market_sentiment",
+        "direction": -0.4,
+        "magnitude": 0.35,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "sec_filing_routine_disclosure",
+        "category": "company_specific",
+        "direction": 0.0,
+        "magnitude": 0.05,
+        "persistence": "transient",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.35,
+        "persistence": "transient",
+        "description": ""
+      },
+      {
+        "name": "rba_rate_cut_global_easing_signal",
+        "category": "macroeconomic",
+        "direction": 0.3,
+        "magnitude": 0.25,
+        "persistence": "medium",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2020-11-08",
+    "end_date": "2020-11-22",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "post_election_risk_on_sentiment",
+        "category": "market_sentiment",
+        "direction": 0.85,
+        "magnitude": 0.6724137931034483,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "vix_volatility_spike_nov12",
+        "category": "market_sentiment",
+        "direction": -0.15,
+        "magnitude": 0.12068965517241378,
+        "persistence": "transient",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.20689655172413793,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2020-11-22",
+    "end_date": "2020-12-06",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "post_thanksgiving_risk_on_sentiment",
+        "category": "market_sentiment",
+        "direction": 0.65,
+        "magnitude": 0.45,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "vix_normalization_nov_dec_2020",
+        "category": "macroeconomic",
+        "direction": 0.35,
+        "magnitude": 0.35,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.2,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2020-12-06",
+    "end_date": "2020-12-20",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": -1.0,
+        "magnitude": 1.0,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2020-12-20",
+    "end_date": "2021-01-03",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "vix_volatility_normalization_holiday_period",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.8571428571428572,
+        "persistence": "transient",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.14285714285714288,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2021-01-03",
+    "end_date": "2021-01-17",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "energy_sector_post_holiday_recovery",
+        "category": "sector_specific",
+        "direction": 0.75,
+        "magnitude": 0.5612244897959184,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "vix_volatility_normalization_early_january",
+        "category": "market_sentiment",
+        "direction": 0.4375,
+        "magnitude": 0.25510204081632654,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.1836734693877551,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2021-01-17",
+    "end_date": "2021-01-31",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "vix_volatility_spike_late_january",
+        "category": "market_sentiment",
+        "direction": -0.75,
+        "magnitude": 0.65,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.1,
+        "persistence": "transient",
+        "description": ""
+      },
+      {
+        "name": "energy_sector_cyclical_headwinds",
+        "category": "sector_specific",
+        "direction": -0.25,
+        "magnitude": 0.25,
+        "persistence": "medium",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2021-01-31",
+    "end_date": "2021-02-14",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "risk_sentiment_normalization_feb2021",
+        "category": "market_sentiment",
+        "direction": 0.75,
+        "magnitude": 0.6280193236714975,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "energy_sector_cyclical_recovery_q1_2021",
+        "category": "sector_specific",
+        "direction": 0.44999999999999996,
+        "magnitude": 0.2657004830917874,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.10628019323671498,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2021-02-14",
+    "end_date": "2021-02-28",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 1.0,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2021-02-28",
+    "end_date": "2021-03-14",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "vix_normalization_early_march",
+        "category": "market_sentiment",
+        "direction": 0.75,
+        "magnitude": 0.65,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "energy_sector_cyclical_recovery",
+        "category": "sector_specific",
+        "direction": 0.25,
+        "magnitude": 0.32999999999999996,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.02,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2021-03-14",
+    "end_date": "2021-03-28",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "vix_volatility_spike_mid_march",
+        "category": "market_sentiment",
+        "direction": -0.65,
+        "magnitude": 0.55,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "vix_normalization_late_march",
+        "category": "market_sentiment",
+        "direction": 0.35,
+        "magnitude": 0.29,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.16,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2021-03-28",
+    "end_date": "2021-04-11",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "vix_normalization_post_q1_volatility",
+        "category": "market_sentiment",
+        "direction": -0.65,
+        "magnitude": 0.65,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.35,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2021-04-11",
+    "end_date": "2021-04-25",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "vix_volatility_normalization_mid_april",
+        "category": "market_sentiment",
+        "direction": -0.3499999999999999,
+        "magnitude": 0.569620253164557,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.430379746835443,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2021-04-25",
+    "end_date": "2021-05-09",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "risk_sentiment_normalization_may_2021",
+        "category": "macroeconomic",
+        "direction": 0.75,
+        "magnitude": 0.6770833333333334,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.0625,
+        "persistence": "transient",
+        "description": ""
+      },
+      {
+        "name": "energy_sector_cyclical_recovery_q2_2021",
+        "category": "sector_specific",
+        "direction": 0.7250000000000001,
+        "magnitude": 0.2604166666666667,
+        "persistence": "medium",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2021-05-09",
+    "end_date": "2021-05-23",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "vix_volatility_spike_may12",
+        "category": "market_sentiment",
+        "direction": -0.65,
+        "magnitude": 0.55,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "vix_normalization_post_spike",
+        "category": "market_sentiment",
+        "direction": 0.35,
+        "magnitude": 0.3,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.15,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2021-05-23",
+    "end_date": "2021-06-06",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.09090909090909091,
+        "persistence": "transient",
+        "description": ""
+      },
+      {
+        "name": "vix_normalization_risk_off_relief",
+        "category": "macroeconomic",
+        "direction": 0.65,
+        "magnitude": 0.5555555555555556,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "energy_sector_cyclical_recovery_tailwind",
+        "category": "sector_specific",
+        "direction": 0.7,
+        "magnitude": 0.35353535353535354,
+        "persistence": "medium",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2021-06-06",
+    "end_date": "2021-06-20",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "vix_volatility_spike_mid_june",
+        "category": "market_sentiment",
+        "direction": -0.75,
+        "magnitude": 0.7222222222222222,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.2777777777777778,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2021-06-20",
+    "end_date": "2021-07-04",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "vix_normalization_and_risk_sentiment_stabilization",
+        "category": "macroeconomic",
+        "direction": 0.62,
+        "magnitude": 0.6989247311827957,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.3010752688172043,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2021-07-04",
+    "end_date": "2021-07-18",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "vix_volatility_spike_mid_july",
+        "category": "market_sentiment",
+        "direction": -0.75,
+        "magnitude": 0.6842105263157895,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.3157894736842105,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2021-07-18",
+    "end_date": "2021-08-01",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "broad_market_risk_appetite_normalization",
+        "category": "market_sentiment",
+        "direction": 0.67,
+        "magnitude": 0.5729166666666667,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "sec_filing_activity",
+        "category": "company_specific",
+        "direction": 0.0,
+        "magnitude": 0.15625,
+        "persistence": "transient",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.2708333333333333,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2021-08-01",
+    "end_date": "2021-08-15",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "vix_normalization_early_august",
+        "category": "market_sentiment",
+        "direction": -0.3,
+        "magnitude": 0.25,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "vix_continued_decline_mid_august",
+        "category": "market_sentiment",
+        "direction": -0.21666666666666667,
+        "magnitude": 0.16666666666666666,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "sec_filing_neutral_event",
+        "category": "company_specific",
+        "direction": 0.0,
+        "magnitude": 0.08333333333333333,
+        "persistence": "transient",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.5,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2021-08-15",
+    "end_date": "2021-08-29",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "vix_volatility_normalization_mid_august",
+        "category": "macroeconomic",
+        "direction": -0.35,
+        "magnitude": 0.6779661016949152,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.3220338983050847,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2021-08-29",
+    "end_date": "2021-09-12",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "vix_volatility_spike_early_september",
+        "category": "macroeconomic",
+        "direction": -0.65,
+        "magnitude": 0.5900000000000001,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.41,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2021-09-12",
+    "end_date": "2021-09-26",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "vix_volatility_spike_mid_september",
+        "category": "market_sentiment",
+        "direction": -0.3,
+        "magnitude": 0.25,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "vix_spike_peak_september_21",
+        "category": "market_sentiment",
+        "direction": -0.35,
+        "magnitude": 0.27999999999999997,
+        "persistence": "transient",
+        "description": ""
+      },
+      {
+        "name": "vix_normalization_late_september",
+        "category": "market_sentiment",
+        "direction": 0.5399999999999999,
+        "magnitude": 0.33999999999999997,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.13,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2021-09-26",
+    "end_date": "2021-10-10",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "vix_normalization_late_september",
+        "category": "market_sentiment",
+        "direction": 0.65,
+        "magnitude": 0.45,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "energy_sector_cyclical_recovery",
+        "category": "sector_specific",
+        "direction": 0.4,
+        "magnitude": 0.4,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "sec_filing_neutral_event",
+        "category": "company_specific",
+        "direction": 0.0,
+        "magnitude": 0.05000000000000001,
+        "persistence": "transient",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.1,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2021-10-10",
+    "end_date": "2021-10-24",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "vix_normalization_mid_october",
+        "category": "market_sentiment",
+        "direction": 0.65,
+        "magnitude": 0.55,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "energy_sector_tailwind_q4_2021",
+        "category": "sector_specific",
+        "direction": 0.7,
+        "magnitude": 0.35,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.1,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2021-10-24",
+    "end_date": "2021-11-07",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "vix_normalization_post_october_spike",
+        "category": "macroeconomic",
+        "direction": 0.6,
+        "magnitude": 0.55,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "sec_filing_chevron_corp_oct29",
+        "category": "company_specific",
+        "direction": 0.05,
+        "magnitude": 0.15999999999999998,
+        "persistence": "transient",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.29,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2021-11-07",
+    "end_date": "2021-11-21",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "vix_volatility_spike_mid_window",
+        "category": "market_sentiment",
+        "direction": -0.4,
+        "magnitude": 0.35,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "energy_sector_consolidation_post_rally",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.48,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.17,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2021-11-21",
+    "end_date": "2021-12-05",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "omicron_variant_demand_destruction_fears",
+        "category": "geopolitical",
+        "direction": -0.65,
+        "magnitude": 0.49354838709677423,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "vix_volatility_spike_risk_off_positioning",
+        "category": "market_sentiment",
+        "direction": -0.35,
+        "magnitude": 0.3,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.02903225806451613,
+        "persistence": "transient",
+        "description": ""
+      },
+      {
+        "name": "energy_sector_resilience_and_recovery",
+        "category": "sector_specific",
+        "direction": 0.5333333333333333,
+        "magnitude": 0.17741935483870971,
+        "persistence": "short",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2021-12-05",
+    "end_date": "2021-12-19",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "vix_volatility_spike_early_december",
+        "category": "macroeconomic",
+        "direction": -0.65,
+        "magnitude": 0.55,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "vix_normalization_mid_december",
+        "category": "macroeconomic",
+        "direction": 0.35,
+        "magnitude": 0.3,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.15,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2021-12-19",
+    "end_date": "2022-01-02",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.13636363636363638,
+        "persistence": "transient",
+        "description": ""
+      },
+      {
+        "name": "vix_volatility_spike_and_normalization",
+        "category": "market_sentiment",
+        "direction": 0.6,
+        "magnitude": 0.5909090909090908,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "year_end_portfolio_rebalancing_and_risk_appetite_recovery",
+        "category": "market_sentiment",
+        "direction": 0.3499999999999999,
+        "magnitude": 0.2727272727272727,
+        "persistence": "short",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2022-01-02",
+    "end_date": "2022-01-16",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "energy_sector_risk_premium_compression",
+        "category": "macroeconomic",
+        "direction": 0.75,
+        "magnitude": 0.5350877192982456,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "crude_oil_price_recovery_q1_2022",
+        "category": "sector_specific",
+        "direction": 0.6999999999999998,
+        "magnitude": 0.307017543859649,
+        "persistence": "long",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.15789473684210525,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2022-01-16",
+    "end_date": "2022-01-30",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "energy_sector_inflation_hedge_demand",
+        "category": "sector_specific",
+        "direction": 0.43333333333333335,
+        "magnitude": 0.3211009174311926,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.22018348623853212,
+        "persistence": "transient",
+        "description": ""
+      },
+      {
+        "name": "vix_volatility_spike_jan_24_26",
+        "category": "macroeconomic",
+        "direction": 0.6,
+        "magnitude": 0.4128440366972478,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "sec_filing_activity_jan_28",
+        "category": "company_specific",
+        "direction": 0.0,
+        "magnitude": 0.04587155963302754,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2022-01-30",
+    "end_date": "2022-02-13",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "energy_sector_risk_premium_compression",
+        "category": "macroeconomic",
+        "direction": 0.75,
+        "magnitude": 0.4390243902439025,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "sec_filing_routine_disclosure",
+        "category": "company_specific",
+        "direction": 0.05,
+        "magnitude": 0.04878048780487806,
+        "persistence": "transient",
+        "description": ""
+      },
+      {
+        "name": "vix_spike_late_window_risk_off",
+        "category": "market_sentiment",
+        "direction": 0.025,
+        "magnitude": 0.12195121951219513,
+        "persistence": "transient",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.3902439024390244,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2022-02-13",
+    "end_date": "2022-02-27",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "ukraine_invasion_vix_spike",
+        "category": "geopolitical",
+        "direction": 0.4,
+        "magnitude": 0.55,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "energy_sector_supply_shock_premium",
+        "category": "sector_specific",
+        "direction": 0.45,
+        "magnitude": 0.45,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.0,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2022-02-27",
+    "end_date": "2022-03-13",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "russia_ukraine_geopolitical_shock_feb2022",
+        "category": "geopolitical",
+        "direction": 1.0,
+        "magnitude": 0.75,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.1,
+        "persistence": "transient",
+        "description": ""
+      },
+      {
+        "name": "elevated_vix_risk_premium_march2022",
+        "category": "market_sentiment",
+        "direction": 0.8000000000000002,
+        "magnitude": 0.15,
+        "persistence": "short",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2022-03-13",
+    "end_date": "2022-03-27",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "vix_volatility_spike_ukraine_crisis",
+        "category": "geopolitical",
+        "direction": -0.65,
+        "magnitude": 0.4891304347826087,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "vix_normalization_risk_off_relief",
+        "category": "market_sentiment",
+        "direction": 0.55,
+        "magnitude": 0.3804347826086956,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.13043478260869568,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2022-03-27",
+    "end_date": "2022-04-10",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "vix_volatility_expansion_late_march_early_april",
+        "category": "macroeconomic",
+        "direction": 0.3,
+        "magnitude": 0.45340050377833757,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "energy_sector_inflation_hedge_demand",
+        "category": "sector_specific",
+        "direction": 0.5125,
+        "magnitude": 0.3652392947103274,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.18136020151133506,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2022-04-10",
+    "end_date": "2022-04-24",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "vix_volatility_spike_late_april",
+        "category": "market_sentiment",
+        "direction": -0.75,
+        "magnitude": 0.6989247311827957,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.3010752688172043,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2022-04-24",
+    "end_date": "2022-05-08",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "fed_rate_hike_50bps_may_2022",
+        "category": "macroeconomic",
+        "direction": 0.65,
+        "magnitude": 0.5445544554455446,
+        "persistence": "long",
+        "description": ""
+      },
+      {
+        "name": "energy_sector_inflation_hedge_2022",
+        "category": "sector_specific",
+        "direction": 0.3499999999999999,
+        "magnitude": 0.297029702970297,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.15841584158415842,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2022-05-08",
+    "end_date": "2022-05-22",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "vix_volatility_spike_early_may",
+        "category": "macroeconomic",
+        "direction": 0.35,
+        "magnitude": 0.40816326530612246,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "vix_normalization_mid_may",
+        "category": "macroeconomic",
+        "direction": 0.26,
+        "magnitude": 0.35714285714285715,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.0816326530612245,
+        "persistence": "transient",
+        "description": ""
+      },
+      {
+        "name": "vix_renewed_volatility_late_may",
+        "category": "macroeconomic",
+        "direction": -0.15,
+        "magnitude": 0.15306122448979592,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2022-05-22",
+    "end_date": "2022-06-05",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "risk_sentiment_normalization_may_2022",
+        "category": "market_sentiment",
+        "direction": 0.65,
+        "magnitude": 0.859375,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.140625,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2022-06-05",
+    "end_date": "2022-06-19",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "fed_rate_hike_75bps_june_2022",
+        "category": "macroeconomic",
+        "direction": -0.75,
+        "magnitude": 0.6193693693693694,
+        "persistence": "long",
+        "description": ""
+      },
+      {
+        "name": "global_equity_market_selloff_june_13",
+        "category": "market_sentiment",
+        "direction": -0.65,
+        "magnitude": 0.33783783783783783,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.04279279279279279,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2022-06-19",
+    "end_date": "2022-07-03",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "broad_market_risk_off_vix_spike",
+        "category": "macroeconomic",
+        "direction": -0.75,
+        "magnitude": 0.65,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "vix_normalization_late_window",
+        "category": "market_sentiment",
+        "direction": 0.25,
+        "magnitude": 0.2,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.15,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2022-07-03",
+    "end_date": "2022-07-17",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "bank_of_canada_rate_hike_100bps",
+        "category": "macroeconomic",
+        "direction": -0.65,
+        "magnitude": 0.7857142857142857,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.21428571428571425,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2022-07-17",
+    "end_date": "2022-07-31",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "fed_rate_hike_75bps_july_2022",
+        "category": "macroeconomic",
+        "direction": 0.65,
+        "magnitude": 0.6790123456790124,
+        "persistence": "long",
+        "description": ""
+      },
+      {
+        "name": "ecb_rate_hike_50bps_july_2022",
+        "category": "macroeconomic",
+        "direction": 0.25,
+        "magnitude": 0.18518518518518517,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.1358024691358025,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2022-07-31",
+    "end_date": "2022-08-14",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "boe_rate_hike_50bps_aug4",
+        "category": "macroeconomic",
+        "direction": -0.45,
+        "magnitude": 0.34146341463414637,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.24390243902439027,
+        "persistence": "transient",
+        "description": ""
+      },
+      {
+        "name": "vix_volatility_elevation_early_august",
+        "category": "market_sentiment",
+        "direction": -0.3,
+        "magnitude": 0.24390243902439027,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "vix_normalization_mid_august",
+        "category": "market_sentiment",
+        "direction": 0.25,
+        "magnitude": 0.17073170731707318,
+        "persistence": "short",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2022-08-14",
+    "end_date": "2022-08-28",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "vix_volatility_spike_aug23",
+        "category": "macroeconomic",
+        "direction": 0.65,
+        "magnitude": 0.5339805825242718,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.4660194174757281,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2022-08-28",
+    "end_date": "2022-09-11",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "elevated_market_volatility_vix_26plus",
+        "category": "market_sentiment",
+        "direction": -0.65,
+        "magnitude": 0.65,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "vix_normalization_late_window",
+        "category": "market_sentiment",
+        "direction": 0.35,
+        "magnitude": 0.35,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2022-09-11",
+    "end_date": "2022-09-25",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "cpi_inflation_shock_august_2022",
+        "category": "macroeconomic",
+        "direction": -1.0,
+        "magnitude": 0.65,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "elevated_vix_volatility_regime",
+        "category": "market_sentiment",
+        "direction": -1.0,
+        "magnitude": 0.25,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.1,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2022-09-25",
+    "end_date": "2022-10-09",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "elevated_vix_risk_off_sentiment",
+        "category": "market_sentiment",
+        "direction": -0.3,
+        "magnitude": 0.23696682464454977,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "energy_sector_safe_haven_demand",
+        "category": "sector_specific",
+        "direction": 0.65,
+        "magnitude": 0.48341232227488157,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "oil_price_support_geopolitical_premium",
+        "category": "geopolitical",
+        "direction": 0.55,
+        "magnitude": 0.2606635071090047,
+        "persistence": "long",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.01895734597156398,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2022-10-09",
+    "end_date": "2022-10-23",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "vix_elevated_risk_off_sentiment",
+        "category": "market_sentiment",
+        "direction": -0.3,
+        "magnitude": 0.32462686567164184,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "energy_sector_safe_haven_demand",
+        "category": "sector_specific",
+        "direction": 0.65,
+        "magnitude": 0.5970149253731344,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.07835820895522388,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2022-10-23",
+    "end_date": "2022-11-06",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "fed_rate_hike_75bps_nov2022",
+        "category": "macroeconomic",
+        "direction": 0.65,
+        "magnitude": 0.5434782608695653,
+        "persistence": "long",
+        "description": ""
+      },
+      {
+        "name": "energy_sector_inflation_hedge_demand",
+        "category": "sector_specific",
+        "direction": 0.75,
+        "magnitude": 0.3804347826086957,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.07608695652173914,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2022-11-06",
+    "end_date": "2022-11-20",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "vix_volatility_normalization_nov2022",
+        "category": "macroeconomic",
+        "direction": 0.6,
+        "magnitude": 0.55,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "energy_sector_risk_premium_compression",
+        "category": "sector_specific",
+        "direction": 0.35,
+        "magnitude": 0.35,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.1,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2022-11-20",
+    "end_date": "2022-12-04",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "vix_normalization_late_november",
+        "category": "market_sentiment",
+        "direction": 0.31,
+        "magnitude": 0.3870967741935484,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.6129032258064516,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2022-12-04",
+    "end_date": "2022-12-18",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "broad_market_risk_off_sentiment",
+        "category": "market_sentiment",
+        "direction": -0.85,
+        "magnitude": 0.6372549019607843,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "sec_filing_uncertainty",
+        "category": "company_specific",
+        "direction": -0.15,
+        "magnitude": 0.09803921568627452,
+        "persistence": "transient",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.2647058823529412,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2022-12-18",
+    "end_date": "2023-01-01",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "vix_normalization_post_december_peak",
+        "category": "market_sentiment",
+        "direction": 0.65,
+        "magnitude": 0.55,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "year_end_portfolio_rebalancing_energy_rotation",
+        "category": "market_sentiment",
+        "direction": 0.3,
+        "magnitude": 0.31,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.14,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2023-01-01",
+    "end_date": "2023-01-15",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "vix_normalization_early_2023",
+        "category": "macroeconomic",
+        "direction": 0.43999999999999995,
+        "magnitude": 0.37755102040816324,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "energy_sector_demand_recovery_q1_2023",
+        "category": "sector_specific",
+        "direction": 0.3,
+        "magnitude": 0.25510204081632654,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.3673469387755102,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2023-01-15",
+    "end_date": "2023-01-29",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "bank_of_canada_rate_hike_jan25",
+        "category": "macroeconomic",
+        "direction": 0.35,
+        "magnitude": 0.25,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "vix_decline_jan16_to_jan26",
+        "category": "market_sentiment",
+        "direction": 0.25,
+        "magnitude": 0.2,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "sec_filing_activity_jan27",
+        "category": "company_specific",
+        "direction": 0.0,
+        "magnitude": 0.05,
+        "persistence": "transient",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.5,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2023-01-29",
+    "end_date": "2023-02-12",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 1.0,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2023-02-12",
+    "end_date": "2023-02-26",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "vix_volatility_spike_mid_february",
+        "category": "market_sentiment",
+        "direction": -0.65,
+        "magnitude": 0.55,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.45,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2023-02-26",
+    "end_date": "2023-03-12",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "vix_normalization_early_march",
+        "category": "market_sentiment",
+        "direction": -0.3,
+        "magnitude": 0.38888888888888884,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.6111111111111112,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2023-03-12",
+    "end_date": "2023-03-26",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "vix_volatility_spike_mid_march",
+        "category": "market_sentiment",
+        "direction": -0.45999999999999996,
+        "magnitude": 0.35,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "vix_normalization_post_spike",
+        "category": "market_sentiment",
+        "direction": 0.33999999999999997,
+        "magnitude": 0.28,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.37,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2023-03-26",
+    "end_date": "2023-04-09",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "vix_normalization_risk_off_relief",
+        "category": "market_sentiment",
+        "direction": 0.75,
+        "magnitude": 0.65,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "energy_sector_cyclical_recovery",
+        "category": "sector_specific",
+        "direction": 0.25,
+        "magnitude": 0.35,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.0,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2023-04-09",
+    "end_date": "2023-04-23",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "vix_normalization_mid_april",
+        "category": "market_sentiment",
+        "direction": 0.6,
+        "magnitude": 0.45,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "energy_sector_consolidation",
+        "category": "market_sentiment",
+        "direction": 0.05,
+        "magnitude": 0.35,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.2,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2023-04-23",
+    "end_date": "2023-05-07",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "ecb_rate_hike_may_2023",
+        "category": "macroeconomic",
+        "direction": -0.65,
+        "magnitude": 0.45,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "vix_volatility_expansion_early_may",
+        "category": "market_sentiment",
+        "direction": -0.4,
+        "magnitude": 0.3,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.25,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2023-05-07",
+    "end_date": "2023-05-21",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "boe_rate_hike_to_4_5_percent",
+        "category": "macroeconomic",
+        "direction": -0.35,
+        "magnitude": 0.40816326530612246,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "vix_volatility_spike_mid_may",
+        "category": "market_sentiment",
+        "direction": -0.25,
+        "magnitude": 0.25510204081632654,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.336734693877551,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2023-05-21",
+    "end_date": "2023-06-04",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "vix_normalization_late_may_to_early_june",
+        "category": "market_sentiment",
+        "direction": 0.65,
+        "magnitude": 0.55,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "sec_filings_routine_disclosure",
+        "category": "company_specific",
+        "direction": 0.0,
+        "magnitude": 0.15,
+        "persistence": "transient",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.3,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2023-06-04",
+    "end_date": "2023-06-18",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 1.0,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2023-06-18",
+    "end_date": "2023-07-02",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "low_volatility_regime_vix_normalization",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.6,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.15,
+        "persistence": "transient",
+        "description": ""
+      },
+      {
+        "name": "energy_sector_consolidation_amid_macro_calm",
+        "category": "sector_specific",
+        "direction": 0.05000000000000001,
+        "magnitude": 0.25,
+        "persistence": "short",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2023-07-02",
+    "end_date": "2023-07-16",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "vix_volatility_spike_early_july",
+        "category": "market_sentiment",
+        "direction": -0.45,
+        "magnitude": 0.3523489932885906,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "vix_normalization_mid_july",
+        "category": "market_sentiment",
+        "direction": 0.2833333333333334,
+        "magnitude": 0.2348993288590604,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.412751677852349,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2023-07-16",
+    "end_date": "2023-07-30",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "low_volatility_risk_on_environment",
+        "category": "market_sentiment",
+        "direction": 0.65,
+        "magnitude": 0.819672131147541,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.18032786885245905,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2023-07-30",
+    "end_date": "2023-08-13",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "vix_volatility_spike_early_august",
+        "category": "market_sentiment",
+        "direction": -0.3,
+        "magnitude": 0.3048780487804878,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "sec_filing_activity_chevron",
+        "category": "company_specific",
+        "direction": 0.15,
+        "magnitude": 0.18292682926829265,
+        "persistence": "transient",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.5121951219512195,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2023-08-13",
+    "end_date": "2023-08-27",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "vix_normalization_mid_august",
+        "category": "market_sentiment",
+        "direction": -0.4,
+        "magnitude": 0.546875,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.45312500000000006,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2023-08-27",
+    "end_date": "2023-09-10",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "vix_decline_risk_on_sentiment",
+        "category": "market_sentiment",
+        "direction": 0.75,
+        "magnitude": 0.7386363636363636,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.26136363636363635,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2023-09-10",
+    "end_date": "2023-09-24",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "ecb_rate_hike_cycle_continuation",
+        "category": "macroeconomic",
+        "direction": -0.4,
+        "magnitude": 0.35,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "vix_volatility_spike_mid_window",
+        "category": "market_sentiment",
+        "direction": -0.3,
+        "magnitude": 0.25,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.4,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2023-09-24",
+    "end_date": "2023-10-08",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "vix_volatility_spike_early_october",
+        "category": "market_sentiment",
+        "direction": -0.65,
+        "magnitude": 0.55,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.45,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2023-10-08",
+    "end_date": "2023-10-22",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "vix_volatility_normalization_q4_2023",
+        "category": "macroeconomic",
+        "direction": 0.0,
+        "magnitude": 0.35,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "energy_sector_consolidation_amid_macro_uncertainty",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.4,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.25,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2023-10-22",
+    "end_date": "2023-11-05",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "broad_market_volatility_spike_late_october",
+        "category": "macroeconomic",
+        "direction": -0.75,
+        "magnitude": 0.5536912751677853,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "vix_normalization_early_november",
+        "category": "macroeconomic",
+        "direction": 0.31666666666666665,
+        "magnitude": 0.20134228187919465,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "energy_sector_cyclical_pressure",
+        "category": "sector_specific",
+        "direction": -0.6333333333333333,
+        "magnitude": 0.23489932885906037,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.010067114093959731,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2023-11-05",
+    "end_date": "2023-11-19",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "vix_normalization_low_volatility_regime",
+        "category": "market_sentiment",
+        "direction": -0.3,
+        "magnitude": 0.6923076923076923,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.3076923076923077,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2023-11-19",
+    "end_date": "2023-12-03",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "low_volatility_risk_on_environment",
+        "category": "macroeconomic",
+        "direction": 0.3,
+        "magnitude": 0.324074074074074,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "energy_sector_consolidation",
+        "category": "sector_specific",
+        "direction": 0.05,
+        "magnitude": 0.37037037037037035,
+        "persistence": "short",
+        "description": ""
+      },
+      {
+        "name": "sec_filing_neutral_signal",
+        "category": "company_specific",
+        "direction": 0.0,
+        "magnitude": 0.0648148148148148,
+        "persistence": "transient",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.24074074074074073,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  },
+  {
+    "start_date": "2023-12-03",
+    "end_date": "2023-12-17",
+    "window_type": "monthly",
+    "factors": [
+      {
+        "name": "low_volatility_risk_on_environment",
+        "category": "market_sentiment",
+        "direction": 0.65,
+        "magnitude": 0.5536912751677853,
+        "persistence": "medium",
+        "description": ""
+      },
+      {
+        "name": "sec_filing_regulatory_compliance",
+        "category": "company_specific",
+        "direction": 0.09999999999999999,
+        "magnitude": 0.08389261744966442,
+        "persistence": "transient",
+        "description": ""
+      },
+      {
+        "name": "market_noise",
+        "category": "market_sentiment",
+        "direction": 0.0,
+        "magnitude": 0.36241610738255037,
+        "persistence": "transient",
+        "description": ""
+      }
+    ],
+    "raw_llm_response": ""
+  }
+]

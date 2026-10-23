@@ -1,0 +1,65 @@
+{
+  "run": "r1_datasign",
+  "variant": "data",
+  "estimator": "ols",
+  "origins_present": [
+    "2021-01-01",
+    "2022-01-01",
+    "2023-01-01"
+  ],
+  "per_origin": {
+    "2021-01-01": {
+      "control_minus_window_permuted": {
+        "n_tickers": 15,
+        "median_diff": 0.07690000000000008,
+        "p_one_sided": 0.1430016920103528
+      },
+      "control_minus_label_only": {
+        "n_tickers": 15,
+        "median_diff": 0.0,
+        "p_one_sided": 0.7685327862924223
+      }
+    },
+    "2022-01-01": {
+      "control_minus_window_permuted": {
+        "n_tickers": 10,
+        "median_diff": 0.12704999999999997,
+        "p_one_sided": 0.22063406666446483
+      },
+      "control_minus_label_only": {
+        "n_tickers": 10,
+        "median_diff": -0.3264,
+        "p_one_sided": 0.9914231991498997
+      }
+    },
+    "2023-01-01": {
+      "control_minus_window_permuted": {
+        "n_tickers": 12,
+        "median_diff": 0.0,
+        "p_one_sided": 0.4392408717164356
+      },
+      "control_minus_label_only": {
+        "n_tickers": 11,
+        "median_diff": -0.16180000000000005,
+        "p_one_sided": 0.9941919775503688
+      }
+    }
+  },
+  "pooled": {
+    "control_minus_window_permuted": {
+      "n_tickers": 14,
+      "mean_diff": 0.055725000000000004,
+      "p_one_sided": 0.16290283203125,
+      "origins_with_positive_median": 2,
+      "pass": false
+    },
+    "control_minus_label_only": {
+      "n_tickers": 13,
+      "mean_diff": -0.1424397435897436,
+      "p_one_sided": 0.9859719379253782,
+      "origins_with_positive_median": 0,
+      "pass": false
+    }
+  },
+  "verdict": "FAIL"
+}

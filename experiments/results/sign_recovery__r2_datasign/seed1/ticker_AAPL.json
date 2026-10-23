@@ -1,0 +1,107 @@
+{
+  "ticker": "AAPL",
+  "sigma": 0.019958645395946162,
+  "sim_sd": 0.027040488660207654,
+  "garch": {
+    "omega": 0.1459559554005938,
+    "alpha": 0.02662887386233827,
+    "gamma": 0.17265921361705616,
+    "beta": 0.8601733208903174,
+    "nu": 6.216847906259509
+  },
+  "active_days_planted": [
+    29,
+    20,
+    20,
+    30,
+    20,
+    20
+  ],
+  "n_candidates": 6,
+  "planted": [
+    "us_troop_withdrawal_afghanistan",
+    "us_troop_withdrawal_syria",
+    "t_mobile_sprint_merger",
+    "bank_of_england_rate_hike",
+    "fed_rate_hike_75bps",
+    "geopolitical_tensions_israel_palestine"
+  ],
+  "signs": [
+    1.0,
+    1.0,
+    1.0,
+    -1.0,
+    1.0,
+    -1.0
+  ],
+  "per_beta": {
+    "0.05": {
+      "recovered_sigma": [
+        0.00036599332448719054,
+        -2.7266194777834638e-05,
+        -0.014284681347061843,
+        -0.0020860168305849008,
+        0.00028022300628741895,
+        4.5186771145356024e-05
+      ],
+      "sign_recovery": 0.5,
+      "corr": -0.21377076884263305,
+      "others_sd_sigma": 0.0817979196143261,
+      "ols_sign_recovery": 0.8333333333333334,
+      "ols_corr": 0.73129756445939,
+      "univariate_sign_recovery": 0.6666666666666666,
+      "elapsed_s": 108.9
+    },
+    "0.1": {
+      "recovered_sigma": [
+        0.0010201007699703806,
+        -3.114056632825601e-05,
+        -0.01319274131628329,
+        -0.0752754171213671,
+        0.0038859568710427495,
+        4.4514269887812735e-05
+      ],
+      "sign_recovery": 0.5,
+      "corr": 0.5989686876854888,
+      "others_sd_sigma": 0.08265679971131697,
+      "ols_sign_recovery": 1.0,
+      "ols_corr": 0.781716266298216,
+      "univariate_sign_recovery": 0.8333333333333334,
+      "elapsed_s": 108.6
+    },
+    "0.2": {
+      "recovered_sigma": [
+        0.004468056606235375,
+        -3.7270092539971793e-05,
+        -0.034266906551593285,
+        -0.16077186847604827,
+        0.085590510035266,
+        4.890705962811124e-05
+      ],
+      "sign_recovery": 0.5,
+      "corr": 0.6037149527175756,
+      "others_sd_sigma": 0.08225637846621156,
+      "ols_sign_recovery": 1.0,
+      "ols_corr": 0.8498701342338626,
+      "univariate_sign_recovery": 1.0,
+      "elapsed_s": 112.9
+    },
+    "0.3": {
+      "recovered_sigma": [
+        0.005304795129214873,
+        -4.006206048261322e-05,
+        -0.01237025021515306,
+        -0.2641863825638957,
+        0.0998244542965305,
+        4.934560880907692e-05
+      ],
+      "sign_recovery": 0.5,
+      "corr": 0.6543957850993252,
+      "others_sd_sigma": 0.08632738637891153,
+      "ols_sign_recovery": 1.0,
+      "ols_corr": 0.8913568568725304,
+      "univariate_sign_recovery": 1.0,
+      "elapsed_s": 105.3
+    }
+  }
+}

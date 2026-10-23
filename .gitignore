@@ -1,0 +1,18 @@
+# Data bundle and downloads (see README.md): not versioned
+/results/
+/cache/
+/pc_runs/
+/logs/
+experiments/figures/
+# Market prices are never committed
+*training_data.csv
+*test_data.csv
+*.parquet
+# Local environment
+.env
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+experiments/results/five_seed__*/
