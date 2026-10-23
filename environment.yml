@@ -1,0 +1,18 @@
+# Conda environment for the TRACE code release.
+#
+# Usage:
+#   conda env create -f environment.yml
+#   conda activate trace
+#   pip install -e .
+#
+# Tested on Linux x86_64 + Python 3.12.
+
+name: trace
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - pip>=24.0
+  - pip:
+      - -r requirements.snapshot.txt

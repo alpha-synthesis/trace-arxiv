@@ -1,0 +1,100 @@
+{
+  "ticker": "AXP",
+  "sigma": 0.022370144979137065,
+  "sim_sd": 0.022592795255928538,
+  "garch": {
+    "omega": 0.13033126007822501,
+    "alpha": 0.02879363642637815,
+    "gamma": 0.20013219406866603,
+    "beta": 0.8482512434589534,
+    "nu": 5.571191537014335
+  },
+  "active_days_planted": [
+    96,
+    39,
+    30,
+    29,
+    29
+  ],
+  "n_candidates": 5,
+  "planted": [
+    "treasury_rate_stability",
+    "market_sentiment_recovery",
+    "fed_rate_hike_75bps",
+    "rising_treasury_yields_2022",
+    "rising_10_year_treasury_rate"
+  ],
+  "signs": [
+    1.0,
+    1.0,
+    1.0,
+    -1.0,
+    -1.0
+  ],
+  "per_beta": {
+    "0.05": {
+      "recovered_sigma": [
+        0.0008759487748037392,
+        -5.1880352723315174e-05,
+        0.0007192172557950636,
+        -0.001427023217447263,
+        0.05000803281256387
+      ],
+      "sign_recovery": 0.6,
+      "corr": -0.5821542057710495,
+      "others_sd_sigma": 0.0390522794698842,
+      "ols_sign_recovery": 0.8,
+      "ols_corr": 0.6805916767618869,
+      "univariate_sign_recovery": 0.6,
+      "elapsed_s": 46.2
+    },
+    "0.1": {
+      "recovered_sigma": [
+        0.004127528189142825,
+        -0.0019324032512457116,
+        0.00044428784867069445,
+        -0.006200951196951003,
+        0.006813502306583077
+      ],
+      "sign_recovery": 0.6,
+      "corr": 0.06168740297212127,
+      "others_sd_sigma": 0.039568399317620996,
+      "ols_sign_recovery": 1.0,
+      "ols_corr": 0.8025977920463107,
+      "univariate_sign_recovery": 0.6,
+      "elapsed_s": 30.7
+    },
+    "0.2": {
+      "recovered_sigma": [
+        0.006584703047961688,
+        0.012157813135034893,
+        0.03348800302192195,
+        0.022262039872480238,
+        0.037207532474188586
+      ],
+      "sign_recovery": 0.6,
+      "corr": -0.5112986851907754,
+      "others_sd_sigma": 0.05314620770131973,
+      "ols_sign_recovery": 1.0,
+      "ols_corr": 0.9088271705896968,
+      "univariate_sign_recovery": 1.0,
+      "elapsed_s": 39.4
+    },
+    "0.3": {
+      "recovered_sigma": [
+        0.010383663750323947,
+        0.010605633267952375,
+        0.02824725677728324,
+        0.019841574299152103,
+        0.03145496294612456
+      ],
+      "sign_recovery": 0.6,
+      "corr": -0.5190711101484312,
+      "others_sd_sigma": 0.056607371010494574,
+      "ols_sign_recovery": 1.0,
+      "ols_corr": 0.9490485918058518,
+      "univariate_sign_recovery": 1.0,
+      "elapsed_s": 36.5
+    }
+  }
+}

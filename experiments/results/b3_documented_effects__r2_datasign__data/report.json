@@ -1,0 +1,76 @@
+{
+  "run": "r2_datasign",
+  "variant": "data",
+  "estimator": "tft",
+  "frozen_list": "../results/b3_documented_effects__r2_datasign/classified_FROZEN.csv",
+  "sign": {
+    "per_class": {
+      "E1_tightening": {
+        "n": 46,
+        "agree": 0.6956521739130435,
+        "p_cluster_boot": 0.0,
+        "n_clusters": 3
+      },
+      "E2_easing": {
+        "n": 24,
+        "agree": 0.25,
+        "p_cluster_boot": 0.7465,
+        "n_clusters": 2
+      },
+      "E3_oil_up": {
+        "n": 12,
+        "agree": 0.5,
+        "p_cluster_boot": 0.5945,
+        "n_clusters": 5
+      },
+      "E4_earnings_beat": null,
+      "E5_earnings_miss": null
+    },
+    "pooled_tested_classes": {
+      "n": 70,
+      "agree": 0.5428571428571428,
+      "p_cluster_boot": 0.369,
+      "n_clusters": 5
+    },
+    "classes_n20_below_half": [
+      "E2_easing"
+    ],
+    "verdict": "FAIL"
+  },
+  "sign_centered": {
+    "per_class": {
+      "E1_tightening": {
+        "n": 46,
+        "agree": 0.6739130434782609,
+        "p_cluster_boot": 0.1465,
+        "n_clusters": 3
+      },
+      "E2_easing": {
+        "n": 24,
+        "agree": 0.2916666666666667,
+        "p_cluster_boot": 0.7485,
+        "n_clusters": 2
+      },
+      "E3_oil_up": {
+        "n": 12,
+        "agree": 0.5833333333333334,
+        "p_cluster_boot": 0.3785,
+        "n_clusters": 5
+      },
+      "E4_earnings_beat": null,
+      "E5_earnings_miss": null
+    },
+    "pooled_tested_classes": {
+      "n": 70,
+      "agree": 0.5428571428571428,
+      "p_cluster_boot": 0.366,
+      "n_clusters": 5
+    },
+    "classes_n20_below_half": [
+      "E2_easing"
+    ],
+    "verdict": "FAIL"
+  },
+  "primary_verdict": "FAIL",
+  "median_seed_agreement": 0.6
+}

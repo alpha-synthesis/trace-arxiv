@@ -1,0 +1,502 @@
+{
+  "origin": "2023-01-01",
+  "variant": "data",
+  "estimator": "ols",
+  "seeds": null,
+  "per_ticker": [
+    {
+      "ticker": "AAPL",
+      "origin": "2023-01-01",
+      "variant": "data",
+      "n_eligible_factors": 2,
+      "control": {
+        "metric": null,
+        "elapsed_s": 1.0
+      },
+      "window_permuted": {
+        "metric": null,
+        "elapsed_s": 0.6
+      },
+      "label_only": {
+        "metric": null
+      }
+    },
+    {
+      "ticker": "AMGN",
+      "origin": "2023-01-01",
+      "variant": "data",
+      "n_eligible_factors": 3,
+      "control": {
+        "metric": null,
+        "elapsed_s": 0.7
+      },
+      "window_permuted": {
+        "metric": null,
+        "elapsed_s": 0.8
+      },
+      "label_only": {
+        "metric": null
+      }
+    },
+    {
+      "ticker": "AMZN",
+      "origin": "2023-01-01",
+      "variant": "data",
+      "n_eligible_factors": 2,
+      "control": {
+        "metric": null,
+        "elapsed_s": 0.6
+      },
+      "window_permuted": {
+        "metric": null,
+        "elapsed_s": 0.6
+      },
+      "label_only": {
+        "metric": null
+      }
+    },
+    {
+      "ticker": "AXP",
+      "origin": "2023-01-01",
+      "variant": "data",
+      "n_eligible_factors": 3,
+      "control": {
+        "metric": null,
+        "elapsed_s": 1.0
+      },
+      "window_permuted": {
+        "metric": null,
+        "elapsed_s": 0.8
+      },
+      "label_only": {
+        "metric": null
+      }
+    },
+    {
+      "ticker": "BA",
+      "origin": "2023-01-01",
+      "variant": "data",
+      "n_eligible_factors": 6,
+      "control": {
+        "metric": {
+          "n_factors": 6,
+          "agreement": 0.6667,
+          "spearman": 0.0883,
+          "null_mean": 0.5513,
+          "p_perm": 0.583
+        },
+        "elapsed_s": 0.8
+      },
+      "window_permuted": {
+        "metric": {
+          "n_factors": 6,
+          "agreement": 0.5,
+          "spearman": 0.1765,
+          "null_mean": 0.3937,
+          "p_perm": 0.681
+        },
+        "elapsed_s": 0.7
+      },
+      "label_only": {
+        "metric": {
+          "n_factors": 6,
+          "agreement": 0.6667,
+          "spearman": 0.0938,
+          "null_mean": 0.4473,
+          "p_perm": 0.404
+        }
+      }
+    },
+    {
+      "ticker": "CAT",
+      "origin": "2023-01-01",
+      "variant": "data",
+      "n_eligible_factors": 2,
+      "control": {
+        "metric": null,
+        "elapsed_s": 0.9
+      },
+      "window_permuted": {
+        "metric": null,
+        "elapsed_s": 0.7
+      },
+      "label_only": {
+        "metric": null
+      }
+    },
+    {
+      "ticker": "CRM",
+      "origin": "2023-01-01",
+      "variant": "data",
+      "n_eligible_factors": 1,
+      "control": {
+        "metric": null,
+        "elapsed_s": 0.6
+      },
+      "window_permuted": {
+        "metric": null,
+        "elapsed_s": 0.4
+      },
+      "label_only": {
+        "metric": null
+      }
+    },
+    {
+      "ticker": "CSCO",
+      "origin": "2023-01-01",
+      "variant": "data",
+      "n_eligible_factors": 2,
+      "control": {
+        "metric": null,
+        "elapsed_s": 0.5
+      },
+      "window_permuted": {
+        "metric": null,
+        "elapsed_s": 0.6
+      },
+      "label_only": {
+        "metric": null
+      }
+    },
+    {
+      "ticker": "CVX",
+      "origin": "2023-01-01",
+      "variant": "data",
+      "n_eligible_factors": 3,
+      "control": {
+        "metric": null,
+        "elapsed_s": 0.8
+      },
+      "window_permuted": {
+        "metric": null,
+        "elapsed_s": 0.4
+      },
+      "label_only": {
+        "metric": null
+      }
+    },
+    {
+      "ticker": "DIS",
+      "origin": "2023-01-01",
+      "variant": "data",
+      "n_eligible_factors": 2,
+      "control": {
+        "metric": null,
+        "elapsed_s": 0.7
+      },
+      "window_permuted": {
+        "metric": null,
+        "elapsed_s": 0.8
+      },
+      "label_only": {
+        "metric": null
+      }
+    },
+    {
+      "ticker": "GS",
+      "origin": "2023-01-01",
+      "variant": "data",
+      "n_eligible_factors": 1,
+      "control": {
+        "metric": null,
+        "elapsed_s": 0.7
+      },
+      "window_permuted": {
+        "metric": null,
+        "elapsed_s": 0.8
+      },
+      "label_only": {
+        "metric": null
+      }
+    },
+    {
+      "ticker": "HD",
+      "origin": "2023-01-01",
+      "variant": "data",
+      "n_eligible_factors": 2,
+      "control": {
+        "metric": null,
+        "elapsed_s": 0.9
+      },
+      "window_permuted": {
+        "metric": null,
+        "elapsed_s": 0.3
+      },
+      "label_only": {
+        "metric": null
+      }
+    },
+    {
+      "ticker": "HON",
+      "origin": "2023-01-01",
+      "variant": "data",
+      "n_eligible_factors": 3,
+      "control": {
+        "metric": null,
+        "elapsed_s": 0.8
+      },
+      "window_permuted": {
+        "metric": null,
+        "elapsed_s": 0.8
+      },
+      "label_only": {
+        "metric": null
+      }
+    },
+    {
+      "ticker": "IBM",
+      "origin": "2023-01-01",
+      "variant": "data",
+      "n_eligible_factors": 3,
+      "control": {
+        "metric": null,
+        "elapsed_s": 0.7
+      },
+      "window_permuted": {
+        "metric": null,
+        "elapsed_s": 0.5
+      },
+      "label_only": {
+        "metric": null
+      }
+    },
+    {
+      "ticker": "JNJ",
+      "origin": "2023-01-01",
+      "variant": "data",
+      "n_eligible_factors": 2,
+      "control": {
+        "metric": null,
+        "elapsed_s": 0.9
+      },
+      "window_permuted": {
+        "metric": null,
+        "elapsed_s": 0.6
+      },
+      "label_only": {
+        "metric": null
+      }
+    },
+    {
+      "ticker": "JPM",
+      "origin": "2023-01-01",
+      "variant": "data",
+      "n_eligible_factors": 1,
+      "control": {
+        "metric": null,
+        "elapsed_s": 0.6
+      },
+      "window_permuted": {
+        "metric": null,
+        "elapsed_s": 0.1
+      },
+      "label_only": {
+        "metric": null
+      }
+    },
+    {
+      "ticker": "KO",
+      "origin": "2023-01-01",
+      "variant": "data",
+      "n_eligible_factors": 2,
+      "control": {
+        "metric": null,
+        "elapsed_s": 0.4
+      },
+      "window_permuted": {
+        "metric": null,
+        "elapsed_s": 0.3
+      },
+      "label_only": {
+        "metric": null
+      }
+    },
+    {
+      "ticker": "MCD",
+      "origin": "2023-01-01",
+      "variant": "data",
+      "n_eligible_factors": 1,
+      "control": {
+        "metric": null,
+        "elapsed_s": 0.7
+      },
+      "window_permuted": {
+        "metric": null,
+        "elapsed_s": 0.8
+      },
+      "label_only": {
+        "metric": null
+      }
+    },
+    {
+      "ticker": "MMM",
+      "origin": "2023-01-01",
+      "variant": "data",
+      "n_eligible_factors": 2,
+      "control": {
+        "metric": null,
+        "elapsed_s": 0.6
+      },
+      "window_permuted": {
+        "metric": null,
+        "elapsed_s": 0.6
+      },
+      "label_only": {
+        "metric": null
+      }
+    },
+    {
+      "ticker": "MRK",
+      "origin": "2023-01-01",
+      "variant": "data",
+      "n_eligible_factors": 2,
+      "control": {
+        "metric": null,
+        "elapsed_s": 0.8
+      },
+      "window_permuted": {
+        "metric": null,
+        "elapsed_s": 0.7
+      },
+      "label_only": {
+        "metric": null
+      }
+    },
+    {
+      "ticker": "MSFT",
+      "origin": "2023-01-01",
+      "variant": "data",
+      "n_eligible_factors": 3,
+      "control": {
+        "metric": null,
+        "elapsed_s": 0.1
+      },
+      "window_permuted": {
+        "metric": null,
+        "elapsed_s": 0.0
+      },
+      "label_only": {
+        "metric": null
+      }
+    },
+    {
+      "ticker": "NKE",
+      "origin": "2023-01-01",
+      "variant": "data",
+      "n_eligible_factors": 3,
+      "control": {
+        "metric": null,
+        "elapsed_s": 0.7
+      },
+      "window_permuted": {
+        "metric": null,
+        "elapsed_s": 0.4
+      },
+      "label_only": {
+        "metric": null
+      }
+    },
+    {
+      "ticker": "PG",
+      "origin": "2023-01-01",
+      "variant": "data",
+      "n_eligible_factors": 3,
+      "control": {
+        "metric": null,
+        "elapsed_s": 0.6
+      },
+      "window_permuted": {
+        "metric": null,
+        "elapsed_s": 0.4
+      },
+      "label_only": {
+        "metric": null
+      }
+    },
+    {
+      "ticker": "TRV",
+      "origin": "2023-01-01",
+      "variant": "data",
+      "n_eligible_factors": 4,
+      "control": {
+        "metric": null,
+        "elapsed_s": 0.9
+      },
+      "window_permuted": {
+        "metric": null,
+        "elapsed_s": 0.8
+      },
+      "label_only": {
+        "metric": null
+      }
+    },
+    {
+      "ticker": "UNH",
+      "origin": "2023-01-01",
+      "variant": "data",
+      "n_eligible_factors": 2,
+      "control": {
+        "metric": null,
+        "elapsed_s": 0.7
+      },
+      "window_permuted": {
+        "metric": null,
+        "elapsed_s": 0.7
+      },
+      "label_only": {
+        "metric": null
+      }
+    },
+    {
+      "ticker": "V",
+      "origin": "2023-01-01",
+      "variant": "data",
+      "n_eligible_factors": 1,
+      "control": {
+        "metric": null,
+        "elapsed_s": 0.8
+      },
+      "window_permuted": {
+        "metric": null,
+        "elapsed_s": 0.8
+      },
+      "label_only": {
+        "metric": null
+      }
+    },
+    {
+      "ticker": "WMT",
+      "origin": "2023-01-01",
+      "variant": "data",
+      "n_eligible_factors": 3,
+      "control": {
+        "metric": null,
+        "elapsed_s": 1.0
+      },
+      "window_permuted": {
+        "metric": null,
+        "elapsed_s": 0.8
+      },
+      "label_only": {
+        "metric": null
+      }
+    },
+    {
+      "ticker": "XOM",
+      "origin": "2023-01-01",
+      "variant": "data",
+      "n_eligible_factors": 2,
+      "control": {
+        "metric": null,
+        "elapsed_s": 0.9
+      },
+      "window_permuted": {
+        "metric": null,
+        "elapsed_s": 0.8
+      },
+      "label_only": {
+        "metric": null
+      }
+    }
+  ]
+}

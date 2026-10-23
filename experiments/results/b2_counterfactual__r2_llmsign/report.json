@@ -1,0 +1,800 @@
+{
+  "summary": {
+    "run": "r2_llmsign",
+    "n_tickers": 28,
+    "per_factor_criteria_pass": {
+      "sign": "28/28",
+      "ratio": "28/28",
+      "visible": "28/28",
+      "fidelity_vs_R1": "24/28"
+    },
+    "group_criteria_pass": {
+      "sign": "13/28",
+      "ratio_ok": "13/28",
+      "visible": "13/28"
+    },
+    "P3_corr_expected_vs_path_bulls": 0.9999980656649975,
+    "median_ks_factual": 0.07399425287356322,
+    "median_abs_track_err_factual": 0.07488537872656528,
+    "median_calib_abs_cum_log": 1.394910146045687,
+    "b2_verdict": "PASS"
+  },
+  "rows": [
+    {
+      "ticker": "AAPL",
+      "n_eligible": 6,
+      "share_sign": 1.0,
+      "share_ratio_ok": 1.0,
+      "share_visible": 1.0,
+      "median_ratio": 0.9999960212208381,
+      "groups": {
+        "bulls": {
+          "n": 1,
+          "d_path": -1.7461998915653632e-07,
+          "d_exp": -1.72520286845877e-07,
+          "sign": true,
+          "ratio": 1.0121707559675872,
+          "ratio_ok": true,
+          "visible": true
+        },
+        "bears": {
+          "n": 5,
+          "d_path": 8.127432826059941e-06,
+          "d_exp": 8.161843429205363e-06,
+          "sign": true,
+          "ratio": 0.9957839667663445,
+          "ratio_ok": true,
+          "visible": true
+        }
+      },
+      "ks_factual": 0.05663129973474801,
+      "track_err_factual": -0.09386058702549523,
+      "calib_abs_cum_log": 1.7264866593461299,
+      "elapsed_s": 18.7
+    },
+    {
+      "ticker": "AMGN",
+      "n_eligible": 9,
+      "share_sign": 1.0,
+      "share_ratio_ok": 1.0,
+      "share_visible": 1.0,
+      "median_ratio": 0.9886551724141038,
+      "groups": {
+        "bulls": null,
+        "bears": {
+          "n": 9,
+          "d_path": 1.7121977901169073e-05,
+          "d_exp": 1.7192338411529723e-05,
+          "sign": true,
+          "ratio": 0.9959074496629577,
+          "ratio_ok": true,
+          "visible": true
+        }
+      },
+      "ks_factual": 0.037356321839080456,
+      "track_err_factual": -0.07918870550386777,
+      "calib_abs_cum_log": 0.7924955540160807,
+      "elapsed_s": 19.1
+    },
+    {
+      "ticker": "AMZN",
+      "n_eligible": 5,
+      "share_sign": 1.0,
+      "share_ratio_ok": 1.0,
+      "share_visible": 1.0,
+      "median_ratio": 0.994659151193928,
+      "groups": {
+        "bulls": {
+          "n": 1,
+          "d_path": -1.2364071004641057e-07,
+          "d_exp": -1.2724899538570088e-07,
+          "sign": true,
+          "ratio": 0.9716438992044429,
+          "ratio_ok": true,
+          "visible": true
+        },
+        "bears": {
+          "n": 4,
+          "d_path": 0.0001041279119031663,
+          "d_exp": 0.00010288424969416194,
+          "sign": true,
+          "ratio": 1.0120879747162594,
+          "ratio_ok": true,
+          "visible": true
+        }
+      },
+      "ks_factual": 0.04706012378426172,
+      "track_err_factual": -0.03298003544242889,
+      "calib_abs_cum_log": 0.8581474994709305,
+      "elapsed_s": 16.7
+    },
+    {
+      "ticker": "AXP",
+      "n_eligible": 13,
+      "share_sign": 1.0,
+      "share_ratio_ok": 1.0,
+      "share_visible": 1.0,
+      "median_ratio": 1.0056664456225222,
+      "groups": {
+        "bulls": {
+          "n": 1,
+          "d_path": -3.1432066177896615e-09,
+          "d_exp": -3.145842408183604e-09,
+          "sign": true,
+          "ratio": 0.9991621352719113,
+          "ratio_ok": true,
+          "visible": true
+        },
+        "bears": {
+          "n": 12,
+          "d_path": 0.00013616356817730603,
+          "d_exp": 0.0001353481673728073,
+          "sign": true,
+          "ratio": 1.0060244687484594,
+          "ratio_ok": true,
+          "visible": true
+        }
+      },
+      "ks_factual": 0.03801945181255526,
+      "track_err_factual": -0.05092595882809977,
+      "calib_abs_cum_log": 0.8750943063559861,
+      "elapsed_s": 27.5
+    },
+    {
+      "ticker": "BA",
+      "n_eligible": 11,
+      "share_sign": 1.0,
+      "share_ratio_ok": 1.0,
+      "share_visible": 1.0,
+      "median_ratio": 1.009669098143831,
+      "groups": {
+        "bulls": {
+          "n": 1,
+          "d_path": -3.7027647081202798e-06,
+          "d_exp": -3.6153501915362853e-06,
+          "sign": true,
+          "ratio": 1.0241787135278446,
+          "ratio_ok": true,
+          "visible": true
+        },
+        "bears": {
+          "n": 10,
+          "d_path": 2.705106524867251e-05,
+          "d_exp": 2.7004027879152326e-05,
+          "sign": true,
+          "ratio": 1.0017418649443959,
+          "ratio_ok": true,
+          "visible": true
+        }
+      },
+      "ks_factual": 0.10707338638373122,
+      "track_err_factual": -0.2208571299182677,
+      "calib_abs_cum_log": 1.9382027217844484,
+      "elapsed_s": 23.0
+    },
+    {
+      "ticker": "CAT",
+      "n_eligible": 9,
+      "share_sign": 1.0,
+      "share_ratio_ok": 1.0,
+      "share_visible": 1.0,
+      "median_ratio": 0.9956598143236068,
+      "groups": {
+        "bulls": null,
+        "bears": {
+          "n": 9,
+          "d_path": 9.138313413690165e-05,
+          "d_exp": 9.096327817214522e-05,
+          "sign": true,
+          "ratio": 1.0046156643998896,
+          "ratio_ok": true,
+          "visible": true
+        }
+      },
+      "ks_factual": 0.0720159151193634,
+      "track_err_factual": -0.13374457852407193,
+      "calib_abs_cum_log": 2.913261106135336,
+      "elapsed_s": 18.9
+    },
+    {
+      "ticker": "CRM",
+      "n_eligible": 10,
+      "share_sign": 1.0,
+      "share_ratio_ok": 1.0,
+      "share_visible": 1.0,
+      "median_ratio": 1.0076677718833025,
+      "groups": {
+        "bulls": null,
+        "bears": {
+          "n": 10,
+          "d_path": 0.00019594442910066397,
+          "d_exp": 0.00019466746575356604,
+          "sign": true,
+          "ratio": 1.0065597162944242,
+          "ratio_ok": true,
+          "visible": true
+        }
+      },
+      "ks_factual": 0.043611847922192755,
+      "track_err_factual": -0.21189247065769481,
+      "calib_abs_cum_log": 3.6990784117467705,
+      "elapsed_s": 22.0
+    },
+    {
+      "ticker": "CSCO",
+      "n_eligible": 9,
+      "share_sign": 1.0,
+      "share_ratio_ok": 1.0,
+      "share_visible": 1.0,
+      "median_ratio": 0.9985927924631677,
+      "groups": {
+        "bulls": {
+          "n": 1,
+          "d_path": -1.9173130141487726e-05,
+          "d_exp": -1.9170009294483658e-05,
+          "sign": true,
+          "ratio": 1.0001627984084998,
+          "ratio_ok": true,
+          "visible": true
+        },
+        "bears": {
+          "n": 8,
+          "d_path": 4.2665186502342337e-05,
+          "d_exp": 4.279150551073592e-05,
+          "sign": true,
+          "ratio": 0.99704803542465,
+          "ratio_ok": true,
+          "visible": true
+        }
+      },
+      "ks_factual": 0.07281167108753316,
+      "track_err_factual": 0.05203839515404322,
+      "calib_abs_cum_log": 2.1022118220259665,
+      "elapsed_s": 24.9
+    },
+    {
+      "ticker": "CVX",
+      "n_eligible": 14,
+      "share_sign": 1.0,
+      "share_ratio_ok": 1.0,
+      "share_visible": 1.0,
+      "median_ratio": 1.0021641246679311,
+      "groups": {
+        "bulls": null,
+        "bears": {
+          "n": 14,
+          "d_path": 0.00025773471837813017,
+          "d_exp": 0.00025416977039867514,
+          "sign": true,
+          "ratio": 1.0140258535618272,
+          "ratio_ok": true,
+          "visible": true
+        }
+      },
+      "ks_factual": 0.11363837312113174,
+      "track_err_factual": 0.17672062888911844,
+      "calib_abs_cum_log": 1.8525954316621307,
+      "elapsed_s": 23.2
+    },
+    {
+      "ticker": "DIS",
+      "n_eligible": 6,
+      "share_sign": 1.0,
+      "share_ratio_ok": 1.0,
+      "share_visible": 1.0,
+      "median_ratio": 0.9986618037135437,
+      "groups": {
+        "bulls": null,
+        "bears": {
+          "n": 6,
+          "d_path": 0.0002053917148659443,
+          "d_exp": 0.00020347245775922075,
+          "sign": true,
+          "ratio": 1.0094325154758523,
+          "ratio_ok": true,
+          "visible": true
+        }
+      },
+      "ks_factual": 0.0825817860300619,
+      "track_err_factual": 0.051576527765657826,
+      "calib_abs_cum_log": 0.6496634120330674,
+      "elapsed_s": 14.1
+    },
+    {
+      "ticker": "GS",
+      "n_eligible": 11,
+      "share_sign": 1.0,
+      "share_ratio_ok": 1.0,
+      "share_visible": 1.0,
+      "median_ratio": 1.022746730083355,
+      "groups": {
+        "bulls": null,
+        "bears": {
+          "n": 11,
+          "d_path": 0.00012221429354605955,
+          "d_exp": 0.00012066872292589556,
+          "sign": true,
+          "ratio": 1.012808378034407,
+          "ratio_ok": true,
+          "visible": true
+        }
+      },
+      "ks_factual": 0.06894341290893015,
+      "track_err_factual": -0.2192089122990759,
+      "calib_abs_cum_log": 4.9578845994212974,
+      "elapsed_s": 23.3
+    },
+    {
+      "ticker": "HD",
+      "n_eligible": 7,
+      "share_sign": 1.0,
+      "share_ratio_ok": 1.0,
+      "share_visible": 1.0,
+      "median_ratio": 0.9926578249337071,
+      "groups": {
+        "bulls": {
+          "n": 1,
+          "d_path": -7.542765738513058e-09,
+          "d_exp": -7.6062232283989e-09,
+          "sign": true,
+          "ratio": 0.9916571617765682,
+          "ratio_ok": true,
+          "visible": true
+        },
+        "bears": {
+          "n": 6,
+          "d_path": 7.01490223163688e-05,
+          "d_exp": 7.013612832226221e-05,
+          "sign": true,
+          "ratio": 1.0001838423992746,
+          "ratio_ok": true,
+          "visible": true
+        }
+      },
+      "ks_factual": 0.12900088417329794,
+      "track_err_factual": -0.06443114350084019,
+      "calib_abs_cum_log": 0.5097637745608115,
+      "elapsed_s": 16.8
+    },
+    {
+      "ticker": "HON",
+      "n_eligible": 9,
+      "share_sign": 1.0,
+      "share_ratio_ok": 1.0,
+      "share_visible": 1.0,
+      "median_ratio": 1.00781072375901,
+      "groups": {
+        "bulls": {
+          "n": 1,
+          "d_path": -2.5521584789897815e-06,
+          "d_exp": -2.525215037377548e-06,
+          "sign": true,
+          "ratio": 1.0106697612731683,
+          "ratio_ok": true,
+          "visible": true
+        },
+        "bears": {
+          "n": 8,
+          "d_path": 7.899768586265113e-05,
+          "d_exp": 7.913244491816984e-05,
+          "sign": true,
+          "ratio": 0.9982970442066075,
+          "ratio_ok": true,
+          "visible": true
+        }
+      },
+      "ks_factual": 0.08530061892130858,
+      "track_err_factual": 0.04592412215404629,
+      "calib_abs_cum_log": 1.2811445181674153,
+      "elapsed_s": 19.8
+    },
+    {
+      "ticker": "IBM",
+      "n_eligible": 12,
+      "share_sign": 1.0,
+      "share_ratio_ok": 1.0,
+      "share_visible": 1.0,
+      "median_ratio": 0.99951951496791,
+      "groups": {
+        "bulls": {
+          "n": 2,
+          "d_path": -9.318102195709016e-05,
+          "d_exp": -9.234453617838253e-05,
+          "sign": true,
+          "ratio": 1.0090583137164908,
+          "ratio_ok": true,
+          "visible": true
+        },
+        "bears": {
+          "n": 10,
+          "d_path": 8.805057606877452e-05,
+          "d_exp": 8.838765147390455e-05,
+          "sign": true,
+          "ratio": 0.9961863970870463,
+          "ratio_ok": true,
+          "visible": true
+        }
+      },
+      "ks_factual": 0.10492926613616267,
+      "track_err_factual": -0.23969928658486941,
+      "calib_abs_cum_log": 4.2579438540395484,
+      "elapsed_s": 23.4
+    },
+    {
+      "ticker": "JNJ",
+      "n_eligible": 5,
+      "share_sign": 1.0,
+      "share_ratio_ok": 1.0,
+      "share_visible": 1.0,
+      "median_ratio": 1.006667108753212,
+      "groups": {
+        "bulls": null,
+        "bears": {
+          "n": 5,
+          "d_path": 2.2716479167854945e-05,
+          "d_exp": 2.23299812826388e-05,
+          "sign": true,
+          "ratio": 1.017308473317738,
+          "ratio_ok": true,
+          "visible": true
+        }
+      },
+      "ks_factual": 0.09109195402298852,
+      "track_err_factual": 0.04983894808373024,
+      "calib_abs_cum_log": 0.7461433329598229,
+      "elapsed_s": 10.2
+    },
+    {
+      "ticker": "JPM",
+      "n_eligible": 11,
+      "share_sign": 1.0,
+      "share_ratio_ok": 1.0,
+      "share_visible": 1.0,
+      "median_ratio": 1.0086684350142152,
+      "groups": {
+        "bulls": null,
+        "bears": {
+          "n": 11,
+          "d_path": 0.00015126868885012001,
+          "d_exp": 0.00015218852478694427,
+          "sign": true,
+          "ratio": 0.993955944194137,
+          "ratio_ok": true,
+          "visible": true
+        }
+      },
+      "ks_factual": 0.06021220159151194,
+      "track_err_factual": -0.09448027482008377,
+      "calib_abs_cum_log": 3.1662555778252295,
+      "elapsed_s": 19.3
+    },
+    {
+      "ticker": "KO",
+      "n_eligible": 8,
+      "share_sign": 1.0,
+      "share_ratio_ok": 1.0,
+      "share_visible": 1.0,
+      "median_ratio": 1.0044990053096268,
+      "groups": {
+        "bulls": null,
+        "bears": {
+          "n": 8,
+          "d_path": 5.741980762817096e-06,
+          "d_exp": 5.658588547896553e-06,
+          "sign": true,
+          "ratio": 1.0147372819590394,
+          "ratio_ok": true,
+          "visible": true
+        }
+      },
+      "ks_factual": 0.11328470380194518,
+      "track_err_factual": -0.029515181126522554,
+      "calib_abs_cum_log": 0.8417914782418302,
+      "elapsed_s": 13.9
+    },
+    {
+      "ticker": "MCD",
+      "n_eligible": 7,
+      "share_sign": 1.0,
+      "share_ratio_ok": 1.0,
+      "share_visible": 1.0,
+      "median_ratio": 1.0176744031832314,
+      "groups": {
+        "bulls": {
+          "n": 1,
+          "d_path": -1.2843061633353082e-07,
+          "d_exp": -1.2663592163914658e-07,
+          "sign": true,
+          "ratio": 1.0141720822271763,
+          "ratio_ok": true,
+          "visible": true
+        },
+        "bears": {
+          "n": 6,
+          "d_path": 4.66235714425851e-05,
+          "d_exp": 4.6792837956074925e-05,
+          "sign": true,
+          "ratio": 0.9963826405731425,
+          "ratio_ok": true,
+          "visible": true
+        }
+      },
+      "ks_factual": 0.09354553492484526,
+      "track_err_factual": -0.0719282233973666,
+      "calib_abs_cum_log": 1.1034995604502218,
+      "elapsed_s": 15.6
+    },
+    {
+      "ticker": "MMM",
+      "n_eligible": 9,
+      "share_sign": 1.0,
+      "share_ratio_ok": 1.0,
+      "share_visible": 1.0,
+      "median_ratio": 1.0059999999979228,
+      "groups": {
+        "bulls": {
+          "n": 1,
+          "d_path": -7.506319607316039e-09,
+          "d_exp": -7.321957286699945e-09,
+          "sign": true,
+          "ratio": 1.0251793766881134,
+          "ratio_ok": true,
+          "visible": true
+        },
+        "bears": {
+          "n": 8,
+          "d_path": 6.193333493953029e-05,
+          "d_exp": 6.085500717914877e-05,
+          "sign": true,
+          "ratio": 1.0177196225974812,
+          "ratio_ok": true,
+          "visible": true
+        }
+      },
+      "ks_factual": 0.059659593280282926,
+      "track_err_factual": -0.23851590035114592,
+      "calib_abs_cum_log": 1.2090110776728507,
+      "elapsed_s": 21.6
+    },
+    {
+      "ticker": "MRK",
+      "n_eligible": 8,
+      "share_sign": 1.0,
+      "share_ratio_ok": 1.0,
+      "share_visible": 1.0,
+      "median_ratio": 1.0084268956371,
+      "groups": {
+        "bulls": null,
+        "bears": {
+          "n": 8,
+          "d_path": 3.7232200688710474e-05,
+          "d_exp": 3.655473975402045e-05,
+          "sign": true,
+          "ratio": 1.0185327795861414,
+          "ratio_ok": true,
+          "visible": true
+        }
+      },
+      "ks_factual": 0.07099911582670204,
+      "track_err_factual": 0.017531982009425073,
+      "calib_abs_cum_log": 0.8300265041500919,
+      "elapsed_s": 16.1
+    },
+    {
+      "ticker": "MSFT",
+      "n_eligible": 12,
+      "share_sign": 1.0,
+      "share_ratio_ok": 1.0,
+      "share_visible": 1.0,
+      "median_ratio": 1.007667771876544,
+      "groups": {
+        "bulls": null,
+        "bears": {
+          "n": 12,
+          "d_path": 7.629383512871164e-06,
+          "d_exp": 8.183384014360339e-06,
+          "sign": true,
+          "ratio": 0.932301783648793,
+          "ratio_ok": true,
+          "visible": true
+        }
+      },
+      "ks_factual": 0.06560565870910699,
+      "track_err_factual": -0.11706667572515676,
+      "calib_abs_cum_log": 0.9521871054923082,
+      "elapsed_s": 24.8
+    },
+    {
+      "ticker": "NKE",
+      "n_eligible": 8,
+      "share_sign": 1.0,
+      "share_ratio_ok": 1.0,
+      "share_visible": 1.0,
+      "median_ratio": 0.9971094929612343,
+      "groups": {
+        "bulls": {
+          "n": 1,
+          "d_path": -5.198677414247194e-07,
+          "d_exp": -5.131093629621748e-07,
+          "sign": true,
+          "ratio": 1.0131714190977312,
+          "ratio_ok": true,
+          "visible": true
+        },
+        "bears": {
+          "n": 7,
+          "d_path": 1.6925350203193357e-05,
+          "d_exp": 1.69727905879437e-05,
+          "sign": true,
+          "ratio": 0.9972049154495525,
+          "ratio_ok": true,
+          "visible": true
+        }
+      },
+      "ks_factual": 0.07517683465959328,
+      "track_err_factual": 0.013732674063101672,
+      "calib_abs_cum_log": 1.5086757739239587,
+      "elapsed_s": 20.9
+    },
+    {
+      "ticker": "PG",
+      "n_eligible": 9,
+      "share_sign": 1.0,
+      "share_ratio_ok": 1.0,
+      "share_visible": 1.0,
+      "median_ratio": 1.0076677718832885,
+      "groups": {
+        "bulls": {
+          "n": 1,
+          "d_path": -2.4947490070626673e-06,
+          "d_exp": -2.4684116440960953e-06,
+          "sign": true,
+          "ratio": 1.0106697612732323,
+          "ratio_ok": true,
+          "visible": true
+        },
+        "bears": {
+          "n": 8,
+          "d_path": 0.00012170763077188834,
+          "d_exp": 0.00012061418025033563,
+          "sign": true,
+          "ratio": 1.0090656879587727,
+          "ratio_ok": true,
+          "visible": true
+        }
+      },
+      "ks_factual": 0.08207338638373123,
+      "track_err_factual": 0.024384674333015832,
+      "calib_abs_cum_log": 3.0927853184198244,
+      "elapsed_s": 33.1
+    },
+    {
+      "ticker": "TRV",
+      "n_eligible": 9,
+      "share_sign": 1.0,
+      "share_ratio_ok": 1.0,
+      "share_visible": 1.0,
+      "median_ratio": 1.0056664456258817,
+      "groups": {
+        "bulls": {
+          "n": 1,
+          "d_path": -1.6422109653403532e-07,
+          "d_exp": -1.63539879192657e-07,
+          "sign": true,
+          "ratio": 1.0041654509269622,
+          "ratio_ok": true,
+          "visible": true
+        },
+        "bears": {
+          "n": 8,
+          "d_path": 9.11658992506797e-07,
+          "d_exp": 9.132038752029546e-07,
+          "sign": true,
+          "ratio": 0.99830828280726,
+          "ratio_ok": true,
+          "visible": true
+        }
+      },
+      "ks_factual": 0.11936339522546419,
+      "track_err_factual": -0.12164394243425412,
+      "calib_abs_cum_log": 0.8195047393456522,
+      "elapsed_s": 27.3
+    },
+    {
+      "ticker": "UNH",
+      "n_eligible": 9,
+      "share_sign": 1.0,
+      "share_ratio_ok": 1.0,
+      "share_visible": 1.0,
+      "median_ratio": 0.998661803713509,
+      "groups": {
+        "bulls": null,
+        "bears": {
+          "n": 9,
+          "d_path": 0.00015667714961183546,
+          "d_exp": 0.00015691348645757226,
+          "sign": true,
+          "ratio": 0.9984938398153513,
+          "ratio_ok": true,
+          "visible": true
+        }
+      },
+      "ks_factual": 0.08817418213969937,
+      "track_err_factual": -0.03415745761574044,
+      "calib_abs_cum_log": 2.494163065996551,
+      "elapsed_s": 28.6
+    },
+    {
+      "ticker": "V",
+      "n_eligible": 7,
+      "share_sign": 1.0,
+      "share_ratio_ok": 1.0,
+      "share_visible": 1.0,
+      "median_ratio": 0.9966604774535719,
+      "groups": {
+        "bulls": null,
+        "bears": {
+          "n": 7,
+          "d_path": 8.53049035275509e-05,
+          "d_exp": 8.445997948959876e-05,
+          "sign": true,
+          "ratio": 1.0100038390141473,
+          "ratio_ok": true,
+          "visible": true
+        }
+      },
+      "ks_factual": 0.06947391688771,
+      "track_err_factual": -0.07784253405576398,
+      "calib_abs_cum_log": 2.1156069264438915,
+      "elapsed_s": 17.3
+    },
+    {
+      "ticker": "WMT",
+      "n_eligible": 9,
+      "share_sign": 1.0,
+      "share_ratio_ok": 1.0,
+      "share_visible": 1.0,
+      "median_ratio": 0.9999483705949223,
+      "groups": {
+        "bulls": null,
+        "bears": {
+          "n": 9,
+          "d_path": 7.890301240003749e-05,
+          "d_exp": 7.977627395570219e-05,
+          "sign": true,
+          "ratio": 0.9890536181703647,
+          "ratio_ok": true,
+          "visible": true
+        }
+      },
+      "ks_factual": 0.09025198938992045,
+      "track_err_factual": 0.005056260994718491,
+      "calib_abs_cum_log": 1.8012163474419047,
+      "elapsed_s": 19.8
+    },
+    {
+      "ticker": "XOM",
+      "n_eligible": 8,
+      "share_sign": 1.0,
+      "share_ratio_ok": 1.0,
+      "share_visible": 1.0,
+      "median_ratio": 0.9843189655164759,
+      "groups": {
+        "bulls": null,
+        "bears": {
+          "n": 8,
+          "d_path": 3.906490187591893e-05,
+          "d_exp": 3.939593268841806e-05,
+          "sign": true,
+          "ratio": 0.9915973353107984,
+          "ratio_ok": true,
+          "visible": true
+        }
+      },
+      "ks_factual": 0.04792219274977896,
+      "track_err_factual": 0.17487985785240148,
+      "calib_abs_cum_log": 0.9683255353575203,
+      "elapsed_s": 18.6
+    }
+  ]
+}

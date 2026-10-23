@@ -1,0 +1,125 @@
+{
+ "workbook": "audit/human_context_audit.xlsx",
+ "contexts": 100,
+ "items": 759,
+ "flagged": {
+  "items": 459,
+  "q1_yes": 0,
+  "q3_yes": 0,
+  "q1_or_q3_upper95_items": 0.0065053975150428
+ },
+ "random": {
+  "items": 300,
+  "q1_yes": 0,
+  "q3_yes": 0,
+  "q1_or_q3_upper95_items": 0.009936081944457708
+ },
+ "all": {
+  "items": 759,
+  "q1_yes": 0,
+  "q3_yes": 0,
+  "q1_or_q3_upper95_items": 0.00393916738699313
+ },
+ "contexts_with_q1_or_q3": 0,
+ "contexts_upper95": 0.029513049607039925,
+ "q2_as_marked": {
+  "items": 11,
+  "contexts": 11
+ },
+ "q2_rule_applied": {
+  "items": 22,
+  "contexts": 22,
+  "recoded_rows": [
+   {
+    "row": 75,
+    "context": 8,
+    "reason": "currency plunges",
+    "text": "Argentina hikes interest rate to 60%, the highest in the world, as its currency plunges."
+   },
+   {
+    "row": 98,
+    "context": 11,
+    "reason": "currency rises",
+    "text": "The Turkish lira rises after U.S. President Donald Trump threatened 50% steel tariffs and a halt to trade negotiations in retaliation for the Turkish offensive "
+   },
+   {
+    "row": 159,
+    "context": 17,
+    "reason": "international commodity prices (FAO)",
+    "text": "The United Nations' Food and Agriculture Organization reports that international food prices reached a record high in 2022 amid ongoing concerns of food shortag"
+   },
+   {
+    "row": 242,
+    "context": 28,
+    "reason": "currency falls",
+    "text": "The Turkish lira falls to a record low against the United States dollar, while the central bank stops using its reserves to support the lira."
+   },
+   {
+    "row": 293,
+    "context": 35,
+    "reason": "international commodity prices (FAO)",
+    "text": "The United Nations' Food and Agriculture Organization reports that international food prices reached a record high in 2022 amid ongoing concerns of food shortag"
+   },
+   {
+    "row": 426,
+    "context": 53,
+    "reason": "currency plunges",
+    "text": "Argentina hikes interest rate to 60%, the highest in the world, as its currency plunges."
+   },
+   {
+    "row": 447,
+    "context": 56,
+    "reason": "oil price collapse",
+    "text": "Offshore drilling contractor Diamond Offshore Drilling files for bankruptcy due to the oil price collapse, following the reduction in oil demand during the glob"
+   },
+   {
+    "row": 451,
+    "context": 57,
+    "reason": "currency at a record low",
+    "text": "President of Argentina Mauricio Macri announces talks with the International Monetary Fund on financial support for the country's economy. The Central Bank of A"
+   },
+   {
+    "row": 512,
+    "context": 65,
+    "reason": "currency falls",
+    "text": "The Turkish lira falls to an all-time low of 13.44 to the U.S. dollar. The crash was primarily caused by president Recep Tayyip Erdoğan's defense of the Central"
+   },
+   {
+    "row": 640,
+    "context": 83,
+    "reason": "currency falls",
+    "text": "The Turkish lira plunges by 15% after President Recep Tayyip Erdoğan fires Governor of the Central Bank Naci Ağbal. He is replaced by Erdoğan ally Şahap Kavcıoğ"
+   },
+   {
+    "row": 707,
+    "context": 93,
+    "reason": "currency rises",
+    "text": "The Turkish lira rises after U.S. President Donald Trump threatened 50% steel tariffs and a halt to trade negotiations in retaliation for the Turkish offensive "
+   }
+  ]
+ },
+ "repeated_texts": 103,
+ "repeated_texts_inconsistent": 1,
+ "notes": [
+  {
+   "row": 147,
+   "note": "unsure",
+   "marks": [
+    "N",
+    "N",
+    "N"
+   ],
+   "text": "European Union member states agree to a natural gas price cap in an attempt to limit economic damage from the global ene"
+  },
+  {
+   "row": 409,
+   "note": "unsure",
+   "marks": [
+    "N",
+    "N",
+    "N"
+   ],
+   "text": "India's food ministry reports a 341% surge in tomato prices from {{Indian Rupee|24.68|link=yes}} (US$0.30) to {{Indian R"
+  }
+ ]
+}

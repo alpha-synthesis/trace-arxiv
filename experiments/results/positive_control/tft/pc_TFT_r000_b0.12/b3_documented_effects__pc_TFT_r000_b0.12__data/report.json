@@ -1,0 +1,82 @@
+{
+  "run": "pc_TFT_r000_b0.12",
+  "variant": "data",
+  "estimator": "tft",
+  "frozen_list": "pc_runs/runs/tft/out/pc_TFT_r000_b0.12/b3_documented_effects__pc_TFT_r000_b0.12/classified_FROZEN.csv",
+  "sign": {
+    "per_class": {
+      "E1_tightening": {
+        "n": 23,
+        "agree": 0.782608695652174,
+        "p_cluster_boot": 0.0,
+        "n_clusters": 1
+      },
+      "E2_easing": {
+        "n": 23,
+        "agree": 0.8260869565217391,
+        "p_cluster_boot": 0.0,
+        "n_clusters": 1
+      },
+      "E3_oil_up": null,
+      "E4_earnings_beat": {
+        "n": 28,
+        "agree": 0.9285714285714286,
+        "p_cluster_boot": 0.002,
+        "n_clusters": 10
+      },
+      "E5_earnings_miss": {
+        "n": 28,
+        "agree": 0.5,
+        "p_cluster_boot": 0.557,
+        "n_clusters": 10
+      }
+    },
+    "pooled_tested_classes": {
+      "n": 102,
+      "agree": 0.7549019607843137,
+      "p_cluster_boot": 0.001,
+      "n_clusters": 14
+    },
+    "classes_n20_below_half": [],
+    "verdict": "PASS"
+  },
+  "sign_centered": {
+    "per_class": {
+      "E1_tightening": {
+        "n": 23,
+        "agree": 0.9565217391304348,
+        "p_cluster_boot": 0.0,
+        "n_clusters": 1
+      },
+      "E2_easing": {
+        "n": 23,
+        "agree": 0.782608695652174,
+        "p_cluster_boot": 0.0,
+        "n_clusters": 1
+      },
+      "E3_oil_up": null,
+      "E4_earnings_beat": {
+        "n": 28,
+        "agree": 0.75,
+        "p_cluster_boot": 0.0005,
+        "n_clusters": 10
+      },
+      "E5_earnings_miss": {
+        "n": 28,
+        "agree": 0.5714285714285714,
+        "p_cluster_boot": 0.213,
+        "n_clusters": 10
+      }
+    },
+    "pooled_tested_classes": {
+      "n": 102,
+      "agree": 0.7549019607843137,
+      "p_cluster_boot": 0.0005,
+      "n_clusters": 14
+    },
+    "classes_n20_below_half": [],
+    "verdict": "PASS"
+  },
+  "primary_verdict": "PASS",
+  "median_seed_agreement": 0.6
+}

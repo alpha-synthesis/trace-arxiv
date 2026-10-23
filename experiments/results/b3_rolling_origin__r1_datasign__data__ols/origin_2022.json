@@ -1,0 +1,664 @@
+{
+  "origin": "2022-01-01",
+  "variant": "data",
+  "estimator": "ols",
+  "seeds": null,
+  "per_ticker": [
+    {
+      "ticker": "AAPL",
+      "origin": "2022-01-01",
+      "variant": "data",
+      "n_eligible_factors": 11,
+      "control": {
+        "metric": {
+          "n_factors": 11,
+          "agreement": 0.6364,
+          "spearman": 0.2779,
+          "null_mean": 0.5193,
+          "p_perm": 0.424
+        },
+        "elapsed_s": 0.0
+      },
+      "window_permuted": {
+        "metric": {
+          "n_factors": 11,
+          "agreement": 0.6364,
+          "spearman": 0.4419,
+          "null_mean": 0.5082,
+          "p_perm": 0.411
+        },
+        "elapsed_s": 0.0
+      },
+      "label_only": {
+        "metric": {
+          "n_factors": 11,
+          "agreement": 0.6364,
+          "spearman": 0.6342,
+          "null_mean": 0.4873,
+          "p_perm": 0.339
+        }
+      }
+    },
+    {
+      "ticker": "AMGN",
+      "origin": "2022-01-01",
+      "variant": "data",
+      "n_eligible_factors": 6,
+      "control": {
+        "metric": {
+          "n_factors": 6,
+          "agreement": 0.3333,
+          "spearman": -0.6,
+          "null_mean": 0.547,
+          "p_perm": 1.0
+        },
+        "elapsed_s": 0.2
+      },
+      "window_permuted": {
+        "metric": {
+          "n_factors": 6,
+          "agreement": 0.6667,
+          "spearman": 0.0857,
+          "null_mean": 0.5617,
+          "p_perm": 0.611
+        },
+        "elapsed_s": 0.3
+      },
+      "label_only": {
+        "metric": {
+          "n_factors": 6,
+          "agreement": 0.6667,
+          "spearman": -0.1429,
+          "null_mean": 0.5473,
+          "p_perm": 0.578
+        }
+      }
+    },
+    {
+      "ticker": "AMZN",
+      "origin": "2022-01-01",
+      "variant": "data",
+      "n_eligible_factors": 2,
+      "control": {
+        "metric": null,
+        "elapsed_s": 0.1
+      },
+      "window_permuted": {
+        "metric": null,
+        "elapsed_s": 0.1
+      },
+      "label_only": {
+        "metric": null
+      }
+    },
+    {
+      "ticker": "AXP",
+      "origin": "2022-01-01",
+      "variant": "data",
+      "n_eligible_factors": 4,
+      "control": {
+        "metric": null,
+        "elapsed_s": 0.1
+      },
+      "window_permuted": {
+        "metric": null,
+        "elapsed_s": 0.1
+      },
+      "label_only": {
+        "metric": null
+      }
+    },
+    {
+      "ticker": "BA",
+      "origin": "2022-01-01",
+      "variant": "data",
+      "n_eligible_factors": 4,
+      "control": {
+        "metric": null,
+        "elapsed_s": 0.1
+      },
+      "window_permuted": {
+        "metric": null,
+        "elapsed_s": 0.1
+      },
+      "label_only": {
+        "metric": null
+      }
+    },
+    {
+      "ticker": "CAT",
+      "origin": "2022-01-01",
+      "variant": "data",
+      "n_eligible_factors": 4,
+      "control": {
+        "metric": null,
+        "elapsed_s": 0.4
+      },
+      "window_permuted": {
+        "metric": null,
+        "elapsed_s": 0.6
+      },
+      "label_only": {
+        "metric": null
+      }
+    },
+    {
+      "ticker": "CRM",
+      "origin": "2022-01-01",
+      "variant": "data",
+      "n_eligible_factors": 1,
+      "control": {
+        "metric": null,
+        "elapsed_s": 0.3
+      },
+      "window_permuted": {
+        "metric": null,
+        "elapsed_s": 0.4
+      },
+      "label_only": {
+        "metric": null
+      }
+    },
+    {
+      "ticker": "CSCO",
+      "origin": "2022-01-01",
+      "variant": "data",
+      "n_eligible_factors": 5,
+      "control": {
+        "metric": {
+          "n_factors": 5,
+          "agreement": 0.6,
+          "spearman": -0.2,
+          "null_mean": 0.4336,
+          "p_perm": 0.584
+        },
+        "elapsed_s": 0.2
+      },
+      "window_permuted": {
+        "metric": {
+          "n_factors": 5,
+          "agreement": 0.4,
+          "spearman": -0.8,
+          "null_mean": 0.5588,
+          "p_perm": 1.0
+        },
+        "elapsed_s": 0.2
+      },
+      "label_only": {
+        "metric": {
+          "n_factors": 5,
+          "agreement": 1.0,
+          "spearman": 0.6,
+          "null_mean": 0.5216,
+          "p_perm": 0.098
+        }
+      }
+    },
+    {
+      "ticker": "CVX",
+      "origin": "2022-01-01",
+      "variant": "data",
+      "n_eligible_factors": 3,
+      "control": {
+        "metric": null,
+        "elapsed_s": 0.4
+      },
+      "window_permuted": {
+        "metric": null,
+        "elapsed_s": 0.4
+      },
+      "label_only": {
+        "metric": null
+      }
+    },
+    {
+      "ticker": "DIS",
+      "origin": "2022-01-01",
+      "variant": "data",
+      "n_eligible_factors": 9,
+      "control": {
+        "metric": {
+          "n_factors": 9,
+          "agreement": 0.5556,
+          "spearman": 0.3431,
+          "null_mean": 0.5353,
+          "p_perm": 0.741
+        },
+        "elapsed_s": 0.0
+      },
+      "window_permuted": {
+        "metric": {
+          "n_factors": 9,
+          "agreement": 0.4444,
+          "spearman": 0.0084,
+          "null_mean": 0.3387,
+          "p_perm": 0.552
+        },
+        "elapsed_s": 0.0
+      },
+      "label_only": {
+        "metric": {
+          "n_factors": 8,
+          "agreement": 0.875,
+          "spearman": 0.8677,
+          "null_mean": 0.5633,
+          "p_perm": 0.106
+        }
+      }
+    },
+    {
+      "ticker": "GS",
+      "origin": "2022-01-01",
+      "variant": "data",
+      "n_eligible_factors": 1,
+      "control": {
+        "metric": null,
+        "elapsed_s": 0.1
+      },
+      "window_permuted": {
+        "metric": null,
+        "elapsed_s": 0.1
+      },
+      "label_only": {
+        "metric": null
+      }
+    },
+    {
+      "ticker": "HD",
+      "origin": "2022-01-01",
+      "variant": "data",
+      "n_eligible_factors": 0,
+      "control": {
+        "metric": null,
+        "elapsed_s": 0.2
+      },
+      "window_permuted": {
+        "metric": null,
+        "elapsed_s": 0.2
+      },
+      "label_only": {
+        "metric": null
+      }
+    },
+    {
+      "ticker": "HON",
+      "origin": "2022-01-01",
+      "variant": "data",
+      "n_eligible_factors": 4,
+      "control": {
+        "metric": null,
+        "elapsed_s": 0.2
+      },
+      "window_permuted": {
+        "metric": null,
+        "elapsed_s": 0.2
+      },
+      "label_only": {
+        "metric": null
+      }
+    },
+    {
+      "ticker": "IBM",
+      "origin": "2022-01-01",
+      "variant": "data",
+      "n_eligible_factors": 2,
+      "control": {
+        "metric": null,
+        "elapsed_s": 0.1
+      },
+      "window_permuted": {
+        "metric": null,
+        "elapsed_s": 0.1
+      },
+      "label_only": {
+        "metric": null
+      }
+    },
+    {
+      "ticker": "JNJ",
+      "origin": "2022-01-01",
+      "variant": "data",
+      "n_eligible_factors": 3,
+      "control": {
+        "metric": null,
+        "elapsed_s": 0.4
+      },
+      "window_permuted": {
+        "metric": null,
+        "elapsed_s": 0.5
+      },
+      "label_only": {
+        "metric": null
+      }
+    },
+    {
+      "ticker": "JPM",
+      "origin": "2022-01-01",
+      "variant": "data",
+      "n_eligible_factors": 16,
+      "control": {
+        "metric": {
+          "n_factors": 16,
+          "agreement": 0.4375,
+          "spearman": 0.2118,
+          "null_mean": 0.4926,
+          "p_perm": 0.837
+        },
+        "elapsed_s": 0.0
+      },
+      "window_permuted": {
+        "metric": {
+          "n_factors": 16,
+          "agreement": 0.625,
+          "spearman": 0.2235,
+          "null_mean": 0.4963,
+          "p_perm": 0.295
+        },
+        "elapsed_s": 0.0
+      },
+      "label_only": {
+        "metric": {
+          "n_factors": 16,
+          "agreement": 0.8125,
+          "spearman": 0.6018,
+          "null_mean": 0.4801,
+          "p_perm": 0.015
+        }
+      }
+    },
+    {
+      "ticker": "KO",
+      "origin": "2022-01-01",
+      "variant": "data",
+      "n_eligible_factors": 6,
+      "control": {
+        "metric": {
+          "n_factors": 6,
+          "agreement": 0.8333,
+          "spearman": 0.2571,
+          "null_mean": 0.6087,
+          "p_perm": 0.326
+        },
+        "elapsed_s": 0.3
+      },
+      "window_permuted": {
+        "metric": {
+          "n_factors": 6,
+          "agreement": 0.6667,
+          "spearman": 0.7143,
+          "null_mean": 0.498,
+          "p_perm": 0.494
+        },
+        "elapsed_s": 0.3
+      },
+      "label_only": {
+        "metric": {
+          "n_factors": 6,
+          "agreement": 0.8333,
+          "spearman": 0.2571,
+          "null_mean": 0.6087,
+          "p_perm": 0.326
+        }
+      }
+    },
+    {
+      "ticker": "MCD",
+      "origin": "2022-01-01",
+      "variant": "data",
+      "n_eligible_factors": 0,
+      "control": {
+        "metric": null,
+        "elapsed_s": 0.2
+      },
+      "window_permuted": {
+        "metric": null,
+        "elapsed_s": 0.3
+      },
+      "label_only": {
+        "metric": null
+      }
+    },
+    {
+      "ticker": "MMM",
+      "origin": "2022-01-01",
+      "variant": "data",
+      "n_eligible_factors": 3,
+      "control": {
+        "metric": null,
+        "elapsed_s": 0.1
+      },
+      "window_permuted": {
+        "metric": null,
+        "elapsed_s": 0.1
+      },
+      "label_only": {
+        "metric": null
+      }
+    },
+    {
+      "ticker": "MRK",
+      "origin": "2022-01-01",
+      "variant": "data",
+      "n_eligible_factors": 3,
+      "control": {
+        "metric": null,
+        "elapsed_s": 0.1
+      },
+      "window_permuted": {
+        "metric": null,
+        "elapsed_s": 0.1
+      },
+      "label_only": {
+        "metric": null
+      }
+    },
+    {
+      "ticker": "MSFT",
+      "origin": "2022-01-01",
+      "variant": "data",
+      "n_eligible_factors": 12,
+      "control": {
+        "metric": {
+          "n_factors": 12,
+          "agreement": 0.8333,
+          "spearman": 0.5507,
+          "null_mean": 0.6252,
+          "p_perm": 0.129
+        },
+        "elapsed_s": 0.0
+      },
+      "window_permuted": {
+        "metric": {
+          "n_factors": 12,
+          "agreement": 0.5,
+          "spearman": 0.1776,
+          "null_mean": 0.4532,
+          "p_perm": 0.641
+        },
+        "elapsed_s": 0.0
+      },
+      "label_only": {
+        "metric": {
+          "n_factors": 12,
+          "agreement": 0.75,
+          "spearman": 0.8731,
+          "null_mean": 0.5778,
+          "p_perm": 0.219
+        }
+      }
+    },
+    {
+      "ticker": "NKE",
+      "origin": "2022-01-01",
+      "variant": "data",
+      "n_eligible_factors": 2,
+      "control": {
+        "metric": null,
+        "elapsed_s": 0.1
+      },
+      "window_permuted": {
+        "metric": null,
+        "elapsed_s": 0.1
+      },
+      "label_only": {
+        "metric": null
+      }
+    },
+    {
+      "ticker": "PG",
+      "origin": "2022-01-01",
+      "variant": "data",
+      "n_eligible_factors": 1,
+      "control": {
+        "metric": null,
+        "elapsed_s": 0.1
+      },
+      "window_permuted": {
+        "metric": null,
+        "elapsed_s": 0.1
+      },
+      "label_only": {
+        "metric": null
+      }
+    },
+    {
+      "ticker": "TRV",
+      "origin": "2022-01-01",
+      "variant": "data",
+      "n_eligible_factors": 0,
+      "control": {
+        "metric": null,
+        "elapsed_s": 0.1
+      },
+      "window_permuted": {
+        "metric": null,
+        "elapsed_s": 0.1
+      },
+      "label_only": {
+        "metric": null
+      }
+    },
+    {
+      "ticker": "UNH",
+      "origin": "2022-01-01",
+      "variant": "data",
+      "n_eligible_factors": 6,
+      "control": {
+        "metric": {
+          "n_factors": 6,
+          "agreement": 0.3333,
+          "spearman": -0.4857,
+          "null_mean": 0.504,
+          "p_perm": 0.958
+        },
+        "elapsed_s": 0.1
+      },
+      "window_permuted": {
+        "metric": {
+          "n_factors": 6,
+          "agreement": 0.1667,
+          "spearman": -0.4857,
+          "null_mean": 0.498,
+          "p_perm": 1.0
+        },
+        "elapsed_s": 0.1
+      },
+      "label_only": {
+        "metric": {
+          "n_factors": 6,
+          "agreement": 0.6667,
+          "spearman": -0.4286,
+          "null_mean": 0.5047,
+          "p_perm": 0.512
+        }
+      }
+    },
+    {
+      "ticker": "V",
+      "origin": "2022-01-01",
+      "variant": "data",
+      "n_eligible_factors": 7,
+      "control": {
+        "metric": {
+          "n_factors": 7,
+          "agreement": 0.4286,
+          "spearman": 0.1982,
+          "null_mean": 0.5071,
+          "p_perm": 0.886
+        },
+        "elapsed_s": 0.2
+      },
+      "window_permuted": {
+        "metric": {
+          "n_factors": 7,
+          "agreement": 0.2857,
+          "spearman": -0.7748,
+          "null_mean": 0.5337,
+          "p_perm": 1.0
+        },
+        "elapsed_s": 0.3
+      },
+      "label_only": {
+        "metric": {
+          "n_factors": 7,
+          "agreement": 0.8571,
+          "spearman": 0.6307,
+          "null_mean": 0.4851,
+          "p_perm": 0.11
+        }
+      }
+    },
+    {
+      "ticker": "WMT",
+      "origin": "2022-01-01",
+      "variant": "data",
+      "n_eligible_factors": 3,
+      "control": {
+        "metric": null,
+        "elapsed_s": 0.1
+      },
+      "window_permuted": {
+        "metric": null,
+        "elapsed_s": 0.1
+      },
+      "label_only": {
+        "metric": null
+      }
+    },
+    {
+      "ticker": "XOM",
+      "origin": "2022-01-01",
+      "variant": "data",
+      "n_eligible_factors": 13,
+      "control": {
+        "metric": {
+          "n_factors": 13,
+          "agreement": 0.5385,
+          "spearman": 0.4622,
+          "null_mean": 0.4905,
+          "p_perm": 0.58
+        },
+        "elapsed_s": 0.0
+      },
+      "window_permuted": {
+        "metric": {
+          "n_factors": 13,
+          "agreement": 0.6154,
+          "spearman": 0.0798,
+          "null_mean": 0.5522,
+          "p_perm": 0.545
+        },
+        "elapsed_s": 0.0
+      },
+      "label_only": {
+        "metric": {
+          "n_factors": 12,
+          "agreement": 0.6667,
+          "spearman": 0.8136,
+          "null_mean": 0.4948,
+          "p_perm": 0.262
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,201 @@
+# ══════════════════════════════════════════════════════════════════════
+# Price-blind re-extraction of the DJIA-28 panel on the uncurated corpus
+# ══════════════════════════════════════════════════════════════════════
+#
+# Same settings as configs/r0.yaml except:
+#   * llm_prompt_mode: price_blind  — the LLM sees the news only; no OHLC,
+#     price change, volume or intra-window statistics (factor_extractor.py
+#     _RAG_PROMPT_BLIND). Windows without news get market_noise only,
+#     with no LLM call.
+#   * rag_redact_market_moves: true — sentences that report market or price
+#     moves are removed from the news context before the prompt.
+#   * fresh output and LLM cache dirs; the RAG article store is reused.
+#   * all 28 tickers are re-extracted (no frozen outputs are reused).
+# The uncurated news store is not redistributed (see README).
+# ══════════════════════════════════════════════════════════════════════
+
+llm_prompt_mode: price_blind
+rag_redact_market_moves: true
+
+
+# ── Data source ──────────────────────────────────────────────────────
+tickers:
+  # ── All 28 are re-extracted in this run (fresh output dir) ─────────
+  - AAPL     # tech
+  - MSFT     # tech
+  - JPM      # financials
+  - XOM      # energy
+  - JNJ      # healthcare
+  - WMT      # consumer staples
+  - CAT      # industrials
+  - AMGN     # biotech
+  # ── 20 new tickers ────────────────────────────────────────────────
+  - AMZN     # consumer disc.
+  - AXP      # financials
+  - BA       # industrials
+  - CRM      # tech
+  - CSCO     # tech
+  - CVX      # energy
+  - DIS      # communication
+  - GS       # financials
+  - HD       # consumer disc.
+  - HON      # industrials
+  - IBM      # tech
+  - KO       # consumer staples
+  - MCD      # consumer disc.
+  - MMM      # industrials
+  - MRK      # healthcare
+  - NKE      # consumer disc.
+  - PG       # consumer staples
+  - TRV      # financials
+  - UNH      # healthcare
+  - V        # financials
+
+train_start: "2018-01-01"
+train_end:   "2023-12-31"
+
+
+# ── LLM ──────────────────────────────────────────────────────────────
+llm_provider: "openrouter"
+llm_model: "openrouter/openai/gpt-4o-mini"
+llm_api_key: ""               # falls back to OPENROUTER_API_KEY env var
+llm_temperature: 0.05
+llm_n_samples: 5
+llm_max_workers: 8
+
+
+# ── RAG ──────────────────────────────────────────────────────────────
+use_rag: true
+rag_persist_dir: "cache/rag_store"
+rag_sources:
+  - wikipedia
+  - fred
+  - sec_edgar
+rag_cache_mode: "reuse"
+rag_max_articles: 50
+rag_content_limit: 500
+fred_api_key: ""
+sec_email: ""
+
+
+# ── Factor extraction ────────────────────────────────────────────────
+window_sizes:
+  - "2W"
+factor_threshold: 0.0
+max_factors: 200
+cross_window_validation: false
+
+
+# ── Factor Impact Network (FIN / TFT) ───────────────────────────────
+fin:
+  architecture: "tft"
+  n_lags: 10
+  epochs: 300
+  batch_size: 64
+  learning_rate: 0.001
+  patience: 30
+  device: "auto"
+
+
+# ── Scenarios ────────────────────────────────────────────────────────
+n_scenarios: 1
+scenario_llm_samples: 1
+
+
+# ── Generation ───────────────────────────────────────────────────────
+generation:
+  n_steps: 0
+  n_samples: 10
+  noise_scale: 1.0
+  start_date: "2018-01-01"
+
+
+# ── Evaluation ───────────────────────────────────────────────────────
+evaluation:
+  include_deep_metrics: true
+  skip_if_no_test: true
+
+
+# ── Neural SDE ───────────────────────────────────────────────────────
+neural_sde:
+  enabled: false
+  hidden: 64
+  epochs: 200
+  batch_size: 256
+  learning_rate: 0.001
+  patience: 30
+
+
+# ── Cross-asset correlations ────────────────────────────────────────
+cross_asset:
+  enabled: true
+  method: "pearson"
+
+
+# ── Factor relevance scoring ────────────────────────────────────────
+factor_scoring:
+  enabled: true
+  min_score: 0.10
+
+
+# ── Transfer learning ───────────────────────────────────────────────
+transfer_learning:
+  enabled: true
+  scale: 0.5
+
+
+# ── DCC-GARCH ────────────────────────────────────────────────────────
+dcc_garch:
+  enabled: true
+  garch_p: 1
+  garch_q: 1
+
+
+# ── Interactive editors ──────────────────────────────────────────────
+interactive:
+  post_extraction: false
+  pre_generation: false
+  port: 8050
+
+
+# ── User-provided factors ───────────────────────────────────────────
+user_factors:
+  file: ""
+  mode: "disabled"
+
+
+# ── Quality report ───────────────────────────────────────────────────
+quality_report:
+  enabled: false
+  disc_epochs: 100
+  disc_hidden: 64
+  disc_window_size: 20
+  disc_n_folds: 5
+
+
+# ── I/O ──────────────────────────────────────────────────────────────
+output_dir: "a1"
+cache_dir: "cache/a1"
+seed: 42
+
+# ── Execution flags ──────────────────────────────────────────────────
+resume: true
+validate: true
+
+
+# ── TimeGAN baseline ─────────────────────────────────────────────────
+timegan:
+  seq_len: 24
+  hidden_dim: 24
+  embedding_epochs: 600
+  supervised_epochs: 600
+  joint_epochs: 600
+  batch_size: 128
+  device: "auto"
+
+# ── TSTR ─────────────────────────────────────────────────────────────
+tstr:
+  n_lags: 10
+  epochs: 100
+  n_runs: 3
+  vol_window: 20

@@ -1,0 +1,100 @@
+{
+  "ticker": "AMZN",
+  "sigma": 0.022272795033454695,
+  "sim_sd": 0.024058727852282923,
+  "garch": {
+    "omega": 0.12298665785619907,
+    "alpha": 0.06049039821778722,
+    "gamma": 0.10378391056759864,
+    "beta": 0.8708046053438299,
+    "nu": 5.894317264641376
+  },
+  "active_days_planted": [
+    20,
+    20,
+    20,
+    20,
+    20
+  ],
+  "n_candidates": 5,
+  "planted": [
+    "brexit_delay",
+    "fed_rate_hike_75bps",
+    "retail_bankruptcies",
+    "bank_of_england_rate_hike",
+    "us_china_tariff_increase"
+  ],
+  "signs": [
+    -1.0,
+    1.0,
+    -1.0,
+    1.0,
+    1.0
+  ],
+  "per_beta": {
+    "0.05": {
+      "recovered_sigma": [
+        -0.014551053764744392,
+        0.03260256901308693,
+        -0.04361097928903621,
+        0.0053153055940880715,
+        0.0007584383679857806
+      ],
+      "sign_recovery": 1.0,
+      "corr": 0.821914572582329,
+      "others_sd_sigma": 0.0729314027557564,
+      "ols_sign_recovery": 1.0,
+      "ols_corr": 0.892533797844891,
+      "univariate_sign_recovery": 1.0,
+      "elapsed_s": 98.6
+    },
+    "0.1": {
+      "recovered_sigma": [
+        -0.09982354100172547,
+        0.021117596313335582,
+        -0.057289467828197195,
+        0.017818574801040786,
+        0.049637532689841904
+      ],
+      "sign_recovery": 1.0,
+      "corr": 0.9499259472411873,
+      "others_sd_sigma": 0.126215738321736,
+      "ols_sign_recovery": 1.0,
+      "ols_corr": 0.9200806741060554,
+      "univariate_sign_recovery": 1.0,
+      "elapsed_s": 105.6
+    },
+    "0.2": {
+      "recovered_sigma": [
+        -0.09974935683806935,
+        0.01989640087715077,
+        -0.03961555461873729,
+        0.007284916582134579,
+        0.004695223221455298
+      ],
+      "sign_recovery": 1.0,
+      "corr": 0.8941728880588342,
+      "others_sd_sigma": 0.08088751812780337,
+      "ols_sign_recovery": 1.0,
+      "ols_corr": 0.9520791757608572,
+      "univariate_sign_recovery": 1.0,
+      "elapsed_s": 100.3
+    },
+    "0.3": {
+      "recovered_sigma": [
+        -0.14915587144189874,
+        0.03571673615800727,
+        -0.03314865826909925,
+        0.00871596310313805,
+        0.011387324227322916
+      ],
+      "sign_recovery": 1.0,
+      "corr": 0.8175657450494859,
+      "others_sd_sigma": 0.0849062243687658,
+      "ols_sign_recovery": 1.0,
+      "ols_corr": 0.9688211788793124,
+      "univariate_sign_recovery": 1.0,
+      "elapsed_s": 99.1
+    }
+  }
+}
